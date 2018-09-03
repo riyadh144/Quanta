@@ -1,0 +1,666 @@
+EESchema Schematic File Version 4
+LIBS:SchematicAutomation-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U13
+U 1 1 5BA2CF9C
+P 2200 2150
+F 0 "U13" H 2200 2392 50  0000 C CNN
+F 1 "LD1117S33TR_SOT223" H 2200 2301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2200 2350 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2300 1900 50  0001 C CNN
+	1    2200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2150 1600 2150
+Wire Wire Line
+	1600 2600 2200 2600
+Wire Wire Line
+	2200 2600 2200 2450
+Wire Wire Line
+	1600 2150 1600 2200
+$Comp
+L Device:C C?
+U 1 1 5BA2D178
+P 1600 2350
+F 0 "C?" H 1715 2396 50  0000 L CNN
+F 1 "100nF" H 1715 2305 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 1638 2200 50  0001 C CNN
+F 3 "~" H 1600 2350 50  0001 C CNN
+	1    1600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2600 1600 2500
+$Comp
+L Device:C C?
+U 1 1 5BA2D235
+P 2850 2350
+F 0 "C?" H 2965 2396 50  0000 L CNN
+F 1 "100uF" H 2965 2305 50  0000 L CNN
+F 2 "digikey-footprints:1206" H 2888 2200 50  0001 C CNN
+F 3 "~" H 2850 2350 50  0001 C CNN
+	1    2850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2150 2850 2150
+Wire Wire Line
+	2850 2150 2850 2200
+Wire Wire Line
+	2850 2500 2850 2600
+Wire Wire Line
+	2850 2600 2200 2600
+Connection ~ 2200 2600
+$Comp
+L power:GND #PWR046
+U 1 1 5BA2D345
+P 2200 2600
+F 0 "#PWR046" H 2200 2350 50  0001 C CNN
+F 1 "GND" H 2205 2427 50  0000 C CNN
+F 2 "" H 2200 2600 50  0001 C CNN
+F 3 "" H 2200 2600 50  0001 C CNN
+	1    2200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2050 4150 2050
+Wire Wire Line
+	4150 2500 4750 2500
+Wire Wire Line
+	4750 2500 4750 2350
+Wire Wire Line
+	4150 2050 4150 2100
+$Comp
+L Device:C C
+U 1 1 5BA2D55B
+P 4150 2250
+F 0 "C" H 4265 2296 50  0000 L CNN
+F 1 "100nF" H 4265 2205 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 4188 2100 50  0001 C CNN
+F 3 "~" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2500 4150 2400
+$Comp
+L Device:C C
+U 1 1 5BA2D563
+P 5400 2250
+F 0 "C" H 5515 2296 50  0000 L CNN
+F 1 "100uF" H 5515 2205 50  0000 L CNN
+F 2 "digikey-footprints:1206" H 5438 2100 50  0001 C CNN
+F 3 "~" H 5400 2250 50  0001 C CNN
+	1    5400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2050 5400 2050
+Wire Wire Line
+	5400 2050 5400 2100
+Wire Wire Line
+	5400 2400 5400 2500
+Wire Wire Line
+	5400 2500 4750 2500
+Connection ~ 4750 2500
+$Comp
+L power:GND #PWR049
+U 1 1 5BA2D56F
+P 4750 2500
+F 0 "#PWR049" H 4750 2250 50  0001 C CNN
+F 1 "GND" H 4755 2327 50  0000 C CNN
+F 2 "" H 4750 2500 50  0001 C CNN
+F 3 "" H 4750 2500 50  0001 C CNN
+	1    4750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LD1117S50TR_SOT223 U14
+U 1 1 5BA2D796
+P 4750 2050
+F 0 "U14" H 4750 2292 50  0000 C CNN
+F 1 "LD1117S50TR_SOT223" H 4750 2201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4750 2250 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 4850 1800 50  0001 C CNN
+	1    4750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR050
+U 1 1 5BA2D843
+P 5400 2050
+F 0 "#PWR050" H 5400 1900 50  0001 C CNN
+F 1 "+5V" H 5415 2223 50  0000 C CNN
+F 2 "" H 5400 2050 50  0001 C CNN
+F 3 "" H 5400 2050 50  0001 C CNN
+	1    5400 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 2050
+$Comp
+L power:+3V3 #PWR047
+U 1 1 5BA2D8FD
+P 2850 2150
+F 0 "#PWR047" H 2850 2000 50  0001 C CNN
+F 1 "+3V3" H 2865 2323 50  0000 C CNN
+F 2 "" H 2850 2150 50  0001 C CNN
+F 3 "" H 2850 2150 50  0001 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 2150
+$Comp
+L power:+12V #PWR045
+U 1 1 5BA2D96E
+P 1600 2150
+F 0 "#PWR045" H 1600 2000 50  0001 C CNN
+F 1 "+12V" H 1615 2323 50  0000 C CNN
+F 2 "" H 1600 2150 50  0001 C CNN
+F 3 "" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 2150
+$Comp
+L power:+12V #PWR048
+U 1 1 5BA2D9A2
+P 4150 2050
+F 0 "#PWR048" H 4150 1900 50  0001 C CNN
+F 1 "+12V" H 4165 2223 50  0000 C CNN
+F 2 "" H 4150 2050 50  0001 C CNN
+F 3 "" H 4150 2050 50  0001 C CNN
+	1    4150 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 2050
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5BE1D7EC
+P 10500 3400
+AR Path="/5BE1D7EC" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BE1D7EC" Ref="J?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D7EC" Ref="J3"  Part="1" 
+F 0 "J3" H 10580 3392 50  0000 L CNN
+F 1 "Conn_01x02" H 10580 3301 50  0000 L CNN
+F 2 "" H 10500 3400 50  0001 C CNN
+F 3 "~" H 10500 3400 50  0001 C CNN
+	1    10500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3400 10150 3400
+$Comp
+L power:+VDC PWR?
+U 1 1 5BE1D7F6
+P 10150 3200
+AR Path="/5B9C8971/5BE1D7F6" Ref="PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D7F6" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 10150 3100 50  0001 C CNN
+F 1 "+VDC" H 10255 3288 50  0000 L CNN
+F 2 "" H 10150 3200 50  0001 C CNN
+F 3 "" H 10150 3200 50  0001 C CNN
+F 4 "PowerSupply input 0-60V" H 10150 3200 50  0001 C CNN "Description"
+	1    10150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5BE1D7FC
+P 1200 4800
+AR Path="/5B9C8971/5BE1D7FC" Ref="J?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D7FC" Ref="J2"  Part="1" 
+F 0 "J2" H 1255 5117 50  0000 C CNN
+F 1 "Barrel_Jack_MountingPin" H 1255 5026 50  0000 C CNN
+F 2 "" H 1250 4760 50  0001 C CNN
+F 3 "~" H 1250 4760 50  0001 C CNN
+	1    1200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4700 1850 4700
+$Comp
+L power:+12V #PWR?
+U 1 1 5BE1D805
+P 1850 4400
+AR Path="/5B9C8971/5BE1D805" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D805" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 1850 4250 50  0001 C CNN
+F 1 "+12V" H 1865 4573 50  0000 C CNN
+F 2 "" H 1850 4400 50  0001 C CNN
+F 3 "" H 1850 4400 50  0001 C CNN
+	1    1850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4900 1750 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5BE1D80D
+P 1750 5000
+AR Path="/5B9C8971/5BE1D80D" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D80D" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 1750 4750 50  0001 C CNN
+F 1 "GND" H 1755 4827 50  0000 C CNN
+F 2 "" H 1750 5000 50  0001 C CNN
+F 3 "" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3500 10150 3500
+Wire Wire Line
+	10150 3500 10150 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5BE1D815
+P 10150 3550
+AR Path="/5B9C8971/5BE1D815" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D815" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 10150 3300 50  0001 C CNN
+F 1 "GND" H 10155 3377 50  0000 C CNN
+F 2 "" H 10150 3550 50  0001 C CNN
+F 3 "" H 10150 3550 50  0001 C CNN
+	1    10150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5BE1D81B
+P 10600 4200
+AR Path="/5BE1D81B" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BE1D81B" Ref="J?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D81B" Ref="J14"  Part="1" 
+F 0 "J14" H 10680 4192 50  0000 L CNN
+F 1 "Conn_01x02" H 10680 4101 50  0000 L CNN
+F 2 "" H 10600 4200 50  0001 C CNN
+F 3 "~" H 10600 4200 50  0001 C CNN
+	1    10600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4200 10150 4200
+Wire Wire Line
+	10150 4200 10150 4050
+$Comp
+L power:VAA #PWR?
+U 1 1 5BE1D824
+P 10150 4000
+AR Path="/5B9C8971/5BE1D824" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D824" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 10150 3850 50  0001 C CNN
+F 1 "VAA" H 10167 4173 50  0000 C CNN
+F 2 "" H 10150 4000 50  0001 C CNN
+F 3 "" H 10150 4000 50  0001 C CNN
+	1    10150 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 4300 10150 4300
+Wire Wire Line
+	10150 4300 10150 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5BE1D82C
+P 10150 4400
+AR Path="/5B9C8971/5BE1D82C" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D82C" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 10150 4150 50  0001 C CNN
+F 1 "GND" H 10155 4227 50  0000 C CNN
+F 2 "" H 10150 4400 50  0001 C CNN
+F 3 "" H 10150 4400 50  0001 C CNN
+	1    10150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5BE1E807
+P 7450 4800
+F 0 "C18" H 7565 4846 50  0000 L CNN
+F 1 ".01uF" H 7565 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 7488 4650 50  0001 C CNN
+F 3 "~" H 7450 4800 50  0001 C CNN
+	1    7450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5BE1EA13
+P 6950 4800
+F 0 "C16" H 7065 4846 50  0000 L CNN
+F 1 ".01uF" H 7065 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 6988 4650 50  0001 C CNN
+F 3 "~" H 6950 4800 50  0001 C CNN
+	1    6950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5BE1ED29
+P 6500 4800
+F 0 "C14" H 6615 4846 50  0000 L CNN
+F 1 ".01uF" H 6615 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 6538 4650 50  0001 C CNN
+F 3 "~" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5BE1F9B8
+P 6000 4800
+F 0 "C12" H 6115 4846 50  0000 L CNN
+F 1 ".01uF" H 6115 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 6038 4650 50  0001 C CNN
+F 3 "~" H 6000 4800 50  0001 C CNN
+	1    6000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5BE1FCDA
+P 5550 4800
+F 0 "C10" H 5665 4846 50  0000 L CNN
+F 1 ".01uF" H 5665 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 5588 4650 50  0001 C CNN
+F 3 "~" H 5550 4800 50  0001 C CNN
+	1    5550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5BE20314
+P 2700 4800
+F 0 "C2" H 2815 4846 50  0000 L CNN
+F 1 ".01uF" H 2815 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 2738 4650 50  0001 C CNN
+F 3 "~" H 2700 4800 50  0001 C CNN
+	1    2700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5BE2031B
+P 2200 4800
+F 0 "C1" H 2315 4846 50  0000 L CNN
+F 1 ".01uF" H 2315 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 2238 4650 50  0001 C CNN
+F 3 "~" H 2200 4800 50  0001 C CNN
+	1    2200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5BE206D8
+P 5000 4800
+F 0 "C8" H 5115 4846 50  0000 L CNN
+F 1 ".01uF" H 5115 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 5038 4650 50  0001 C CNN
+F 3 "~" H 5000 4800 50  0001 C CNN
+	1    5000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5BE206DF
+P 4500 4800
+F 0 "C6" H 4615 4846 50  0000 L CNN
+F 1 ".01uF" H 4615 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 4538 4650 50  0001 C CNN
+F 3 "~" H 4500 4800 50  0001 C CNN
+	1    4500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5BE206E6
+P 4050 4800
+F 0 "C5" H 4165 4846 50  0000 L CNN
+F 1 ".01uF" H 4165 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 4088 4650 50  0001 C CNN
+F 3 "~" H 4050 4800 50  0001 C CNN
+	1    4050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5BE206ED
+P 3550 4800
+F 0 "C4" H 3665 4846 50  0000 L CNN
+F 1 ".01uF" H 3665 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 3588 4650 50  0001 C CNN
+F 3 "~" H 3550 4800 50  0001 C CNN
+	1    3550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5BE206F4
+P 3100 4800
+F 0 "C3" H 3215 4846 50  0000 L CNN
+F 1 ".01uF" H 3215 4755 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 3138 4650 50  0001 C CNN
+F 3 "~" H 3100 4800 50  0001 C CNN
+	1    3100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4650 2700 4650
+Connection ~ 2700 4650
+Wire Wire Line
+	2700 4650 3100 4650
+Connection ~ 3100 4650
+Wire Wire Line
+	3100 4650 3550 4650
+Connection ~ 3550 4650
+Wire Wire Line
+	3550 4650 4050 4650
+Connection ~ 4050 4650
+Wire Wire Line
+	4050 4650 4500 4650
+Connection ~ 4500 4650
+Wire Wire Line
+	4500 4650 5000 4650
+Connection ~ 5000 4650
+Wire Wire Line
+	5000 4650 5550 4650
+Wire Wire Line
+	5550 4650 6000 4650
+Connection ~ 6000 4650
+Wire Wire Line
+	6000 4650 6500 4650
+Connection ~ 6500 4650
+Wire Wire Line
+	6500 4650 6950 4650
+Connection ~ 6950 4650
+Wire Wire Line
+	6950 4650 7450 4650
+Wire Wire Line
+	2200 4950 2700 4950
+Connection ~ 2700 4950
+Wire Wire Line
+	2700 4950 3100 4950
+Connection ~ 3100 4950
+Wire Wire Line
+	3100 4950 3550 4950
+Connection ~ 3550 4950
+Wire Wire Line
+	3550 4950 4050 4950
+Connection ~ 4050 4950
+Wire Wire Line
+	4050 4950 4500 4950
+Connection ~ 4500 4950
+Wire Wire Line
+	4500 4950 5000 4950
+Connection ~ 5000 4950
+Wire Wire Line
+	5000 4950 5550 4950
+Wire Wire Line
+	5550 4950 6000 4950
+Connection ~ 6000 4950
+Wire Wire Line
+	6000 4950 6500 4950
+Connection ~ 6500 4950
+Wire Wire Line
+	6500 4950 6950 4950
+Connection ~ 6950 4950
+Wire Wire Line
+	6950 4950 7450 4950
+$Comp
+L Device:C C19
+U 1 1 5BE2A662
+P 9800 4200
+F 0 "C19" H 9915 4246 50  0000 L CNN
+F 1 ".01uF" H 9915 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 9838 4050 50  0001 C CNN
+F 3 "~" H 9800 4200 50  0001 C CNN
+	1    9800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5BE2A669
+P 9300 4200
+F 0 "C17" H 9415 4246 50  0000 L CNN
+F 1 ".01uF" H 9415 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 9338 4050 50  0001 C CNN
+F 3 "~" H 9300 4200 50  0001 C CNN
+	1    9300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5BE2A670
+P 8850 4200
+F 0 "C15" H 8965 4246 50  0000 L CNN
+F 1 ".01uF" H 8965 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 8888 4050 50  0001 C CNN
+F 3 "~" H 8850 4200 50  0001 C CNN
+	1    8850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5BE2A677
+P 8350 4200
+F 0 "C13" H 8465 4246 50  0000 L CNN
+F 1 ".01uF" H 8465 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 8388 4050 50  0001 C CNN
+F 3 "~" H 8350 4200 50  0001 C CNN
+	1    8350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5BE2A67E
+P 7900 4200
+F 0 "C11" H 8015 4246 50  0000 L CNN
+F 1 ".01uF" H 8015 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 7938 4050 50  0001 C CNN
+F 3 "~" H 7900 4200 50  0001 C CNN
+	1    7900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5BE2A685
+P 7350 4200
+F 0 "C9" H 7465 4246 50  0000 L CNN
+F 1 ".01uF" H 7465 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 7388 4050 50  0001 C CNN
+F 3 "~" H 7350 4200 50  0001 C CNN
+	1    7350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5BE2A68C
+P 6850 4200
+F 0 "C7" H 6965 4246 50  0000 L CNN
+F 1 ".01uF" H 6965 4155 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 6888 4050 50  0001 C CNN
+F 3 "~" H 6850 4200 50  0001 C CNN
+	1    6850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4050 7350 4050
+Connection ~ 7350 4050
+Wire Wire Line
+	7350 4050 7900 4050
+Connection ~ 7900 4050
+Wire Wire Line
+	7900 4050 8350 4050
+Connection ~ 8350 4050
+Wire Wire Line
+	8350 4050 8850 4050
+Connection ~ 8850 4050
+Wire Wire Line
+	8850 4050 9300 4050
+Connection ~ 9300 4050
+Wire Wire Line
+	9300 4050 9800 4050
+Connection ~ 9800 4050
+Wire Wire Line
+	9800 4050 10150 4050
+Wire Wire Line
+	6850 4350 7350 4350
+Connection ~ 7350 4350
+Wire Wire Line
+	7350 4350 7900 4350
+Connection ~ 7900 4350
+Wire Wire Line
+	7900 4350 8350 4350
+Connection ~ 8350 4350
+Wire Wire Line
+	8350 4350 8850 4350
+Connection ~ 8850 4350
+Wire Wire Line
+	8850 4350 9300 4350
+Connection ~ 9300 4350
+Wire Wire Line
+	9300 4350 9800 4350
+Connection ~ 9800 4350
+Wire Wire Line
+	9800 4350 10150 4350
+Wire Wire Line
+	10150 4050 10150 4000
+Connection ~ 10150 4050
+Wire Wire Line
+	10150 4350 10150 4400
+Connection ~ 10150 4350
+Wire Wire Line
+	10150 3200 10150 3400
+Wire Wire Line
+	2200 4650 1850 4650
+Connection ~ 2200 4650
+Wire Wire Line
+	2200 4950 1750 4950
+Connection ~ 2200 4950
+Connection ~ 1750 4950
+Wire Wire Line
+	1750 4950 1750 5000
+Wire Wire Line
+	1750 4900 1750 4950
+Connection ~ 1850 4650
+Connection ~ 5550 4950
+Connection ~ 5550 4650
+Wire Wire Line
+	1850 4650 1850 4400
+Wire Wire Line
+	1850 4700 1850 4650
+$EndSCHEMATC
