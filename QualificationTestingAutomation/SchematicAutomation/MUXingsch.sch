@@ -14,196 +14,62 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0F944
-P 2400 5550
-AR Path="/5BA0F944" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0F944" Ref="U3"  Part="1" 
-F 0 "U3" H 2400 6720 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 2400 6629 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 2400 5550 50  0001 L BNN
-F 3 "ON Semiconductor" H 2400 5550 50  0001 L BNN
-F 4 "0.23 USD" H 2400 5550 50  0001 L BNN "Field4"
-F 5 "Good" H 2400 5550 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 2400 5550 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 2400 5550 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 2400 5550 50  0001 L BNN "Field8"
-	1    2400 5550
-	1    0    0    -1  
-$EndComp
-Text GLabel 2300 3250 0    50   Input ~ 0
+Text GLabel 5650 7150 2    50   Input ~ 0
 J1850+
 Wire Wire Line
-	2500 3250 2300 3250
-Text GLabel 4250 3550 2    50   Input ~ 0
+	5450 7150 5650 7150
+Text GLabel 4100 6950 0    50   Input ~ 0
 1_J1850+
-Text GLabel 4250 3450 2    50   Input ~ 0
+Text GLabel 4100 7050 0    50   Input ~ 0
 2_J1850+
-Text GLabel 4250 3350 2    50   Input ~ 0
+Text GLabel 4100 7150 0    50   Input ~ 0
 3_J1850+
-Text GLabel 4250 3250 2    50   Input ~ 0
+Text GLabel 4100 7250 0    50   Input ~ 0
 4_J1850+
-Text GLabel 1950 3050 0    50   Input ~ 0
+Text GLabel 4100 7350 0    50   Input ~ 0
 5_J1850+
-Wire Wire Line
-	3700 3450 4250 3450
-Text GLabel 1250 5150 0    50   Input ~ 0
-MUXA
-Text GLabel 1250 5250 0    50   Input ~ 0
-MUXB
-Text GLabel 1250 5350 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	1250 5350 1700 5350
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0F96E
-P 5400 5600
-AR Path="/5BA0F96E" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0F96E" Ref="U4"  Part="1" 
-F 0 "U4" H 5400 6770 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 5400 6679 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 5400 5600 50  0001 L BNN
-F 3 "ON Semiconductor" H 5400 5600 50  0001 L BNN
-F 4 "0.23 USD" H 5400 5600 50  0001 L BNN "Field4"
-F 5 "Good" H 5400 5600 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 5400 5600 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 5400 5600 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 5400 5600 50  0001 L BNN "Field8"
-	1    5400 5600
-	1    0    0    -1  
-$EndComp
-Text GLabel 6300 4800 2    50   Input ~ 0
+Text GLabel 2400 8050 2    50   Input ~ 0
 J1850-
 Wire Wire Line
-	6100 4800 6300 4800
-Text GLabel 4150 5600 0    50   Input ~ 0
+	2200 8050 2400 8050
+Text GLabel 1050 7850 0    50   Input ~ 0
 1_J1850-
-Text GLabel 4150 5700 0    50   Input ~ 0
+Text GLabel 1050 7950 0    50   Input ~ 0
 2_J1850-
-Text GLabel 4150 5800 0    50   Input ~ 0
+Text GLabel 1050 8050 0    50   Input ~ 0
 3_J1850-
-Text GLabel 4150 5900 0    50   Input ~ 0
+Text GLabel 1050 8150 0    50   Input ~ 0
 4_J1850-
-Text GLabel 4150 6000 0    50   Input ~ 0
+Text GLabel 1050 8250 0    50   Input ~ 0
 5_J1850-
-Wire Wire Line
-	4700 5700 4150 5700
-Text GLabel 4250 5200 0    50   Input ~ 0
-MUXA
-Text GLabel 4250 5300 0    50   Input ~ 0
-MUXB
-Text GLabel 4250 5400 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	4250 5400 4700 5400
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0F998
-P 8450 5650
-AR Path="/5BA0F998" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0F998" Ref="U7"  Part="1" 
-F 0 "U7" H 8450 6820 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 8450 6729 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 8450 5650 50  0001 L BNN
-F 3 "ON Semiconductor" H 8450 5650 50  0001 L BNN
-F 4 "0.23 USD" H 8450 5650 50  0001 L BNN "Field4"
-F 5 "Good" H 8450 5650 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 8450 5650 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 8450 5650 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 8450 5650 50  0001 L BNN "Field8"
-	1    8450 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 9350 4850 2    50   Input ~ 0
+Text GLabel 5400 8100 2    50   Input ~ 0
 CANHigh
 Wire Wire Line
-	9150 4850 9350 4850
-Text GLabel 7200 5650 0    50   Input ~ 0
+	5200 8100 5400 8100
+Text GLabel 4100 7900 0    50   Input ~ 0
 1_CANHigh
-Text GLabel 7200 5750 0    50   Input ~ 0
+Text GLabel 4100 8000 0    50   Input ~ 0
 2_CANHigh
-Text GLabel 7200 5850 0    50   Input ~ 0
+Text GLabel 4100 8100 0    50   Input ~ 0
 3_CANHigh
-Text GLabel 7200 5950 0    50   Input ~ 0
+Text GLabel 4100 8200 0    50   Input ~ 0
 4_CANHigh
-Text GLabel 7200 6050 0    50   Input ~ 0
+Text GLabel 4100 8300 0    50   Input ~ 0
 5_CANHigh
-Wire Wire Line
-	7750 5750 7200 5750
-Text GLabel 7300 5250 0    50   Input ~ 0
-MUXA
-Text GLabel 7300 5350 0    50   Input ~ 0
-MUXB
-Text GLabel 7300 5450 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	7300 5450 7750 5450
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0F9C2
-P 11350 5750
-AR Path="/5BA0F9C2" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0F9C2" Ref="U9"  Part="1" 
-F 0 "U9" H 11350 6920 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 11350 6829 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 11350 5750 50  0001 L BNN
-F 3 "ON Semiconductor" H 11350 5750 50  0001 L BNN
-F 4 "0.23 USD" H 11350 5750 50  0001 L BNN "Field4"
-F 5 "Good" H 11350 5750 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 11350 5750 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 11350 5750 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 11350 5750 50  0001 L BNN "Field8"
-	1    11350 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 12250 4950 2    50   Input ~ 0
-ISO-K
-Wire Wire Line
-	12050 4950 12250 4950
-Text GLabel 10100 5750 0    50   Input ~ 0
+Text GLabel 7000 8000 0    50   Input ~ 0
 1_ISO-K
-Text GLabel 10100 5850 0    50   Input ~ 0
+Text GLabel 7000 8100 0    50   Input ~ 0
 2_ISO-K
-Text GLabel 10100 5950 0    50   Input ~ 0
+Text GLabel 7000 8200 0    50   Input ~ 0
 3_ISO-K
-Text GLabel 10100 6050 0    50   Input ~ 0
+Text GLabel 7000 8300 0    50   Input ~ 0
 4_ISO-K
-Text GLabel 10100 6150 0    50   Input ~ 0
+Text GLabel 7000 8400 0    50   Input ~ 0
 5_ISO-K
-Wire Wire Line
-	10650 5850 10100 5850
-Text GLabel 10200 5350 0    50   Input ~ 0
-MUXA
-Text GLabel 10200 5450 0    50   Input ~ 0
-MUXB
-Text GLabel 10200 5550 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	10200 5550 10650 5550
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0F9EC
-P 11450 8750
-AR Path="/5BA0F9EC" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0F9EC" Ref="U10"  Part="1" 
-F 0 "U10" H 11450 9920 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 11450 9829 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 11450 8750 50  0001 L BNN
-F 3 "ON Semiconductor" H 11450 8750 50  0001 L BNN
-F 4 "0.23 USD" H 11450 8750 50  0001 L BNN "Field4"
-F 5 "Good" H 11450 8750 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 11450 8750 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 11450 8750 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 11450 8750 50  0001 L BNN "Field8"
-	1    11450 8750
-	1    0    0    -1  
-$EndComp
-Text GLabel 12350 7950 2    50   Input ~ 0
+Text GLabel 11600 8950 2    50   Input ~ 0
 CANLow
 Wire Wire Line
-	12150 7950 12350 7950
+	11400 8950 11600 8950
 Text GLabel 10200 8750 0    50   Input ~ 0
 1_CANLow
 Text GLabel 10200 8850 0    50   Input ~ 0
@@ -214,38 +80,10 @@ Text GLabel 10200 9050 0    50   Input ~ 0
 4_CANLow
 Text GLabel 10200 9150 0    50   Input ~ 0
 5_CANLow
-Wire Wire Line
-	10750 8850 10200 8850
-Text GLabel 10300 8350 0    50   Input ~ 0
-MUXA
-Text GLabel 10300 8450 0    50   Input ~ 0
-MUXB
-Text GLabel 10300 8550 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	10300 8550 10750 8550
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0FA16
-P 8400 8750
-AR Path="/5BA0FA16" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0FA16" Ref="U6"  Part="1" 
-F 0 "U6" H 8400 9920 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 8400 9829 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 8400 8750 50  0001 L BNN
-F 3 "ON Semiconductor" H 8400 8750 50  0001 L BNN
-F 4 "0.23 USD" H 8400 8750 50  0001 L BNN "Field4"
-F 5 "Good" H 8400 8750 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 8400 8750 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 8400 8750 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 8400 8750 50  0001 L BNN "Field8"
-	1    8400 8750
-	1    0    0    -1  
-$EndComp
-Text GLabel 9300 7950 2    50   Input ~ 0
+Text GLabel 8550 8950 2    50   Input ~ 0
 ISO-K
 Wire Wire Line
-	9100 7950 9300 7950
+	8350 8950 8550 8950
 Text GLabel 7150 8750 0    50   Input ~ 0
 1_ISO-K
 Text GLabel 7150 8850 0    50   Input ~ 0
@@ -256,326 +94,10 @@ Text GLabel 7150 9050 0    50   Input ~ 0
 4_ISO-K
 Text GLabel 7150 9150 0    50   Input ~ 0
 5_ISO-K
-Wire Wire Line
-	7700 8850 7150 8850
-Text GLabel 7250 8350 0    50   Input ~ 0
-MUXA
-Text GLabel 7250 8450 0    50   Input ~ 0
-MUXB
-Text GLabel 7250 8550 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	7250 8550 7700 8550
-$Comp
-L power:+12V #PWR015
-U 1 1 5BA332B6
-P 1700 4750
-F 0 "#PWR015" H 1700 4600 50  0001 C CNN
-F 1 "+12V" H 1715 4923 50  0000 C CNN
-F 2 "" H 1700 4750 50  0001 C CNN
-F 3 "" H 1700 4750 50  0001 C CNN
-	1    1700 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5BA332F4
-P 1700 6550
-F 0 "#PWR017" H 1700 6300 50  0001 C CNN
-F 1 "GND" H 1705 6377 50  0000 C CNN
-F 2 "" H 1700 6550 50  0001 C CNN
-F 3 "" H 1700 6550 50  0001 C CNN
-	1    1700 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 6450 1700 6550
-Connection ~ 1700 6550
-$Comp
-L power:+12V #PWR018
-U 1 1 5BA36F92
-P 4700 4800
-F 0 "#PWR018" H 4700 4650 50  0001 C CNN
-F 1 "+12V" H 4715 4973 50  0000 C CNN
-F 2 "" H 4700 4800 50  0001 C CNN
-F 3 "" H 4700 4800 50  0001 C CNN
-	1    4700 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5BA37032
-P 4700 6600
-F 0 "#PWR020" H 4700 6350 50  0001 C CNN
-F 1 "GND" H 4705 6427 50  0000 C CNN
-F 2 "" H 4700 6600 50  0001 C CNN
-F 3 "" H 4700 6600 50  0001 C CNN
-	1    4700 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 6500 4700 6600
-Connection ~ 4700 6600
-$Comp
-L power:+12V #PWR027
-U 1 1 5BA3ACC1
-P 7750 4850
-F 0 "#PWR027" H 7750 4700 50  0001 C CNN
-F 1 "+12V" H 7765 5023 50  0000 C CNN
-F 2 "" H 7750 4850 50  0001 C CNN
-F 3 "" H 7750 4850 50  0001 C CNN
-	1    7750 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 5BA3ACFF
-P 7750 6650
-F 0 "#PWR029" H 7750 6400 50  0001 C CNN
-F 1 "GND" H 7755 6477 50  0000 C CNN
-F 2 "" H 7750 6650 50  0001 C CNN
-F 3 "" H 7750 6650 50  0001 C CNN
-	1    7750 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR038
-U 1 1 5BA3AD44
-P 10750 9750
-F 0 "#PWR038" H 10750 9500 50  0001 C CNN
-F 1 "GND" H 10755 9577 50  0000 C CNN
-F 2 "" H 10750 9750 50  0001 C CNN
-F 3 "" H 10750 9750 50  0001 C CNN
-	1    10750 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR035
-U 1 1 5BA3ADC2
-P 10650 6750
-F 0 "#PWR035" H 10650 6500 50  0001 C CNN
-F 1 "GND" H 10655 6577 50  0000 C CNN
-F 2 "" H 10650 6750 50  0001 C CNN
-F 3 "" H 10650 6750 50  0001 C CNN
-	1    10650 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 6650 10650 6750
-Connection ~ 10650 6750
-Wire Wire Line
-	10750 9650 10750 9750
-Connection ~ 10750 9750
-Wire Wire Line
-	7750 6550 7750 6650
-Connection ~ 7750 6650
-$Comp
-L power:GND #PWR028
-U 1 1 5BA4661E
-P 7750 5050
-F 0 "#PWR028" H 7750 4800 50  0001 C CNN
-F 1 "GND" H 7755 4877 50  0000 C CNN
-F 2 "" H 7750 5050 50  0001 C CNN
-F 3 "" H 7750 5050 50  0001 C CNN
-	1    7750 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5BA46655
-P 10650 5150
-F 0 "#PWR034" H 10650 4900 50  0001 C CNN
-F 1 "GND" H 10655 4977 50  0000 C CNN
-F 2 "" H 10650 5150 50  0001 C CNN
-F 3 "" H 10650 5150 50  0001 C CNN
-	1    10650 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR019
-U 1 1 5BA466A1
-P 4700 5050
-F 0 "#PWR019" H 4700 4800 50  0001 C CNN
-F 1 "GND" H 4705 4877 50  0000 C CNN
-F 2 "" H 4700 5050 50  0001 C CNN
-F 3 "" H 4700 5050 50  0001 C CNN
-	1    4700 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5BA466D8
-P 3200 4150
-F 0 "#PWR016" H 3200 3900 50  0001 C CNN
-F 1 "GND" H 3205 3977 50  0000 C CNN
-F 2 "" H 3200 4150 50  0001 C CNN
-F 3 "" H 3200 4150 50  0001 C CNN
-	1    3200 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 3250 3700 3250
-Wire Wire Line
-	1950 3050 2500 3050
-Wire Wire Line
-	4250 3350 3700 3350
-Wire Wire Line
-	4250 3550 3700 3550
-Wire Wire Line
-	1250 5250 1700 5250
-Wire Wire Line
-	1250 5150 1700 5150
-Wire Wire Line
-	4150 5900 4700 5900
-Wire Wire Line
-	4150 6000 4700 6000
-Wire Wire Line
-	4150 5800 4700 5800
-Wire Wire Line
-	4150 5600 4700 5600
-Wire Wire Line
-	7200 5950 7750 5950
-Wire Wire Line
-	7200 6050 7750 6050
-Wire Wire Line
-	7200 5850 7750 5850
-Wire Wire Line
-	7200 5650 7750 5650
-Wire Wire Line
-	10100 6050 10650 6050
-Wire Wire Line
-	10100 5950 10650 5950
-Wire Wire Line
-	10100 5750 10650 5750
-Wire Wire Line
-	10100 6150 10650 6150
-Wire Wire Line
-	10200 5450 10650 5450
-Wire Wire Line
-	10200 5350 10650 5350
-Wire Wire Line
-	7300 5350 7750 5350
-Wire Wire Line
-	7300 5250 7750 5250
-Wire Wire Line
-	4250 5300 4700 5300
-Wire Wire Line
-	4250 5200 4700 5200
-$Comp
-L power:+12V #PWR036
-U 1 1 5BAB3499
-P 10750 7950
-F 0 "#PWR036" H 10750 7800 50  0001 C CNN
-F 1 "+12V" H 10765 8123 50  0000 C CNN
-F 2 "" H 10750 7950 50  0001 C CNN
-F 3 "" H 10750 7950 50  0001 C CNN
-	1    10750 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR033
-U 1 1 5BAB34D0
-P 10650 4950
-F 0 "#PWR033" H 10650 4800 50  0001 C CNN
-F 1 "+12V" H 10665 5123 50  0000 C CNN
-F 2 "" H 10650 4950 50  0001 C CNN
-F 3 "" H 10650 4950 50  0001 C CNN
-	1    10650 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 9050 10750 9050
-Wire Wire Line
-	10200 8950 10750 8950
-Wire Wire Line
-	10200 8750 10750 8750
-Wire Wire Line
-	10200 9150 10750 9150
-Wire Wire Line
-	10300 8450 10750 8450
-Wire Wire Line
-	10300 8350 10750 8350
-$Comp
-L power:GND #PWR037
-U 1 1 5BAC1D98
-P 10750 8150
-F 0 "#PWR037" H 10750 7900 50  0001 C CNN
-F 1 "GND" H 10755 7977 50  0000 C CNN
-F 2 "" H 10750 8150 50  0001 C CNN
-F 3 "" H 10750 8150 50  0001 C CNN
-	1    10750 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 9050 7700 9050
-Wire Wire Line
-	7150 9150 7700 9150
-Wire Wire Line
-	7150 8950 7700 8950
-Wire Wire Line
-	7150 8750 7700 8750
-Wire Wire Line
-	7250 8450 7700 8450
-Wire Wire Line
-	7250 8350 7700 8350
-$Comp
-L power:+12V #PWR024
-U 1 1 5BAD01B6
-P 7700 7950
-F 0 "#PWR024" H 7700 7800 50  0001 C CNN
-F 1 "+12V" H 7715 8123 50  0000 C CNN
-F 2 "" H 7700 7950 50  0001 C CNN
-F 3 "" H 7700 7950 50  0001 C CNN
-	1    7700 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5BAD01F4
-P 7700 8150
-F 0 "#PWR025" H 7700 7900 50  0001 C CNN
-F 1 "GND" H 7705 7977 50  0000 C CNN
-F 2 "" H 7700 8150 50  0001 C CNN
-F 3 "" H 7700 8150 50  0001 C CNN
-	1    7700 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5BAD0239
-P 7700 9750
-F 0 "#PWR026" H 7700 9500 50  0001 C CNN
-F 1 "GND" H 7705 9577 50  0000 C CNN
-F 2 "" H 7700 9750 50  0001 C CNN
-F 3 "" H 7700 9750 50  0001 C CNN
-	1    7700 9750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 9650 7700 9750
-Connection ~ 7700 9750
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA0324D
-P 5450 8750
-AR Path="/5BA0324D" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA0324D" Ref="U5"  Part="1" 
-F 0 "U5" H 5450 9920 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 5450 9829 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 5450 8750 50  0001 L BNN
-F 3 "ON Semiconductor" H 5450 8750 50  0001 L BNN
-F 4 "0.23 USD" H 5450 8750 50  0001 L BNN "Field4"
-F 5 "Good" H 5450 8750 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 5450 8750 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 5450 8750 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 5450 8750 50  0001 L BNN "Field8"
-	1    5450 8750
-	1    0    0    -1  
-$EndComp
-Text GLabel 6350 7950 2    50   Input ~ 0
+Text GLabel 5550 8950 2    50   Input ~ 0
 CAN_MS_H
 Wire Wire Line
-	6150 7950 6350 7950
+	5350 8950 5550 8950
 Text GLabel 4200 8750 0    50   Input ~ 0
 1_CAN_MS_H
 Text GLabel 4200 8850 0    50   Input ~ 0
@@ -586,86 +108,10 @@ Text GLabel 4200 9050 0    50   Input ~ 0
 4_CAN_MS_H
 Text GLabel 4200 9150 0    50   Input ~ 0
 5_CAN_MS_H
-Wire Wire Line
-	4750 8850 4200 8850
-Text GLabel 4300 8350 0    50   Input ~ 0
-MUXA
-Text GLabel 4300 8450 0    50   Input ~ 0
-MUXB
-Text GLabel 4300 8550 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	4300 8550 4750 8550
-Wire Wire Line
-	4200 9050 4750 9050
-Wire Wire Line
-	4200 9150 4750 9150
-Wire Wire Line
-	4200 8950 4750 8950
-Wire Wire Line
-	4200 8750 4750 8750
-Wire Wire Line
-	4300 8450 4750 8450
-Wire Wire Line
-	4300 8350 4750 8350
-$Comp
-L power:+12V #PWR021
-U 1 1 5BA03266
-P 4750 7950
-F 0 "#PWR021" H 4750 7800 50  0001 C CNN
-F 1 "+12V" H 4765 8123 50  0000 C CNN
-F 2 "" H 4750 7950 50  0001 C CNN
-F 3 "" H 4750 7950 50  0001 C CNN
-	1    4750 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5BA0326C
-P 4750 8150
-F 0 "#PWR022" H 4750 7900 50  0001 C CNN
-F 1 "GND" H 4755 7977 50  0000 C CNN
-F 2 "" H 4750 8150 50  0001 C CNN
-F 3 "" H 4750 8150 50  0001 C CNN
-	1    4750 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5BA03272
-P 4750 9750
-F 0 "#PWR023" H 4750 9500 50  0001 C CNN
-F 1 "GND" H 4755 9577 50  0000 C CNN
-F 2 "" H 4750 9750 50  0001 C CNN
-F 3 "" H 4750 9750 50  0001 C CNN
-	1    4750 9750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 9650 4750 9750
-Connection ~ 4750 9750
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA05D75
-P 2350 8700
-AR Path="/5BA05D75" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA05D75" Ref="U2"  Part="1" 
-F 0 "U2" H 2350 9870 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 2350 9779 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 2350 8700 50  0001 L BNN
-F 3 "ON Semiconductor" H 2350 8700 50  0001 L BNN
-F 4 "0.23 USD" H 2350 8700 50  0001 L BNN "Field4"
-F 5 "Good" H 2350 8700 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 2350 8700 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 2350 8700 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 2350 8700 50  0001 L BNN "Field8"
-	1    2350 8700
-	1    0    0    -1  
-$EndComp
-Text GLabel 3250 7900 2    50   Input ~ 0
+Text GLabel 2200 8900 2    50   Input ~ 0
 CAN_MS_L
 Wire Wire Line
-	3050 7900 3250 7900
+	2000 8900 2200 8900
 Text GLabel 1100 8700 0    50   Input ~ 0
 1_CAN_MS_L
 Text GLabel 1100 8800 0    50   Input ~ 0
@@ -676,497 +122,443 @@ Text GLabel 1100 9000 0    50   Input ~ 0
 4_CAN_MS_L
 Text GLabel 1100 9100 0    50   Input ~ 0
 5_CAN_MS_L
-Wire Wire Line
-	1650 8800 1100 8800
-Text GLabel 1200 8300 0    50   Input ~ 0
-MUXA
-Text GLabel 1200 8400 0    50   Input ~ 0
-MUXB
-Text GLabel 1200 8500 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	1200 8500 1650 8500
-Wire Wire Line
-	1100 9000 1650 9000
-Wire Wire Line
-	1100 9100 1650 9100
-Wire Wire Line
-	1100 8900 1650 8900
-Wire Wire Line
-	1100 8700 1650 8700
-Wire Wire Line
-	1200 8400 1650 8400
-Wire Wire Line
-	1200 8300 1650 8300
-$Comp
-L power:+12V #PWR012
-U 1 1 5BA05D8E
-P 1650 7900
-F 0 "#PWR012" H 1650 7750 50  0001 C CNN
-F 1 "+12V" H 1665 8073 50  0000 C CNN
-F 2 "" H 1650 7900 50  0001 C CNN
-F 3 "" H 1650 7900 50  0001 C CNN
-	1    1650 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5BA05D94
-P 1650 8100
-F 0 "#PWR013" H 1650 7850 50  0001 C CNN
-F 1 "GND" H 1655 7927 50  0000 C CNN
-F 2 "" H 1650 8100 50  0001 C CNN
-F 3 "" H 1650 8100 50  0001 C CNN
-	1    1650 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5BA05D9A
-P 1650 9700
-F 0 "#PWR014" H 1650 9450 50  0001 C CNN
-F 1 "GND" H 1655 9527 50  0000 C CNN
-F 2 "" H 1650 9700 50  0001 C CNN
-F 3 "" H 1650 9700 50  0001 C CNN
-	1    1650 9700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 9600 1650 9700
-Connection ~ 1650 9700
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA1CBE3
-P 14600 5850
-AR Path="/5BA1CBE3" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA1CBE3" Ref="U12"  Part="1" 
-F 0 "U12" H 14600 7020 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 14600 6929 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 14600 5850 50  0001 L BNN
-F 3 "ON Semiconductor" H 14600 5850 50  0001 L BNN
-F 4 "0.23 USD" H 14600 5850 50  0001 L BNN "Field4"
-F 5 "Good" H 14600 5850 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 14600 5850 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 14600 5850 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 14600 5850 50  0001 L BNN "Field8"
-	1    14600 5850
-	1    0    0    -1  
-$EndComp
-Text GLabel 15500 5050 2    50   Input ~ 0
+Text GLabel 11600 8300 2    50   Input ~ 0
 SWC_BUS
 Wire Wire Line
-	15300 5050 15500 5050
-Text GLabel 13350 5850 0    50   Input ~ 0
+	11400 8300 11600 8300
+Text GLabel 10250 8100 0    50   Input ~ 0
 1_SWC_BUS
-Text GLabel 13350 5950 0    50   Input ~ 0
+Text GLabel 10250 8200 0    50   Input ~ 0
 2_SWC_BUS
-Text GLabel 13350 6050 0    50   Input ~ 0
+Text GLabel 10250 8300 0    50   Input ~ 0
 3_SWC_BUS
-Text GLabel 13350 6150 0    50   Input ~ 0
+Text GLabel 10250 8400 0    50   Input ~ 0
 4_SWC_BUS
-Text GLabel 13350 6250 0    50   Input ~ 0
+Text GLabel 10250 8500 0    50   Input ~ 0
 5_SWC_BUS
-Wire Wire Line
-	13900 5950 13350 5950
-Text GLabel 13450 5450 0    50   Input ~ 0
-MUXA
-Text GLabel 13450 5550 0    50   Input ~ 0
-MUXB
-Text GLabel 13450 5650 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	13450 5650 13900 5650
-$Comp
-L power:GND #PWR044
-U 1 1 5BA1CBF6
-P 13900 6850
-F 0 "#PWR044" H 13900 6600 50  0001 C CNN
-F 1 "GND" H 13905 6677 50  0000 C CNN
-F 2 "" H 13900 6850 50  0001 C CNN
-F 3 "" H 13900 6850 50  0001 C CNN
-	1    13900 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13900 6750 13900 6850
-Connection ~ 13900 6850
-$Comp
-L power:GND #PWR043
-U 1 1 5BA1CBFE
-P 13900 5250
-F 0 "#PWR043" H 13900 5000 50  0001 C CNN
-F 1 "GND" H 13905 5077 50  0000 C CNN
-F 2 "" H 13900 5250 50  0001 C CNN
-F 3 "" H 13900 5250 50  0001 C CNN
-	1    13900 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13350 6150 13900 6150
-Wire Wire Line
-	13350 6050 13900 6050
-Wire Wire Line
-	13350 5850 13900 5850
-Wire Wire Line
-	13350 6250 13900 6250
-Wire Wire Line
-	13450 5550 13900 5550
-Wire Wire Line
-	13450 5450 13900 5450
-$Comp
-L power:+12V #PWR042
-U 1 1 5BA1CC0A
-P 13900 5050
-F 0 "#PWR042" H 13900 4900 50  0001 C CNN
-F 1 "+12V" H 13915 5223 50  0000 C CNN
-F 2 "" H 13900 5050 50  0001 C CNN
-F 3 "" H 13900 5050 50  0001 C CNN
-	1    13900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA25EE0
-P 14450 2550
-AR Path="/5BA25EE0" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA25EE0" Ref="U11"  Part="1" 
-F 0 "U11" H 14450 3720 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 14450 3629 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 14450 2550 50  0001 L BNN
-F 3 "ON Semiconductor" H 14450 2550 50  0001 L BNN
-F 4 "0.23 USD" H 14450 2550 50  0001 L BNN "Field4"
-F 5 "Good" H 14450 2550 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 14450 2550 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 14450 2550 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 14450 2550 50  0001 L BNN "Field8"
-	1    14450 2550
-	1    0    0    -1  
-$EndComp
-Text GLabel 15350 1750 2    50   Input ~ 0
+Text GLabel 8350 7250 2    50   Input ~ 0
 J1708-TX
 Wire Wire Line
-	15150 1750 15350 1750
-Text GLabel 13200 2550 0    50   Input ~ 0
+	8150 7250 8350 7250
+Text GLabel 7000 7050 0    50   Input ~ 0
 1_J1708-TX
-Text GLabel 13200 2650 0    50   Input ~ 0
+Text GLabel 7000 7150 0    50   Input ~ 0
 2_J1708-TX
-Text GLabel 13200 2750 0    50   Input ~ 0
+Text GLabel 7000 7250 0    50   Input ~ 0
 3_J1708-TX
-Text GLabel 13200 2850 0    50   Input ~ 0
+Text GLabel 7000 7350 0    50   Input ~ 0
 4_J1708-TX
-Text GLabel 13200 2950 0    50   Input ~ 0
+Text GLabel 7000 7450 0    50   Input ~ 0
 5_J1708-TX
-Wire Wire Line
-	13750 2650 13200 2650
-Text GLabel 13300 2150 0    50   Input ~ 0
-MUXA
-Text GLabel 13300 2250 0    50   Input ~ 0
-MUXB
-Text GLabel 13300 2350 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	13300 2350 13750 2350
-$Comp
-L power:GND #PWR041
-U 1 1 5BA25F0B
-P 13750 3550
-F 0 "#PWR041" H 13750 3300 50  0001 C CNN
-F 1 "GND" H 13755 3377 50  0000 C CNN
-F 2 "" H 13750 3550 50  0001 C CNN
-F 3 "" H 13750 3550 50  0001 C CNN
-	1    13750 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13750 3450 13750 3550
-Connection ~ 13750 3550
-$Comp
-L power:+12V #PWR039
-U 1 1 5BA25F13
-P 13750 1750
-F 0 "#PWR039" H 13750 1600 50  0001 C CNN
-F 1 "+12V" H 13765 1923 50  0000 C CNN
-F 2 "" H 13750 1750 50  0001 C CNN
-F 3 "" H 13750 1750 50  0001 C CNN
-	1    13750 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13200 2850 13750 2850
-Wire Wire Line
-	13200 2750 13750 2750
-Wire Wire Line
-	13200 2550 13750 2550
-Wire Wire Line
-	13200 2950 13750 2950
-Wire Wire Line
-	13300 2250 13750 2250
-Wire Wire Line
-	13300 2150 13750 2150
-$Comp
-L power:GND #PWR040
-U 1 1 5BA25F1F
-P 13750 1950
-F 0 "#PWR040" H 13750 1700 50  0001 C CNN
-F 1 "GND" H 13755 1777 50  0000 C CNN
-F 2 "" H 13750 1950 50  0001 C CNN
-F 3 "" H 13750 1950 50  0001 C CNN
-	1    13750 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L MC14051BDTR2G:MC14051BDTR2G U?
-U 1 1 5BA3124C
-P 11250 2600
-AR Path="/5BA3124C" Ref="U?"  Part="1" 
-AR Path="/5B9C8983/5BA3124C" Ref="U8"  Part="1" 
-F 0 "U8" H 11250 3770 50  0000 C CNN
-F 1 "MC14051BDTR2G" H 11250 3679 50  0000 C CNN
-F 2 "MC14051BDTR2G:SOP65P640X120-16N" H 11250 2600 50  0001 L BNN
-F 3 "ON Semiconductor" H 11250 2600 50  0001 L BNN
-F 4 "0.23 USD" H 11250 2600 50  0001 L BNN "Field4"
-F 5 "Good" H 11250 2600 50  0001 L BNN "Field5"
-F 6 "TSSOP-16 ON Semiconductor" H 11250 2600 50  0001 L BNN "Field6"
-F 7 "MC14051BDTR2G" H 11250 2600 50  0001 L BNN "Field7"
-F 8 "MC14051B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - TSSOP-16" H 11250 2600 50  0001 L BNN "Field8"
-	1    11250 2600
-	1    0    0    -1  
-$EndComp
-Text GLabel 12150 1800 2    50   Input ~ 0
+Text GLabel 2400 7150 2    50   Input ~ 0
 J1708-RX
 Wire Wire Line
-	11950 1800 12150 1800
-Text GLabel 10000 2600 0    50   Input ~ 0
+	2200 7150 2400 7150
+Text GLabel 1150 6950 0    50   Input ~ 0
 1_J1708-RX
-Text GLabel 10000 2700 0    50   Input ~ 0
+Text GLabel 1150 7050 0    50   Input ~ 0
 2_J1708-RX
-Text GLabel 10000 2800 0    50   Input ~ 0
+Text GLabel 1150 7150 0    50   Input ~ 0
 3_J1708-RX
-Text GLabel 10000 2900 0    50   Input ~ 0
+Text GLabel 1150 7250 0    50   Input ~ 0
 4_J1708-RX
-Text GLabel 10000 3000 0    50   Input ~ 0
+Text GLabel 1150 7350 0    50   Input ~ 0
 5_J1708-RX
-Wire Wire Line
-	10550 2700 10000 2700
-Text GLabel 10100 2200 0    50   Input ~ 0
-MUXA
-Text GLabel 10100 2300 0    50   Input ~ 0
-MUXB
-Text GLabel 10100 2400 0    50   Input ~ 0
-MUXC
-Wire Wire Line
-	10100 2400 10550 2400
-$Comp
-L power:GND #PWR032
-U 1 1 5BA3125F
-P 10550 3600
-F 0 "#PWR032" H 10550 3350 50  0001 C CNN
-F 1 "GND" H 10555 3427 50  0000 C CNN
-F 2 "" H 10550 3600 50  0001 C CNN
-F 3 "" H 10550 3600 50  0001 C CNN
-	1    10550 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 3500 10550 3600
-Connection ~ 10550 3600
-$Comp
-L power:+12V #PWR030
-U 1 1 5BA31267
-P 10550 1800
-F 0 "#PWR030" H 10550 1650 50  0001 C CNN
-F 1 "+12V" H 10565 1973 50  0000 C CNN
-F 2 "" H 10550 1800 50  0001 C CNN
-F 3 "" H 10550 1800 50  0001 C CNN
-	1    10550 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 2900 10550 2900
-Wire Wire Line
-	10000 2800 10550 2800
-Wire Wire Line
-	10000 2600 10550 2600
-Wire Wire Line
-	10000 3000 10550 3000
-Wire Wire Line
-	10100 2300 10550 2300
-Wire Wire Line
-	10100 2200 10550 2200
-$Comp
-L power:GND #PWR031
-U 1 1 5BA31273
-P 10550 2000
-F 0 "#PWR031" H 10550 1750 50  0001 C CNN
-F 1 "GND" H 10555 1827 50  0000 C CNN
-F 2 "" H 10550 2000 50  0001 C CNN
-F 3 "" H 10550 2000 50  0001 C CNN
-	1    10550 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L dk_Temperature-Sensors-Analog-and-Digital-Output:DS18B20_ U15
 U 1 1 5BB2A982
-P 9400 1050
-F 0 "U15" H 9528 1103 60  0000 L CNN
-F 1 "DS18B20_" H 9528 997 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 9600 1250 60  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 9600 1350 60  0001 L CNN
-F 4 "DS18B20+-ND" H 9600 1450 60  0001 L CNN "Digi-Key_PN"
-F 5 "DS18B20+" H 9600 1550 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9600 1650 60  0001 L CNN "Category"
-F 7 "Temperature Sensors - Analog and Digital Output" H 9600 1750 60  0001 L CNN "Family"
-F 8 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 9600 1850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/maxim-integrated/DS18B20-/DS18B20--ND/956983" H 9600 1950 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSOR TEMPERATURE 1-WIRE TO92-3" H 9600 2050 60  0001 L CNN "Description"
-F 11 "Maxim Integrated" H 9600 2150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9600 2250 60  0001 L CNN "Status"
-	1    9400 1050
-	1    0    0    -1  
+P 1450 3850
+F 0 "U15" H 1578 3903 60  0000 L CNN
+F 1 "DS18B20_" H 1578 3797 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 1650 4050 60  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 1650 4150 60  0001 L CNN
+F 4 "DS18B20+-ND" H 1650 4250 60  0001 L CNN "Digi-Key_PN"
+F 5 "DS18B20+" H 1650 4350 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 1650 4450 60  0001 L CNN "Category"
+F 7 "Temperature Sensors - Analog and Digital Output" H 1650 4550 60  0001 L CNN "Family"
+F 8 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 1650 4650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/maxim-integrated/DS18B20-/DS18B20--ND/956983" H 1650 4750 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR TEMPERATURE 1-WIRE TO92-3" H 1650 4850 60  0001 L CNN "Description"
+F 11 "Maxim Integrated" H 1650 4950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 5050 60  0001 L CNN "Status"
+	1    1450 3850
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9100 1050 8900 1050
+	1750 3850 1950 3850
 Wire Wire Line
-	9400 750  8900 750 
+	1450 4150 1950 4150
 Wire Wire Line
-	8900 750  8900 1050
-Connection ~ 8900 1050
-Wire Wire Line
-	8900 1050 8400 1050
+	1950 4150 1950 3850
+Connection ~ 1950 3850
 $Comp
 L power:GND #PWR056
 U 1 1 5BB3A9B5
-P 9400 1350
-F 0 "#PWR056" H 9400 1100 50  0001 C CNN
-F 1 "GND" H 9405 1177 50  0000 C CNN
-F 2 "" H 9400 1350 50  0001 C CNN
-F 3 "" H 9400 1350 50  0001 C CNN
-	1    9400 1350
-	1    0    0    -1  
+P 1450 3550
+F 0 "#PWR056" H 1450 3300 50  0001 C CNN
+F 1 "GND" H 1455 3377 50  0000 C CNN
+F 2 "" H 1450 3550 50  0001 C CNN
+F 3 "" H 1450 3550 50  0001 C CNN
+	1    1450 3550
+	-1   0    0    1   
 $EndComp
-$Comp
-L MC14067BDWG:MC14067BDWG U1
-U 1 1 5BB9B02B
-P 7700 2250
-F 0 "U1" H 7700 3820 50  0000 C CNN
-F 1 "MC14067BDWG" H 7700 3729 50  0000 C CNN
-F 2 "MC14067BDWG:SOIC127P1030X265-24N" H 7700 2250 50  0001 L BNN
-F 3 "0.78 USD" H 7700 2250 50  0001 L BNN
-F 4 "ON Semiconductor" H 7700 2250 50  0001 L BNN "Field4"
-F 5 "SOIC-24 ON Semiconductor" H 7700 2250 50  0001 L BNN "Field5"
-F 6 "MC14067B Series 3 to 18 Vdc Analog Multiplexers/Demultiplexers - SOIC-14" H 7700 2250 50  0001 L BNN "Field6"
-F 7 "Good" H 7700 2250 50  0001 L BNN "Field7"
-F 8 "MC14067BDWG" H 7700 2250 50  0001 L BNN "Field8"
-	1    7700 2250
-	1    0    0    -1  
-$EndComp
-Text GLabel 6550 1350 0    50   Input ~ 0
+Text GLabel 5200 4150 2    50   Input ~ 0
 MUXA
-Text GLabel 6550 1450 0    50   Input ~ 0
+Text GLabel 5200 4250 2    50   Input ~ 0
 MUXB
-Text GLabel 6550 1550 0    50   Input ~ 0
+Text GLabel 5200 4350 2    50   Input ~ 0
 MUXC
 Wire Wire Line
-	6550 1550 7000 1550
+	5200 4350 4750 4350
 Wire Wire Line
-	6550 1450 7000 1450
+	5200 4250 4750 4250
 Wire Wire Line
-	6550 1350 7000 1350
-Text GLabel 6550 1250 0    50   Input ~ 0
+	5200 4150 4750 4150
+Text GLabel 5200 4050 2    50   Input ~ 0
 MUXA1
 Wire Wire Line
-	6550 1250 7000 1250
-Text GLabel 6550 2550 0    50   BiDi ~ 0
+	5200 4050 4750 4050
+Text GLabel 3400 4750 0    50   BiDi ~ 0
 5_OWB_MAIN
-Text GLabel 6550 2650 0    50   BiDi ~ 0
+Text GLabel 3400 4850 0    50   BiDi ~ 0
 5_OWB_SEC
 Wire Wire Line
-	7000 1750 6550 1750
+	3850 4050 3400 4050
 Wire Wire Line
-	7000 1850 6550 1850
-Text GLabel 6550 2350 0    50   BiDi ~ 0
+	3850 3950 3400 3950
+Text GLabel 3400 4550 0    50   BiDi ~ 0
 4_OWB_MAIN
-Text GLabel 6550 2450 0    50   BiDi ~ 0
+Text GLabel 3400 4650 0    50   BiDi ~ 0
 4_OWB_SEC
-Text GLabel 6550 2150 0    50   BiDi ~ 0
+Text GLabel 3400 4350 0    50   BiDi ~ 0
 3_OWB_MAIN
-Text GLabel 6550 2250 0    50   BiDi ~ 0
+Text GLabel 3400 4450 0    50   BiDi ~ 0
 3_OWB_SEC
 Wire Wire Line
-	6550 1950 7000 1950
+	3400 4150 3850 4150
 Wire Wire Line
-	7000 2050 6550 2050
+	3850 4250 3400 4250
 Wire Wire Line
-	7000 2150 6550 2150
+	3850 4350 3400 4350
 Wire Wire Line
-	7000 2250 6550 2250
-Text GLabel 6550 1950 0    50   BiDi ~ 0
+	3850 4450 3400 4450
+Text GLabel 3400 4150 0    50   BiDi ~ 0
 2_OWB_MAIN
-Text GLabel 6550 2050 0    50   BiDi ~ 0
+Text GLabel 3400 4250 0    50   BiDi ~ 0
 2_OWB_SEC
-Text GLabel 6550 1750 0    50   BiDi ~ 0
+Text GLabel 3400 4050 0    50   BiDi ~ 0
 1_OWB_MAIN
-Text GLabel 6550 1850 0    50   BiDi ~ 0
+Text GLabel 3400 3950 0    50   BiDi ~ 0
 1_OWB_SEC
 Wire Wire Line
-	7000 2350 6550 2350
+	3850 4550 3400 4550
 Wire Wire Line
-	7000 2450 6550 2450
+	3850 4650 3400 4650
 Wire Wire Line
-	7000 2550 6550 2550
+	3850 4750 3400 4750
 Wire Wire Line
-	7000 2650 6550 2650
+	3850 4850 3400 4850
 Wire Wire Line
-	7000 3650 7000 3450
+	4350 6050 4350 5850
 $Comp
 L power:GND #PWR055
 U 1 1 5BC72C5D
-P 7000 3650
-F 0 "#PWR055" H 7000 3400 50  0001 C CNN
-F 1 "GND" H 7005 3477 50  0000 C CNN
-F 2 "" H 7000 3650 50  0001 C CNN
-F 3 "" H 7000 3650 50  0001 C CNN
-	1    7000 3650
+P 4350 6050
+F 0 "#PWR055" H 4350 5800 50  0001 C CNN
+F 1 "GND" H 4355 5877 50  0000 C CNN
+F 2 "" H 4350 6050 50  0001 C CNN
+F 3 "" H 4350 6050 50  0001 C CNN
+	1    4350 6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 7000 3650
+Wire Wire Line
+	2000 8700 2000 8800
+Wire Wire Line
+	1100 9100 2000 9100
+Wire Wire Line
+	1100 8700 2000 8700
+Connection ~ 2000 8900
+Wire Wire Line
+	2000 8900 2000 9000
+Wire Wire Line
+	1100 9000 2000 9000
+Connection ~ 2000 9000
+Wire Wire Line
+	2000 9000 2000 9100
+Wire Wire Line
+	1100 8900 2000 8900
+Wire Wire Line
+	1100 8800 2000 8800
+Connection ~ 2000 8800
+Wire Wire Line
+	2000 8800 2000 8900
+Wire Wire Line
+	5350 8750 5350 8850
+Wire Wire Line
+	4200 9150 5350 9150
+Wire Wire Line
+	4200 8750 5350 8750
+Connection ~ 5350 8950
+Wire Wire Line
+	5350 8950 5350 9050
+Wire Wire Line
+	4200 9050 5350 9050
+Connection ~ 5350 9050
+Wire Wire Line
+	5350 9050 5350 9150
+Wire Wire Line
+	4200 8950 5350 8950
+Wire Wire Line
+	4200 8850 5350 8850
+Connection ~ 5350 8850
+Wire Wire Line
+	5350 8850 5350 8950
+Wire Wire Line
+	8350 8750 8350 8850
+Wire Wire Line
+	7150 9150 8350 9150
+Wire Wire Line
+	7150 8750 8350 8750
+Wire Wire Line
+	7150 8850 8350 8850
+Connection ~ 8350 8850
+Wire Wire Line
+	7150 8950 8350 8950
+Connection ~ 8350 8950
+Wire Wire Line
+	8350 8950 8350 9050
+Wire Wire Line
+	7150 9050 8350 9050
+Connection ~ 8350 9050
+Wire Wire Line
+	8350 9050 8350 9150
+Wire Wire Line
+	8350 8850 8350 8950
+Wire Wire Line
+	11400 8750 11400 8850
+Wire Wire Line
+	10200 8750 11400 8750
+Wire Wire Line
+	10200 9150 11400 9150
+Connection ~ 11400 8950
+Wire Wire Line
+	11400 8950 11400 9050
+Wire Wire Line
+	10200 9050 11400 9050
+Connection ~ 11400 9050
+Wire Wire Line
+	11400 9050 11400 9150
+Wire Wire Line
+	10200 8950 11400 8950
+Wire Wire Line
+	10200 8850 11400 8850
+Connection ~ 11400 8850
+Wire Wire Line
+	11400 8850 11400 8950
+Wire Wire Line
+	11400 8100 11400 8200
+Wire Wire Line
+	10250 8100 11400 8100
+Wire Wire Line
+	10250 8500 11400 8500
+Connection ~ 11400 8300
+Wire Wire Line
+	11400 8300 11400 8400
+Wire Wire Line
+	10250 8400 11400 8400
+Connection ~ 11400 8400
+Wire Wire Line
+	11400 8400 11400 8500
+Wire Wire Line
+	10250 8300 11400 8300
+Wire Wire Line
+	10250 8200 11400 8200
+Connection ~ 11400 8200
+Wire Wire Line
+	11400 8200 11400 8300
+Wire Wire Line
+	8150 8200 8350 8200
+Text GLabel 8350 8200 2    50   Input ~ 0
+ISO-K
+Wire Wire Line
+	8150 8000 8150 8100
+Wire Wire Line
+	7000 8000 8150 8000
+Wire Wire Line
+	7000 8400 8150 8400
+Connection ~ 8150 8200
+Wire Wire Line
+	8150 8200 8150 8300
+Wire Wire Line
+	7000 8300 8150 8300
+Connection ~ 8150 8300
+Wire Wire Line
+	8150 8300 8150 8400
+Wire Wire Line
+	7000 8200 8150 8200
+Wire Wire Line
+	7000 8100 8150 8100
+Connection ~ 8150 8100
+Wire Wire Line
+	8150 8100 8150 8200
+Wire Wire Line
+	5200 7900 5200 8000
+Wire Wire Line
+	4100 8300 5200 8300
+Wire Wire Line
+	4100 7900 5200 7900
+Connection ~ 5200 8100
+Wire Wire Line
+	4100 8200 5200 8200
+Wire Wire Line
+	5200 8100 5200 8200
+Connection ~ 5200 8200
+Wire Wire Line
+	5200 8200 5200 8300
+Wire Wire Line
+	4100 8100 5200 8100
+Wire Wire Line
+	4100 8000 5200 8000
+Connection ~ 5200 8000
+Wire Wire Line
+	5200 8000 5200 8100
+Wire Wire Line
+	1050 8250 2200 8250
+Wire Wire Line
+	1050 7850 2200 7850
+Connection ~ 2200 8050
+Wire Wire Line
+	2200 8050 2200 8150
+Wire Wire Line
+	1050 8150 2200 8150
+Connection ~ 2200 8150
+Wire Wire Line
+	2200 8150 2200 8250
+Wire Wire Line
+	1050 8050 2200 8050
+Wire Wire Line
+	1050 7950 2200 7950
+Wire Wire Line
+	2200 7850 2200 7950
+Connection ~ 2200 7950
+Wire Wire Line
+	2200 7950 2200 8050
+Wire Wire Line
+	8150 7050 8150 7150
+Wire Wire Line
+	7000 7050 8150 7050
+Wire Wire Line
+	7000 7450 8150 7450
+Connection ~ 8150 7250
+Wire Wire Line
+	8150 7250 8150 7350
+Wire Wire Line
+	7000 7350 8150 7350
+Connection ~ 8150 7350
+Wire Wire Line
+	8150 7350 8150 7450
+Wire Wire Line
+	7000 7250 8150 7250
+Wire Wire Line
+	7000 7150 8150 7150
+Connection ~ 8150 7150
+Wire Wire Line
+	8150 7150 8150 7250
+Wire Wire Line
+	2200 6950 2200 7050
+Wire Wire Line
+	1150 6950 2200 6950
+Wire Wire Line
+	1150 7350 2200 7350
+Connection ~ 2200 7150
+Wire Wire Line
+	2200 7150 2200 7250
+Wire Wire Line
+	1150 7250 2200 7250
+Connection ~ 2200 7250
+Wire Wire Line
+	2200 7250 2200 7350
+Wire Wire Line
+	1150 7150 2200 7150
+Wire Wire Line
+	1150 7050 2200 7050
+Connection ~ 2200 7050
+Wire Wire Line
+	2200 7050 2200 7150
+Wire Wire Line
+	1950 3850 3850 3850
 $Comp
-L power:+12V #PWR054
-U 1 1 5BC72D49
-P 7000 1050
-F 0 "#PWR054" H 7000 900 50  0001 C CNN
-F 1 "+12V" H 7015 1223 50  0000 C CNN
-F 2 "" H 7000 1050 50  0001 C CNN
-F 3 "" H 7000 1050 50  0001 C CNN
-	1    7000 1050
+L dk_Interface-Analog-Switches-Multiplexers-Demultiplexers:CD74HC4067SM96 U?
+U 1 1 5BB59507
+P 4350 4650
+F 0 "U?" H 4300 5950 60  0000 C CNN
+F 1 "CD74HC4067SM96" H 4300 5844 60  0000 C CNN
+F 2 "digikey-footprints:SSOP-24_W5.30mm" H 4550 4850 60  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 4550 4950 60  0001 L CNN
+F 4 "296-9226-1-ND" H 4550 5050 60  0001 L CNN "Digi-Key_PN"
+F 5 "CD74HC4067SM96" H 4550 5150 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4550 5250 60  0001 L CNN "Category"
+F 7 "Interface - Analog Switches, Multiplexers, Demultiplexers" H 4550 5350 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 4550 5450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/CD74HC4067SM96/296-9226-1-ND/376978" H 4550 5550 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MUX/DEMUX 1X16 24SSOP" H 4550 5650 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 4550 5750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4550 5850 60  0001 L CNN "Status"
+	1    4350 4650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5450 7350 5450 7250
+Wire Wire Line
+	5450 7350 4100 7350
+Wire Wire Line
+	5450 6950 4100 6950
+Connection ~ 5450 7150
+Wire Wire Line
+	5450 7150 5450 7050
+Wire Wire Line
+	5450 7050 4100 7050
+Connection ~ 5450 7050
+Wire Wire Line
+	5450 7050 5450 6950
+Wire Wire Line
+	5450 7150 4100 7150
+Wire Wire Line
+	5450 7250 4100 7250
+Connection ~ 5450 7250
+Wire Wire Line
+	5450 7250 5450 7150
 $Comp
-L dk_Interface-Analog-Switches-Multiplexers-Demultiplexers:CD74HC4051E U23
-U 1 1 5BE42A90
-P 3100 3450
-F 0 "U23" H 3100 4350 60  0000 C CNN
-F 1 "CD74HC4051E" H 3100 4244 60  0000 C CNN
-F 2 "digikey-footprints:DIP-16_W7.62mm" H 3300 3650 60  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3300 3750 60  0001 L CNN
-F 4 "296-12810-5-ND" H 3300 3850 60  0001 L CNN "Digi-Key_PN"
-F 5 "CD74HC4051E" H 3300 3950 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 3300 4050 60  0001 L CNN "Category"
-F 7 "Interface - Analog Switches, Multiplexers, Demultiplexers" H 3300 4150 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3300 4250 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/CD74HC4051E/296-12810-5-ND/475938" H 3300 4350 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MUX/DEMUX 8X1 16DIP" H 3300 4450 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 3300 4550 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3300 4650 60  0001 L CNN "Status"
-	1    3100 3450
+L power:+5V #PWR?
+U 1 1 5BC13826
+P 4850 3550
+F 0 "#PWR?" H 4850 3400 50  0001 C CNN
+F 1 "+5V" H 4865 3723 50  0000 C CNN
+F 2 "" H 4850 3550 50  0001 C CNN
+F 3 "" H 4850 3550 50  0001 C CNN
+	1    4850 3550
 	1    0    0    -1  
 $EndComp
-Entry Bus Bus
-	4950 3300 5050 3400
-Entry Bus Bus
-	7000 4650 7100 4750
-Entry Bus Bus
-	7150 4650 7250 4750
-Entry Bus Bus
-	7150 4650 7250 4750
+Wire Wire Line
+	4350 3550 4850 3550
+$Comp
+L dk_Linear-Comparators:LM339ADR U?
+U 1 1 5BE9CB2D
+P 10000 3400
+F 0 "U?" H 10341 3453 60  0000 L CNN
+F 1 "LM339ADR" H 10341 3347 60  0000 L CNN
+F 2 "digikey-footprints:SOIC-14_W3.9mm" H 10200 3600 60  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm139a.pdf" H 10200 3700 60  0001 L CNN
+F 4 "296-6604-1-ND" H 10200 3800 60  0001 L CNN "Digi-Key_PN"
+F 5 "LM339ADR" H 10200 3900 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 10200 4000 60  0001 L CNN "Category"
+F 7 "Linear - Comparators" H 10200 4100 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/lit/ds/symlink/lm139a.pdf" H 10200 4200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/LM339ADR/296-6604-1-ND/404682" H 10200 4300 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC QUAD DIFF COMPARATOR 14 -SOIC" H 10200 4400 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 10200 4500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10200 4600 60  0001 L CNN "Status"
+	1    10000 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

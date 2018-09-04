@@ -169,17 +169,6 @@ Wire Wire Line
 	6800 4550 6300 4550
 Text GLabel 6300 4550 0    50   Input ~ 0
 5_Vin
-$Comp
-L Connector_Generic:Conn_02x16_Top_Bottom J8
-U 1 1 5B8FF8F7
-P 7000 4250
-F 0 "J8" H 7050 5167 50  0000 C CNN
-F 1 "PWR-IO" H 7050 5076 50  0000 C CNN
-F 2 "" H 7000 4250 50  0001 C CNN
-F 3 "~" H 7000 4250 50  0001 C CNN
-	1    7000 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 4450 6300 4450
 Text GLabel 6300 4450 0    50   Input ~ 0
@@ -701,17 +690,6 @@ Wire Wire Line
 	9800 4500 9300 4500
 Text GLabel 9300 4500 0    50   Input ~ 0
 4_Vin
-$Comp
-L Connector_Generic:Conn_02x16_Top_Bottom J9
-U 1 1 5BA62C02
-P 10000 4200
-F 0 "J9" H 10050 5117 50  0000 C CNN
-F 1 "PWR-IO" H 10050 5026 50  0000 C CNN
-F 2 "" H 10000 4200 50  0001 C CNN
-F 3 "~" H 10000 4200 50  0001 C CNN
-	1    10000 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9800 4400 9300 4400
 Text GLabel 9300 4400 0    50   Input ~ 0
@@ -724,131 +702,120 @@ Wire Wire Line
 	10300 4800 10800 4800
 Text GLabel 10800 4800 2    50   Input ~ 0
 4_OWB_MAIN
-Text GLabel 6350 6450 0    50   Input ~ 0
+Text GLabel 3950 6600 0    50   Input ~ 0
 1_GarminRTS
 Wire Wire Line
-	6850 6450 6350 6450
-Text GLabel 6350 6350 0    50   Input ~ 0
+	4450 6600 3950 6600
+Text GLabel 3950 6500 0    50   Input ~ 0
 1_GarminCTS
 Wire Wire Line
-	6850 6350 6350 6350
+	4450 6500 3950 6500
 Wire Wire Line
-	6850 6250 6350 6250
-Text GLabel 6350 6250 0    50   Input ~ 0
+	4450 6400 3950 6400
+Text GLabel 3950 6400 0    50   Input ~ 0
 1_GarminTX
-Text GLabel 6350 6150 0    50   Input ~ 0
+Text GLabel 3950 6300 0    50   Input ~ 0
 1_GarminRX
 Wire Wire Line
-	6850 6150 6350 6150
+	4450 6300 3950 6300
 Wire Wire Line
-	6350 5650 6850 5650
+	3950 5800 4450 5800
 $Comp
 L power:GND #PWR051
 U 1 1 5BA8D94F
-P 6850 6050
-F 0 "#PWR051" H 6850 5800 50  0001 C CNN
-F 1 "GND" H 6855 5877 50  0000 C CNN
-F 2 "" H 6850 6050 50  0001 C CNN
-F 3 "" H 6850 6050 50  0001 C CNN
-	1    6850 6050
+P 4450 6200
+F 0 "#PWR051" H 4450 5950 50  0001 C CNN
+F 1 "GND" H 4455 6027 50  0000 C CNN
+F 2 "" H 4450 6200 50  0001 C CNN
+F 3 "" H 4450 6200 50  0001 C CNN
+	1    4450 6200
 	0    1    1    0   
 $EndComp
-Text GLabel 6350 5950 0    50   Input ~ 0
+Text GLabel 3950 6100 0    50   Input ~ 0
 1_RTS
 Wire Wire Line
-	6850 5950 6350 5950
-Text GLabel 6350 5850 0    50   Input ~ 0
+	4450 6100 3950 6100
+Text GLabel 3950 6000 0    50   Input ~ 0
 1_CTS
 Wire Wire Line
-	6850 5850 6350 5850
+	4450 6000 3950 6000
 Wire Wire Line
-	6350 5750 6850 5750
-Text GLabel 6350 5750 0    50   Input ~ 0
+	3950 5900 4450 5900
+Text GLabel 3950 5900 0    50   Input ~ 0
 1_RX
-Text GLabel 6350 5650 0    50   Input ~ 0
+Text GLabel 3950 5800 0    50   Input ~ 0
 1_TX
 Wire Wire Line
-	7350 5650 7600 5650
-Text GLabel 7600 5650 2    50   Input ~ 0
+	4950 5800 5200 5800
+Text GLabel 5200 5800 2    50   Input ~ 0
 1_IN1
 Wire Wire Line
-	7350 5750 7600 5750
-Text GLabel 7600 5750 2    50   Input ~ 0
+	4950 5900 5200 5900
+Text GLabel 5200 5900 2    50   Input ~ 0
 1_IN2
 Wire Wire Line
-	7350 5850 7600 5850
-Text GLabel 7600 5850 2    50   Input ~ 0
+	4950 6000 5200 6000
+Text GLabel 5200 6000 2    50   Input ~ 0
 1_IN3
 Wire Wire Line
-	7350 5950 7600 5950
-Text GLabel 7600 5950 2    50   Input ~ 0
+	4950 6100 5200 6100
+Text GLabel 5200 6100 2    50   Input ~ 0
 1_IN4
 Wire Wire Line
-	7350 6050 7600 6050
-Text GLabel 7600 6050 2    50   Input ~ 0
+	4950 6200 5200 6200
+Text GLabel 5200 6200 2    50   Input ~ 0
 1_IN5
 Wire Wire Line
-	7350 6150 7600 6150
-Text GLabel 7600 6150 2    50   Input ~ 0
+	4950 6300 5200 6300
+Text GLabel 5200 6300 2    50   Input ~ 0
 1_IN0
 Wire Wire Line
-	7350 6250 7600 6250
-Text GLabel 7600 6250 2    50   Input ~ 0
+	4950 6400 5200 6400
+Text GLabel 5200 6400 2    50   Input ~ 0
 1_ADC1
 Wire Wire Line
-	7350 6350 7600 6350
-Text GLabel 7600 6350 2    50   Input ~ 0
+	4950 6500 5200 6500
+Text GLabel 5200 6500 2    50   Input ~ 0
 1_ADC2
 Wire Wire Line
-	7350 6450 7600 6450
-Text GLabel 7600 6450 2    50   Input ~ 0
+	4950 6600 5200 6600
+Text GLabel 5200 6600 2    50   Input ~ 0
 1_ADC3
 Wire Wire Line
-	7350 6550 7600 6550
-Text GLabel 7600 6550 2    50   Input ~ 0
+	4950 6700 5200 6700
+Text GLabel 5200 6700 2    50   Input ~ 0
 1_ADC0
 Wire Wire Line
-	7350 6750 7600 6750
-Text GLabel 7600 6750 2    50   Output ~ 0
+	4950 6900 5200 6900
+Text GLabel 5200 6900 2    50   Output ~ 0
 1_OUT1
 Wire Wire Line
-	7350 6850 7600 6850
-Text GLabel 7600 6850 2    50   Output ~ 0
+	4950 7000 5200 7000
+Text GLabel 5200 7000 2    50   Output ~ 0
 1_OUT2
 Wire Wire Line
-	6850 6850 6350 6850
-Text GLabel 6350 6850 0    50   Output ~ 0
+	4450 7000 3950 7000
+Text GLabel 3950 7000 0    50   Output ~ 0
 1_OUT3
 Wire Wire Line
-	6850 6750 6350 6750
-Text GLabel 6350 6750 0    50   Output ~ 0
+	4450 6900 3950 6900
+Text GLabel 3950 6900 0    50   Output ~ 0
 1_OUT0
 Wire Wire Line
-	6850 6650 6350 6650
-Text GLabel 6350 6650 0    50   Input ~ 0
+	4450 6800 3950 6800
+Text GLabel 3950 6800 0    50   Input ~ 0
 1_Vin
-$Comp
-L Connector_Generic:Conn_02x16_Top_Bottom J11
-U 1 1 5BA8D97A
-P 7050 6350
-F 0 "J11" H 7100 7267 50  0000 C CNN
-F 1 "PWR-IO" H 7100 7176 50  0000 C CNN
-F 2 "" H 7050 6350 50  0001 C CNN
-F 3 "~" H 7050 6350 50  0001 C CNN
-	1    7050 6350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6850 6550 6350 6550
-Text GLabel 6350 6550 0    50   Input ~ 0
+	4450 6700 3950 6700
+Text GLabel 3950 6700 0    50   Input ~ 0
 1_GarminPWR
 Wire Wire Line
-	6850 6950 6350 6950
-Text GLabel 6350 6950 0    50   Input ~ 0
+	4450 7100 3950 7100
+Text GLabel 3950 7100 0    50   Input ~ 0
 1_OWB_SEC
 Wire Wire Line
-	7350 6950 7850 6950
-Text GLabel 7850 6950 2    50   Input ~ 0
+	4950 7100 5450 7100
+Text GLabel 5450 7100 2    50   Input ~ 0
 1_OWB_MAIN
 Text GLabel 9350 6400 0    50   Input ~ 0
 2_GarminRTS
@@ -953,17 +920,6 @@ Wire Wire Line
 	9850 6600 9350 6600
 Text GLabel 9350 6600 0    50   Input ~ 0
 2_Vin
-$Comp
-L Connector_Generic:Conn_02x16_Top_Bottom J12
-U 1 1 5BA8D9BB
-P 10050 6300
-F 0 "J12" H 10100 7217 50  0000 C CNN
-F 1 "PWR-IO" H 10100 7126 50  0000 C CNN
-F 2 "" H 10050 6300 50  0001 C CNN
-F 3 "~" H 10050 6300 50  0001 C CNN
-	1    10050 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9850 6500 9350 6500
 Text GLabel 9350 6500 0    50   Input ~ 0
@@ -1079,17 +1035,6 @@ Wire Wire Line
 	12850 4500 12350 4500
 Text GLabel 12350 4500 0    50   Input ~ 0
 3_Vin
-$Comp
-L Connector_Generic:Conn_02x16_Top_Bottom J13
-U 1 1 5BA9CE68
-P 13050 4200
-F 0 "J13" H 13100 5117 50  0000 C CNN
-F 1 "PWR-IO" H 13100 5026 50  0000 C CNN
-F 2 "" H 13050 4200 50  0001 C CNN
-F 3 "~" H 13050 4200 50  0001 C CNN
-	1    13050 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12850 4400 12350 4400
 Text GLabel 12350 4400 0    50   Input ~ 0
@@ -1102,4 +1047,59 @@ Wire Wire Line
 	13350 4800 13850 4800
 Text GLabel 13850 4800 2    50   Input ~ 0
 3_OWB_MAIN
+$Comp
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+U 1 1 5BD8B936
+P 4650 6400
+F 0 "J?" H 4700 7217 50  0000 C CNN
+F 1 "Conn_02x14_Top_Bottom_MountingPin" H 4700 7126 50  0000 C CNN
+F 2 "" H 4650 6400 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 4650 6400 50  0001 C CNN
+	1    4650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+U 1 1 5BDD7CC9
+P 10050 6200
+F 0 "J?" H 10100 7017 50  0000 C CNN
+F 1 "Conn_02x14_Top_Bottom_MountingPin" H 10100 6926 50  0000 C CNN
+F 2 "" H 10050 6200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 10050 6200 50  0001 C CNN
+	1    10050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+U 1 1 5BDEAEF2
+P 7000 4150
+F 0 "J?" H 7050 4967 50  0000 C CNN
+F 1 "Conn_02x14_Top_Bottom_MountingPin" H 7050 4876 50  0000 C CNN
+F 2 "" H 7000 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 7000 4150 50  0001 C CNN
+	1    7000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+U 1 1 5BE5DBDF
+P 10000 4100
+F 0 "J?" H 10050 4917 50  0000 C CNN
+F 1 "Conn_02x14_Top_Bottom_MountingPin" H 10050 4826 50  0000 C CNN
+F 2 "" H 10000 4100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 10000 4100 50  0001 C CNN
+	1    10000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+U 1 1 5BE8400E
+P 13050 4100
+F 0 "J?" H 13100 4917 50  0000 C CNN
+F 1 "Conn_02x14_Top_Bottom_MountingPin" H 13100 4826 50  0000 C CNN
+F 2 "" H 13050 4100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 13050 4100 50  0001 C CNN
+	1    13050 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
