@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 6
+Sheet 2 18
 Title ""
 Date ""
 Rev ""
@@ -40,14 +40,14 @@ ISO-K
 Text GLabel 3150 1450 0    50   Input ~ 0
 ISO-Low
 $Comp
-L Device:R_US 120R?
+L Device:R_US R?
 U 1 1 5B9DEAA0
 P 2250 2100
-AR Path="/5B9DEAA0" Ref="120R?"  Part="1" 
-AR Path="/5B9C8971/5B9DEAA0" Ref="R2"  Part="1" 
-F 0 "R2" H 2318 2146 50  0000 L CNN
+AR Path="/5B9DEAA0" Ref="R?"  Part="1" 
+AR Path="/5B9C8971/5B9DEAA0" Ref="R1"  Part="1" 
+F 0 "R1" H 2318 2146 50  0000 L CNN
 F 1 "R120" H 2318 2055 50  0000 L CNN
-F 2 "" V 2290 2090 50  0001 C CNN
+F 2 "digikey-footprints:0603" V 2290 2090 50  0001 C CNN
 F 3 "~" H 2250 2100 50  0001 C CNN
 	1    2250 2100
 	1    0    0    -1  
@@ -66,14 +66,6 @@ Wire Wire Line
 	2250 1950 2250 1800
 Wire Wire Line
 	2250 1800 2200 1800
-Text GLabel 6300 4350 0    50   Input ~ 0
-5_GarminRTS
-Wire Wire Line
-	6800 4350 6300 4350
-Text GLabel 6300 4250 0    50   Input ~ 0
-5_GarminCTS
-Wire Wire Line
-	6800 4250 6300 4250
 Wire Wire Line
 	6800 4150 6300 4150
 Text GLabel 6300 4150 0    50   Input ~ 0
@@ -85,10 +77,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 3550 6800 3550
 $Comp
-L power:GND #PWR06
+L power:GND #PWR04
 U 1 1 5B9F12B3
 P 6800 3950
-F 0 "#PWR06" H 6800 3700 50  0001 C CNN
+F 0 "#PWR04" H 6800 3700 50  0001 C CNN
 F 1 "GND" H 6805 3777 50  0000 C CNN
 F 2 "" H 6800 3950 50  0001 C CNN
 F 3 "" H 6800 3950 50  0001 C CNN
@@ -188,7 +180,7 @@ J1708-RXD
 Wire Wire Line
 	3300 1350 3150 1350
 Text GLabel 3150 1350 0    50   Input ~ 0
-j1708-TXD
+J1708-TXD
 Wire Wire Line
 	3300 1450 3150 1450
 Wire Wire Line
@@ -216,8 +208,8 @@ L Connector_Generic:Conn_02x07_Top_Bottom J?
 U 1 1 5B98046E
 P 5850 1450
 AR Path="/5B98046E" Ref="J?"  Part="1" 
-AR Path="/5B9C8971/5B98046E" Ref="J4"  Part="1" 
-F 0 "J4" H 5900 1967 50  0000 C CNN
+AR Path="/5B9C8971/5B98046E" Ref="J3"  Part="1" 
+F 0 "J3" H 5900 1967 50  0000 C CNN
 F 1 "OBD Connector" H 5900 1876 50  0000 C CNN
 F 2 "" H 5850 1450 50  0001 C CNN
 F 3 "~" H 5850 1450 50  0001 C CNN
@@ -302,7 +294,7 @@ Text GLabel 7750 1250 0    50   Input ~ 0
 Wire Wire Line
 	7900 1350 7750 1350
 Text GLabel 7750 1350 0    50   Input ~ 0
-2_j1708-TXD
+2_J1708-TXD
 Wire Wire Line
 	7900 1450 7750 1450
 Wire Wire Line
@@ -330,8 +322,8 @@ L Connector_Generic:Conn_02x07_Top_Bottom J?
 U 1 1 5B9826E8
 P 10250 1500
 AR Path="/5B9826E8" Ref="J?"  Part="1" 
-AR Path="/5B9C8971/5B9826E8" Ref="J6"  Part="1" 
-F 0 "J6" H 10300 2017 50  0000 C CNN
+AR Path="/5B9C8971/5B9826E8" Ref="J8"  Part="1" 
+F 0 "J8" H 10300 2017 50  0000 C CNN
 F 1 "OBD Connector" H 10300 1926 50  0000 C CNN
 F 2 "" H 10250 1500 50  0001 C CNN
 F 3 "~" H 10250 1500 50  0001 C CNN
@@ -387,8 +379,8 @@ L Connector_Generic:Conn_02x07_Top_Bottom J?
 U 1 1 5B986118
 P 15050 1550
 AR Path="/5B986118" Ref="J?"  Part="1" 
-AR Path="/5B9C8971/5B986118" Ref="J7"  Part="1" 
-F 0 "J7" H 15100 2067 50  0000 C CNN
+AR Path="/5B9C8971/5B986118" Ref="J11"  Part="1" 
+F 0 "J11" H 15100 2067 50  0000 C CNN
 F 1 "OBD Connector" H 15100 1976 50  0000 C CNN
 F 2 "" H 15050 1550 50  0001 C CNN
 F 3 "~" H 15050 1550 50  0001 C CNN
@@ -416,7 +408,7 @@ Text GLabel 14700 1350 0    50   Input ~ 0
 Wire Wire Line
 	14850 1450 14700 1450
 Text GLabel 14700 1450 0    50   Input ~ 0
-5_j1708-TXD
+5_J1708-TXD
 Wire Wire Line
 	14850 1550 14700 1550
 Wire Wire Line
@@ -444,8 +436,8 @@ L Connector_Generic:Conn_02x07_Top_Bottom J?
 U 1 1 5B98613D
 P 12600 1550
 AR Path="/5B98613D" Ref="J?"  Part="1" 
-AR Path="/5B9C8971/5B98613D" Ref="J10"  Part="1" 
-F 0 "J10" H 12650 2067 50  0000 C CNN
+AR Path="/5B9C8971/5B98613D" Ref="J9"  Part="1" 
+F 0 "J9" H 12650 2067 50  0000 C CNN
 F 1 "OBD Connector" H 12650 1976 50  0000 C CNN
 F 2 "" H 12600 1550 50  0001 C CNN
 F 3 "~" H 12600 1550 50  0001 C CNN
@@ -497,10 +489,10 @@ Text GLabel 13150 1750 2    50   Input ~ 0
 Wire Wire Line
 	13150 1850 12900 1850
 $Comp
-L power:GND #PWR011
+L power:GND #PWR010
 U 1 1 5B9E1C2F
 P 12900 1350
-F 0 "#PWR011" H 12900 1100 50  0001 C CNN
+F 0 "#PWR010" H 12900 1100 50  0001 C CNN
 F 1 "GND" V 12905 1222 50  0000 R CNN
 F 2 "" H 12900 1350 50  0001 C CNN
 F 3 "" H 12900 1350 50  0001 C CNN
@@ -508,10 +500,10 @@ F 3 "" H 12900 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR010
+L power:GND #PWR011
 U 1 1 5B9E9FEA
 P 15350 1350
-F 0 "#PWR010" H 15350 1100 50  0001 C CNN
+F 0 "#PWR011" H 15350 1100 50  0001 C CNN
 F 1 "GND" V 15355 1222 50  0000 R CNN
 F 2 "" H 15350 1350 50  0001 C CNN
 F 3 "" H 15350 1350 50  0001 C CNN
@@ -519,10 +511,10 @@ F 3 "" H 15350 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L power:GND #PWR08
 U 1 1 5B9EE1C6
 P 10550 1300
-F 0 "#PWR09" H 10550 1050 50  0001 C CNN
+F 0 "#PWR08" H 10550 1050 50  0001 C CNN
 F 1 "GND" V 10555 1172 50  0000 R CNN
 F 2 "" H 10550 1300 50  0001 C CNN
 F 3 "" H 10550 1300 50  0001 C CNN
@@ -530,10 +522,10 @@ F 3 "" H 10550 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR07
+L power:GND #PWR05
 U 1 1 5B9F237A
 P 8400 1250
-F 0 "#PWR07" H 8400 1000 50  0001 C CNN
+F 0 "#PWR05" H 8400 1000 50  0001 C CNN
 F 1 "GND" V 8405 1122 50  0000 R CNN
 F 2 "" H 8400 1250 50  0001 C CNN
 F 3 "" H 8400 1250 50  0001 C CNN
@@ -541,10 +533,10 @@ F 3 "" H 8400 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L power:GND #PWR01
 U 1 1 5B9F6542
 P 3800 1250
-F 0 "#PWR02" H 3800 1000 50  0001 C CNN
+F 0 "#PWR01" H 3800 1000 50  0001 C CNN
 F 1 "GND" V 3805 1122 50  0000 R CNN
 F 2 "" H 3800 1250 50  0001 C CNN
 F 3 "" H 3800 1250 50  0001 C CNN
@@ -552,10 +544,10 @@ F 3 "" H 3800 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR03
 U 1 1 5B9FA6EC
 P 6150 1250
-F 0 "#PWR05" H 6150 1000 50  0001 C CNN
+F 0 "#PWR03" H 6150 1000 50  0001 C CNN
 F 1 "GND" V 6155 1122 50  0000 R CNN
 F 2 "" H 6150 1250 50  0001 C CNN
 F 3 "" H 6150 1250 50  0001 C CNN
@@ -563,14 +555,14 @@ F 3 "" H 6150 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US 120R?
+L Device:R_US R?
 U 1 1 5B9FE977
 P 2250 2850
-AR Path="/5B9FE977" Ref="120R?"  Part="1" 
-AR Path="/5B9C8971/5B9FE977" Ref="R1"  Part="1" 
-F 0 "R1" H 2318 2896 50  0000 L CNN
+AR Path="/5B9FE977" Ref="R?"  Part="1" 
+AR Path="/5B9C8971/5B9FE977" Ref="R2"  Part="1" 
+F 0 "R2" H 2318 2896 50  0000 L CNN
 F 1 "R120" H 2318 2805 50  0000 L CNN
-F 2 "" V 2290 2840 50  0001 C CNN
+F 2 "digikey-footprints:0603" V 2290 2840 50  0001 C CNN
 F 3 "~" H 2250 2850 50  0001 C CNN
 	1    2250 2850
 	1    0    0    -1  
@@ -587,12 +579,8 @@ Wire Wire Line
 	2250 2700 2250 2550
 Wire Wire Line
 	2250 2550 2200 2550
-Text GLabel 9300 4300 0    50   Input ~ 0
-4_GarminRTS
 Wire Wire Line
 	9800 4300 9300 4300
-Text GLabel 9300 4200 0    50   Input ~ 0
-4_GarminCTS
 Wire Wire Line
 	9800 4200 9300 4200
 Wire Wire Line
@@ -606,10 +594,10 @@ Wire Wire Line
 Wire Wire Line
 	9300 3500 9800 3500
 $Comp
-L power:GND #PWR08
+L power:GND #PWR06
 U 1 1 5BA62BD7
 P 9800 3900
-F 0 "#PWR08" H 9800 3650 50  0001 C CNN
+F 0 "#PWR06" H 9800 3650 50  0001 C CNN
 F 1 "GND" H 9805 3727 50  0000 C CNN
 F 2 "" H 9800 3900 50  0001 C CNN
 F 3 "" H 9800 3900 50  0001 C CNN
@@ -702,14 +690,6 @@ Wire Wire Line
 	10300 4800 10800 4800
 Text GLabel 10800 4800 2    50   Input ~ 0
 4_OWB_MAIN
-Text GLabel 3950 6600 0    50   Input ~ 0
-1_GarminRTS
-Wire Wire Line
-	4450 6600 3950 6600
-Text GLabel 3950 6500 0    50   Input ~ 0
-1_GarminCTS
-Wire Wire Line
-	4450 6500 3950 6500
 Wire Wire Line
 	4450 6400 3950 6400
 Text GLabel 3950 6400 0    50   Input ~ 0
@@ -721,10 +701,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 5800 4450 5800
 $Comp
-L power:GND #PWR051
+L power:GND #PWR02
 U 1 1 5BA8D94F
 P 4450 6200
-F 0 "#PWR051" H 4450 5950 50  0001 C CNN
+F 0 "#PWR02" H 4450 5950 50  0001 C CNN
 F 1 "GND" H 4455 6027 50  0000 C CNN
 F 2 "" H 4450 6200 50  0001 C CNN
 F 3 "" H 4450 6200 50  0001 C CNN
@@ -817,14 +797,6 @@ Wire Wire Line
 	4950 7100 5450 7100
 Text GLabel 5450 7100 2    50   Input ~ 0
 1_OWB_MAIN
-Text GLabel 9350 6400 0    50   Input ~ 0
-2_GarminRTS
-Wire Wire Line
-	9850 6400 9350 6400
-Text GLabel 9350 6300 0    50   Input ~ 0
-2_GarminCTS
-Wire Wire Line
-	9850 6300 9350 6300
 Wire Wire Line
 	9850 6200 9350 6200
 Text GLabel 9350 6200 0    50   Input ~ 0
@@ -836,10 +808,10 @@ Wire Wire Line
 Wire Wire Line
 	9350 5600 9850 5600
 $Comp
-L power:GND #PWR052
+L power:GND #PWR07
 U 1 1 5BA8D990
 P 9850 6000
-F 0 "#PWR052" H 9850 5750 50  0001 C CNN
+F 0 "#PWR07" H 9850 5750 50  0001 C CNN
 F 1 "GND" H 9855 5827 50  0000 C CNN
 F 2 "" H 9850 6000 50  0001 C CNN
 F 3 "" H 9850 6000 50  0001 C CNN
@@ -932,12 +904,8 @@ Wire Wire Line
 	10350 6900 10850 6900
 Text GLabel 10850 6900 2    50   Input ~ 0
 2_OWB_MAIN
-Text GLabel 12350 4300 0    50   Input ~ 0
-3_GarminRTS
 Wire Wire Line
 	12850 4300 12350 4300
-Text GLabel 12350 4200 0    50   Input ~ 0
-3_GarminCTS
 Wire Wire Line
 	12850 4200 12350 4200
 Wire Wire Line
@@ -951,10 +919,10 @@ Wire Wire Line
 Wire Wire Line
 	12350 3500 12850 3500
 $Comp
-L power:GND #PWR053
+L power:GND #PWR09
 U 1 1 5BA9CE3D
 P 12850 3900
-F 0 "#PWR053" H 12850 3650 50  0001 C CNN
+F 0 "#PWR09" H 12850 3650 50  0001 C CNN
 F 1 "GND" H 12855 3727 50  0000 C CNN
 F 2 "" H 12850 3900 50  0001 C CNN
 F 3 "" H 12850 3900 50  0001 C CNN
@@ -986,7 +954,7 @@ Text GLabel 13600 3600 2    50   Input ~ 0
 Wire Wire Line
 	13350 3700 13600 3700
 Text GLabel 13600 3700 2    50   Input ~ 0
-2_IN3
+3_IN3
 Wire Wire Line
 	13350 3800 13600 3800
 Text GLabel 13600 3800 2    50   Input ~ 0
@@ -1010,7 +978,7 @@ Text GLabel 13600 4200 2    50   Input ~ 0
 Wire Wire Line
 	13350 4300 13600 4300
 Text GLabel 13600 4300 2    50   Input ~ 0
-2_ADC3
+3_ADC3
 Wire Wire Line
 	13350 4400 13600 4400
 Text GLabel 13600 4400 2    50   Input ~ 0
@@ -1048,10 +1016,10 @@ Wire Wire Line
 Text GLabel 13850 4800 2    50   Input ~ 0
 3_OWB_MAIN
 $Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J2
 U 1 1 5BD8B936
 P 4650 6400
-F 0 "J?" H 4700 7217 50  0000 C CNN
+F 0 "J2" H 4700 7217 50  0000 C CNN
 F 1 "Conn_02x14_Top_Bottom_MountingPin" H 4700 7126 50  0000 C CNN
 F 2 "" H 4650 6400 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 4650 6400 50  0001 C CNN
@@ -1059,10 +1027,10 @@ F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J7
 U 1 1 5BDD7CC9
 P 10050 6200
-F 0 "J?" H 10100 7017 50  0000 C CNN
+F 0 "J7" H 10100 7017 50  0000 C CNN
 F 1 "Conn_02x14_Top_Bottom_MountingPin" H 10100 6926 50  0000 C CNN
 F 2 "" H 10050 6200 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 10050 6200 50  0001 C CNN
@@ -1070,10 +1038,10 @@ F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J4
 U 1 1 5BDEAEF2
 P 7000 4150
-F 0 "J?" H 7050 4967 50  0000 C CNN
+F 0 "J4" H 7050 4967 50  0000 C CNN
 F 1 "Conn_02x14_Top_Bottom_MountingPin" H 7050 4876 50  0000 C CNN
 F 2 "" H 7000 4150 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 7000 4150 50  0001 C CNN
@@ -1081,10 +1049,10 @@ F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J6
 U 1 1 5BE5DBDF
 P 10000 4100
-F 0 "J?" H 10050 4917 50  0000 C CNN
+F 0 "J6" H 10050 4917 50  0000 C CNN
 F 1 "Conn_02x14_Top_Bottom_MountingPin" H 10050 4826 50  0000 C CNN
 F 2 "" H 10000 4100 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 10000 4100 50  0001 C CNN
@@ -1092,14 +1060,97 @@ F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J?
+L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J10
 U 1 1 5BE8400E
 P 13050 4100
-F 0 "J?" H 13100 4917 50  0000 C CNN
+F 0 "J10" H 13100 4917 50  0000 C CNN
 F 1 "Conn_02x14_Top_Bottom_MountingPin" H 13100 4826 50  0000 C CNN
 F 2 "" H 13050 4100 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 13050 4100 50  0001 C CNN
 	1    13050 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12350 4200
+NoConn ~ 12350 4300
+NoConn ~ 13350 4500
+NoConn ~ 10300 4500
+NoConn ~ 9300 4300
+NoConn ~ 9300 4200
+NoConn ~ 6800 4350
+NoConn ~ 6800 4250
+NoConn ~ 9850 6300
+NoConn ~ 9850 6400
+NoConn ~ 10350 6600
+NoConn ~ 4950 6800
+NoConn ~ 4450 6600
+NoConn ~ 4450 6500
+NoConn ~ 7300 4550
+NoConn ~ 5650 1750
+NoConn ~ 6150 1150
+NoConn ~ 3800 1150
+NoConn ~ 3300 1750
+NoConn ~ 7900 1750
+NoConn ~ 8400 1150
+NoConn ~ 10550 1200
+NoConn ~ 10050 1800
+NoConn ~ 12900 1250
+NoConn ~ 12400 1850
+NoConn ~ 15350 1250
+NoConn ~ 14850 1850
+NoConn ~ 10950 7200
+$Comp
+L power:GND #PWR0323
+U 1 1 5BF72E65
+P 10100 7100
+F 0 "#PWR0323" H 10100 6850 50  0001 C CNN
+F 1 "GND" H 10105 6927 50  0000 C CNN
+F 2 "" H 10100 7100 50  0001 C CNN
+F 3 "" H 10100 7100 50  0001 C CNN
+	1    10100 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0324
+U 1 1 5BF72ED5
+P 4700 7300
+F 0 "#PWR0324" H 4700 7050 50  0001 C CNN
+F 1 "GND" H 4705 7127 50  0000 C CNN
+F 2 "" H 4700 7300 50  0001 C CNN
+F 3 "" H 4700 7300 50  0001 C CNN
+	1    4700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0325
+U 1 1 5BF72FD4
+P 7050 5050
+F 0 "#PWR0325" H 7050 4800 50  0001 C CNN
+F 1 "GND" H 7055 4877 50  0000 C CNN
+F 2 "" H 7050 5050 50  0001 C CNN
+F 3 "" H 7050 5050 50  0001 C CNN
+	1    7050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0326
+U 1 1 5BF73044
+P 10050 5000
+F 0 "#PWR0326" H 10050 4750 50  0001 C CNN
+F 1 "GND" H 10055 4827 50  0000 C CNN
+F 2 "" H 10050 5000 50  0001 C CNN
+F 3 "" H 10050 5000 50  0001 C CNN
+	1    10050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0327
+U 1 1 5BF730CE
+P 13100 5000
+F 0 "#PWR0327" H 13100 4750 50  0001 C CNN
+F 1 "GND" H 13105 4827 50  0000 C CNN
+F 2 "" H 13100 5000 50  0001 C CNN
+F 3 "" H 13100 5000 50  0001 C CNN
+	1    13100 5000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

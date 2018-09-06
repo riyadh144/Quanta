@@ -1,0 +1,749 @@
+EESchema Schematic File Version 4
+LIBS:SchematicAutomation-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_AVR:AT90USB1287-AU U3
+U 1 1 5B909071
+P 4550 3200
+F 0 "U3" H 4550 1114 50  0000 C CNN
+F 1 "AT90USB1287-AU" H 4550 1023 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 4550 3200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 4550 3200 50  0001 C CNN
+	1    4550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1700 3850 1700
+Wire Wire Line
+	3850 1700 3850 1300
+Wire Wire Line
+	3850 1300 3450 1300
+$Comp
+L passive:RESISTOR R3
+U 1 1 5B9099FD
+P 3450 1450
+F 0 "R3" V 3412 1503 60  0000 L CNB
+F 1 "1M" V 3503 1503 40  0000 L CNN
+F 2 "digikey-footprints:0603" H 3450 1310 40  0001 C CNN
+F 3 "" H 3450 1550 60  0000 C CNN
+F 4 "-" H 3450 1610 45  0001 C CNN "Part"
+F 5 "Passive" H 3680 1740 50  0001 C CNN "Family"
+	1    3450 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 1300 3450 1350
+Wire Wire Line
+	3450 1550 3450 1650
+Wire Wire Line
+	3450 1650 3150 1650
+$Comp
+L Device:Crystal Y1
+U 1 1 5B909F86
+P 3150 1500
+F 0 "Y1" V 3104 1631 50  0000 L CNN
+F 1 "16MHz" V 3195 1631 50  0000 L CNN
+F 2 "" H 3150 1500 50  0001 C CNN
+F 3 "~" H 3150 1500 50  0001 C CNN
+	1    3150 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1350 3150 1300
+Wire Wire Line
+	3150 1300 3450 1300
+Connection ~ 3450 1300
+Wire Wire Line
+	3450 1650 3450 1900
+Wire Wire Line
+	3450 1900 3950 1900
+Connection ~ 3450 1650
+Wire Wire Line
+	3150 1300 2800 1300
+Connection ~ 3150 1300
+$Comp
+L passive:CAP C1
+U 1 1 5B90A22B
+P 2700 1300
+F 0 "C1" V 2455 1300 60  0000 C CNB
+F 1 "20pF" V 2550 1300 45  0000 C CNN
+F 2 "digikey-footprints:0603" H 2735 1145 40  0001 L CNN
+F 3 "" H 2700 1400 60  0001 C CNN
+F 4 "-" H 2740 1465 45  0001 L CNN "Part"
+F 5 "Passive" H 2930 1590 50  0001 C CNN "Family"
+	1    2700 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L passive:CAP C2
+U 1 1 5B90A296
+P 2700 1650
+F 0 "C2" V 2945 1650 60  0000 C CNB
+F 1 "20pF" V 2850 1650 45  0000 C CNN
+F 2 "digikey-footprints:0603" H 2735 1495 40  0001 L CNN
+F 3 "" H 2700 1750 60  0001 C CNN
+F 4 "-" H 2740 1815 45  0001 L CNN "Part"
+F 5 "Passive" H 2930 1940 50  0001 C CNN "Family"
+	1    2700 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1300 2400 1300
+Wire Wire Line
+	2400 1300 2400 1450
+Wire Wire Line
+	2400 1650 2600 1650
+Wire Wire Line
+	3150 1650 2800 1650
+Connection ~ 3150 1650
+Wire Wire Line
+	2400 1450 2200 1450
+Wire Wire Line
+	2200 1450 2200 1550
+Connection ~ 2400 1450
+Wire Wire Line
+	2400 1450 2400 1650
+$Comp
+L power:GND #PWR015
+U 1 1 5B90A694
+P 2200 1550
+F 0 "#PWR015" H 2200 1300 50  0001 C CNN
+F 1 "GND" H 2205 1377 50  0000 C CNN
+F 2 "" H 2200 1550 50  0001 C CNN
+F 3 "" H 2200 1550 50  0001 C CNN
+	1    2200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR022
+U 1 1 5B90A719
+P 4550 800
+F 0 "#PWR022" H 4550 650 50  0001 C CNN
+F 1 "+3V3" H 4565 973 50  0000 C CNN
+F 2 "" H 4550 800 50  0001 C CNN
+F 3 "" H 4550 800 50  0001 C CNN
+	1    4550 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1200 4550 900 
+Wire Wire Line
+	4650 1200 4650 1150
+$Comp
+L passive:INDUCTOR L1
+U 1 1 5B90B0D2
+P 4650 1000
+F 0 "L1" V 4612 1057 60  0000 L CNB
+F 1 "10uH" V 4703 1057 40  0000 L CNN
+F 2 "digikey-footprints:0603" H 4650 870 40  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0012.pdf" H 4650 1100 60  0000 C CNN
+F 4 "490-4025-1-ND" H 4650 1165 45  0001 C CNN "PART"
+F 5 "Passive" H 4880 1290 50  0001 C CNN "Family"
+	1    4650 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1150 4750 1150
+Connection ~ 4650 1150
+Wire Wire Line
+	4650 1150 4650 1100
+$Comp
+L passive:CAP C5
+U 1 1 5B90B3BB
+P 4900 1150
+F 0 "C5" V 4655 1150 60  0000 C CNB
+F 1 "100nF" V 4750 1150 45  0000 C CNN
+F 2 "digikey-footprints:0603" H 4935 995 40  0001 L CNN
+F 3 "" H 4900 1250 60  0001 C CNN
+F 4 "-" H 4940 1315 45  0001 L CNN "Part"
+F 5 "Passive" H 5130 1440 50  0001 C CNN "Family"
+	1    4900 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 900  4550 900 
+Wire Wire Line
+	4550 900  4550 800 
+Connection ~ 4550 900 
+$Comp
+L power:GND #PWR023
+U 1 1 5B90BB76
+P 5000 1150
+F 0 "#PWR023" H 5000 900 50  0001 C CNN
+F 1 "GND" H 5005 977 50  0000 C CNN
+F 2 "" H 5000 1150 50  0001 C CNN
+F 3 "" H 5000 1150 50  0001 C CNN
+	1    5000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1200 4450 1050
+Text HLabel 3950 2300 0    50   Input ~ 0
+VBUS
+Text HLabel 4450 1050 1    50   Input ~ 0
+VBUS
+Text HLabel 3950 2500 0    50   Input ~ 0
+D+
+Wire Wire Line
+	4550 5200 4500 5200
+Wire Wire Line
+	4500 5200 4500 5500
+Connection ~ 4500 5200
+Wire Wire Line
+	4500 5200 4450 5200
+$Comp
+L power:GND #PWR021
+U 1 1 5B90E58B
+P 4500 5500
+F 0 "#PWR021" H 4500 5250 50  0001 C CNN
+F 1 "GND" H 4505 5327 50  0000 C CNN
+F 2 "" H 4500 5500 50  0001 C CNN
+F 3 "" H 4500 5500 50  0001 C CNN
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2800 3700 2800
+Wire Wire Line
+	3700 2800 3700 2850
+$Comp
+L passive:CAP C4
+U 1 1 5B90EA5A
+P 3700 2950
+F 0 "C4" H 3808 2992 60  0000 L CNB
+F 1 "1uF" H 3808 2897 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 3735 2795 40  0001 L CNN
+F 3 "" H 3700 3050 60  0001 C CNN
+F 4 "-" H 3740 3115 45  0001 L CNN "Part"
+F 5 "Passive" H 3930 3240 50  0001 C CNN "Family"
+	1    3700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3050 3700 3100
+$Comp
+L power:GND #PWR020
+U 1 1 5B90F1E2
+P 3700 3100
+F 0 "#PWR020" H 3700 2850 50  0001 C CNN
+F 1 "GND" H 3705 2927 50  0000 C CNN
+F 2 "" H 3700 3100 50  0001 C CNN
+F 3 "" H 3700 3100 50  0001 C CNN
+	1    3700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2100 3500 2100
+Wire Wire Line
+	3500 2100 3500 2200
+$Comp
+L passive:CAP C3
+U 1 1 5B90F817
+P 3500 2300
+F 0 "C3" H 3300 2350 60  0000 L CNB
+F 1 "100nF" H 3250 2200 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 3535 2145 40  0001 L CNN
+F 3 "" H 3500 2400 60  0001 C CNN
+F 4 "-" H 3540 2465 45  0001 L CNN "Part"
+F 5 "Passive" H 3730 2590 50  0001 C CNN "Family"
+	1    3500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2400 3500 2500
+$Comp
+L power:GND #PWR019
+U 1 1 5B90FCFF
+P 3500 2500
+F 0 "#PWR019" H 3500 2250 50  0001 C CNN
+F 1 "GND" H 3505 2327 50  0000 C CNN
+F 2 "" H 3500 2500 50  0001 C CNN
+F 3 "" H 3500 2500 50  0001 C CNN
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 3950 2600 0    50   Input ~ 0
+D-
+$Comp
+L dk_Tactile-Switches:1825910-6 S1
+U 1 1 5B910BEC
+P 3750 900
+F 0 "S1" H 3750 1247 60  0000 C CNN
+F 1 "1825910-6" H 3750 1141 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 3950 1100 60  0001 L CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 3950 1200 60  0001 L CNN
+F 4 "450-1650-ND" H 3950 1300 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 3950 1400 60  0001 L CNN "MPN"
+F 6 "Switches" H 3950 1500 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 3950 1600 60  0001 L CNN "Family"
+F 8 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 3950 1700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 3950 1800 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 3950 1900 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 3950 2000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3950 2100 60  0001 L CNN "Status"
+	1    3750 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1500 3950 1000
+Connection ~ 3950 1000
+Wire Wire Line
+	3950 1000 3950 900 
+Wire Wire Line
+	3550 800  3400 800 
+Wire Wire Line
+	3400 800  3400 900 
+Wire Wire Line
+	3400 1000 3550 1000
+Wire Wire Line
+	3400 900  3100 900 
+Wire Wire Line
+	3100 900  3100 1000
+Connection ~ 3400 900 
+Wire Wire Line
+	3400 900  3400 1000
+$Comp
+L power:GND #PWR017
+U 1 1 5B911EE5
+P 3100 1000
+F 0 "#PWR017" H 3100 750 50  0001 C CNN
+F 1 "GND" H 3105 827 50  0000 C CNN
+F 2 "" H 3100 1000 50  0001 C CNN
+F 3 "" H 3100 1000 50  0001 C CNN
+	1    3100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:RESISTOR R4
+U 1 1 5B9120A4
+P 4150 900
+F 0 "R4" H 4150 1082 60  0000 C CNB
+F 1 "100K" H 4150 991 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 4150 760 40  0001 C CNN
+F 3 "" H 4150 1000 60  0000 C CNN
+F 4 "-" H 4150 1060 45  0001 C CNN "Part"
+F 5 "Passive" H 4380 1190 50  0001 C CNN "Family"
+	1    4150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 900  3950 900 
+Connection ~ 3950 900 
+Wire Wire Line
+	3950 900  3950 800 
+Wire Wire Line
+	4250 900  4550 900 
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:0015912120 J12
+U 1 1 5B913E87
+P 2600 4650
+F 0 "J12" H 2600 5097 60  0000 C CNN
+F 1 "0015912120" H 2600 4991 60  0000 C CNN
+F 2 "digikey-footprints:PinHeader_2x6_P2.54mm_Vertical_SMD" H 2800 4850 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 2800 4950 60  0001 L CNN
+F 4 "WM17452-ND" H 2800 5050 60  0001 L CNN "Digi-Key_PN"
+F 5 "0015912120" H 2800 5150 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2800 5250 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 2800 5350 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 2800 5450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex-connector-corporation/0015912120/WM17452-ND/614768" H 2800 5550 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER 12POS .100 VERT TIN" H 2800 5650 60  0001 L CNN "Description"
+F 11 "Molex Connector Corporation" H 2800 5750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2800 5850 60  0001 L CNN "Status"
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4900 3950 4950
+Wire Wire Line
+	3950 4950 2800 4950
+Wire Wire Line
+	3950 4800 3950 4850
+Wire Wire Line
+	3950 4850 2800 4850
+Wire Wire Line
+	3950 4700 3950 4750
+Wire Wire Line
+	3950 4750 2800 4750
+Wire Wire Line
+	3950 4600 3950 4650
+Wire Wire Line
+	3950 4650 2800 4650
+Wire Wire Line
+	3950 4500 3950 4550
+Text Label 3400 4950 0    50   ~ 0
+TDI
+Text Label 3400 4850 0    50   ~ 0
+TDO
+Text Label 3400 4750 0    50   ~ 0
+TMS
+Text Label 3400 4650 0    50   ~ 0
+TCK
+Wire Wire Line
+	2800 4550 2900 4550
+$Comp
+L power:GND #PWR016
+U 1 1 5B9183F6
+P 3000 4550
+F 0 "#PWR016" H 3000 4300 50  0001 C CNN
+F 1 "GND" H 3005 4377 50  0000 C CNN
+F 2 "" H 3000 4550 50  0001 C CNN
+F 3 "" H 3000 4550 50  0001 C CNN
+	1    3000 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4450 3150 4450
+$Comp
+L power:+3V3 #PWR018
+U 1 1 5B919423
+P 3150 4450
+F 0 "#PWR018" H 3150 4300 50  0001 C CNN
+F 1 "+3V3" H 3165 4623 50  0000 C CNN
+F 2 "" H 3150 4450 50  0001 C CNN
+F 3 "" H 3150 4450 50  0001 C CNN
+	1    3150 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4550 2300 4550
+Wire Wire Line
+	2400 4650 2300 4650
+Text HLabel 2300 4650 0    50   Input ~ 0
+D-
+Text HLabel 2300 4550 0    50   Input ~ 0
+D+
+Wire Wire Line
+	2400 4750 2300 4750
+Text HLabel 2300 4750 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	2400 4450 2300 4450
+Wire Wire Line
+	2400 4450 2400 4500
+Wire Wire Line
+	2400 4500 2900 4500
+Wire Wire Line
+	2900 4500 2900 4550
+Connection ~ 2400 4450
+Connection ~ 2900 4550
+Wire Wire Line
+	2900 4550 3000 4550
+Text GLabel 5400 3300 2    50   Input ~ 0
+MUX26
+Text GLabel 5400 3500 2    50   Input ~ 0
+MUX24
+Text GLabel 5400 3400 2    50   Input ~ 0
+MUX25
+Text GLabel 5350 1500 2    50   Input ~ 0
+MUX17
+Text GLabel 5350 1600 2    50   Input ~ 0
+MUX19
+Text GLabel 5350 1700 2    50   Input ~ 0
+MUX21
+Text GLabel 5350 1800 2    50   Input ~ 0
+MUX16
+Text GLabel 5350 1900 2    50   Input ~ 0
+MUX18
+Text GLabel 5350 2000 2    50   Input ~ 0
+MUX20
+Text GLabel 5350 2100 2    50   Input ~ 0
+MUX22
+Wire Wire Line
+	5400 3500 5150 3500
+Wire Wire Line
+	5400 3400 5150 3400
+Wire Wire Line
+	5400 3300 5150 3300
+Wire Wire Line
+	5350 2100 5150 2100
+Wire Wire Line
+	5150 2000 5350 2000
+Wire Wire Line
+	5350 1900 5150 1900
+Wire Wire Line
+	5350 1800 5150 1800
+Wire Wire Line
+	5350 1700 5150 1700
+Wire Wire Line
+	5350 1600 5150 1600
+Wire Wire Line
+	5350 1500 5150 1500
+Text GLabel 5500 4200 2    50   Input ~ 0
+MUXC
+Text GLabel 5500 4300 2    50   Input ~ 0
+MUXD
+Text GLabel 5500 4400 2    50   Input ~ 0
+MUXE
+Wire Wire Line
+	5500 4200 5150 4200
+Wire Wire Line
+	5500 4300 5150 4300
+Wire Wire Line
+	5500 4400 5150 4400
+Text GLabel 5350 2400 2    50   Input ~ 0
+1_REL
+Text GLabel 5350 2500 2    50   Input ~ 0
+2_REL
+Text GLabel 5350 2600 2    50   Input ~ 0
+3_REL
+Text GLabel 5350 2700 2    50   Input ~ 0
+4_REL
+Text GLabel 5350 2800 2    50   Input ~ 0
+5_REL
+Wire Wire Line
+	5350 2400 5150 2400
+Wire Wire Line
+	5350 2500 5150 2500
+Wire Wire Line
+	5350 2600 5150 2600
+Wire Wire Line
+	5350 2700 5150 2700
+Wire Wire Line
+	5350 2800 5150 2800
+$Comp
+L power:+3.3V #PWR0307
+U 1 1 5BCB278F
+P 1600 3150
+F 0 "#PWR0307" H 1600 3000 50  0001 C CNN
+F 1 "+3.3V" H 1615 3323 50  0000 C CNN
+F 2 "" H 1600 3150 50  0001 C CNN
+F 3 "" H 1600 3150 50  0001 C CNN
+	1    1600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:RESISTOR R175
+U 1 1 5BCB2862
+P 1900 3200
+F 0 "R175" H 1900 3382 60  0000 C CNB
+F 1 "100K" H 1900 3291 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 1900 3060 40  0001 C CNN
+F 3 "" H 1900 3300 60  0000 C CNN
+F 4 "-" H 1900 3360 45  0001 C CNN "Part"
+F 5 "Passive" H 2130 3490 50  0001 C CNN "Family"
+	1    1900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3150 1600 3200
+Wire Wire Line
+	1600 3200 1800 3200
+Wire Wire Line
+	2000 3200 2050 3200
+Wire Wire Line
+	2050 3200 2050 3300
+$Comp
+L passive:RESISTOR R176
+U 1 1 5BCB8761
+P 2050 3400
+F 0 "R176" V 2012 3453 60  0000 L CNB
+F 1 "10K" V 2103 3453 40  0000 L CNN
+F 2 "digikey-footprints:0603" H 2050 3260 40  0001 C CNN
+F 3 "" H 2050 3500 60  0000 C CNN
+F 4 "-" H 2050 3560 45  0001 C CNN "Part"
+F 5 "Passive" H 2280 3690 50  0001 C CNN "Family"
+	1    2050 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0308
+U 1 1 5BCB87F3
+P 2050 3500
+F 0 "#PWR0308" H 2050 3250 50  0001 C CNN
+F 1 "GND" H 2055 3327 50  0000 C CNN
+F 2 "" H 2050 3500 50  0001 C CNN
+F 3 "" H 2050 3500 50  0001 C CNN
+	1    2050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3200 2900 3200
+Wire Wire Line
+	2900 3200 2900 3300
+Wire Wire Line
+	2900 3300 3950 3300
+Connection ~ 2050 3200
+$Comp
+L passive:RESISTOR R173
+U 1 1 5BCBAC86
+P 1650 3700
+F 0 "R173" H 1650 3882 60  0000 C CNB
+F 1 "100K" H 1650 3791 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 1650 3560 40  0001 C CNN
+F 3 "" H 1650 3800 60  0000 C CNN
+F 4 "-" H 1650 3860 45  0001 C CNN "Part"
+F 5 "Passive" H 1880 3990 50  0001 C CNN "Family"
+	1    1650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 3650 1350 3700
+Wire Wire Line
+	1350 3700 1550 3700
+Wire Wire Line
+	1750 3700 1800 3700
+Wire Wire Line
+	1800 3700 1800 3800
+$Comp
+L passive:RESISTOR R174
+U 1 1 5BCBAC93
+P 1800 3900
+F 0 "R174" V 1762 3953 60  0000 L CNB
+F 1 "10K" V 1853 3953 40  0000 L CNN
+F 2 "digikey-footprints:0603" H 1800 3760 40  0001 C CNN
+F 3 "" H 1800 4000 60  0000 C CNN
+F 4 "-" H 1800 4060 45  0001 C CNN "Part"
+F 5 "Passive" H 2030 4190 50  0001 C CNN "Family"
+	1    1800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0309
+U 1 1 5BCBAC9A
+P 1800 4000
+F 0 "#PWR0309" H 1800 3750 50  0001 C CNN
+F 1 "GND" H 1805 3827 50  0000 C CNN
+F 2 "" H 1800 4000 50  0001 C CNN
+F 3 "" H 1800 4000 50  0001 C CNN
+	1    1800 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 3700
+$Comp
+L power:+5V #PWR0310
+U 1 1 5BCBFEB6
+P 1350 3650
+F 0 "#PWR0310" H 1350 3500 50  0001 C CNN
+F 1 "+5V" H 1365 3823 50  0000 C CNN
+F 2 "" H 1350 3650 50  0001 C CNN
+F 3 "" H 1350 3650 50  0001 C CNN
+	1    1350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3700 2850 3400
+Wire Wire Line
+	2850 3400 3950 3400
+Wire Wire Line
+	1800 3700 2850 3700
+$Comp
+L passive:RESISTOR R171
+U 1 1 5BCC2D33
+P 1100 4150
+F 0 "R171" H 1100 4332 60  0000 C CNB
+F 1 "100K" H 1100 4241 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 1100 4010 40  0001 C CNN
+F 3 "" H 1100 4250 60  0000 C CNN
+F 4 "-" H 1100 4310 45  0001 C CNN "Part"
+F 5 "Passive" H 1330 4440 50  0001 C CNN "Family"
+	1    1100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4150 1000 4150
+Wire Wire Line
+	1200 4150 1250 4150
+Wire Wire Line
+	1250 4150 1250 4250
+$Comp
+L passive:RESISTOR R172
+U 1 1 5BCC2D40
+P 1250 4350
+F 0 "R172" V 1212 4403 60  0000 L CNB
+F 1 "10K" V 1303 4403 40  0000 L CNN
+F 2 "digikey-footprints:0603" H 1250 4210 40  0001 C CNN
+F 3 "" H 1250 4450 60  0000 C CNN
+F 4 "-" H 1250 4510 45  0001 C CNN "Part"
+F 5 "Passive" H 1480 4640 50  0001 C CNN "Family"
+	1    1250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0311
+U 1 1 5BCC2D47
+P 1250 4450
+F 0 "#PWR0311" H 1250 4200 50  0001 C CNN
+F 1 "GND" H 1255 4277 50  0000 C CNN
+F 2 "" H 1250 4450 50  0001 C CNN
+F 3 "" H 1250 4450 50  0001 C CNN
+	1    1250 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 4150
+Wire Wire Line
+	2950 4150 2950 3500
+Wire Wire Line
+	2950 3500 3950 3500
+Wire Wire Line
+	1250 4150 2950 4150
+$Comp
+L power:+12V #PWR0312
+U 1 1 5BCCF6C1
+P 800 4150
+F 0 "#PWR0312" H 800 4000 50  0001 C CNN
+F 1 "+12V" H 815 4323 50  0000 C CNN
+F 2 "" H 800 4150 50  0001 C CNN
+F 3 "" H 800 4150 50  0001 C CNN
+	1    800  4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5150 2200
+NoConn ~ 5150 2900
+NoConn ~ 5150 3000
+NoConn ~ 5150 3100
+NoConn ~ 5150 3600
+NoConn ~ 5150 3700
+NoConn ~ 5150 3800
+NoConn ~ 5150 3900
+NoConn ~ 5150 4000
+NoConn ~ 5150 4500
+NoConn ~ 5150 4800
+NoConn ~ 5150 4900
+NoConn ~ 3950 4500
+NoConn ~ 3950 4400
+NoConn ~ 3950 4300
+NoConn ~ 3950 4200
+NoConn ~ 3950 4000
+NoConn ~ 3950 3900
+NoConn ~ 3950 3800
+NoConn ~ 3950 3700
+NoConn ~ 3950 3600
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5C7FF899
+P 4750 1150
+F 0 "#FLG0107" H 4750 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 1323 50  0000 C CNN
+F 2 "" H 4750 1150 50  0001 C CNN
+F 3 "~" H 4750 1150 50  0001 C CNN
+	1    4750 1150
+	-1   0    0    1   
+$EndComp
+Connection ~ 4750 1150
+Wire Wire Line
+	4750 1150 4800 1150
+NoConn ~ 2400 4850
+NoConn ~ 2400 4950
+Text GLabel 5500 4600 2    50   Input ~ 0
+MUXA1
+Wire Wire Line
+	5500 4600 5150 4600
+Text GLabel 5500 4700 2    50   Input ~ 0
+RS232INV
+Wire Wire Line
+	5500 4700 5150 4700
+$EndSCHEMATC

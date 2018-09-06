@@ -1,0 +1,1898 @@
+EESchema Schematic File Version 4
+LIBS:SchematicAutomation-cache
+EELAYER 26 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 7 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 10500 2850 0    50   Input ~ 0
+1_RTS
+Text GLabel 10500 2750 0    50   Input ~ 0
+1_CTS
+Text GLabel 10500 2550 0    50   Input ~ 0
+1_RX
+Text GLabel 10500 2650 0    50   Input ~ 0
+1_TX
+Text GLabel 10550 5350 0    50   Input ~ 0
+2_RTS
+Text GLabel 10550 5250 0    50   Input ~ 0
+2_CTS
+Text GLabel 10550 5050 0    50   Input ~ 0
+2_RX
+Text GLabel 10550 5150 0    50   Input ~ 0
+2_TX
+Text GLabel 10500 3650 0    50   Input ~ 0
+4_RTS
+Text GLabel 10500 3550 0    50   Input ~ 0
+4_CTS
+Text GLabel 10500 3350 0    50   Input ~ 0
+4_RX
+Text GLabel 10500 3450 0    50   Input ~ 0
+4_TX
+Text GLabel 4650 2850 0    50   Input ~ 0
+3_RTS
+Text GLabel 4650 2750 0    50   Input ~ 0
+3_CTS
+Text GLabel 4650 2550 0    50   Input ~ 0
+3_RX
+Text GLabel 4650 2650 0    50   Input ~ 0
+3_TX
+Text GLabel 10550 4450 0    50   Input ~ 0
+5_RTS
+Text GLabel 10550 4350 0    50   Input ~ 0
+5_CTS
+Text GLabel 10550 4150 0    50   Input ~ 0
+5_RX
+Text GLabel 10550 4250 0    50   Input ~ 0
+5_TX
+$Comp
+L dk_Interface-Controllers:FT4232HL-REEL U?
+U 1 1 5BB9E827
+P 12850 3950
+AR Path="/5B9C8983/5BB9E827" Ref="U?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E827" Ref="U18"  Part="1" 
+F 0 "U18" H 13591 4253 60  0000 L CNN
+F 1 "FT4232HL-REEL" H 13591 4147 60  0000 L CNN
+F 2 "digikey-footprints:LQFP-64_10x10mm" V 13050 4150 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 13050 4250 60  0001 L CNN
+F 4 "768-1026-1-ND" H 13050 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT4232HL-REEL" H 13050 4450 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 13050 4550 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 13050 4650 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 13050 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 13050 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 13050 4950 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 13050 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 13050 5150 60  0001 L CNN "Status"
+	1    12850 3950
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4650 2200 1200 750 
+U 5BB9E85A
+F0 "sheet5BB9E804" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 4650 2750 50 
+F3 "RTS" I L 4650 2850 50 
+F4 "TX" I L 4650 2650 50 
+F5 "RX" I L 4650 2550 50 
+F6 "Tx_3V3" I R 5850 2550 50 
+F7 "RX_3V3" I R 5850 2650 50 
+F8 "RTS_3V3" I R 5850 2750 50 
+F9 "CTS_3V3" I R 5850 2850 50 
+$EndSheet
+Wire Wire Line
+	11700 2550 12050 2550
+Wire Wire Line
+	11700 2650 12050 2650
+Wire Wire Line
+	11700 2750 12050 2750
+Wire Wire Line
+	11700 2850 12050 2850
+Wire Wire Line
+	11700 3350 12050 3350
+Wire Wire Line
+	11700 3450 12050 3450
+Wire Wire Line
+	11700 3550 12050 3550
+Wire Wire Line
+	11700 3650 12050 3650
+Wire Wire Line
+	12050 4150 11750 4150
+Wire Wire Line
+	12050 4250 11750 4250
+Wire Wire Line
+	12050 4350 11750 4350
+Wire Wire Line
+	12050 4450 11750 4450
+Wire Wire Line
+	11800 4950 11800 5050
+Wire Wire Line
+	11800 5050 11750 5050
+Wire Wire Line
+	12050 5050 11850 5050
+Wire Wire Line
+	11850 5050 11850 5150
+Wire Wire Line
+	11850 5150 11750 5150
+Wire Wire Line
+	12050 5150 11900 5150
+Wire Wire Line
+	11900 5150 11900 5250
+Wire Wire Line
+	11900 5250 11750 5250
+Wire Wire Line
+	12050 5250 11950 5250
+Wire Wire Line
+	11950 5250 11950 5350
+Wire Wire Line
+	11950 5350 11750 5350
+Wire Wire Line
+	12750 1550 12750 1450
+Wire Wire Line
+	12750 1450 12850 1450
+Wire Wire Line
+	13050 1450 13050 1550
+Wire Wire Line
+	12950 1550 12950 1450
+Connection ~ 12950 1450
+Wire Wire Line
+	12950 1450 13050 1450
+Wire Wire Line
+	12850 1550 12850 1450
+Connection ~ 12850 1450
+Wire Wire Line
+	12850 1450 12900 1450
+Wire Wire Line
+	12900 1450 12900 1400
+Connection ~ 12900 1450
+Wire Wire Line
+	12900 1450 12950 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BB9E883
+P 12900 1400
+AR Path="/5B9C8983/5BB9E883" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E883" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 12900 1250 50  0001 C CNN
+F 1 "+3V3" H 12915 1573 50  0000 C CNN
+F 2 "" H 12900 1400 50  0001 C CNN
+F 3 "" H 12900 1400 50  0001 C CNN
+	1    12900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 1550 12650 1450
+Wire Wire Line
+	12650 1450 12550 1450
+Wire Wire Line
+	12450 1450 12450 1550
+Wire Wire Line
+	12550 1550 12550 1450
+Connection ~ 12550 1450
+Wire Wire Line
+	12550 1450 12450 1450
+Wire Wire Line
+	13550 2150 13650 2150
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5BB9E896
+P 15500 1450
+AR Path="/5B9C8983/5BB9E896" Ref="L?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E896" Ref="L6"  Part="1" 
+F 0 "L6" V 15400 1450 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 15450 1450 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 15500 1450 50  0001 C CNN
+F 3 "~" H 15500 1450 50  0001 C CNN
+	1    15500 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13650 2150 13650 2050
+Wire Wire Line
+	12550 1200 12550 1450
+Wire Wire Line
+	13250 1450 13250 1550
+Wire Wire Line
+	14650 1450 14650 1550
+$Comp
+L passive:CAP C?
+U 1 1 5BB9E8A6
+P 14650 1650
+AR Path="/5B9C8983/5BB9E8A6" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8A6" Ref="C42"  Part="1" 
+F 0 "C42" H 14758 1692 60  0000 L CNB
+F 1 "100nF" H 14758 1597 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 14685 1495 40  0001 L CNN
+F 3 "" H 14650 1750 60  0001 C CNN
+F 4 "-" H 14690 1815 45  0001 L CNN "Part"
+F 5 "Passive" H 14880 1940 50  0001 C CNN "Family"
+	1    14650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 1450 13800 1450
+$Comp
+L passive:CAP-E C?
+U 1 1 5BB9E8B0
+P 14000 1650
+AR Path="/5B9C8983/5BB9E8B0" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8B0" Ref="C40"  Part="1" 
+F 0 "C40" H 14108 1692 60  0000 L CNB
+F 1 "4.7uF" H 14108 1597 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 14035 1495 40  0001 L CNN
+F 3 "" H 14000 1750 60  0000 C CNN
+F 4 "-" H 14035 1815 45  0001 L CNN "Part"
+F 5 "Passive" H 14230 1940 50  0001 C CNN "Family"
+	1    14000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 1550 14000 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5BB9E8B8
+P 14000 1750
+AR Path="/5B9C8983/5BB9E8B8" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8B8" Ref="#PWR094"  Part="1" 
+F 0 "#PWR094" H 14000 1500 50  0001 C CNN
+F 1 "GND" H 14005 1577 50  0000 C CNN
+F 2 "" H 14000 1750 50  0001 C CNN
+F 3 "" H 14000 1750 50  0001 C CNN
+	1    14000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BB9E8BE
+P 14650 1750
+AR Path="/5B9C8983/5BB9E8BE" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8BE" Ref="#PWR096"  Part="1" 
+F 0 "#PWR096" H 14650 1500 50  0001 C CNN
+F 1 "GND" H 14655 1577 50  0000 C CNN
+F 2 "" H 14650 1750 50  0001 C CNN
+F 3 "" H 14650 1750 50  0001 C CNN
+	1    14650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5BB9E8C4
+P 15800 950
+AR Path="/5B9C8983/5BB9E8C4" Ref="L?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8C4" Ref="L7"  Part="1" 
+F 0 "L7" V 15600 950 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 15713 950 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 15800 950 50  0001 C CNN
+F 3 "~" H 15800 950 50  0001 C CNN
+	1    15800 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14900 950  14900 1050
+$Comp
+L passive:CAP C?
+U 1 1 5BB9E8CE
+P 14900 1150
+AR Path="/5B9C8983/5BB9E8CE" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8CE" Ref="C43"  Part="1" 
+F 0 "C43" H 15008 1192 60  0000 L CNB
+F 1 "100nF" H 15008 1097 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 14935 995 40  0001 L CNN
+F 3 "" H 14900 1250 60  0001 C CNN
+F 4 "-" H 14940 1315 45  0001 L CNN "Part"
+F 5 "Passive" H 15130 1440 50  0001 C CNN "Family"
+	1    14900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:CAP-E C?
+U 1 1 5BB9E8D7
+P 14450 1150
+AR Path="/5B9C8983/5BB9E8D7" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8D7" Ref="C41"  Part="1" 
+F 0 "C41" H 14558 1192 60  0000 L CNB
+F 1 "4.7uF" H 14558 1097 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 14485 995 40  0001 L CNN
+F 3 "" H 14450 1250 60  0000 C CNN
+F 4 "-" H 14485 1315 45  0001 L CNN "Part"
+F 5 "Passive" H 14680 1440 50  0001 C CNN "Family"
+	1    14450 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 1050 14450 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5BB9E8DF
+P 14450 1250
+AR Path="/5B9C8983/5BB9E8DF" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8DF" Ref="#PWR095"  Part="1" 
+F 0 "#PWR095" H 14450 1000 50  0001 C CNN
+F 1 "GND" H 14455 1077 50  0000 C CNN
+F 2 "" H 14450 1250 50  0001 C CNN
+F 3 "" H 14450 1250 50  0001 C CNN
+	1    14450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BB9E8E5
+P 14900 1250
+AR Path="/5B9C8983/5BB9E8E5" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8E5" Ref="#PWR097"  Part="1" 
+F 0 "#PWR097" H 14900 1000 50  0001 C CNN
+F 1 "GND" H 14905 1077 50  0000 C CNN
+F 2 "" H 14900 1250 50  0001 C CNN
+F 3 "" H 14900 1250 50  0001 C CNN
+	1    14900 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 950  14900 950 
+Connection ~ 14000 1450
+Connection ~ 14450 950 
+Wire Wire Line
+	14000 1450 14650 1450
+Wire Wire Line
+	13150 950  13450 950 
+Connection ~ 14900 950 
+Wire Wire Line
+	14900 950  15650 950 
+Wire Wire Line
+	15350 1450 14650 1450
+Connection ~ 14650 1450
+Wire Wire Line
+	15650 1450 16050 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BB9E8F6
+P 16050 1450
+AR Path="/5B9C8983/5BB9E8F6" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8F6" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 16050 1300 50  0001 C CNN
+F 1 "+3V3" H 16065 1623 50  0000 C CNN
+F 2 "" H 16050 1450 50  0001 C CNN
+F 3 "" H 16050 1450 50  0001 C CNN
+	1    16050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BB9E8FC
+P 16350 950
+AR Path="/5B9C8983/5BB9E8FC" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E8FC" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR0100" H 16350 800 50  0001 C CNN
+F 1 "+3V3" H 16365 1123 50  0000 C CNN
+F 2 "" H 16350 950 50  0001 C CNN
+F 3 "" H 16350 950 50  0001 C CNN
+	1    16350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15950 950  16350 950 
+Wire Wire Line
+	12550 5850 12550 6050
+Wire Wire Line
+	13350 6050 13350 5850
+Wire Wire Line
+	13250 5850 13250 6050
+Connection ~ 13250 6050
+Wire Wire Line
+	13250 6050 13350 6050
+Wire Wire Line
+	13150 5850 13150 6050
+Connection ~ 13150 6050
+Wire Wire Line
+	13050 5850 13050 6050
+Connection ~ 13050 6050
+Wire Wire Line
+	12950 5850 12950 6050
+Wire Wire Line
+	12850 5850 12850 6050
+Wire Wire Line
+	12750 5850 12750 6050
+Wire Wire Line
+	12650 5850 12650 6050
+$Comp
+L Device:Crystal Y?
+U 1 1 5BB9E910
+P 13900 2950
+AR Path="/5B9C8983/5BB9E910" Ref="Y?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E910" Ref="Y4"  Part="1" 
+F 0 "Y4" V 13854 3081 50  0000 L CNN
+F 1 "12MHz" V 13945 3081 50  0000 L CNN
+F 2 "crystals:HC49UP" H 13900 2950 50  0001 C CNN
+F 3 "~" H 13900 2950 50  0001 C CNN
+	1    13900 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13900 2700 13900 2800
+Wire Wire Line
+	13550 2700 13900 2700
+Wire Wire Line
+	13900 3100 13900 3200
+Wire Wire Line
+	13900 3200 13550 3200
+Wire Wire Line
+	12050 1850 11750 1850
+$Comp
+L passive:RESISTOR R?
+U 1 1 5BB9E91E
+P 11650 1850
+AR Path="/5B9C8983/5BB9E91E" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E91E" Ref="R9"  Part="1" 
+F 0 "R9" H 11650 2032 60  0000 C CNB
+F 1 "12K" H 11650 1941 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 11650 1710 40  0001 C CNN
+F 3 "" H 11650 1950 60  0000 C CNN
+F 4 "-" H 11650 2010 45  0001 C CNN "Part"
+F 5 "Passive" H 11880 2140 50  0001 C CNN "Family"
+	1    11650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 1850 11500 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5BB9E926
+P 11400 1850
+AR Path="/5B9C8983/5BB9E926" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E926" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 11400 1600 50  0001 C CNN
+F 1 "GND" H 11405 1677 50  0000 C CNN
+F 2 "" H 11400 1850 50  0001 C CNN
+F 3 "" H 11400 1850 50  0001 C CNN
+	1    11400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 2150 11500 1850
+Connection ~ 11500 1850
+Wire Wire Line
+	11500 1850 11400 1850
+Wire Wire Line
+	12050 2250 11950 2250
+$Comp
+L passive:RESISTOR R?
+U 1 1 5BB9E932
+P 11850 2250
+AR Path="/5B9C8983/5BB9E932" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E932" Ref="R10"  Part="1" 
+F 0 "R10" H 11850 2150 60  0000 C CNB
+F 1 "1K" H 11850 2300 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 11850 2110 40  0001 C CNN
+F 3 "" H 11850 2350 60  0000 C CNN
+F 4 "-" H 11850 2410 45  0001 C CNN "Part"
+F 5 "Passive" H 12080 2540 50  0001 C CNN "Family"
+	1    11850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 2150 12050 2150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BB9E93A
+P 11750 2250
+AR Path="/5B9C8983/5BB9E93A" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E93A" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 11750 2100 50  0001 C CNN
+F 1 "+3V3" H 11765 2423 50  0000 C CNN
+F 2 "" H 11750 2250 50  0001 C CNN
+F 3 "" H 11750 2250 50  0001 C CNN
+	1    11750 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 12650 6050
+Wire Wire Line
+	12750 6050 12850 6050
+Connection ~ 12750 6050
+Connection ~ 12850 6050
+Wire Wire Line
+	12850 6050 12950 6050
+Wire Wire Line
+	12950 6050 13050 6050
+Connection ~ 12950 6050
+Wire Wire Line
+	12650 6050 12750 6050
+Wire Wire Line
+	12550 6050 12650 6050
+Wire Wire Line
+	13050 6050 13150 6050
+Wire Wire Line
+	12050 4950 11800 4950
+Wire Wire Line
+	13150 6050 13250 6050
+$Comp
+L dk_Interface-Controllers:FT4232HL-REEL U?
+U 1 1 5BBB2685
+P 7000 3950
+AR Path="/5B9C8983/5BBB2685" Ref="U?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2685" Ref="U14"  Part="1" 
+F 0 "U14" H 7741 4253 60  0000 L CNN
+F 1 "FT4232HL-REEL" H 7741 4147 60  0000 L CNN
+F 2 "digikey-footprints:LQFP-64_10x10mm" V 7200 4150 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 7200 4250 60  0001 L CNN
+F 4 "768-1026-1-ND" H 7200 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT4232HL-REEL" H 7200 4450 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 7200 4550 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 7200 4650 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 7200 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 7200 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 7200 4950 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 7200 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7200 5150 60  0001 L CNN "Status"
+	1    7000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2550 6200 2550
+Wire Wire Line
+	5850 2650 6200 2650
+Wire Wire Line
+	5850 2750 6200 2750
+Wire Wire Line
+	5850 2850 6200 2850
+Wire Wire Line
+	5850 3350 6200 3350
+Wire Wire Line
+	5850 3450 6200 3450
+Wire Wire Line
+	6200 4150 5900 4150
+Wire Wire Line
+	6200 4250 5900 4250
+Wire Wire Line
+	6200 4350 5900 4350
+Wire Wire Line
+	6200 4450 5900 4450
+Wire Wire Line
+	5950 4950 5950 5050
+Wire Wire Line
+	5950 5050 5900 5050
+Wire Wire Line
+	6200 5050 6000 5050
+Wire Wire Line
+	6000 5050 6000 5150
+Wire Wire Line
+	6000 5150 5900 5150
+Wire Wire Line
+	6200 5150 6050 5150
+Wire Wire Line
+	6050 5150 6050 5250
+Wire Wire Line
+	6050 5250 5900 5250
+Wire Wire Line
+	6200 5250 6100 5250
+Wire Wire Line
+	6100 5250 6100 5350
+Wire Wire Line
+	6100 5350 5900 5350
+Wire Wire Line
+	6900 1550 6900 1450
+Wire Wire Line
+	6900 1450 7000 1450
+Wire Wire Line
+	7200 1450 7200 1550
+Wire Wire Line
+	7100 1550 7100 1450
+Connection ~ 7100 1450
+Wire Wire Line
+	7100 1450 7200 1450
+Wire Wire Line
+	7000 1550 7000 1450
+Connection ~ 7000 1450
+Wire Wire Line
+	7000 1450 7050 1450
+Wire Wire Line
+	7050 1450 7050 1400
+Connection ~ 7050 1450
+Wire Wire Line
+	7050 1450 7100 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBB26D7
+P 7050 1400
+AR Path="/5B9C8983/5BBB26D7" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB26D7" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 7050 1250 50  0001 C CNN
+F 1 "+3V3" H 7065 1573 50  0000 C CNN
+F 2 "" H 7050 1400 50  0001 C CNN
+F 3 "" H 7050 1400 50  0001 C CNN
+	1    7050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1550 6800 1450
+Wire Wire Line
+	6800 1450 6700 1450
+Wire Wire Line
+	6600 1450 6600 1550
+Wire Wire Line
+	6700 1550 6700 1450
+Connection ~ 6700 1450
+Wire Wire Line
+	6700 1450 6600 1450
+Wire Wire Line
+	7700 2150 7800 2150
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5BBB26EA
+P 9650 1450
+AR Path="/5B9C8983/5BBB26EA" Ref="L?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB26EA" Ref="L2"  Part="1" 
+F 0 "L2" V 9550 1450 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 9600 1450 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 9650 1450 50  0001 C CNN
+F 3 "~" H 9650 1450 50  0001 C CNN
+	1    9650 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2150 7800 2050
+Wire Wire Line
+	6700 1200 6700 1450
+Wire Wire Line
+	7400 1450 7400 1550
+Wire Wire Line
+	8800 1450 8800 1550
+$Comp
+L passive:CAP C?
+U 1 1 5BBB26FA
+P 8800 1650
+AR Path="/5B9C8983/5BBB26FA" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB26FA" Ref="C36"  Part="1" 
+F 0 "C36" H 8908 1692 60  0000 L CNB
+F 1 "100nF" H 8908 1597 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8835 1495 40  0001 L CNN
+F 3 "" H 8800 1750 60  0001 C CNN
+F 4 "-" H 8840 1815 45  0001 L CNN "Part"
+F 5 "Passive" H 9030 1940 50  0001 C CNN "Family"
+	1    8800 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1450 8050 1450
+$Comp
+L passive:CAP-E C?
+U 1 1 5BBB2704
+P 8150 1650
+AR Path="/5B9C8983/5BBB2704" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2704" Ref="C32"  Part="1" 
+F 0 "C32" H 8258 1692 60  0000 L CNB
+F 1 "4.7uF" H 8258 1597 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8185 1495 40  0001 L CNN
+F 3 "" H 8150 1750 60  0000 C CNN
+F 4 "-" H 8185 1815 45  0001 L CNN "Part"
+F 5 "Passive" H 8380 1940 50  0001 C CNN "Family"
+	1    8150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1550 8150 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5BBB270C
+P 8150 1750
+AR Path="/5B9C8983/5BBB270C" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB270C" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 8150 1500 50  0001 C CNN
+F 1 "GND" H 8155 1577 50  0000 C CNN
+F 2 "" H 8150 1750 50  0001 C CNN
+F 3 "" H 8150 1750 50  0001 C CNN
+	1    8150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBB2712
+P 8800 1750
+AR Path="/5B9C8983/5BBB2712" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2712" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 8800 1500 50  0001 C CNN
+F 1 "GND" H 8805 1577 50  0000 C CNN
+F 2 "" H 8800 1750 50  0001 C CNN
+F 3 "" H 8800 1750 50  0001 C CNN
+	1    8800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5BBB2718
+P 9950 950
+AR Path="/5B9C8983/5BBB2718" Ref="L?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2718" Ref="L4"  Part="1" 
+F 0 "L4" V 9750 950 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 9863 950 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 9950 950 50  0001 C CNN
+F 3 "~" H 9950 950 50  0001 C CNN
+	1    9950 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 950  9050 1050
+$Comp
+L passive:CAP C?
+U 1 1 5BBB2722
+P 9050 1150
+AR Path="/5B9C8983/5BBB2722" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2722" Ref="C38"  Part="1" 
+F 0 "C38" H 9158 1192 60  0000 L CNB
+F 1 "100nF" H 9158 1097 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 9085 995 40  0001 L CNN
+F 3 "" H 9050 1250 60  0001 C CNN
+F 4 "-" H 9090 1315 45  0001 L CNN "Part"
+F 5 "Passive" H 9280 1440 50  0001 C CNN "Family"
+	1    9050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:CAP-E C?
+U 1 1 5BBB272B
+P 8600 1150
+AR Path="/5B9C8983/5BBB272B" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB272B" Ref="C34"  Part="1" 
+F 0 "C34" H 8708 1192 60  0000 L CNB
+F 1 "4.7uF" H 8708 1097 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8635 995 40  0001 L CNN
+F 3 "" H 8600 1250 60  0000 C CNN
+F 4 "-" H 8635 1315 45  0001 L CNN "Part"
+F 5 "Passive" H 8830 1440 50  0001 C CNN "Family"
+	1    8600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1050 8600 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5BBB2733
+P 8600 1250
+AR Path="/5B9C8983/5BBB2733" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2733" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 8600 1000 50  0001 C CNN
+F 1 "GND" H 8605 1077 50  0000 C CNN
+F 2 "" H 8600 1250 50  0001 C CNN
+F 3 "" H 8600 1250 50  0001 C CNN
+	1    8600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBB2739
+P 9050 1250
+AR Path="/5B9C8983/5BBB2739" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2739" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 9050 1000 50  0001 C CNN
+F 1 "GND" H 9055 1077 50  0000 C CNN
+F 2 "" H 9050 1250 50  0001 C CNN
+F 3 "" H 9050 1250 50  0001 C CNN
+	1    9050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 950  9050 950 
+Connection ~ 8150 1450
+Connection ~ 8600 950 
+Wire Wire Line
+	8150 1450 8800 1450
+Wire Wire Line
+	7300 1550 7300 950 
+Wire Wire Line
+	7300 950  7950 950 
+Connection ~ 9050 950 
+Wire Wire Line
+	9050 950  9800 950 
+Wire Wire Line
+	9500 1450 8800 1450
+Connection ~ 8800 1450
+Wire Wire Line
+	9800 1450 10200 1450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBB274A
+P 10200 1450
+AR Path="/5B9C8983/5BBB274A" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB274A" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 10200 1300 50  0001 C CNN
+F 1 "+3V3" H 10215 1623 50  0000 C CNN
+F 2 "" H 10200 1450 50  0001 C CNN
+F 3 "" H 10200 1450 50  0001 C CNN
+	1    10200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBB2750
+P 10500 950
+AR Path="/5B9C8983/5BBB2750" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2750" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 10500 800 50  0001 C CNN
+F 1 "+3V3" H 10515 1123 50  0000 C CNN
+F 2 "" H 10500 950 50  0001 C CNN
+F 3 "" H 10500 950 50  0001 C CNN
+	1    10500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 950  10500 950 
+Wire Wire Line
+	6700 5850 6700 6050
+Wire Wire Line
+	7500 6050 7500 5850
+Wire Wire Line
+	7400 5850 7400 6050
+Connection ~ 7400 6050
+Wire Wire Line
+	7400 6050 7500 6050
+Wire Wire Line
+	7300 5850 7300 6050
+Connection ~ 7300 6050
+Wire Wire Line
+	7200 5850 7200 6050
+Connection ~ 7200 6050
+Wire Wire Line
+	7100 5850 7100 6050
+Wire Wire Line
+	7000 5850 7000 6050
+Wire Wire Line
+	6900 5850 6900 6050
+Wire Wire Line
+	6800 5850 6800 6050
+$Comp
+L Device:Crystal Y?
+U 1 1 5BBB2764
+P 8050 2950
+AR Path="/5B9C8983/5BBB2764" Ref="Y?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2764" Ref="Y2"  Part="1" 
+F 0 "Y2" V 8004 3081 50  0000 L CNN
+F 1 "12MHz" V 8095 3081 50  0000 L CNN
+F 2 "crystals:HC49UP" H 8050 2950 50  0001 C CNN
+F 3 "~" H 8050 2950 50  0001 C CNN
+	1    8050 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2700 8050 2800
+Wire Wire Line
+	7700 2700 8050 2700
+Wire Wire Line
+	8050 3100 8050 3200
+Wire Wire Line
+	8050 3200 7700 3200
+Wire Wire Line
+	6200 1850 5900 1850
+$Comp
+L passive:RESISTOR R?
+U 1 1 5BBB2772
+P 5800 1850
+AR Path="/5B9C8983/5BBB2772" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2772" Ref="R5"  Part="1" 
+F 0 "R5" H 5800 2032 60  0000 C CNB
+F 1 "12K" H 5800 1941 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 5800 1710 40  0001 C CNN
+F 3 "" H 5800 1950 60  0000 C CNN
+F 4 "-" H 5800 2010 45  0001 C CNN "Part"
+F 5 "Passive" H 6030 2140 50  0001 C CNN "Family"
+	1    5800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1850 5650 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5BBB277A
+P 5550 1850
+AR Path="/5B9C8983/5BBB277A" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB277A" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 5550 1600 50  0001 C CNN
+F 1 "GND" H 5555 1677 50  0000 C CNN
+F 2 "" H 5550 1850 50  0001 C CNN
+F 3 "" H 5550 1850 50  0001 C CNN
+	1    5550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2150 5650 1850
+Connection ~ 5650 1850
+Wire Wire Line
+	5650 1850 5550 1850
+Wire Wire Line
+	6200 2250 6100 2250
+$Comp
+L passive:RESISTOR R?
+U 1 1 5BBB2786
+P 6000 2250
+AR Path="/5B9C8983/5BBB2786" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB2786" Ref="R7"  Part="1" 
+F 0 "R7" H 6000 2150 60  0000 C CNB
+F 1 "1K" H 6000 2300 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 6000 2110 40  0001 C CNN
+F 3 "" H 6000 2350 60  0000 C CNN
+F 4 "-" H 6000 2410 45  0001 C CNN "Part"
+F 5 "Passive" H 6230 2540 50  0001 C CNN "Family"
+	1    6000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2150 6200 2150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBB278E
+P 5900 2250
+AR Path="/5B9C8983/5BBB278E" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BBB278E" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 5900 2100 50  0001 C CNN
+F 1 "+3V3" H 5915 2423 50  0000 C CNN
+F 2 "" H 5900 2250 50  0001 C CNN
+F 3 "" H 5900 2250 50  0001 C CNN
+	1    5900 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 6050
+Wire Wire Line
+	6900 6050 7000 6050
+Connection ~ 6900 6050
+Connection ~ 7000 6050
+Wire Wire Line
+	7000 6050 7100 6050
+Wire Wire Line
+	7100 6050 7200 6050
+Connection ~ 7100 6050
+Wire Wire Line
+	6800 6050 6900 6050
+Wire Wire Line
+	6700 6050 6800 6050
+Wire Wire Line
+	7200 6050 7300 6050
+Wire Wire Line
+	6200 4950 5950 4950
+Wire Wire Line
+	7300 6050 7400 6050
+$Sheet
+S 4650 3000 1200 750 
+U 5BBDE28D
+F0 "sheet5BBDE283" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 4650 3550 50 
+F3 "RTS" I L 4650 3650 50 
+F4 "TX" I L 4650 3450 50 
+F5 "RX" I L 4650 3350 50 
+F6 "Tx_3V3" I R 5850 3350 50 
+F7 "RX_3V3" I R 5850 3450 50 
+F8 "RTS_3V3" I R 5850 3550 50 
+F9 "CTS_3V3" I R 5850 3650 50 
+$EndSheet
+$Sheet
+S 10500 2200 1200 750 
+U 5BC04BAF
+F0 "sheet5BC04BA5" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 10500 2750 50 
+F3 "RTS" I L 10500 2850 50 
+F4 "TX" I L 10500 2650 50 
+F5 "RX" I L 10500 2550 50 
+F6 "Tx_3V3" I R 11700 2550 50 
+F7 "RX_3V3" I R 11700 2650 50 
+F8 "RTS_3V3" I R 11700 2750 50 
+F9 "CTS_3V3" I R 11700 2850 50 
+$EndSheet
+$Sheet
+S 10500 3000 1200 750 
+U 5BC0E5A0
+F0 "sheet5BC0E596" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 10500 3550 50 
+F3 "RTS" I L 10500 3650 50 
+F4 "TX" I L 10500 3450 50 
+F5 "RX" I L 10500 3350 50 
+F6 "Tx_3V3" I R 11700 3350 50 
+F7 "RX_3V3" I R 11700 3450 50 
+F8 "RTS_3V3" I R 11700 3550 50 
+F9 "CTS_3V3" I R 11700 3650 50 
+$EndSheet
+$Sheet
+S 10550 3800 1200 750 
+U 5BC17F91
+F0 "sheet5BC17F87" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 10550 4350 50 
+F3 "RTS" I L 10550 4450 50 
+F4 "TX" I L 10550 4250 50 
+F5 "RX" I L 10550 4150 50 
+F6 "Tx_3V3" I R 11750 4150 50 
+F7 "RX_3V3" I R 11750 4250 50 
+F8 "RTS_3V3" I R 11750 4350 50 
+F9 "CTS_3V3" I R 11750 4450 50 
+$EndSheet
+$Sheet
+S 10550 4700 1200 750 
+U 5BC2196C
+F0 "sheet5BC21962" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 10550 5250 50 
+F3 "RTS" I L 10550 5350 50 
+F4 "TX" I L 10550 5150 50 
+F5 "RX" I L 10550 5050 50 
+F6 "Tx_3V3" I R 11750 5050 50 
+F7 "RX_3V3" I R 11750 5150 50 
+F8 "RTS_3V3" I R 11750 5250 50 
+F9 "CTS_3V3" I R 11750 5350 50 
+$EndSheet
+Wire Wire Line
+	4650 3450 4150 3450
+Text GLabel 4150 3450 0    50   Input ~ 0
+3_GarminTX
+Text GLabel 4150 3350 0    50   Input ~ 0
+3_GarminRX
+Wire Wire Line
+	4650 3350 4150 3350
+$Comp
+L power:GND #PWR070
+U 1 1 5BD537B0
+P 7200 6050
+F 0 "#PWR070" H 7200 5800 50  0001 C CNN
+F 1 "GND" H 7205 5877 50  0000 C CNN
+F 2 "" H 7200 6050 50  0001 C CNN
+F 3 "" H 7200 6050 50  0001 C CNN
+	1    7200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR092
+U 1 1 5BD538AE
+P 13050 6050
+F 0 "#PWR092" H 13050 5800 50  0001 C CNN
+F 1 "GND" H 13055 5877 50  0000 C CNN
+F 2 "" H 13050 6050 50  0001 C CNN
+F 3 "" H 13050 6050 50  0001 C CNN
+	1    13050 6050
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4800 7600 1200 750 
+U 5BD54793
+F0 "sheet5BD54784" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 4800 8150 50 
+F3 "RTS" I L 4800 8250 50 
+F4 "TX" I L 4800 8050 50 
+F5 "RX" I L 4800 7950 50 
+F6 "Tx_3V3" I R 6000 7950 50 
+F7 "RX_3V3" I R 6000 8050 50 
+F8 "RTS_3V3" I R 6000 8150 50 
+F9 "CTS_3V3" I R 6000 8250 50 
+$EndSheet
+$Comp
+L dk_Interface-Controllers:FT4232HL-REEL U?
+U 1 1 5BD547A2
+P 7150 9350
+AR Path="/5B9C8983/5BD547A2" Ref="U?"  Part="1" 
+AR Path="/5BB9E3C7/5BD547A2" Ref="U15"  Part="1" 
+F 0 "U15" H 7891 9653 60  0000 L CNN
+F 1 "FT4232HL-REEL" H 7891 9547 60  0000 L CNN
+F 2 "digikey-footprints:LQFP-64_10x10mm" V 7350 9550 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 7350 9650 60  0001 L CNN
+F 4 "768-1026-1-ND" H 7350 9750 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT4232HL-REEL" H 7350 9850 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 7350 9950 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 7350 10050 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 7350 10150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 7350 10250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 7350 10350 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 7350 10450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7350 10550 60  0001 L CNN "Status"
+	1    7150 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7950 6350 7950
+Wire Wire Line
+	6000 8050 6350 8050
+Wire Wire Line
+	6000 8750 6350 8750
+Wire Wire Line
+	6000 8850 6350 8850
+Wire Wire Line
+	6350 9550 6050 9550
+Wire Wire Line
+	6350 9650 6050 9650
+Wire Wire Line
+	6100 10350 6100 10450
+Wire Wire Line
+	6100 10450 6050 10450
+Wire Wire Line
+	6350 10450 6150 10450
+Wire Wire Line
+	6150 10450 6150 10550
+Wire Wire Line
+	6150 10550 6050 10550
+Wire Wire Line
+	7050 6950 7050 6850
+Wire Wire Line
+	7050 6850 7150 6850
+Wire Wire Line
+	7350 6850 7350 6950
+Wire Wire Line
+	7250 6950 7250 6850
+Connection ~ 7250 6850
+Wire Wire Line
+	7250 6850 7350 6850
+Wire Wire Line
+	7150 6950 7150 6850
+Connection ~ 7150 6850
+Wire Wire Line
+	7150 6850 7200 6850
+Wire Wire Line
+	7200 6850 7200 6800
+Connection ~ 7200 6850
+Wire Wire Line
+	7200 6850 7250 6850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BD547CC
+P 7200 6800
+AR Path="/5B9C8983/5BD547CC" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD547CC" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 7200 6650 50  0001 C CNN
+F 1 "+3V3" H 7215 6973 50  0000 C CNN
+F 2 "" H 7200 6800 50  0001 C CNN
+F 3 "" H 7200 6800 50  0001 C CNN
+	1    7200 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6950 6950 6850
+Wire Wire Line
+	6950 6850 6850 6850
+Wire Wire Line
+	6750 6850 6750 6950
+Wire Wire Line
+	6850 6950 6850 6850
+Connection ~ 6850 6850
+Wire Wire Line
+	6850 6850 6750 6850
+Wire Wire Line
+	7850 7550 7950 7550
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5BD547DF
+P 9800 6850
+AR Path="/5B9C8983/5BD547DF" Ref="L?"  Part="1" 
+AR Path="/5BB9E3C7/5BD547DF" Ref="L3"  Part="1" 
+F 0 "L3" V 9700 6850 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 9750 6850 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 9800 6850 50  0001 C CNN
+F 3 "~" H 9800 6850 50  0001 C CNN
+	1    9800 6850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 7550 7950 7450
+Wire Wire Line
+	6850 6600 6850 6850
+Wire Wire Line
+	7550 6850 7550 6950
+Wire Wire Line
+	8950 6850 8950 6950
+$Comp
+L passive:CAP C?
+U 1 1 5BD547EF
+P 8950 7050
+AR Path="/5B9C8983/5BD547EF" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BD547EF" Ref="C37"  Part="1" 
+F 0 "C37" H 9058 7092 60  0000 L CNB
+F 1 "100nF" H 9058 6997 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8985 6895 40  0001 L CNN
+F 3 "" H 8950 7150 60  0001 C CNN
+F 4 "-" H 8990 7215 45  0001 L CNN "Part"
+F 5 "Passive" H 9180 7340 50  0001 C CNN "Family"
+	1    8950 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6850 8200 6850
+$Comp
+L passive:CAP-E C?
+U 1 1 5BD547F9
+P 8300 7050
+AR Path="/5B9C8983/5BD547F9" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BD547F9" Ref="C33"  Part="1" 
+F 0 "C33" H 8408 7092 60  0000 L CNB
+F 1 "4.7uF" H 8408 6997 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8335 6895 40  0001 L CNN
+F 3 "" H 8300 7150 60  0000 C CNN
+F 4 "-" H 8335 7215 45  0001 L CNN "Part"
+F 5 "Passive" H 8530 7340 50  0001 C CNN "Family"
+	1    8300 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6950 8300 6850
+$Comp
+L power:GND #PWR?
+U 1 1 5BD54801
+P 8300 7150
+AR Path="/5B9C8983/5BD54801" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54801" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 8300 6900 50  0001 C CNN
+F 1 "GND" H 8305 6977 50  0000 C CNN
+F 2 "" H 8300 7150 50  0001 C CNN
+F 3 "" H 8300 7150 50  0001 C CNN
+	1    8300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD54807
+P 8950 7150
+AR Path="/5B9C8983/5BD54807" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54807" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 8950 6900 50  0001 C CNN
+F 1 "GND" H 8955 6977 50  0000 C CNN
+F 2 "" H 8950 7150 50  0001 C CNN
+F 3 "" H 8950 7150 50  0001 C CNN
+	1    8950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5BD5480D
+P 10100 6350
+AR Path="/5B9C8983/5BD5480D" Ref="L?"  Part="1" 
+AR Path="/5BB9E3C7/5BD5480D" Ref="L5"  Part="1" 
+F 0 "L5" V 9900 6350 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 10013 6350 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 10100 6350 50  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/742792651.pdf" H 10100 6350 50  0001 C CNN
+F 4 "732-1593-1-ND " V 10100 6350 50  0001 C CNN "PN"
+	1    10100 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 6350 9200 6450
+$Comp
+L passive:CAP C?
+U 1 1 5BD54817
+P 9200 6550
+AR Path="/5B9C8983/5BD54817" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54817" Ref="C39"  Part="1" 
+F 0 "C39" H 9308 6592 60  0000 L CNB
+F 1 "100nF" H 9308 6497 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 9235 6395 40  0001 L CNN
+F 3 "" H 9200 6650 60  0001 C CNN
+F 4 "-" H 9240 6715 45  0001 L CNN "Part"
+F 5 "Passive" H 9430 6840 50  0001 C CNN "Family"
+	1    9200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:CAP-E C?
+U 1 1 5BD54820
+P 8750 6550
+AR Path="/5B9C8983/5BD54820" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54820" Ref="C35"  Part="1" 
+F 0 "C35" H 8858 6592 60  0000 L CNB
+F 1 "4.7uF" H 8858 6497 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8785 6395 40  0001 L CNN
+F 3 "" H 8750 6650 60  0000 C CNN
+F 4 "-" H 8785 6715 45  0001 L CNN "Part"
+F 5 "Passive" H 8980 6840 50  0001 C CNN "Family"
+	1    8750 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 6450 8750 6350
+$Comp
+L power:GND #PWR?
+U 1 1 5BD54828
+P 8750 6650
+AR Path="/5B9C8983/5BD54828" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54828" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 8750 6400 50  0001 C CNN
+F 1 "GND" H 8755 6477 50  0000 C CNN
+F 2 "" H 8750 6650 50  0001 C CNN
+F 3 "" H 8750 6650 50  0001 C CNN
+	1    8750 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD5482E
+P 9200 6650
+AR Path="/5B9C8983/5BD5482E" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD5482E" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 9200 6400 50  0001 C CNN
+F 1 "GND" H 9205 6477 50  0000 C CNN
+F 2 "" H 9200 6650 50  0001 C CNN
+F 3 "" H 9200 6650 50  0001 C CNN
+	1    9200 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 6350 9200 6350
+Connection ~ 8300 6850
+Connection ~ 8750 6350
+Wire Wire Line
+	8300 6850 8950 6850
+Wire Wire Line
+	7450 6950 7450 6350
+Wire Wire Line
+	7450 6350 8250 6350
+Connection ~ 9200 6350
+Wire Wire Line
+	9200 6350 9950 6350
+Wire Wire Line
+	9650 6850 8950 6850
+Connection ~ 8950 6850
+Wire Wire Line
+	9950 6850 10350 6850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BD5483F
+P 10350 6850
+AR Path="/5B9C8983/5BD5483F" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD5483F" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 10350 6700 50  0001 C CNN
+F 1 "+3V3" H 10365 7023 50  0000 C CNN
+F 2 "" H 10350 6850 50  0001 C CNN
+F 3 "" H 10350 6850 50  0001 C CNN
+	1    10350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BD54845
+P 10650 6350
+AR Path="/5B9C8983/5BD54845" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54845" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 10650 6200 50  0001 C CNN
+F 1 "+3V3" H 10665 6523 50  0000 C CNN
+F 2 "" H 10650 6350 50  0001 C CNN
+F 3 "" H 10650 6350 50  0001 C CNN
+	1    10650 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 6350 10650 6350
+Wire Wire Line
+	6850 11250 6850 11450
+Wire Wire Line
+	7650 11450 7650 11250
+Wire Wire Line
+	7550 11250 7550 11450
+Connection ~ 7550 11450
+Wire Wire Line
+	7550 11450 7650 11450
+Wire Wire Line
+	7450 11250 7450 11450
+Connection ~ 7450 11450
+Wire Wire Line
+	7350 11250 7350 11450
+Connection ~ 7350 11450
+Wire Wire Line
+	7250 11250 7250 11450
+Wire Wire Line
+	7150 11250 7150 11450
+Wire Wire Line
+	7050 11250 7050 11450
+Wire Wire Line
+	6950 11250 6950 11450
+$Comp
+L Device:Crystal Y?
+U 1 1 5BD54859
+P 8200 8350
+AR Path="/5B9C8983/5BD54859" Ref="Y?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54859" Ref="Y3"  Part="1" 
+F 0 "Y3" V 8154 8481 50  0000 L CNN
+F 1 "12MHz" V 8245 8481 50  0000 L CNN
+F 2 "crystals:HC49UP" H 8200 8350 50  0001 C CNN
+F 3 "~" H 8200 8350 50  0001 C CNN
+	1    8200 8350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 8100 8200 8200
+Wire Wire Line
+	7850 8100 8200 8100
+Wire Wire Line
+	8200 8500 8200 8600
+Wire Wire Line
+	8200 8600 7850 8600
+Wire Wire Line
+	6350 7250 6050 7250
+$Comp
+L passive:RESISTOR R?
+U 1 1 5BD54867
+P 5950 7250
+AR Path="/5B9C8983/5BD54867" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54867" Ref="R6"  Part="1" 
+F 0 "R6" H 5950 7432 60  0000 C CNB
+F 1 "12K" H 5950 7341 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 5950 7110 40  0001 C CNN
+F 3 "" H 5950 7350 60  0000 C CNN
+F 4 "-" H 5950 7410 45  0001 C CNN "Part"
+F 5 "Passive" H 6180 7540 50  0001 C CNN "Family"
+	1    5950 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 7250 5800 7250
+$Comp
+L power:GND #PWR?
+U 1 1 5BD5486F
+P 5700 7250
+AR Path="/5B9C8983/5BD5486F" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD5486F" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 5700 7000 50  0001 C CNN
+F 1 "GND" H 5705 7077 50  0000 C CNN
+F 2 "" H 5700 7250 50  0001 C CNN
+F 3 "" H 5700 7250 50  0001 C CNN
+	1    5700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 7550 5800 7250
+Connection ~ 5800 7250
+Wire Wire Line
+	5800 7250 5700 7250
+Wire Wire Line
+	6350 7650 6250 7650
+$Comp
+L passive:RESISTOR R?
+U 1 1 5BD5487B
+P 6150 7650
+AR Path="/5B9C8983/5BD5487B" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD5487B" Ref="R8"  Part="1" 
+F 0 "R8" H 6150 7550 60  0000 C CNB
+F 1 "1K" H 6150 7700 40  0000 C CNN
+F 2 "digikey-footprints:0603" H 6150 7510 40  0001 C CNN
+F 3 "" H 6150 7750 60  0000 C CNN
+F 4 "-" H 6150 7810 45  0001 C CNN "Part"
+F 5 "Passive" H 6380 7940 50  0001 C CNN "Family"
+	1    6150 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 7550 6350 7550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BD54883
+P 6050 7650
+AR Path="/5B9C8983/5BD54883" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54883" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 6050 7500 50  0001 C CNN
+F 1 "+3V3" H 6065 7823 50  0000 C CNN
+F 2 "" H 6050 7650 50  0001 C CNN
+F 3 "" H 6050 7650 50  0001 C CNN
+	1    6050 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 11450
+Wire Wire Line
+	7050 11450 7150 11450
+Connection ~ 7050 11450
+Connection ~ 7150 11450
+Wire Wire Line
+	7150 11450 7250 11450
+Wire Wire Line
+	7250 11450 7350 11450
+Connection ~ 7250 11450
+Wire Wire Line
+	6950 11450 7050 11450
+Wire Wire Line
+	6850 11450 6950 11450
+Wire Wire Line
+	7350 11450 7450 11450
+Wire Wire Line
+	6350 10350 6100 10350
+Wire Wire Line
+	7450 11450 7550 11450
+$Sheet
+S 4800 8400 1200 750 
+U 5BD548A9
+F0 "sheet5BD54785" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 4800 8950 50 
+F3 "RTS" I L 4800 9050 50 
+F4 "TX" I L 4800 8850 50 
+F5 "RX" I L 4800 8750 50 
+F6 "Tx_3V3" I R 6000 8750 50 
+F7 "RX_3V3" I R 6000 8850 50 
+F8 "RTS_3V3" I R 6000 8950 50 
+F9 "CTS_3V3" I R 6000 9050 50 
+$EndSheet
+Text GLabel 4800 8850 0    50   Input ~ 0
+2_GarminTX
+Text GLabel 4800 8750 0    50   Input ~ 0
+2_GarminRX
+$Comp
+L power:GND #PWR072
+U 1 1 5BD6B018
+P 7250 11500
+F 0 "#PWR072" H 7250 11250 50  0001 C CNN
+F 1 "GND" H 7255 11327 50  0000 C CNN
+F 2 "" H 7250 11500 50  0001 C CNN
+F 3 "" H 7250 11500 50  0001 C CNN
+	1    7250 11500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 8050 0    50   Input ~ 0
+1_GarminTX
+Text GLabel 4800 7950 0    50   Input ~ 0
+1_GarminRX
+$Sheet
+S 4850 9200 1200 750 
+U 5BDC515F
+F0 "sheet5BDC5154" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 4850 9750 50 
+F3 "RTS" I L 4850 9850 50 
+F4 "TX" I L 4850 9650 50 
+F5 "RX" I L 4850 9550 50 
+F6 "Tx_3V3" I R 6050 9550 50 
+F7 "RX_3V3" I R 6050 9650 50 
+F8 "RTS_3V3" I R 6050 9750 50 
+F9 "CTS_3V3" I R 6050 9850 50 
+$EndSheet
+$Sheet
+S 4850 10100 1200 750 
+U 5BDC5169
+F0 "sheet5BDC5155" 50
+F1 "UART.sch" 50
+F2 "CTS" I L 4850 10650 50 
+F3 "RTS" I L 4850 10750 50 
+F4 "TX" I L 4850 10550 50 
+F5 "RX" I L 4850 10450 50 
+F6 "Tx_3V3" I R 6050 10450 50 
+F7 "RX_3V3" I R 6050 10550 50 
+F8 "RTS_3V3" I R 6050 10650 50 
+F9 "CTS_3V3" I R 6050 10750 50 
+$EndSheet
+Text GLabel 4850 10550 0    50   Input ~ 0
+5_GarminTX
+Text GLabel 4850 10450 0    50   Input ~ 0
+5_GarminRX
+Text GLabel 4850 9650 0    50   Input ~ 0
+4_GarminTX
+Text GLabel 4850 9550 0    50   Input ~ 0
+4_GarminRX
+Text HLabel 6200 1950 0    50   Input ~ 0
+DM_1
+Text HLabel 6200 2050 0    50   Input ~ 0
+DP_1
+Text HLabel 12050 1950 0    50   Input ~ 0
+DM_2
+Text HLabel 12050 2050 0    50   Input ~ 0
+DP_2
+Text HLabel 6350 7450 0    50   Input ~ 0
+DP_3
+Text HLabel 6350 7350 0    50   Input ~ 0
+DM_3
+Wire Wire Line
+	7950 7450 8150 7450
+Wire Wire Line
+	8150 7450 8150 7600
+Connection ~ 7950 7450
+Wire Wire Line
+	7950 7450 7950 6600
+$Comp
+L passive:CAP C?
+U 1 1 5BEDEFE7
+P 8150 7700
+AR Path="/5B9C8983/5BEDEFE7" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BEDEFE7" Ref="C46"  Part="1" 
+F 0 "C46" H 8258 7742 60  0000 L CNB
+F 1 "3.3Uf" H 8258 7647 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8185 7545 40  0001 L CNN
+F 3 "" H 8150 7800 60  0001 C CNN
+F 4 "-" H 8190 7865 45  0001 L CNN "Part"
+F 5 "Passive" H 8380 7990 50  0001 C CNN "Family"
+	1    8150 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEDEFEE
+P 8150 7850
+AR Path="/5B9C8983/5BEDEFEE" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BEDEFEE" Ref="#PWR0292"  Part="1" 
+F 0 "#PWR0292" H 8150 7600 50  0001 C CNN
+F 1 "GND" H 8155 7677 50  0000 C CNN
+F 2 "" H 8150 7850 50  0001 C CNN
+F 3 "" H 8150 7850 50  0001 C CNN
+	1    8150 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13900 2050 13900 2200
+$Comp
+L passive:CAP C?
+U 1 1 5BF1E597
+P 13900 2300
+AR Path="/5B9C8983/5BF1E597" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BF1E597" Ref="C47"  Part="1" 
+F 0 "C47" H 14008 2342 60  0000 L CNB
+F 1 "3.3Uf" H 14008 2247 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 13935 2145 40  0001 L CNN
+F 3 "" H 13900 2400 60  0001 C CNN
+F 4 "-" H 13940 2465 45  0001 L CNN "Part"
+F 5 "Passive" H 14130 2590 50  0001 C CNN "Family"
+	1    13900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF1E59E
+P 13900 2400
+AR Path="/5B9C8983/5BF1E59E" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BF1E59E" Ref="#PWR0293"  Part="1" 
+F 0 "#PWR0293" H 13900 2150 50  0001 C CNN
+F 1 "GND" H 13905 2227 50  0000 C CNN
+F 2 "" H 13900 2400 50  0001 C CNN
+F 3 "" H 13900 2400 50  0001 C CNN
+	1    13900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 2050 13900 2050
+Connection ~ 13650 2050
+Wire Wire Line
+	13650 2050 13650 1200
+Wire Wire Line
+	8050 2050 8050 2200
+$Comp
+L passive:CAP C?
+U 1 1 5BF5DE94
+P 8050 2300
+AR Path="/5B9C8983/5BF5DE94" Ref="C?"  Part="1" 
+AR Path="/5BB9E3C7/5BF5DE94" Ref="C45"  Part="1" 
+F 0 "C45" H 8158 2342 60  0000 L CNB
+F 1 "3.3Uf" H 8158 2247 45  0000 L CNN
+F 2 "digikey-footprints:0603" H 8085 2145 40  0001 L CNN
+F 3 "" H 8050 2400 60  0001 C CNN
+F 4 "-" H 8090 2465 45  0001 L CNN "Part"
+F 5 "Passive" H 8280 2590 50  0001 C CNN "Family"
+	1    8050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BF5DE9B
+P 8050 2400
+AR Path="/5B9C8983/5BF5DE9B" Ref="#PWR?"  Part="1" 
+AR Path="/5BB9E3C7/5BF5DE9B" Ref="#PWR0294"  Part="1" 
+F 0 "#PWR0294" H 8050 2150 50  0001 C CNN
+F 1 "GND" H 8055 2227 50  0000 C CNN
+F 2 "" H 8050 2400 50  0001 C CNN
+F 3 "" H 8050 2400 50  0001 C CNN
+	1    8050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2050 8050 2050
+Connection ~ 7800 2050
+Wire Wire Line
+	7800 2050 7800 1200
+Wire Wire Line
+	8150 7850 8150 7800
+Wire Wire Line
+	7200 1450 7200 1400
+Wire Wire Line
+	7200 1400 7500 1400
+Wire Wire Line
+	7500 1400 7500 1550
+Connection ~ 7200 1450
+Wire Wire Line
+	13150 950  13150 1550
+Wire Wire Line
+	13050 1450 13050 1400
+Wire Wire Line
+	13050 1400 13350 1400
+Wire Wire Line
+	13350 1400 13350 1550
+Connection ~ 13050 1450
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C0077D4
+P 13450 950
+F 0 "#FLG0101" H 13450 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 13450 1124 50  0000 C CNN
+F 2 "" H 13450 950 50  0001 C CNN
+F 3 "~" H 13450 950 50  0001 C CNN
+	1    13450 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 13450 950 
+Wire Wire Line
+	13450 950  14450 950 
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C00785B
+P 13800 1450
+F 0 "#FLG0102" H 13800 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 13800 1624 50  0000 C CNN
+F 2 "" H 13800 1450 50  0001 C CNN
+F 3 "~" H 13800 1450 50  0001 C CNN
+	1    13800 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 13800 1450
+Wire Wire Line
+	13800 1450 14000 1450
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5C007B7B
+P 7950 950
+F 0 "#FLG0103" H 7950 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 1124 50  0000 C CNN
+F 2 "" H 7950 950 50  0001 C CNN
+F 3 "~" H 7950 950 50  0001 C CNN
+	1    7950 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 950 
+Wire Wire Line
+	7950 950  8600 950 
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5C007C02
+P 8050 1450
+F 0 "#FLG0104" H 8050 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 8050 1624 50  0000 C CNN
+F 2 "" H 8050 1450 50  0001 C CNN
+F 3 "~" H 8050 1450 50  0001 C CNN
+	1    8050 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 1450
+Wire Wire Line
+	8050 1450 8150 1450
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5C0082B4
+P 8250 6350
+F 0 "#FLG0105" H 8250 6425 50  0001 C CNN
+F 1 "PWR_FLAG" H 8250 6524 50  0000 C CNN
+F 2 "" H 8250 6350 50  0001 C CNN
+F 3 "~" H 8250 6350 50  0001 C CNN
+	1    8250 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 6350
+Wire Wire Line
+	8250 6350 8750 6350
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5C00833B
+P 8200 6850
+F 0 "#FLG0106" H 8200 6925 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 7024 50  0000 C CNN
+F 2 "" H 8200 6850 50  0001 C CNN
+F 3 "~" H 8200 6850 50  0001 C CNN
+	1    8200 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 6850
+Wire Wire Line
+	8200 6850 8300 6850
+NoConn ~ 6350 8150
+NoConn ~ 6350 8250
+NoConn ~ 6350 8350
+NoConn ~ 6350 8450
+NoConn ~ 6350 8550
+NoConn ~ 6350 8650
+NoConn ~ 6350 8950
+NoConn ~ 6350 9050
+NoConn ~ 6350 9150
+NoConn ~ 6350 9250
+NoConn ~ 6350 9350
+NoConn ~ 6350 9450
+NoConn ~ 6350 9750
+NoConn ~ 6350 9850
+NoConn ~ 6350 9950
+NoConn ~ 6350 10050
+NoConn ~ 6350 10150
+NoConn ~ 6350 10250
+NoConn ~ 6350 10550
+NoConn ~ 6350 10650
+NoConn ~ 6350 10750
+NoConn ~ 6350 10850
+NoConn ~ 6350 10950
+NoConn ~ 6350 11050
+NoConn ~ 7850 9300
+NoConn ~ 7850 9150
+NoConn ~ 7850 9450
+Wire Wire Line
+	7650 6950 7650 6750
+Wire Wire Line
+	7650 6750 7250 6750
+Wire Wire Line
+	7250 6750 7250 6850
+NoConn ~ 7850 7750
+NoConn ~ 7850 7850
+NoConn ~ 7700 2350
+NoConn ~ 7700 2450
+NoConn ~ 7700 3750
+NoConn ~ 7700 3900
+NoConn ~ 7700 4050
+NoConn ~ 6200 2950
+NoConn ~ 6200 3050
+NoConn ~ 6200 3150
+NoConn ~ 6200 3250
+NoConn ~ 6200 3550
+NoConn ~ 6200 3650
+NoConn ~ 6200 3750
+NoConn ~ 6200 3850
+NoConn ~ 6200 3950
+NoConn ~ 6200 4050
+NoConn ~ 5900 4150
+NoConn ~ 5900 4250
+NoConn ~ 5900 4350
+NoConn ~ 5900 4450
+NoConn ~ 6200 4550
+NoConn ~ 6200 4650
+NoConn ~ 6200 4750
+NoConn ~ 6200 4850
+NoConn ~ 5900 5050
+NoConn ~ 5900 5150
+NoConn ~ 5900 5250
+NoConn ~ 5900 5350
+NoConn ~ 6200 5350
+NoConn ~ 6200 5450
+NoConn ~ 6200 5550
+NoConn ~ 6200 5650
+NoConn ~ 12050 2950
+NoConn ~ 12050 3050
+NoConn ~ 12050 3150
+NoConn ~ 12050 3250
+NoConn ~ 12050 3750
+NoConn ~ 12050 3850
+NoConn ~ 12050 3950
+NoConn ~ 12050 4050
+NoConn ~ 12050 4550
+NoConn ~ 12050 4650
+NoConn ~ 12050 4750
+NoConn ~ 12050 4850
+NoConn ~ 12050 5350
+NoConn ~ 12050 5450
+NoConn ~ 12050 5550
+NoConn ~ 12050 5650
+NoConn ~ 13550 3750
+NoConn ~ 13550 3900
+NoConn ~ 13550 4050
+NoConn ~ 13550 2350
+NoConn ~ 13550 2450
+Wire Wire Line
+	12550 1200 13650 1200
+Wire Wire Line
+	6700 1200 7800 1200
+Wire Wire Line
+	6850 6600 7950 6600
+Wire Wire Line
+	7250 11500 7250 11450
+NoConn ~ 4650 3650
+NoConn ~ 5850 3650
+NoConn ~ 5850 3550
+NoConn ~ 4800 8250
+NoConn ~ 4800 9050
+NoConn ~ 4850 9850
+NoConn ~ 4850 10750
+NoConn ~ 6000 8150
+NoConn ~ 6000 8250
+NoConn ~ 6000 8950
+NoConn ~ 6000 9050
+NoConn ~ 6050 9750
+NoConn ~ 6050 9850
+NoConn ~ 6050 10650
+NoConn ~ 6050 10750
+$EndSCHEMATC

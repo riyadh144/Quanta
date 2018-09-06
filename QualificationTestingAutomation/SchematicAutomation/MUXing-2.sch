@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:SchematicAutomation-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr B 17000 11000
 encoding utf-8
-Sheet 6 6
+Sheet 6 18
 Title ""
 Date ""
 Rev ""
@@ -15,42 +15,42 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1300 6050 1050 6050
-Text GLabel 3400 3200 0    50   Input ~ 0
+	1400 6050 1150 6050
+Text GLabel 3500 3200 0    50   Input ~ 0
 2_IN1
 Wire Wire Line
-	1300 5950 1050 5950
-Text GLabel 5500 2500 0    50   Input ~ 0
+	1400 5950 1150 5950
+Text GLabel 5600 2500 0    50   Input ~ 0
 2_IN2
-Text GLabel 5500 2600 0    50   Input ~ 0
+Text GLabel 5600 2600 0    50   Input ~ 0
 2_IN3
-Text GLabel 5500 2700 0    50   Input ~ 0
+Text GLabel 5600 2700 0    50   Input ~ 0
 2_IN4
-Text GLabel 5500 2800 0    50   Input ~ 0
+Text GLabel 5600 2800 0    50   Input ~ 0
 2_IN5
-Text GLabel 3400 3100 0    50   Input ~ 0
+Text GLabel 3500 3100 0    50   Input ~ 0
 2_IN0
 Wire Wire Line
-	1650 3250 1400 3250
-Text GLabel 3400 3000 0    50   Input ~ 0
+	1750 3250 1500 3250
+Text GLabel 3500 3000 0    50   Input ~ 0
 2_ADC1
 Wire Wire Line
-	1650 3150 1400 3150
-Text GLabel 3400 2900 0    50   Input ~ 0
+	1750 3150 1500 3150
+Text GLabel 3500 2900 0    50   Input ~ 0
 2_ADC2
 Wire Wire Line
-	1650 3050 1400 3050
-Text GLabel 3400 2800 0    50   Input ~ 0
+	1750 3050 1500 3050
+Text GLabel 3500 2800 0    50   Input ~ 0
 2_ADC3
 Wire Wire Line
-	1650 2950 1400 2950
-Text GLabel 3400 2700 0    50   Input ~ 0
+	1750 2950 1500 2950
+Text GLabel 3500 2700 0    50   Input ~ 0
 2_ADC0
 $Comp
-L MAX14756EUET:MAX14752 U17
+L MAX14756EUET:MAX14752 U8
 U 1 1 5BCA20CC
 P 2100 1700
-F 0 "U17" H 2125 1815 50  0000 C CNN
+F 0 "U8" H 2125 1815 50  0000 C CNN
 F 1 "MAX14752" H 2125 1724 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 2150 1800 50  0001 C CNN
 F 3 "" H 2150 1800 50  0001 C CNN
@@ -58,66 +58,66 @@ F 3 "" H 2150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 5850 1050 5850
-Text GLabel 1400 3050 0    50   Input ~ 0
+	1400 5850 1150 5850
+Text GLabel 1500 3050 0    50   Input ~ 0
 1_IN1
 Wire Wire Line
-	1300 5750 1050 5750
-Text GLabel 1400 3150 0    50   Input ~ 0
+	1400 5750 1150 5750
+Text GLabel 1500 3150 0    50   Input ~ 0
 1_IN2
 Wire Wire Line
-	1300 5650 1050 5650
-Text GLabel 1400 3250 0    50   Input ~ 0
+	1400 5650 1150 5650
+Text GLabel 1500 3250 0    50   Input ~ 0
 1_IN3
 Wire Wire Line
-	1300 5550 1050 5550
-Text GLabel 3400 2500 0    50   Input ~ 0
+	1400 5550 1150 5550
+Text GLabel 3500 2500 0    50   Input ~ 0
 1_IN4
 Wire Wire Line
-	1300 5450 1050 5450
-Text GLabel 3400 2600 0    50   Input ~ 0
+	1400 5450 1150 5450
+Text GLabel 3500 2600 0    50   Input ~ 0
 1_IN5
 Wire Wire Line
-	1300 5350 1050 5350
-Text GLabel 1400 2950 0    50   Input ~ 0
+	1400 5350 1150 5350
+Text GLabel 1500 2950 0    50   Input ~ 0
 1_IN0
 Wire Wire Line
-	1650 2850 1400 2850
-Text GLabel 1400 2850 0    50   Input ~ 0
+	1750 2850 1500 2850
+Text GLabel 1500 2850 0    50   Input ~ 0
 1_ADC1
 Wire Wire Line
-	1650 2750 1400 2750
-Text GLabel 1400 2750 0    50   Input ~ 0
+	1750 2750 1500 2750
+Text GLabel 1500 2750 0    50   Input ~ 0
 1_ADC2
 Wire Wire Line
-	1650 2650 1400 2650
-Text GLabel 1400 2650 0    50   Input ~ 0
+	1750 2650 1500 2650
+Text GLabel 1500 2650 0    50   Input ~ 0
 1_ADC3
 Wire Wire Line
-	1650 2550 1400 2550
-Text GLabel 1400 2550 0    50   Input ~ 0
+	1750 2550 1500 2550
+Text GLabel 1500 2550 0    50   Input ~ 0
 1_ADC0
 Wire Wire Line
-	3650 3200 3400 3200
-Text GLabel 2850 5400 0    50   Input ~ 0
+	3750 3200 3500 3200
+Text GLabel 2950 5400 0    50   Input ~ 0
 4_ADC1
 Wire Wire Line
-	3650 3100 3400 3100
-Text GLabel 2850 5300 0    50   Input ~ 0
+	3750 3100 3500 3100
+Text GLabel 2950 5300 0    50   Input ~ 0
 4_ADC2
 Wire Wire Line
-	3650 3000 3400 3000
-Text GLabel 1050 6050 0    50   Input ~ 0
+	3750 3000 3500 3000
+Text GLabel 1150 6050 0    50   Input ~ 0
 4_ADC3
 Wire Wire Line
-	3650 2900 3400 2900
-Text GLabel 1050 5950 0    50   Input ~ 0
+	3750 2900 3500 2900
+Text GLabel 1150 5950 0    50   Input ~ 0
 4_ADC0
 $Comp
-L MAX14756EUET:MAX14752 U19
+L MAX14756EUET:MAX14752 U10
 U 1 1 5BCA3C5E
 P 4100 1650
-F 0 "U19" H 4125 1765 50  0000 C CNN
+F 0 "U10" H 4125 1765 50  0000 C CNN
 F 1 "MAX14752" H 4125 1674 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 4150 1750 50  0001 C CNN
 F 3 "" H 4150 1750 50  0001 C CNN
@@ -125,26 +125,26 @@ F 3 "" H 4150 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 2800 3400 2800
-Text GLabel 5250 3200 0    50   Input ~ 0
+	3750 2800 3500 2800
+Text GLabel 5350 3200 0    50   Input ~ 0
 3_ADC1
 Wire Wire Line
-	3650 2700 3400 2700
-Text GLabel 5250 3100 0    50   Input ~ 0
+	3750 2700 3500 2700
+Text GLabel 5350 3100 0    50   Input ~ 0
 3_ADC2
 Wire Wire Line
-	3650 2600 3400 2600
-Text GLabel 5250 3000 0    50   Input ~ 0
+	3750 2600 3500 2600
+Text GLabel 5350 3000 0    50   Input ~ 0
 3_ADC3
 Wire Wire Line
-	3650 2500 3400 2500
-Text GLabel 5250 2900 0    50   Input ~ 0
+	3750 2500 3500 2500
+Text GLabel 5350 2900 0    50   Input ~ 0
 3_ADC0
 $Comp
-L MAX14756EUET:MAX14752 U21
+L MAX14756EUET:MAX14752 U12
 U 1 1 5BCA4461
 P 6200 1650
-F 0 "U21" H 6225 1765 50  0000 C CNN
+F 0 "U12" H 6225 1765 50  0000 C CNN
 F 1 "MAX14752" H 6225 1674 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 6250 1750 50  0001 C CNN
 F 3 "" H 6250 1750 50  0001 C CNN
@@ -152,26 +152,26 @@ F 3 "" H 6250 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 2800 5500 2800
-Text GLabel 4650 5550 0    50   Input ~ 0
+	5850 2800 5600 2800
+Text GLabel 4750 5550 0    50   Input ~ 0
 5_ADC1
 Wire Wire Line
-	5750 2700 5500 2700
-Text GLabel 4650 5450 0    50   Input ~ 0
+	5850 2700 5600 2700
+Text GLabel 4750 5450 0    50   Input ~ 0
 5_ADC2
 Wire Wire Line
-	5750 2600 5500 2600
-Text GLabel 4650 5350 0    50   Input ~ 0
+	5850 2600 5600 2600
+Text GLabel 4750 5350 0    50   Input ~ 0
 5_ADC3
 Wire Wire Line
-	5750 2500 5500 2500
-Text GLabel 4650 5250 0    50   Input ~ 0
+	5850 2500 5600 2500
+Text GLabel 4750 5250 0    50   Input ~ 0
 5_ADC0
 $Comp
-L MAX14756EUET:MAX14752 U16
+L MAX14756EUET:MAX14752 U7
 U 1 1 5BCA6F26
 P 1750 4500
-F 0 "U16" H 1775 4615 50  0000 C CNN
+F 0 "U7" H 1775 4615 50  0000 C CNN
 F 1 "MAX14752" H 1775 4524 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 1800 4600 50  0001 C CNN
 F 3 "" H 1800 4600 50  0001 C CNN
@@ -179,50 +179,50 @@ F 3 "" H 1800 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 3200 5750 3200
+	5350 3200 5850 3200
 Wire Wire Line
-	5250 3100 5750 3100
+	5350 3100 5850 3100
 Wire Wire Line
-	5250 3000 5750 3000
+	5350 3000 5850 3000
 Wire Wire Line
-	5250 2900 5750 2900
+	5350 2900 5850 2900
 Wire Wire Line
-	3100 6000 2850 6000
-Text GLabel 2850 5600 0    50   Input ~ 0
+	3200 6000 2950 6000
+Text GLabel 2950 5600 0    50   Input ~ 0
 4_IN1
 Wire Wire Line
-	3100 5900 2850 5900
-Text GLabel 2850 5500 0    50   Input ~ 0
+	3200 5900 2950 5900
+Text GLabel 2950 5500 0    50   Input ~ 0
 4_IN0
 Wire Wire Line
-	3100 5800 2850 5800
-Text GLabel 1050 5450 0    50   Input ~ 0
+	3200 5800 2950 5800
+Text GLabel 1150 5450 0    50   Input ~ 0
 3_IN1
 Wire Wire Line
-	3100 5700 2850 5700
-Text GLabel 1050 5550 0    50   Input ~ 0
+	3200 5700 2950 5700
+Text GLabel 1150 5550 0    50   Input ~ 0
 3_IN2
 Wire Wire Line
-	3100 5600 2850 5600
-Text GLabel 1050 5650 0    50   Input ~ 0
+	3200 5600 2950 5600
+Text GLabel 1150 5650 0    50   Input ~ 0
 3_IN3
 Wire Wire Line
-	3100 5500 2850 5500
-Text GLabel 1050 5750 0    50   Input ~ 0
+	3200 5500 2950 5500
+Text GLabel 1150 5750 0    50   Input ~ 0
 3_IN4
 Wire Wire Line
-	3100 5400 2850 5400
-Text GLabel 1050 5850 0    50   Input ~ 0
+	3200 5400 2950 5400
+Text GLabel 1150 5850 0    50   Input ~ 0
 3_IN5
 Wire Wire Line
-	3100 5300 2850 5300
-Text GLabel 1050 5350 0    50   Input ~ 0
+	3200 5300 2950 5300
+Text GLabel 1150 5350 0    50   Input ~ 0
 3_IN0
 $Comp
-L MAX14756EUET:MAX14752 U18
+L MAX14756EUET:MAX14752 U9
 U 1 1 5BCBA4E8
 P 3550 4450
-F 0 "U18" H 3575 4565 50  0000 C CNN
+F 0 "U9" H 3575 4565 50  0000 C CNN
 F 1 "MAX14752" H 3575 4474 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 3600 4550 50  0001 C CNN
 F 3 "" H 3600 4550 50  0001 C CNN
@@ -230,120 +230,98 @@ F 3 "" H 3600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 5950 4650 5950
+	5000 5950 4750 5950
 Wire Wire Line
-	4900 5850 4650 5850
+	5000 5850 4750 5850
 Wire Wire Line
-	4900 5750 4650 5750
+	5000 5750 4750 5750
 Wire Wire Line
-	4900 5650 4650 5650
+	5000 5650 4750 5650
 Wire Wire Line
-	4900 5550 4650 5550
+	5000 5550 4750 5550
 Wire Wire Line
-	4900 5450 4650 5450
+	5000 5450 4750 5450
 Wire Wire Line
-	4900 5350 4650 5350
+	5000 5350 4750 5350
 Wire Wire Line
-	4900 5250 4650 5250
+	5000 5250 4750 5250
 $Comp
-L MAX14756EUET:MAX14752 U20
+L MAX14756EUET:MAX14752 U11
 U 1 1 5BCBFB53
 P 5350 4400
-F 0 "U20" H 5375 4515 50  0000 C CNN
+F 0 "U11" H 5375 4515 50  0000 C CNN
 F 1 "MAX14752" H 5375 4424 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 5400 4500 50  0001 C CNN
 F 3 "" H 5400 4500 50  0001 C CNN
 	1    5350 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 5700 0    50   Input ~ 0
+Text GLabel 2950 5700 0    50   Input ~ 0
 4_IN2
-Text GLabel 2850 5800 0    50   Input ~ 0
+Text GLabel 2950 5800 0    50   Input ~ 0
 4_IN3
-Text GLabel 2850 5900 0    50   Input ~ 0
+Text GLabel 2950 5900 0    50   Input ~ 0
 4_IN4
-Text GLabel 2850 6000 0    50   Input ~ 0
+Text GLabel 2950 6000 0    50   Input ~ 0
 4_IN5
-Text GLabel 4650 5750 0    50   Input ~ 0
+Text GLabel 4750 5750 0    50   Input ~ 0
 5_IN1
-Text GLabel 4650 5850 0    50   Input ~ 0
+Text GLabel 4750 5850 0    50   Input ~ 0
 5_IN2
-Text GLabel 4650 5950 0    50   Input ~ 0
+Text GLabel 4750 5950 0    50   Input ~ 0
 5_IN3
-Text GLabel 4650 5650 0    50   Input ~ 0
+Text GLabel 4750 5650 0    50   Input ~ 0
 5_IN0
 Wire Wire Line
-	6600 5950 6350 5950
+	6700 5950 6450 5950
 Wire Wire Line
-	6600 5850 6350 5850
+	6700 5850 6450 5850
 Wire Wire Line
-	6600 5750 6350 5750
+	6700 5750 6450 5750
 Wire Wire Line
-	6600 5650 6350 5650
+	6700 5650 6450 5650
 Wire Wire Line
-	6600 5550 6350 5550
+	6700 5550 6450 5550
 Wire Wire Line
-	6600 5450 6350 5450
+	6700 5450 6450 5450
 Wire Wire Line
-	6600 5350 6350 5350
+	6700 5350 6450 5350
 Wire Wire Line
-	6600 5250 6350 5250
+	6700 5250 6450 5250
 $Comp
-L MAX14756EUET:MAX14752 U22
+L MAX14756EUET:MAX14752 U13
 U 1 1 5BCDDCC7
 P 7050 4400
-F 0 "U22" H 7075 4515 50  0000 C CNN
+F 0 "U13" H 7075 4515 50  0000 C CNN
 F 1 "MAX14752" H 7075 4424 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 7100 4500 50  0001 C CNN
 F 3 "" H 7100 4500 50  0001 C CNN
 	1    7050 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 5350 0    50   Input ~ 0
+Text GLabel 6450 5350 0    50   Input ~ 0
 5_IN5
-Text GLabel 6350 5250 0    50   Input ~ 0
+Text GLabel 6450 5250 0    50   Input ~ 0
 5_IN4
 Wire Wire Line
-	1650 1850 1500 1850
-Wire Wire Line
-	6700 1100 6700 1950
+	1750 1850 1600 1850
 Wire Wire Line
 	5700 1100 5700 1800
-Wire Wire Line
-	5700 1800 5750 1800
 Connection ~ 5700 1100
 Wire Wire Line
 	5700 1100 6700 1100
 Wire Wire Line
-	4600 1950 4700 1950
-Wire Wire Line
-	4700 1950 4700 1100
-Connection ~ 4700 1100
-Wire Wire Line
-	4700 1100 5700 1100
-Wire Wire Line
-	3650 1800 3450 1800
-Wire Wire Line
 	3450 1800 3450 1100
 Connection ~ 3450 1100
 Wire Wire Line
-	3450 1100 4700 1100
+	1600 1100 1600 1850
 Wire Wire Line
-	2750 2000 2750 1100
-Wire Wire Line
-	2600 2000 2750 2000
-Connection ~ 2750 1100
-Wire Wire Line
-	2750 1100 3050 1100
-Wire Wire Line
-	1500 1100 1500 1850
-Wire Wire Line
-	1500 1100 2750 1100
+	1500 1100 1600 1100
 $Comp
-L power:VAA #PWR061
+L power:VAA #PWR058
 U 1 1 5BD4628E
 P 3050 1100
-F 0 "#PWR061" H 3050 950 50  0001 C CNN
+F 0 "#PWR058" H 3050 950 50  0001 C CNN
 F 1 "VAA" H 3067 1273 50  0000 C CNN
 F 2 "" H 3050 1100 50  0001 C CNN
 F 3 "" H 3050 1100 50  0001 C CNN
@@ -382,18 +360,11 @@ Wire Wire Line
 Wire Wire Line
 	5850 4700 5850 4000
 Connection ~ 5850 4000
-Wire Wire Line
-	5850 4000 6600 4000
-Wire Wire Line
-	6600 4550 6600 4000
-Connection ~ 6600 4000
-Wire Wire Line
-	6600 4000 6900 4000
 $Comp
-L power:VAA #PWR067
+L power:VAA #PWR064
 U 1 1 5BD5CE74
 P 6900 4000
-F 0 "#PWR067" H 6900 3850 50  0001 C CNN
+F 0 "#PWR064" H 6900 3850 50  0001 C CNN
 F 1 "VAA" H 6917 4173 50  0000 C CNN
 F 2 "" H 6900 4000 50  0001 C CNN
 F 3 "" H 6900 4000 50  0001 C CNN
@@ -404,10 +375,10 @@ Connection ~ 6900 4000
 Wire Wire Line
 	6900 4000 7550 4000
 $Comp
-L power:GND #PWR059
+L power:GND #PWR056
 U 1 1 5BD5CED7
 P 1300 6400
-F 0 "#PWR059" H 1300 6150 50  0001 C CNN
+F 0 "#PWR056" H 1300 6150 50  0001 C CNN
 F 1 "GND" H 1305 6227 50  0000 C CNN
 F 2 "" H 1300 6400 50  0001 C CNN
 F 3 "" H 1300 6400 50  0001 C CNN
@@ -415,10 +386,10 @@ F 3 "" H 1300 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR062
+L power:GND #PWR059
 U 1 1 5BD5CF0E
 P 3100 6350
-F 0 "#PWR062" H 3100 6100 50  0001 C CNN
+F 0 "#PWR059" H 3100 6100 50  0001 C CNN
 F 1 "GND" H 3105 6177 50  0000 C CNN
 F 2 "" H 3100 6350 50  0001 C CNN
 F 3 "" H 3100 6350 50  0001 C CNN
@@ -426,10 +397,10 @@ F 3 "" H 3100 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR064
+L power:GND #PWR061
 U 1 1 5BD5CF57
 P 4900 6300
-F 0 "#PWR064" H 4900 6050 50  0001 C CNN
+F 0 "#PWR061" H 4900 6050 50  0001 C CNN
 F 1 "GND" H 4905 6127 50  0000 C CNN
 F 2 "" H 4900 6300 50  0001 C CNN
 F 3 "" H 4900 6300 50  0001 C CNN
@@ -437,10 +408,10 @@ F 3 "" H 4900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR066
+L power:GND #PWR063
 U 1 1 5BD5CF9C
 P 6600 6300
-F 0 "#PWR066" H 6600 6050 50  0001 C CNN
+F 0 "#PWR063" H 6600 6050 50  0001 C CNN
 F 1 "GND" H 6605 6127 50  0000 C CNN
 F 2 "" H 6600 6300 50  0001 C CNN
 F 3 "" H 6600 6300 50  0001 C CNN
@@ -448,10 +419,10 @@ F 3 "" H 6600 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR065
+L power:GND #PWR062
 U 1 1 5BD5D00B
 P 5750 3550
-F 0 "#PWR065" H 5750 3300 50  0001 C CNN
+F 0 "#PWR062" H 5750 3300 50  0001 C CNN
 F 1 "GND" H 5755 3377 50  0000 C CNN
 F 2 "" H 5750 3550 50  0001 C CNN
 F 3 "" H 5750 3550 50  0001 C CNN
@@ -459,10 +430,10 @@ F 3 "" H 5750 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR063
+L power:GND #PWR060
 U 1 1 5BD5D042
 P 3650 3550
-F 0 "#PWR063" H 3650 3300 50  0001 C CNN
+F 0 "#PWR060" H 3650 3300 50  0001 C CNN
 F 1 "GND" H 3655 3377 50  0000 C CNN
 F 2 "" H 3650 3550 50  0001 C CNN
 F 3 "" H 3650 3550 50  0001 C CNN
@@ -470,10 +441,10 @@ F 3 "" H 3650 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L power:GND #PWR057
 U 1 1 5BD5D087
 P 1650 3600
-F 0 "#PWR060" H 1650 3350 50  0001 C CNN
+F 0 "#PWR057" H 1650 3350 50  0001 C CNN
 F 1 "GND" H 1655 3427 50  0000 C CNN
 F 2 "" H 1650 3600 50  0001 C CNN
 F 3 "" H 1650 3600 50  0001 C CNN
@@ -482,135 +453,717 @@ F 3 "" H 1650 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 3450 1650 3600
-Connection ~ 1650 3600
 Wire Wire Line
 	3650 3400 3650 3550
-Connection ~ 3650 3550
 Wire Wire Line
 	5750 3400 5750 3550
-Connection ~ 5750 3550
 Wire Wire Line
 	6600 6150 6600 6300
-Connection ~ 6600 6300
 Wire Wire Line
 	4900 6150 4900 6300
-Connection ~ 4900 6300
 Wire Wire Line
 	3100 6200 3100 6350
-Connection ~ 3100 6350
 Wire Wire Line
 	1300 6250 1300 6400
-Connection ~ 1300 6400
-Text GLabel 5500 2100 0    50   Input ~ 0
+Text GLabel 5600 2100 0    50   Input ~ 0
 MUXC
-Text GLabel 5500 2200 0    50   Input ~ 0
+Text GLabel 5600 2200 0    50   Input ~ 0
 MUXD
-Text GLabel 5500 2300 0    50   Input ~ 0
+Text GLabel 5600 2300 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	5500 2100 5750 2100
+	5600 2100 5850 2100
 Wire Wire Line
-	5750 2200 5500 2200
+	5850 2200 5600 2200
 Wire Wire Line
-	5750 2300 5500 2300
-Text GLabel 3400 2100 0    50   Input ~ 0
+	5850 2300 5600 2300
+Text GLabel 3500 2100 0    50   Input ~ 0
 MUXC
-Text GLabel 3400 2200 0    50   Input ~ 0
+Text GLabel 3500 2200 0    50   Input ~ 0
 MUXD
-Text GLabel 3400 2300 0    50   Input ~ 0
+Text GLabel 3500 2300 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	3400 2100 3650 2100
+	3500 2100 3750 2100
 Wire Wire Line
-	3650 2200 3400 2200
+	3750 2200 3500 2200
 Wire Wire Line
-	3650 2300 3400 2300
-Text GLabel 1400 2150 0    50   Input ~ 0
+	3750 2300 3500 2300
+Text GLabel 1500 2150 0    50   Input ~ 0
 MUXC
-Text GLabel 1400 2250 0    50   Input ~ 0
+Text GLabel 1500 2250 0    50   Input ~ 0
 MUXD
-Text GLabel 1400 2350 0    50   Input ~ 0
+Text GLabel 1500 2350 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	1400 2150 1650 2150
+	1500 2150 1750 2150
 Wire Wire Line
-	1650 2250 1400 2250
+	1750 2250 1500 2250
 Wire Wire Line
-	1650 2350 1400 2350
-Text GLabel 1050 4950 0    50   Input ~ 0
+	1750 2350 1500 2350
+Text GLabel 1150 4950 0    50   Input ~ 0
 MUXC
-Text GLabel 1050 5050 0    50   Input ~ 0
+Text GLabel 1000 5050 0    50   Input ~ 0
 MUXD
-Text GLabel 1050 5150 0    50   Input ~ 0
+Text GLabel 1150 5150 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	1050 4950 1300 4950
+	1150 4950 1400 4950
 Wire Wire Line
-	1300 5050 1050 5050
-Wire Wire Line
-	1300 5150 1050 5150
-Text GLabel 2850 4900 0    50   Input ~ 0
+	1400 5150 1150 5150
+Text GLabel 2950 4900 0    50   Input ~ 0
 MUXC
-Text GLabel 2850 5000 0    50   Input ~ 0
+Text GLabel 2650 5000 0    50   Input ~ 0
 MUXD
-Text GLabel 2850 5100 0    50   Input ~ 0
+Text GLabel 2950 5100 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	2850 4900 3100 4900
+	2950 4900 3200 4900
 Wire Wire Line
-	3100 5000 2850 5000
-Wire Wire Line
-	3100 5100 2850 5100
-Text GLabel 4650 4850 0    50   Input ~ 0
+	3200 5100 2950 5100
+Text GLabel 4750 4850 0    50   Input ~ 0
 MUXC
-Text GLabel 4650 4950 0    50   Input ~ 0
+Text GLabel 4750 4950 0    50   Input ~ 0
 MUXD
-Text GLabel 4650 5050 0    50   Input ~ 0
+Text GLabel 4750 5050 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	4650 4850 4900 4850
+	4750 4850 5000 4850
 Wire Wire Line
-	4900 4950 4650 4950
+	5000 4950 4750 4950
 Wire Wire Line
-	4900 5050 4650 5050
-Text GLabel 6350 4850 0    50   Input ~ 0
+	5000 5050 4750 5050
+Text GLabel 6450 4850 0    50   Input ~ 0
 MUXC
-Text GLabel 6350 4950 0    50   Input ~ 0
+Text GLabel 6450 4950 0    50   Input ~ 0
 MUXD
-Text GLabel 6350 5050 0    50   Input ~ 0
+Text GLabel 6450 5050 0    50   Input ~ 0
 MUXE
 Wire Wire Line
-	6350 4850 6600 4850
+	6450 4850 6700 4850
 Wire Wire Line
-	6600 4950 6350 4950
+	6700 4950 6450 4950
 Wire Wire Line
-	6600 5050 6350 5050
-Text GLabel 1400 2000 0    50   Input ~ 0
+	6700 5050 6450 5050
+Text GLabel 1500 2000 0    50   Input ~ 0
 MUX17
 Wire Wire Line
-	1400 2000 1650 2000
-Text GLabel 3400 1950 0    50   Input ~ 0
+	1500 2000 1750 2000
+Text GLabel 3500 1950 0    50   Input ~ 0
 MUX19
-Text GLabel 5500 1950 0    50   Input ~ 0
+Text GLabel 5600 1950 0    50   Input ~ 0
 MUX21
-Text GLabel 1050 4800 0    50   Input ~ 0
+Text GLabel 1150 4800 0    50   Input ~ 0
 MUX16
-Text GLabel 2850 4750 0    50   Input ~ 0
+Text GLabel 2950 4750 0    50   Input ~ 0
 MUX18
-Text GLabel 4650 4700 0    50   Input ~ 0
+Text GLabel 4750 4700 0    50   Input ~ 0
 MUX20
-Text GLabel 6350 4700 0    50   Input ~ 0
+Text GLabel 6450 4700 0    50   Input ~ 0
 MUX22
 Wire Wire Line
-	1050 4800 1300 4800
+	1150 4800 1400 4800
 Wire Wire Line
-	2850 4750 3100 4750
+	2950 4750 3200 4750
 Wire Wire Line
-	4650 4700 4900 4700
+	4750 4700 5000 4700
 Wire Wire Line
-	6350 4700 6600 4700
+	5600 1950 5850 1950
 Wire Wire Line
-	5500 1950 5750 1950
+	3500 1950 3750 1950
 Wire Wire Line
-	3400 1950 3650 1950
+	2650 5000 3200 5000
+Wire Wire Line
+	1400 5050 1000 5050
+Connection ~ 1600 1100
+Wire Wire Line
+	2500 2000 2750 2000
+Wire Wire Line
+	3650 3400 3750 3400
+Wire Wire Line
+	3750 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	1750 3600 1650 3600
+Connection ~ 1650 3600
+Wire Wire Line
+	1750 3450 1650 3450
+Wire Wire Line
+	4500 1950 4700 1950
+Wire Wire Line
+	5750 3400 5850 3400
+Wire Wire Line
+	5850 3550 5750 3550
+Connection ~ 5750 3550
+Wire Wire Line
+	6700 1950 6600 1950
+Wire Wire Line
+	5700 1800 5850 1800
+Wire Wire Line
+	3450 1800 3750 1800
+Wire Wire Line
+	6700 6150 6600 6150
+Wire Wire Line
+	6700 6300 6600 6300
+Connection ~ 6600 6300
+Wire Wire Line
+	5050 6300 5000 6300
+Connection ~ 4900 6300
+Connection ~ 5000 6300
+Wire Wire Line
+	5000 6300 4900 6300
+Wire Wire Line
+	5000 6150 4900 6150
+Wire Wire Line
+	3100 4600 3200 4600
+Wire Wire Line
+	2250 4800 2150 4800
+Wire Wire Line
+	1400 6250 1300 6250
+Wire Wire Line
+	1400 6400 1300 6400
+Connection ~ 1300 6400
+Wire Wire Line
+	3200 6350 3100 6350
+Connection ~ 3100 6350
+Wire Wire Line
+	3100 6200 3200 6200
+Wire Wire Line
+	1300 4650 1400 4650
+Wire Wire Line
+	4900 4550 5000 4550
+Wire Wire Line
+	6450 4700 6700 4700
+Wire Wire Line
+	6700 4550 6550 4550
+Wire Wire Line
+	6550 4550 6550 4000
+Wire Wire Line
+	5850 4000 6550 4000
+Connection ~ 6550 4000
+Wire Wire Line
+	6550 4000 6900 4000
+Wire Wire Line
+	5850 4700 5750 4700
+Wire Wire Line
+	7550 4700 7450 4700
+Wire Wire Line
+	4050 4750 3950 4750
+$Comp
+L Analog_Switch:DG408LE U2
+U 1 1 5BA76687
+P 11100 2100
+F 0 "U2" H 11100 2650 50  0000 C CNN
+F 1 "DG408LE" H 11100 2600 50  0000 C CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 11100 2100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/78084/dg408le.pdf" H 11100 2100 50  0001 C CNN
+F 4 "DG408LEDQ-T1-GE3CT-ND " H 11100 2100 50  0001 C CNN "PN"
+	1    11100 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 10650 2900 0    50   Input ~ 0
+5_OUT3
+Text GLabel 10650 2600 0    50   Input ~ 0
+5_OUT0
+Wire Wire Line
+	10650 2600 10800 2600
+Wire Wire Line
+	10650 2900 10800 2900
+Text GLabel 10650 2700 0    50   Input ~ 0
+5_OUT1
+Text GLabel 10650 2800 0    50   Input ~ 0
+5_OUT2
+Wire Wire Line
+	10650 2700 10800 2700
+Wire Wire Line
+	10650 2800 10800 2800
+Wire Wire Line
+	11400 2000 11600 2000
+Wire Wire Line
+	10800 2150 10650 2150
+Wire Wire Line
+	10650 2150 10650 2200
+Wire Wire Line
+	10650 2250 10800 2250
+Wire Wire Line
+	10650 2200 10550 2200
+Wire Wire Line
+	10550 2200 10550 2250
+Connection ~ 10650 2200
+Wire Wire Line
+	10650 2200 10650 2250
+$Comp
+L power:GND #PWR0313
+U 1 1 5BB3BEDC
+P 10550 2250
+F 0 "#PWR0313" H 10550 2000 50  0001 C CNN
+F 1 "GND" H 10555 2077 50  0000 C CNN
+F 2 "" H 10550 2250 50  0001 C CNN
+F 3 "" H 10550 2250 50  0001 C CNN
+	1    10550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR0314
+U 1 1 5BB46349
+P 11600 2000
+F 0 "#PWR0314" H 11600 1850 50  0001 C CNN
+F 1 "VAA" H 11617 2173 50  0000 C CNN
+F 2 "" H 11600 2000 50  0001 C CNN
+F 3 "" H 11600 2000 50  0001 C CNN
+	1    11600 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 11650 2250 2    50   Input ~ 0
+MUXC
+Text GLabel 11650 2350 2    50   Input ~ 0
+MUXD
+Text GLabel 11650 2450 2    50   Input ~ 0
+MUXE
+Wire Wire Line
+	11650 2250 11400 2250
+Wire Wire Line
+	11400 2350 11650 2350
+Wire Wire Line
+	11400 2450 11650 2450
+Text GLabel 10800 2000 0    50   Input ~ 0
+MUX24
+$Comp
+L Analog_Switch:DG408LE U1
+U 1 1 5BB6FE9D
+P 9650 4200
+F 0 "U1" H 9650 4750 50  0000 C CNN
+F 1 "DG408LE" H 9650 4700 50  0000 C CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 9650 4200 50  0001 C CNN
+F 3 "" H 9650 4200 50  0001 C CNN
+	1    9650 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 5000 0    50   Input ~ 0
+1_OUT3
+Text GLabel 9200 4700 0    50   Input ~ 0
+1_OUT0
+Wire Wire Line
+	9200 4700 9350 4700
+Wire Wire Line
+	9200 5000 9350 5000
+Text GLabel 9200 4800 0    50   Input ~ 0
+1_OUT1
+Text GLabel 9200 4900 0    50   Input ~ 0
+1_OUT2
+Wire Wire Line
+	9200 4800 9350 4800
+Wire Wire Line
+	9200 4900 9350 4900
+Text GLabel 10100 5100 2    50   Input ~ 0
+2_OUT3
+Text GLabel 10100 4800 2    50   Input ~ 0
+2_OUT0
+Wire Wire Line
+	10100 5100 9950 5100
+Wire Wire Line
+	10100 4800 9950 4800
+Text GLabel 10100 4900 2    50   Input ~ 0
+2_OUT1
+Text GLabel 10100 5000 2    50   Input ~ 0
+2_OUT2
+Wire Wire Line
+	10100 5000 9950 5000
+Wire Wire Line
+	10100 4900 9950 4900
+Wire Wire Line
+	9950 4100 10150 4100
+Wire Wire Line
+	9350 4250 9200 4250
+Wire Wire Line
+	9200 4250 9200 4300
+Wire Wire Line
+	9200 4350 9350 4350
+Wire Wire Line
+	9200 4300 9100 4300
+Wire Wire Line
+	9100 4300 9100 4350
+Connection ~ 9200 4300
+Wire Wire Line
+	9200 4300 9200 4350
+$Comp
+L power:GND #PWR0315
+U 1 1 5BB6FEBC
+P 9100 4350
+F 0 "#PWR0315" H 9100 4100 50  0001 C CNN
+F 1 "GND" H 9105 4177 50  0000 C CNN
+F 2 "" H 9100 4350 50  0001 C CNN
+F 3 "" H 9100 4350 50  0001 C CNN
+	1    9100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR0316
+U 1 1 5BB6FEC2
+P 10150 4100
+F 0 "#PWR0316" H 10150 3950 50  0001 C CNN
+F 1 "VAA" H 10167 4273 50  0000 C CNN
+F 2 "" H 10150 4100 50  0001 C CNN
+F 3 "" H 10150 4100 50  0001 C CNN
+	1    10150 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 4100 0    50   Input ~ 0
+MUX26
+$Comp
+L Analog_Switch:DG408LE U16
+U 1 1 5BB7C29C
+P 11600 4200
+F 0 "U16" H 11600 4750 50  0000 C CNN
+F 1 "DG408LE" H 11600 4700 50  0000 C CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 11600 4200 50  0001 C CNN
+F 3 "" H 11600 4200 50  0001 C CNN
+	1    11600 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11150 5000 0    50   Input ~ 0
+3_OUT3
+Text GLabel 11150 4700 0    50   Input ~ 0
+3_OUT0
+Wire Wire Line
+	11150 4700 11300 4700
+Wire Wire Line
+	11150 5000 11300 5000
+Text GLabel 11150 4800 0    50   Input ~ 0
+3_OUT1
+Text GLabel 11150 4900 0    50   Input ~ 0
+3_OUT2
+Wire Wire Line
+	11150 4800 11300 4800
+Wire Wire Line
+	11150 4900 11300 4900
+Text GLabel 12050 5100 2    50   Input ~ 0
+4_OUT3
+Text GLabel 12050 4800 2    50   Input ~ 0
+4_OUT0
+Wire Wire Line
+	12050 5100 11900 5100
+Wire Wire Line
+	12050 4800 11900 4800
+Text GLabel 12050 4900 2    50   Input ~ 0
+4_OUT1
+Text GLabel 12050 5000 2    50   Input ~ 0
+4_OUT2
+Wire Wire Line
+	12050 5000 11900 5000
+Wire Wire Line
+	12050 4900 11900 4900
+Wire Wire Line
+	11900 4100 12100 4100
+Wire Wire Line
+	11300 4250 11150 4250
+Wire Wire Line
+	11150 4250 11150 4300
+Wire Wire Line
+	11150 4350 11300 4350
+Wire Wire Line
+	11150 4300 11050 4300
+Wire Wire Line
+	11050 4300 11050 4350
+Connection ~ 11150 4300
+Wire Wire Line
+	11150 4300 11150 4350
+$Comp
+L power:GND #PWR0317
+U 1 1 5BB7C2BB
+P 11050 4350
+F 0 "#PWR0317" H 11050 4100 50  0001 C CNN
+F 1 "GND" H 11055 4177 50  0000 C CNN
+F 2 "" H 11050 4350 50  0001 C CNN
+F 3 "" H 11050 4350 50  0001 C CNN
+	1    11050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR0318
+U 1 1 5BB7C2C1
+P 12100 4100
+F 0 "#PWR0318" H 12100 3950 50  0001 C CNN
+F 1 "VAA" H 12117 4273 50  0000 C CNN
+F 2 "" H 12100 4100 50  0001 C CNN
+F 3 "" H 12100 4100 50  0001 C CNN
+	1    12100 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 11300 4100 0    50   Input ~ 0
+MUX25
+$Comp
+L dk_Temperature-Sensors-Analog-and-Digital-Output:DS18B20_ U?
+U 1 1 5BB8E36F
+P 12300 1450
+AR Path="/5B9C8983/5BB8E36F" Ref="U?"  Part="1" 
+AR Path="/5BCA1CB6/5BB8E36F" Ref="U17"  Part="1" 
+F 0 "U17" H 12428 1503 60  0000 L CNN
+F 1 "DS18B20_" H 12428 1397 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 12500 1650 60  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 12500 1750 60  0001 L CNN
+F 4 "DS18B20+-ND" H 12500 1850 60  0001 L CNN "Digi-Key_PN"
+F 5 "DS18B20+" H 12500 1950 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 12500 2050 60  0001 L CNN "Category"
+F 7 "Temperature Sensors - Analog and Digital Output" H 12500 2150 60  0001 L CNN "Family"
+F 8 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 12500 2250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/maxim-integrated/DS18B20-/DS18B20--ND/956983" H 12500 2350 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR TEMPERATURE 1-WIRE TO92-3" H 12500 2450 60  0001 L CNN "Description"
+F 11 "Maxim Integrated" H 12500 2550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12500 2650 60  0001 L CNN "Status"
+	1    12300 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12600 1450 12800 1450
+Wire Wire Line
+	12800 1750 12800 1450
+Connection ~ 12800 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5BB8E37A
+P 12300 1150
+AR Path="/5B9C8983/5BB8E37A" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5BB8E37A" Ref="#PWR0319"  Part="1" 
+F 0 "#PWR0319" H 12300 900 50  0001 C CNN
+F 1 "GND" H 12305 977 50  0000 C CNN
+F 2 "" H 12300 1150 50  0001 C CNN
+F 3 "" H 12300 1150 50  0001 C CNN
+	1    12300 1150
+	-1   0    0    1   
+$EndComp
+Text GLabel 16050 1650 2    50   Input ~ 0
+MUXA1
+Wire Wire Line
+	16050 1650 15600 1650
+Text GLabel 14250 2350 0    50   BiDi ~ 0
+5_OWB_MAIN
+Text GLabel 14250 2450 0    50   BiDi ~ 0
+5_OWB_SEC
+Wire Wire Line
+	14700 1650 14250 1650
+Wire Wire Line
+	14700 1550 14250 1550
+Text GLabel 14250 2150 0    50   BiDi ~ 0
+4_OWB_MAIN
+Text GLabel 14250 2250 0    50   BiDi ~ 0
+4_OWB_SEC
+Text GLabel 14250 1950 0    50   BiDi ~ 0
+3_OWB_MAIN
+Text GLabel 14250 2050 0    50   BiDi ~ 0
+3_OWB_SEC
+Wire Wire Line
+	14250 1750 14700 1750
+Wire Wire Line
+	14700 1850 14250 1850
+Wire Wire Line
+	14700 1950 14250 1950
+Wire Wire Line
+	14700 2050 14250 2050
+Text GLabel 14250 1750 0    50   BiDi ~ 0
+2_OWB_MAIN
+Text GLabel 14250 1850 0    50   BiDi ~ 0
+2_OWB_SEC
+Text GLabel 14250 1650 0    50   BiDi ~ 0
+1_OWB_MAIN
+Text GLabel 14250 1550 0    50   BiDi ~ 0
+1_OWB_SEC
+Wire Wire Line
+	14700 2150 14250 2150
+Wire Wire Line
+	14700 2250 14250 2250
+Wire Wire Line
+	14700 2350 14250 2350
+Wire Wire Line
+	14700 2450 14250 2450
+Wire Wire Line
+	15200 3650 15200 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5BB8E39D
+P 15200 3650
+AR Path="/5B9C8983/5BB8E39D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5BB8E39D" Ref="#PWR0320"  Part="1" 
+F 0 "#PWR0320" H 15200 3400 50  0001 C CNN
+F 1 "GND" H 15205 3477 50  0000 C CNN
+F 2 "" H 15200 3650 50  0001 C CNN
+F 3 "" H 15200 3650 50  0001 C CNN
+	1    15200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 1450 14700 1450
+$Comp
+L dk_Interface-Analog-Switches-Multiplexers-Demultiplexers:CD74HC4067SM96 U?
+U 1 1 5BB8E3AD
+P 15200 2250
+AR Path="/5B9C8983/5BB8E3AD" Ref="U?"  Part="1" 
+AR Path="/5BCA1CB6/5BB8E3AD" Ref="U19"  Part="1" 
+F 0 "U19" H 15150 3550 60  0000 C CNN
+F 1 "CD74HC4067SM96" H 15150 3444 60  0000 C CNN
+F 2 "digikey-footprints:SSOP-24_W5.30mm" H 15400 2450 60  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 15400 2550 60  0001 L CNN
+F 4 "296-9226-1-ND" H 15400 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "CD74HC4067SM96" H 15400 2750 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 15400 2850 60  0001 L CNN "Category"
+F 7 "Interface - Analog Switches, Multiplexers, Demultiplexers" H 15400 2950 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 15400 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/CD74HC4067SM96/296-9226-1-ND/376978" H 15400 3150 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MUX/DEMUX 1X16 24SSOP" H 15400 3250 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 15400 3350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15400 3450 60  0001 L CNN "Status"
+	1    15200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BB8E3B4
+P 15700 1150
+AR Path="/5B9C8983/5BB8E3B4" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5BB8E3B4" Ref="#PWR0321"  Part="1" 
+F 0 "#PWR0321" H 15700 1000 50  0001 C CNN
+F 1 "+5V" H 15715 1323 50  0000 C CNN
+F 2 "" H 15700 1150 50  0001 C CNN
+F 3 "" H 15700 1150 50  0001 C CNN
+	1    15700 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15200 1150 15700 1150
+Text GLabel 15850 1950 2    50   Input ~ 0
+MUXC
+Text GLabel 15850 1850 2    50   Input ~ 0
+MUXD
+Text GLabel 15850 1750 2    50   Input ~ 0
+MUXE
+Wire Wire Line
+	15850 1950 15600 1950
+Wire Wire Line
+	15600 1850 15850 1850
+Wire Wire Line
+	15600 1750 15850 1750
+Text GLabel 12150 4350 2    50   Input ~ 0
+MUXC
+Text GLabel 12150 4450 2    50   Input ~ 0
+MUXD
+Text GLabel 12150 4550 2    50   Input ~ 0
+MUXE
+Wire Wire Line
+	12150 4350 11900 4350
+Wire Wire Line
+	11900 4450 12150 4450
+Wire Wire Line
+	11900 4550 12150 4550
+Text GLabel 10200 4350 2    50   Input ~ 0
+MUXC
+Text GLabel 10200 4450 2    50   Input ~ 0
+MUXD
+Text GLabel 10200 4550 2    50   Input ~ 0
+MUXE
+Wire Wire Line
+	10200 4350 9950 4350
+Wire Wire Line
+	9950 4450 10200 4450
+Wire Wire Line
+	9950 4550 10200 4550
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5BD017D0
+P 9900 5800
+AR Path="/5BD017D0" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BD017D0" Ref="J?"  Part="1" 
+AR Path="/5BA2CD36/5BD017D0" Ref="J?"  Part="1" 
+AR Path="/5BCA1CB6/5BD017D0" Ref="J17"  Part="1" 
+F 0 "J17" H 9980 5792 50  0000 L CNN
+F 1 "BananaPlug" H 9980 5701 50  0000 L CNN
+F 2 "" H 9900 5800 50  0001 C CNN
+F 3 "~" H 9900 5800 50  0001 C CNN
+F 4 "Multimeter" H 9900 5800 50  0001 C CNN "Field4"
+	1    9900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5900 9450 5900
+Wire Wire Line
+	9100 5800 9100 5450
+Wire Wire Line
+	9100 5100 9350 5100
+Wire Wire Line
+	9100 5800 9700 5800
+Wire Wire Line
+	9100 5450 10700 5450
+Wire Wire Line
+	10950 5450 10950 5100
+Wire Wire Line
+	10950 5100 11300 5100
+Connection ~ 9100 5450
+Wire Wire Line
+	9100 5450 9100 5100
+Wire Wire Line
+	10700 5450 10700 3000
+Wire Wire Line
+	10700 3000 10800 3000
+Connection ~ 10700 5450
+Wire Wire Line
+	10700 5450 10950 5450
+$Comp
+L power:GND #PWR0322
+U 1 1 5BD451E8
+P 9450 5900
+F 0 "#PWR0322" H 9450 5650 50  0001 C CNN
+F 1 "GND" H 9455 5727 50  0000 C CNN
+F 2 "" H 9450 5900 50  0001 C CNN
+F 3 "" H 9450 5900 50  0001 C CNN
+	1    9450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1100 2750 1100
+Wire Wire Line
+	2750 1100 3050 1100
+Connection ~ 2750 1100
+Wire Wire Line
+	2750 2000 2750 1100
+Wire Wire Line
+	3450 1100 4700 1100
+Wire Wire Line
+	4700 1100 5700 1100
+Connection ~ 4700 1100
+Wire Wire Line
+	4700 1950 4700 1100
+Wire Wire Line
+	6700 1100 6700 1950
+NoConn ~ 6450 5450
+NoConn ~ 6450 5550
+NoConn ~ 6450 5650
+NoConn ~ 6450 5750
+NoConn ~ 6450 5850
+NoConn ~ 6450 5950
+NoConn ~ 11400 2700
+NoConn ~ 11400 2800
+NoConn ~ 11400 2900
+NoConn ~ 11400 3000
+NoConn ~ 14700 2550
+NoConn ~ 14700 2650
+NoConn ~ 14700 2750
+NoConn ~ 14700 2850
+NoConn ~ 14700 2950
+NoConn ~ 14700 3050
+NoConn ~ 14700 3150
+Wire Wire Line
+	12300 1750 12700 1750
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5CC3899A
+P 12700 1750
+F 0 "#FLG0108" H 12700 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 12700 1923 50  0000 C CNN
+F 2 "" H 12700 1750 50  0001 C CNN
+F 3 "~" H 12700 1750 50  0001 C CNN
+	1    12700 1750
+	-1   0    0    1   
+$EndComp
+Connection ~ 12700 1750
+Wire Wire Line
+	12700 1750 12800 1750
 $EndSCHEMATC
