@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 5 18
+Sheet 5 16
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 1 1 5BA2CF9C
 P 2700 900
 F 0 "U4" H 2700 1142 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 2700 1051 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2700 1100 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 2700 1100 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 2800 650 50  0001 C CNN
 	1    2700 900 
 	1    0    0    -1  
@@ -39,7 +39,7 @@ U 1 1 5BA2D178
 P 2100 1100
 F 0 "C7" H 2215 1146 50  0000 L CNN
 F 1 "100nF" H 2215 1055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 2138 950 50  0001 C CNN
+F 2 "smt:C-0603" H 2138 950 50  0001 C CNN
 F 3 "~" H 2100 1100 50  0001 C CNN
 	1    2100 1100
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 5BA2D235
 P 3350 1100
 F 0 "C11" H 3465 1146 50  0000 L CNN
 F 1 "100uF" H 3465 1055 50  0000 L CNN
-F 2 "digikey-footprints:1210" H 3388 950 50  0001 C CNN
+F 2 "digikey-footprints:0805" H 3388 950 50  0001 C CNN
 F 3 "~" H 3350 1100 50  0001 C CNN
 	1    3350 1100
 	1    0    0    -1  
@@ -91,7 +91,7 @@ U 1 1 5BA2D55B
 P 4250 1150
 F 0 "C14" H 4365 1196 50  0000 L CNN
 F 1 "100nF" H 4365 1105 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 4288 1000 50  0001 C CNN
+F 2 "smt:C-0603" H 4288 1000 50  0001 C CNN
 F 3 "~" H 4250 1150 50  0001 C CNN
 	1    4250 1150
 	1    0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 5BA2D563
 P 5500 1150
 F 0 "C17" H 5615 1196 50  0000 L CNN
 F 1 "100uF" H 5615 1105 50  0000 L CNN
-F 2 "digikey-footprints:1210" H 5538 1000 50  0001 C CNN
+F 2 "digikey-footprints:1206" H 5538 1000 50  0001 C CNN
 F 3 "~" H 5500 1150 50  0001 C CNN
 	1    5500 1150
 	1    0    0    -1  
@@ -135,7 +135,7 @@ U 1 1 5BA2D796
 P 4850 950
 F 0 "U5" H 4850 1192 50  0000 C CNN
 F 1 "LD1117S50TR_SOT223" H 4850 1101 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4850 1150 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 4850 1150 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 4950 700 50  0001 C CNN
 	1    4850 950 
 	1    0    0    -1  
@@ -196,9 +196,10 @@ AR Path="/5BE1D7EC" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5BE1D7EC" Ref="J?"  Part="1" 
 AR Path="/5BA2CD36/5BE1D7EC" Ref="J15"  Part="1" 
 F 0 "J15" H 10530 2292 50  0000 L CNN
-F 1 "Conn_01x02" H 10530 2201 50  0000 L CNN
-F 2 "" H 10450 2300 50  0001 C CNN
+F 1 "Banana Jack" H 10530 2201 50  0000 L CNN
+F 2 "Connectors:Banana_Jack_2Pin" H 10450 2300 50  0001 C CNN
 F 3 "~" H 10450 2300 50  0001 C CNN
+F 4 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H 0   0   50  0001 C CNN "Description"
 	1    10450 2300
 	1    0    0    -1  
 $EndComp
@@ -210,8 +211,10 @@ AR Path="/5B9C8971/5BE1D7FC" Ref="J?"  Part="1"
 AR Path="/5BA2CD36/5BE1D7FC" Ref="J13"  Part="1" 
 F 0 "J13" H 1005 1517 50  0000 C CNN
 F 1 "Barrel_Jack_MountingPin" H 1005 1426 50  0000 C CNN
-F 2 "" H 1000 1160 50  0001 C CNN
-F 3 "~" H 1000 1160 50  0001 C CNN
+F 2 "Connectors:Barrel_Jack_CUI_PJ-102AH" H 1000 1160 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-037a.pdf" H 1000 1160 50  0001 C CNN
+F 4 " CP-037A-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.cui.com/product/resource/digikeypdf/pj-037a.pdf" H 0   0   50  0001 C CNN "DK_Datasheet_Link"
 	1    950  1200
 	1    0    0    -1  
 $EndComp
@@ -270,9 +273,10 @@ AR Path="/5BE1D81B" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5BE1D81B" Ref="J?"  Part="1" 
 AR Path="/5BA2CD36/5BE1D81B" Ref="J14"  Part="1" 
 F 0 "J14" H 9530 2492 50  0000 L CNN
-F 1 "Conn_01x02" H 9530 2401 50  0000 L CNN
-F 2 "" H 9450 2500 50  0001 C CNN
+F 1 "Banana Jack" H 9530 2401 50  0000 L CNN
+F 2 "Connectors:Banana_Jack_2Pin" H 9450 2500 50  0001 C CNN
 F 3 "~" H 9450 2500 50  0001 C CNN
+F 4 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H 0   0   50  0001 C CNN "Description"
 	1    9450 2500
 	1    0    0    -1  
 $EndComp
@@ -316,7 +320,7 @@ U 1 1 5BE1E807
 P 7050 3100
 F 0 "C24" H 7165 3146 50  0000 L CNN
 F 1 ".01uF" H 7165 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 7088 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 7088 2950 50  0001 C CNN
 F 3 "~" H 7050 3100 50  0001 C CNN
 	1    7050 3100
 	1    0    0    -1  
@@ -327,7 +331,7 @@ U 1 1 5BE1EA13
 P 6550 3100
 F 0 "C22" H 6665 3146 50  0000 L CNN
 F 1 ".01uF" H 6665 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 6588 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 6588 2950 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
 	1    0    0    -1  
@@ -338,7 +342,7 @@ U 1 1 5BE1ED29
 P 6100 3100
 F 0 "C20" H 6215 3146 50  0000 L CNN
 F 1 ".01uF" H 6215 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 6138 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 6138 2950 50  0001 C CNN
 F 3 "~" H 6100 3100 50  0001 C CNN
 	1    6100 3100
 	1    0    0    -1  
@@ -349,7 +353,7 @@ U 1 1 5BE1F9B8
 P 5600 3100
 F 0 "C18" H 5715 3146 50  0000 L CNN
 F 1 ".01uF" H 5715 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 5638 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 5638 2950 50  0001 C CNN
 F 3 "~" H 5600 3100 50  0001 C CNN
 	1    5600 3100
 	1    0    0    -1  
@@ -360,7 +364,7 @@ U 1 1 5BE1FCDA
 P 5150 3100
 F 0 "C16" H 5265 3146 50  0000 L CNN
 F 1 ".01uF" H 5265 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 5188 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 5188 2950 50  0001 C CNN
 F 3 "~" H 5150 3100 50  0001 C CNN
 	1    5150 3100
 	1    0    0    -1  
@@ -371,7 +375,7 @@ U 1 1 5BE20314
 P 2300 3100
 F 0 "C8" H 2415 3146 50  0000 L CNN
 F 1 ".01uF" H 2415 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 2338 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 2338 2950 50  0001 C CNN
 F 3 "~" H 2300 3100 50  0001 C CNN
 	1    2300 3100
 	1    0    0    -1  
@@ -382,7 +386,7 @@ U 1 1 5BE2031B
 P 1800 3100
 F 0 "C6" H 1915 3146 50  0000 L CNN
 F 1 ".01uF" H 1915 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 1838 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 1838 2950 50  0001 C CNN
 F 3 "~" H 1800 3100 50  0001 C CNN
 	1    1800 3100
 	1    0    0    -1  
@@ -393,7 +397,7 @@ U 1 1 5BE206D8
 P 4600 3100
 F 0 "C15" H 4715 3146 50  0000 L CNN
 F 1 ".01uF" H 4715 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 4638 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 4638 2950 50  0001 C CNN
 F 3 "~" H 4600 3100 50  0001 C CNN
 	1    4600 3100
 	1    0    0    -1  
@@ -404,7 +408,7 @@ U 1 1 5BE206DF
 P 4100 3100
 F 0 "C13" H 4215 3146 50  0000 L CNN
 F 1 ".01uF" H 4215 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 4138 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 4138 2950 50  0001 C CNN
 F 3 "~" H 4100 3100 50  0001 C CNN
 	1    4100 3100
 	1    0    0    -1  
@@ -415,7 +419,7 @@ U 1 1 5BE206E6
 P 3650 3100
 F 0 "C12" H 3765 3146 50  0000 L CNN
 F 1 ".01uF" H 3765 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 3688 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 3688 2950 50  0001 C CNN
 F 3 "~" H 3650 3100 50  0001 C CNN
 	1    3650 3100
 	1    0    0    -1  
@@ -426,7 +430,7 @@ U 1 1 5BE206ED
 P 3150 3100
 F 0 "C10" H 3265 3146 50  0000 L CNN
 F 1 ".01uF" H 3265 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 3188 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 3188 2950 50  0001 C CNN
 F 3 "~" H 3150 3100 50  0001 C CNN
 	1    3150 3100
 	1    0    0    -1  
@@ -437,7 +441,7 @@ U 1 1 5BE206F4
 P 2700 3100
 F 0 "C9" H 2815 3146 50  0000 L CNN
 F 1 ".01uF" H 2815 3055 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 2738 2950 50  0001 C CNN
+F 2 "smt:C-0603" H 2738 2950 50  0001 C CNN
 F 3 "~" H 2700 3100 50  0001 C CNN
 	1    2700 3100
 	1    0    0    -1  
@@ -510,7 +514,7 @@ U 1 1 5BE2A662
 P 8650 2500
 F 0 "C29" H 8765 2546 50  0000 L CNN
 F 1 ".01uF" H 8765 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 8688 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 8688 2350 50  0001 C CNN
 F 3 "~" H 8650 2500 50  0001 C CNN
 	1    8650 2500
 	1    0    0    -1  
@@ -521,7 +525,7 @@ U 1 1 5BE2A669
 P 8150 2500
 F 0 "C27" H 8265 2546 50  0000 L CNN
 F 1 ".01uF" H 8265 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 8188 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 8188 2350 50  0001 C CNN
 F 3 "~" H 8150 2500 50  0001 C CNN
 	1    8150 2500
 	1    0    0    -1  
@@ -532,7 +536,7 @@ U 1 1 5BE2A670
 P 7700 2500
 F 0 "C26" H 7815 2546 50  0000 L CNN
 F 1 ".01uF" H 7815 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 7738 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 7738 2350 50  0001 C CNN
 F 3 "~" H 7700 2500 50  0001 C CNN
 	1    7700 2500
 	1    0    0    -1  
@@ -543,7 +547,7 @@ U 1 1 5BE2A677
 P 7200 2500
 F 0 "C25" H 7315 2546 50  0000 L CNN
 F 1 ".01uF" H 7315 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 7238 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 7238 2350 50  0001 C CNN
 F 3 "~" H 7200 2500 50  0001 C CNN
 	1    7200 2500
 	1    0    0    -1  
@@ -554,7 +558,7 @@ U 1 1 5BE2A67E
 P 6750 2500
 F 0 "C23" H 6865 2546 50  0000 L CNN
 F 1 ".01uF" H 6865 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 6788 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 6788 2350 50  0001 C CNN
 F 3 "~" H 6750 2500 50  0001 C CNN
 	1    6750 2500
 	1    0    0    -1  
@@ -565,7 +569,7 @@ U 1 1 5BE2A685
 P 6200 2500
 F 0 "C21" H 6315 2546 50  0000 L CNN
 F 1 ".01uF" H 6315 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 6238 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 6238 2350 50  0001 C CNN
 F 3 "~" H 6200 2500 50  0001 C CNN
 	1    6200 2500
 	1    0    0    -1  
@@ -576,7 +580,7 @@ U 1 1 5BE2A68C
 P 5700 2500
 F 0 "C19" H 5815 2546 50  0000 L CNN
 F 1 ".01uF" H 5815 2455 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 5738 2350 50  0001 C CNN
+F 2 "smt:C-0603" H 5738 2350 50  0001 C CNN
 F 3 "~" H 5700 2500 50  0001 C CNN
 	1    5700 2500
 	1    0    0    -1  
@@ -808,8 +812,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 6050 750  6050
 Wire Wire Line
-	7100 7050 7100 7150
-Wire Wire Line
 	7100 5350 7100 5500
 Wire Wire Line
 	750  5350 750  6050
@@ -840,7 +842,6 @@ Connection ~ 1500 5350
 Wire Wire Line
 	1500 5350 2250 5350
 Connection ~ 2250 5350
-Connection ~ 7100 7050
 $Comp
 L dk_Diodes-Zener-Single:1N5231BTR Z2
 U 1 1 5BCE8568
@@ -1187,7 +1188,7 @@ U 1 1 5B982AEC
 P 10500 1250
 F 0 "C31" V 10255 1250 60  0000 C CNB
 F 1 "1uF" V 10350 1250 45  0000 C CNN
-F 2 "digikey-footprints:0603" H 10535 1095 40  0001 L CNN
+F 2 "smt:C-0805" H 10535 1095 40  0001 L CNN
 F 3 "" H 10500 1350 60  0001 C CNN
 F 4 "-" H 10540 1415 45  0001 L CNN "Part"
 F 5 "Passive" H 10730 1540 50  0001 C CNN "Family"
@@ -1238,7 +1239,7 @@ U 1 1 5B9C3F0C
 P 9000 1100
 F 0 "C30" H 9108 1142 60  0000 L CNB
 F 1 "2.2uF" H 9108 1047 45  0000 L CNN
-F 2 "digikey-footprints:0603" H 9035 945 40  0001 L CNN
+F 2 "smt:C-0805" H 9035 945 40  0001 L CNN
 F 3 "" H 9000 1200 60  0001 C CNN
 F 4 "-" H 9040 1265 45  0001 L CNN "Part"
 F 5 "Passive" H 9230 1390 50  0001 C CNN "Family"
@@ -1266,7 +1267,7 @@ U 1 1 5B9E73B7
 P 8450 1650
 F 0 "C28" H 8558 1692 60  0000 L CNB
 F 1 "2.2uF" H 8558 1597 45  0000 L CNN
-F 2 "digikey-footprints:0603" H 8485 1495 40  0001 L CNN
+F 2 "smt:C-0805" H 8485 1495 40  0001 L CNN
 F 3 "" H 8450 1750 60  0001 C CNN
 F 4 "-" H 8490 1815 45  0001 L CNN "Part"
 F 5 "Passive" H 8680 1940 50  0001 C CNN "Family"
@@ -1521,8 +1522,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 5850 8950 5850
 Wire Wire Line
-	15300 6850 15300 6950
-Wire Wire Line
 	15300 5150 15300 5300
 Wire Wire Line
 	8950 5150 8950 5850
@@ -1553,7 +1552,6 @@ Connection ~ 9700 5150
 Wire Wire Line
 	9700 5150 10450 5150
 Connection ~ 10450 5150
-Connection ~ 15300 6850
 $Comp
 L dk_Diodes-Zener-Single:1N5231BTR Z7
 U 1 1 5BC8A3DE
@@ -1802,7 +1800,7 @@ U 1 1 5BE6006D
 P 7550 3050
 F 0 "C44" H 7658 3092 60  0000 L CNB
 F 1 "4.7uF" H 7658 2997 45  0000 L CNN
-F 2 "digikey-footprints:0603" H 7585 2895 40  0001 L CNN
+F 2 "smt:C-0805" H 7585 2895 40  0001 L CNN
 F 3 "" H 7550 3150 60  0001 C CNN
 F 4 "-" H 7590 3215 45  0001 L CNN "Part"
 F 5 "Passive" H 7780 3340 50  0001 C CNN "Family"

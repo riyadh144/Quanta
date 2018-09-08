@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 18
+Sheet 6 16
 Title ""
 Date ""
 Rev ""
@@ -53,7 +53,8 @@ P 2100 1700
 F 0 "U8" H 2125 1815 50  0000 C CNN
 F 1 "MAX14752" H 2125 1724 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 2150 1800 50  0001 C CNN
-F 3 "" H 2150 1800 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 2150 1800 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    2100 1700
 	1    0    0    -1  
 $EndComp
@@ -120,7 +121,8 @@ P 4100 1650
 F 0 "U10" H 4125 1765 50  0000 C CNN
 F 1 "MAX14752" H 4125 1674 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 4150 1750 50  0001 C CNN
-F 3 "" H 4150 1750 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 4150 1750 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    4100 1650
 	1    0    0    -1  
 $EndComp
@@ -147,7 +149,8 @@ P 6200 1650
 F 0 "U12" H 6225 1765 50  0000 C CNN
 F 1 "MAX14752" H 6225 1674 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 6250 1750 50  0001 C CNN
-F 3 "" H 6250 1750 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 6250 1750 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    6200 1650
 	1    0    0    -1  
 $EndComp
@@ -174,7 +177,8 @@ P 1750 4500
 F 0 "U7" H 1775 4615 50  0000 C CNN
 F 1 "MAX14752" H 1775 4524 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 1800 4600 50  0001 C CNN
-F 3 "" H 1800 4600 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 1800 4600 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    1750 4500
 	1    0    0    -1  
 $EndComp
@@ -225,7 +229,8 @@ P 3550 4450
 F 0 "U9" H 3575 4565 50  0000 C CNN
 F 1 "MAX14752" H 3575 4474 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 3600 4550 50  0001 C CNN
-F 3 "" H 3600 4550 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 3600 4550 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    3550 4450
 	1    0    0    -1  
 $EndComp
@@ -252,7 +257,8 @@ P 5350 4400
 F 0 "U11" H 5375 4515 50  0000 C CNN
 F 1 "MAX14752" H 5375 4424 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 5400 4500 50  0001 C CNN
-F 3 "" H 5400 4500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 5400 4500 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    5350 4400
 	1    0    0    -1  
 $EndComp
@@ -295,7 +301,8 @@ P 7050 4400
 F 0 "U13" H 7075 4515 50  0000 C CNN
 F 1 "MAX14752" H 7075 4424 50  0000 C CNN
 F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 7100 4500 50  0001 C CNN
-F 3 "" H 7100 4500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14752-MAX14753.pdf" H 7100 4500 50  0001 C CNN
+F 4 " MAX14752EUE+-ND " H 7050 4400 50  0001 C CNN "Digi-Key_PN"
 	1    7050 4400
 	1    0    0    -1  
 $EndComp
@@ -653,11 +660,12 @@ $Comp
 L Analog_Switch:DG408LE U2
 U 1 1 5BA76687
 P 11100 2100
-F 0 "U2" H 11100 2650 50  0000 C CNN
-F 1 "DG408LE" H 11100 2600 50  0000 C CNN
-F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 11100 2100 50  0001 C CNN
+F 0 "U2" H 11100 2465 50  0000 C CNN
+F 1 "DG408LE" H 11100 2374 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 11100 2100 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/78084/dg408le.pdf" H 11100 2100 50  0001 C CNN
-F 4 "DG408LEDQ-T1-GE3CT-ND " H 11100 2100 50  0001 C CNN "PN"
+F 4 "DG408LEDY-T1-GE3CT-ND " H 11100 2100 50  0001 C CNN "Digi-Key_PN"
+F 5 "DG408LEDY-T1-GE3" H 0   0   50  0001 C CNN "MPN"
 	1    11100 2100
 	1    0    0    -1  
 $EndComp
@@ -732,10 +740,12 @@ $Comp
 L Analog_Switch:DG408LE U1
 U 1 1 5BB6FE9D
 P 9650 4200
-F 0 "U1" H 9650 4750 50  0000 C CNN
-F 1 "DG408LE" H 9650 4700 50  0000 C CNN
-F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 9650 4200 50  0001 C CNN
-F 3 "" H 9650 4200 50  0001 C CNN
+F 0 "U1" H 9650 4550 50  0000 C CNN
+F 1 "DG408LE" H 9650 4450 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 9650 4200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/78084/dg408le.pdf" H 9650 4200 50  0001 C CNN
+F 4 "DG408LEDY-T1-GE3CT-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 5 "DG408LEDY-T1-GE3" H 0   0   50  0001 C CNN "MPN"
 	1    9650 4200
 	1    0    0    -1  
 $EndComp
@@ -814,10 +824,12 @@ $Comp
 L Analog_Switch:DG408LE U16
 U 1 1 5BB7C29C
 P 11600 4200
-F 0 "U16" H 11600 4750 50  0000 C CNN
-F 1 "DG408LE" H 11600 4700 50  0000 C CNN
-F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" H 11600 4200 50  0001 C CNN
-F 3 "" H 11600 4200 50  0001 C CNN
+F 0 "U16" H 11600 4550 50  0000 C CNN
+F 1 "DG408LE" H 11600 4450 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 11600 4200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/78084/dg408le.pdf" H 11600 4200 50  0001 C CNN
+F 4 "DG408LEDY-T1-GE3CT-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 5 "DG408LEDY-T1-GE3" H 0   0   50  0001 C CNN "MPN"
 	1    11600 4200
 	1    0    0    -1  
 $EndComp
@@ -914,11 +926,6 @@ F 12 "Active" H 12500 2650 60  0001 L CNN "Status"
 	1    12300 1450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	12600 1450 12800 1450
-Wire Wire Line
-	12800 1750 12800 1450
-Connection ~ 12800 1450
 $Comp
 L power:GND #PWR?
 U 1 1 5BB8E37A
@@ -991,8 +998,6 @@ F 3 "" H 15200 3650 50  0001 C CNN
 	1    15200 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12800 1450 14700 1450
 $Comp
 L dk_Interface-Analog-Switches-Multiplexers-Demultiplexers:CD74HC4067SM96 U?
 U 1 1 5BB8E3AD
@@ -1030,11 +1035,11 @@ F 3 "" H 15700 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15200 1150 15700 1150
-Text GLabel 15850 1950 2    50   Input ~ 0
+Text GLabel 15850 1750 2    50   Input ~ 0
 MUXC
 Text GLabel 15850 1850 2    50   Input ~ 0
 MUXD
-Text GLabel 15850 1750 2    50   Input ~ 0
+Text GLabel 15850 1950 2    50   Input ~ 0
 MUXE
 Wire Wire Line
 	15850 1950 15600 1950
@@ -1075,10 +1080,11 @@ AR Path="/5B9C8971/5BD017D0" Ref="J?"  Part="1"
 AR Path="/5BA2CD36/5BD017D0" Ref="J?"  Part="1" 
 AR Path="/5BCA1CB6/5BD017D0" Ref="J17"  Part="1" 
 F 0 "J17" H 9980 5792 50  0000 L CNN
-F 1 "BananaPlug" H 9980 5701 50  0000 L CNN
-F 2 "" H 9900 5800 50  0001 C CNN
+F 1 "Banana Jack" H 9980 5701 50  0000 L CNN
+F 2 "Connectors:Banana_Jack_2Pin" H 9900 5800 50  0001 C CNN
 F 3 "~" H 9900 5800 50  0001 C CNN
 F 4 "Multimeter" H 9900 5800 50  0001 C CNN "Field4"
+F 5 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H 0   0   50  0001 C CNN "Description"
 	1    9900 5800
 	1    0    0    -1  
 $EndComp
@@ -1163,7 +1169,6 @@ F 3 "~" H 12700 1750 50  0001 C CNN
 	1    12700 1750
 	-1   0    0    1   
 $EndComp
-Connection ~ 12700 1750
 Wire Wire Line
-	12700 1750 12800 1750
+	12600 1450 14700 1450
 $EndSCHEMATC

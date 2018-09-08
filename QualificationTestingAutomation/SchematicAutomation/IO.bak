@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 18
+Sheet 2 16
 Title ""
 Date ""
 Rev ""
@@ -22,8 +22,9 @@ AR Path="/5B9DEA24" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5B9DEA24" Ref="J1"  Part="1" 
 F 0 "J1" H 3550 1967 50  0000 C CNN
 F 1 "OBD Connector" H 3550 1876 50  0000 C CNN
-F 2 "" H 3500 1450 50  0001 C CNN
-F 3 "~" H 3500 1450 50  0001 C CNN
+F 2 "Connectors:3MM" H 3500 1450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 3500 1450 50  0001 C CNN
+F 4 " WM4711-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    3500 1450
 	1    0    0    -1  
 $EndComp
@@ -47,7 +48,7 @@ AR Path="/5B9DEAA0" Ref="R?"  Part="1"
 AR Path="/5B9C8971/5B9DEAA0" Ref="R1"  Part="1" 
 F 0 "R1" H 2318 2146 50  0000 L CNN
 F 1 "R120" H 2318 2055 50  0000 L CNN
-F 2 "digikey-footprints:0603" V 2290 2090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2290 2090 50  0001 C CNN
 F 3 "~" H 2250 2100 50  0001 C CNN
 	1    2250 2100
 	1    0    0    -1  
@@ -79,12 +80,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR04
 U 1 1 5B9F12B3
-P 6800 3950
-F 0 "#PWR04" H 6800 3700 50  0001 C CNN
-F 1 "GND" H 6805 3777 50  0000 C CNN
-F 2 "" H 6800 3950 50  0001 C CNN
-F 3 "" H 6800 3950 50  0001 C CNN
-	1    6800 3950
+P 6800 4450
+F 0 "#PWR04" H 6800 4200 50  0001 C CNN
+F 1 "GND" H 6805 4277 50  0000 C CNN
+F 2 "" H 6800 4450 50  0001 C CNN
+F 3 "" H 6800 4450 50  0001 C CNN
+	1    6800 4450
 	0    1    1    0   
 $EndComp
 Text GLabel 6300 3850 0    50   Input ~ 0
@@ -162,8 +163,8 @@ Wire Wire Line
 Text GLabel 6300 4550 0    50   Input ~ 0
 5_Vin
 Wire Wire Line
-	6800 4450 6300 4450
-Text GLabel 6300 4450 0    50   Input ~ 0
+	6800 3950 6300 3950
+Text GLabel 6300 3950 0    50   Input ~ 0
 5_GarminPWR
 Wire Wire Line
 	6800 4850 6300 4850
@@ -211,8 +212,9 @@ AR Path="/5B98046E" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5B98046E" Ref="J3"  Part="1" 
 F 0 "J3" H 5900 1967 50  0000 C CNN
 F 1 "OBD Connector" H 5900 1876 50  0000 C CNN
-F 2 "" H 5850 1450 50  0001 C CNN
-F 3 "~" H 5850 1450 50  0001 C CNN
+F 2 "Connectors:3MM" H 5850 1450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 5850 1450 50  0001 C CNN
+F 4 " WM4711-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    5850 1450
 	1    0    0    -1  
 $EndComp
@@ -268,8 +270,9 @@ AR Path="/5B9826C3" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5B9826C3" Ref="J5"  Part="1" 
 F 0 "J5" H 8150 1967 50  0000 C CNN
 F 1 "OBD Connector" H 8150 1876 50  0000 C CNN
-F 2 "" H 8100 1450 50  0001 C CNN
-F 3 "~" H 8100 1450 50  0001 C CNN
+F 2 "Connectors:3MM" H 8100 1450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 8100 1450 50  0001 C CNN
+F 4 " WM4711-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    8100 1450
 	1    0    0    -1  
 $EndComp
@@ -325,8 +328,9 @@ AR Path="/5B9826E8" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5B9826E8" Ref="J8"  Part="1" 
 F 0 "J8" H 10300 2017 50  0000 C CNN
 F 1 "OBD Connector" H 10300 1926 50  0000 C CNN
-F 2 "" H 10250 1500 50  0001 C CNN
-F 3 "~" H 10250 1500 50  0001 C CNN
+F 2 "Connectors:3MM" H 10250 1500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 10250 1500 50  0001 C CNN
+F 4 " WM4711-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    10250 1500
 	1    0    0    -1  
 $EndComp
@@ -382,8 +386,9 @@ AR Path="/5B986118" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5B986118" Ref="J11"  Part="1" 
 F 0 "J11" H 15100 2067 50  0000 C CNN
 F 1 "OBD Connector" H 15100 1976 50  0000 C CNN
-F 2 "" H 15050 1550 50  0001 C CNN
-F 3 "~" H 15050 1550 50  0001 C CNN
+F 2 "Connectors:3MM" H 15050 1550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 15050 1550 50  0001 C CNN
+F 4 " WM4711-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    15050 1550
 	1    0    0    -1  
 $EndComp
@@ -439,8 +444,9 @@ AR Path="/5B98613D" Ref="J?"  Part="1"
 AR Path="/5B9C8971/5B98613D" Ref="J9"  Part="1" 
 F 0 "J9" H 12650 2067 50  0000 C CNN
 F 1 "OBD Connector" H 12650 1976 50  0000 C CNN
-F 2 "" H 12600 1550 50  0001 C CNN
-F 3 "~" H 12600 1550 50  0001 C CNN
+F 2 "Connectors:3MM" H 12600 1550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 12600 1550 50  0001 C CNN
+F 4 " WM4711-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
 	1    12600 1550
 	1    0    0    -1  
 $EndComp
@@ -562,7 +568,7 @@ AR Path="/5B9FE977" Ref="R?"  Part="1"
 AR Path="/5B9C8971/5B9FE977" Ref="R2"  Part="1" 
 F 0 "R2" H 2318 2896 50  0000 L CNN
 F 1 "R120" H 2318 2805 50  0000 L CNN
-F 2 "digikey-footprints:0603" V 2290 2840 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2290 2840 50  0001 C CNN
 F 3 "~" H 2250 2850 50  0001 C CNN
 	1    2250 2850
 	1    0    0    -1  
@@ -596,12 +602,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR06
 U 1 1 5BA62BD7
-P 9800 3900
-F 0 "#PWR06" H 9800 3650 50  0001 C CNN
-F 1 "GND" H 9805 3727 50  0000 C CNN
-F 2 "" H 9800 3900 50  0001 C CNN
-F 3 "" H 9800 3900 50  0001 C CNN
-	1    9800 3900
+P 9800 4400
+F 0 "#PWR06" H 9800 4150 50  0001 C CNN
+F 1 "GND" H 9805 4227 50  0000 C CNN
+F 2 "" H 9800 4400 50  0001 C CNN
+F 3 "" H 9800 4400 50  0001 C CNN
+	1    9800 4400
 	0    1    1    0   
 $EndComp
 Text GLabel 9300 3800 0    50   Input ~ 0
@@ -679,8 +685,8 @@ Wire Wire Line
 Text GLabel 9300 4500 0    50   Input ~ 0
 4_Vin
 Wire Wire Line
-	9800 4400 9300 4400
-Text GLabel 9300 4400 0    50   Input ~ 0
+	9800 3900 9300 3900
+Text GLabel 9300 3900 0    50   Input ~ 0
 4_GarminPWR
 Wire Wire Line
 	9800 4800 9300 4800
@@ -703,12 +709,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR02
 U 1 1 5BA8D94F
-P 4450 6200
-F 0 "#PWR02" H 4450 5950 50  0001 C CNN
-F 1 "GND" H 4455 6027 50  0000 C CNN
-F 2 "" H 4450 6200 50  0001 C CNN
-F 3 "" H 4450 6200 50  0001 C CNN
-	1    4450 6200
+P 4450 6700
+F 0 "#PWR02" H 4450 6450 50  0001 C CNN
+F 1 "GND" H 4455 6527 50  0000 C CNN
+F 2 "" H 4450 6700 50  0001 C CNN
+F 3 "" H 4450 6700 50  0001 C CNN
+	1    4450 6700
 	0    1    1    0   
 $EndComp
 Text GLabel 3950 6100 0    50   Input ~ 0
@@ -786,8 +792,8 @@ Wire Wire Line
 Text GLabel 3950 6800 0    50   Input ~ 0
 1_Vin
 Wire Wire Line
-	4450 6700 3950 6700
-Text GLabel 3950 6700 0    50   Input ~ 0
+	4450 6200 3950 6200
+Text GLabel 3950 6200 0    50   Input ~ 0
 1_GarminPWR
 Wire Wire Line
 	4450 7100 3950 7100
@@ -810,12 +816,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR07
 U 1 1 5BA8D990
-P 9850 6000
-F 0 "#PWR07" H 9850 5750 50  0001 C CNN
-F 1 "GND" H 9855 5827 50  0000 C CNN
-F 2 "" H 9850 6000 50  0001 C CNN
-F 3 "" H 9850 6000 50  0001 C CNN
-	1    9850 6000
+P 9850 6500
+F 0 "#PWR07" H 9850 6250 50  0001 C CNN
+F 1 "GND" H 9855 6327 50  0000 C CNN
+F 2 "" H 9850 6500 50  0001 C CNN
+F 3 "" H 9850 6500 50  0001 C CNN
+	1    9850 6500
 	0    1    1    0   
 $EndComp
 Text GLabel 9350 5900 0    50   Input ~ 0
@@ -893,8 +899,8 @@ Wire Wire Line
 Text GLabel 9350 6600 0    50   Input ~ 0
 2_Vin
 Wire Wire Line
-	9850 6500 9350 6500
-Text GLabel 9350 6500 0    50   Input ~ 0
+	9850 6000 9350 6000
+Text GLabel 9350 6000 0    50   Input ~ 0
 2_GarminPWR
 Wire Wire Line
 	9850 6900 9350 6900
@@ -921,12 +927,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 5BA9CE3D
-P 12850 3900
-F 0 "#PWR09" H 12850 3650 50  0001 C CNN
-F 1 "GND" H 12855 3727 50  0000 C CNN
-F 2 "" H 12850 3900 50  0001 C CNN
-F 3 "" H 12850 3900 50  0001 C CNN
-	1    12850 3900
+P 12850 4400
+F 0 "#PWR09" H 12850 4150 50  0001 C CNN
+F 1 "GND" H 12855 4227 50  0000 C CNN
+F 2 "" H 12850 4400 50  0001 C CNN
+F 3 "" H 12850 4400 50  0001 C CNN
+	1    12850 4400
 	0    1    1    0   
 $EndComp
 Text GLabel 12350 3800 0    50   Input ~ 0
@@ -1004,8 +1010,8 @@ Wire Wire Line
 Text GLabel 12350 4500 0    50   Input ~ 0
 3_Vin
 Wire Wire Line
-	12850 4400 12350 4400
-Text GLabel 12350 4400 0    50   Input ~ 0
+	12850 3900 12350 3900
+Text GLabel 12350 3900 0    50   Input ~ 0
 3_GarminPWR
 Wire Wire Line
 	12850 4800 12350 4800
@@ -1015,61 +1021,6 @@ Wire Wire Line
 	13350 4800 13850 4800
 Text GLabel 13850 4800 2    50   Input ~ 0
 3_OWB_MAIN
-$Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J2
-U 1 1 5BD8B936
-P 4650 6400
-F 0 "J2" H 4700 7217 50  0000 C CNN
-F 1 "Conn_02x14_Top_Bottom_MountingPin" H 4700 7126 50  0000 C CNN
-F 2 "" H 4650 6400 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 4650 6400 50  0001 C CNN
-	1    4650 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J7
-U 1 1 5BDD7CC9
-P 10050 6200
-F 0 "J7" H 10100 7017 50  0000 C CNN
-F 1 "Conn_02x14_Top_Bottom_MountingPin" H 10100 6926 50  0000 C CNN
-F 2 "" H 10050 6200 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 10050 6200 50  0001 C CNN
-	1    10050 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J4
-U 1 1 5BDEAEF2
-P 7000 4150
-F 0 "J4" H 7050 4967 50  0000 C CNN
-F 1 "Conn_02x14_Top_Bottom_MountingPin" H 7050 4876 50  0000 C CNN
-F 2 "" H 7000 4150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 7000 4150 50  0001 C CNN
-	1    7000 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J6
-U 1 1 5BE5DBDF
-P 10000 4100
-F 0 "J6" H 10050 4917 50  0000 C CNN
-F 1 "Conn_02x14_Top_Bottom_MountingPin" H 10050 4826 50  0000 C CNN
-F 2 "" H 10000 4100 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 10000 4100 50  0001 C CNN
-	1    10000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_02x14_Top_Bottom_MountingPin J10
-U 1 1 5BE8400E
-P 13050 4100
-F 0 "J10" H 13100 4917 50  0000 C CNN
-F 1 "Conn_02x14_Top_Bottom_MountingPin" H 13100 4826 50  0000 C CNN
-F 2 "" H 13050 4100 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC142LJBN-RC/S5567-ND/776025" H 13050 4100 50  0001 C CNN
-	1    13050 4100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 12350 4200
 NoConn ~ 12350 4300
 NoConn ~ 13350 4500
@@ -1099,58 +1050,143 @@ NoConn ~ 15350 1250
 NoConn ~ 14850 1850
 NoConn ~ 10950 7200
 $Comp
-L power:GND #PWR0323
-U 1 1 5BF72E65
-P 10100 7100
-F 0 "#PWR0323" H 10100 6850 50  0001 C CNN
-F 1 "GND" H 10105 6927 50  0000 C CNN
-F 2 "" H 10100 7100 50  0001 C CNN
-F 3 "" H 10100 7100 50  0001 C CNN
-	1    10100 7100
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BA7931C
+P 10000 3800
+AR Path="/5BA7931C" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BA7931C" Ref="J10"  Part="1" 
+F 0 "J10" H 10050 4317 50  0000 C CNN
+F 1 "OBD Connector" H 10050 4226 50  0000 C CNN
+F 2 "Connectors:3MM" H 10000 3800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 10000 3800 50  0001 C CNN
+F 4 " WM4711-ND " H -250 2300 50  0001 C CNN "Digi-Key_PN"
+	1    10000 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0324
-U 1 1 5BF72ED5
-P 4700 7300
-F 0 "#PWR0324" H 4700 7050 50  0001 C CNN
-F 1 "GND" H 4705 7127 50  0000 C CNN
-F 2 "" H 4700 7300 50  0001 C CNN
-F 3 "" H 4700 7300 50  0001 C CNN
-	1    4700 7300
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BA8B21D
+P 10000 4500
+AR Path="/5BA8B21D" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BA8B21D" Ref="J18"  Part="1" 
+F 0 "J18" H 10050 5017 50  0000 C CNN
+F 1 "OBD Connector" H 10050 4926 50  0000 C CNN
+F 2 "Connectors:3MM" H 10000 4500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 10000 4500 50  0001 C CNN
+F 4 " WM4711-ND " H -250 3000 50  0001 C CNN "Digi-Key_PN"
+	1    10000 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0325
-U 1 1 5BF72FD4
-P 7050 5050
-F 0 "#PWR0325" H 7050 4800 50  0001 C CNN
-F 1 "GND" H 7055 4877 50  0000 C CNN
-F 2 "" H 7050 5050 50  0001 C CNN
-F 3 "" H 7050 5050 50  0001 C CNN
-	1    7050 5050
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BA9D34F
+P 13050 3800
+AR Path="/5BA9D34F" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BA9D34F" Ref="J21"  Part="1" 
+F 0 "J21" H 13100 4317 50  0000 C CNN
+F 1 "OBD Connector" H 13100 4226 50  0000 C CNN
+F 2 "Connectors:3MM" H 13050 3800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 13050 3800 50  0001 C CNN
+F 4 " WM4711-ND " H 2800 2300 50  0001 C CNN "Digi-Key_PN"
+	1    13050 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0326
-U 1 1 5BF73044
-P 10050 5000
-F 0 "#PWR0326" H 10050 4750 50  0001 C CNN
-F 1 "GND" H 10055 4827 50  0000 C CNN
-F 2 "" H 10050 5000 50  0001 C CNN
-F 3 "" H 10050 5000 50  0001 C CNN
-	1    10050 5000
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BA9D357
+P 13050 4500
+AR Path="/5BA9D357" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BA9D357" Ref="J22"  Part="1" 
+F 0 "J22" H 13100 5017 50  0000 C CNN
+F 1 "OBD Connector" H 13100 4926 50  0000 C CNN
+F 2 "Connectors:3MM" H 13050 4500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 13050 4500 50  0001 C CNN
+F 4 " WM4711-ND " H 2800 3000 50  0001 C CNN "Digi-Key_PN"
+	1    13050 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0327
-U 1 1 5BF730CE
-P 13100 5000
-F 0 "#PWR0327" H 13100 4750 50  0001 C CNN
-F 1 "GND" H 13105 4827 50  0000 C CNN
-F 2 "" H 13100 5000 50  0001 C CNN
-F 3 "" H 13100 5000 50  0001 C CNN
-	1    13100 5000
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BAE5084
+P 7000 3850
+AR Path="/5BAE5084" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BAE5084" Ref="J6"  Part="1" 
+F 0 "J6" H 7050 4367 50  0000 C CNN
+F 1 "OBD Connector" H 7050 4276 50  0000 C CNN
+F 2 "Connectors:3MM" H 7000 3850 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 7000 3850 50  0001 C CNN
+F 4 " WM4711-ND " H -3250 2350 50  0001 C CNN "Digi-Key_PN"
+	1    7000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BAE508C
+P 7000 4550
+AR Path="/5BAE508C" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BAE508C" Ref="J7"  Part="1" 
+F 0 "J7" H 7050 5067 50  0000 C CNN
+F 1 "OBD Connector" H 7050 4976 50  0000 C CNN
+F 2 "Connectors:3MM" H 7000 4550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 7000 4550 50  0001 C CNN
+F 4 " WM4711-ND " H -3250 3050 50  0001 C CNN "Digi-Key_PN"
+	1    7000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BB0904C
+P 10050 5900
+AR Path="/5BB0904C" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BB0904C" Ref="J19"  Part="1" 
+F 0 "J19" H 10100 6417 50  0000 C CNN
+F 1 "OBD Connector" H 10100 6326 50  0000 C CNN
+F 2 "Connectors:3MM" H 10050 5900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 10050 5900 50  0001 C CNN
+F 4 " WM4711-ND " H -200 4400 50  0001 C CNN "Digi-Key_PN"
+	1    10050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BB09054
+P 10050 6600
+AR Path="/5BB09054" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BB09054" Ref="J20"  Part="1" 
+F 0 "J20" H 10100 7117 50  0000 C CNN
+F 1 "OBD Connector" H 10100 7026 50  0000 C CNN
+F 2 "Connectors:3MM" H 10050 6600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 10050 6600 50  0001 C CNN
+F 4 " WM4711-ND " H -200 5100 50  0001 C CNN "Digi-Key_PN"
+	1    10050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BB2D0BC
+P 4650 6100
+AR Path="/5BB2D0BC" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BB2D0BC" Ref="J2"  Part="1" 
+F 0 "J2" H 4700 6617 50  0000 C CNN
+F 1 "OBD Connector" H 4700 6526 50  0000 C CNN
+F 2 "Connectors:3MM" H 4650 6100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 4650 6100 50  0001 C CNN
+F 4 " WM4711-ND " H -5600 4600 50  0001 C CNN "Digi-Key_PN"
+	1    4650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Top_Bottom J?
+U 1 1 5BB2D0C4
+P 4650 6800
+AR Path="/5BB2D0C4" Ref="J?"  Part="1" 
+AR Path="/5B9C8971/5BB2D0C4" Ref="J4"  Part="1" 
+F 0 "J4" H 4700 7317 50  0000 C CNN
+F 1 "OBD Connector" H 4700 7226 50  0000 C CNN
+F 2 "Connectors:3MM" H 4650 6800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451412_sd.pdf" H 4650 6800 50  0001 C CNN
+F 4 " WM4711-ND " H -5600 5300 50  0001 C CNN "Digi-Key_PN"
+	1    4650 6800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
