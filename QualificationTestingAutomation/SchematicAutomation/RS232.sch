@@ -40,8 +40,6 @@ Text GLabel 6000 3500 0    50   Input ~ 0
 4_TX
 Text GLabel 1650 2900 0    50   Input ~ 0
 3_RTS
-Text GLabel 1650 2800 0    50   Input ~ 0
-3_CTS
 Text GLabel 1650 2600 0    50   Input ~ 0
 3_RX
 Text GLabel 1650 2700 0    50   Input ~ 0
@@ -1867,4 +1865,6 @@ Wire Wire Line
 Wire Wire Line
 	11800 4450 11800 5050
 NoConn ~ 1650 3600
+Text GLabel 1650 2800 0    50   Input ~ 0
+3_CTS
 $EndSCHEMATC

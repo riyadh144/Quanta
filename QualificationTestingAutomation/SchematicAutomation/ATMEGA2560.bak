@@ -150,7 +150,7 @@ U 1 1 5B90B0D2
 P 5500 2350
 F 0 "L1" V 5250 2350 60  0000 L CNB
 F 1 "10uH" V 5350 2300 40  0000 L CNN
-F 2 "digikey-footprints:0603" H 5500 2220 40  0001 C CNN
+F 2 "digikey-footprints:0805" H 5500 2220 40  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0012.pdf" V 6750 4600 60  0000 C CNN
 F 4 "490-4025-1-ND" H 5500 2515 45  0001 C CNN "PART"
 F 5 "Passive" H 5730 2640 50  0001 C CNN "Family"
@@ -351,39 +351,31 @@ Wire Wire Line
 $Comp
 L dk_Rectangular-Connectors-Headers-Male-Pins:0015912120 J12
 U 1 1 5B913E87
-P 3450 6000
-F 0 "J12" H 3450 6447 60  0000 C CNN
-F 1 "0015912120" H 3450 6341 60  0000 C CNN
-F 2 "digikey-footprints:PinHeader_2x6_P2.54mm_Vertical_SMD" H 3650 6200 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 3650 6300 60  0001 L CNN
-F 4 "WM17452-ND" H 3650 6400 60  0001 L CNN "Digi-Key_PN"
-F 5 "0015912120" H 3650 6500 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 3650 6600 60  0001 L CNN "Category"
-F 7 "Rectangular Connectors - Headers, Male Pins" H 3650 6700 60  0001 L CNN "Family"
-F 8 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 3650 6800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/molex-connector-corporation/0015912120/WM17452-ND/614768" H 3650 6900 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN HEADER 12POS .100 VERT TIN" H 3650 7000 60  0001 L CNN "Description"
-F 11 "Molex Connector Corporation" H 3650 7100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3650 7200 60  0001 L CNN "Status"
-	1    3450 6000
-	1    0    0    -1  
+P 3350 6600
+F 0 "J12" H 3350 7047 60  0000 C CNN
+F 1 "0015912120" H 3350 6941 60  0000 C CNN
+F 2 "digikey-footprints:PinHeader_2x6_P2.54mm_Vertical_SMD" H 3550 6800 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 3550 6900 60  0001 L CNN
+F 4 "WM17452-ND" H 3550 7000 60  0001 L CNN "Digi-Key_PN"
+F 5 "0015912120" H 3550 7100 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 3550 7200 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 3550 7300 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/015912120_sd.pdf" H 3550 7400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex-connector-corporation/0015912120/WM17452-ND/614768" H 3550 7500 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER 12POS .100 VERT TIN" H 3550 7600 60  0001 L CNN "Description"
+F 11 "Molex Connector Corporation" H 3550 7700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3550 7800 60  0001 L CNN "Status"
+	1    3350 6600
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4800 6250 4800 6300
 Wire Wire Line
-	4800 6300 3650 6300
-Wire Wire Line
 	4800 6150 4800 6200
-Wire Wire Line
-	4800 6200 3650 6200
 Wire Wire Line
 	4800 6050 4800 6100
 Wire Wire Line
-	4800 6100 3650 6100
-Wire Wire Line
 	4800 5950 4800 6000
-Wire Wire Line
-	4800 6000 3650 6000
 Wire Wire Line
 	4800 5850 4800 5900
 Text Label 4250 6300 0    50   ~ 0
@@ -395,52 +387,44 @@ TMS
 Text Label 4250 6000 0    50   ~ 0
 TCK
 Wire Wire Line
-	3650 5900 3750 5900
+	3650 6400 3750 6400
 $Comp
 L power:GND #PWR016
 U 1 1 5B9183F6
-P 3850 5900
-F 0 "#PWR016" H 3850 5650 50  0001 C CNN
-F 1 "GND" H 3855 5727 50  0000 C CNN
-F 2 "" H 3850 5900 50  0001 C CNN
-F 3 "" H 3850 5900 50  0001 C CNN
-	1    3850 5900
+P 3850 6400
+F 0 "#PWR016" H 3850 6150 50  0001 C CNN
+F 1 "GND" H 3855 6227 50  0000 C CNN
+F 2 "" H 3850 6400 50  0001 C CNN
+F 3 "" H 3850 6400 50  0001 C CNN
+	1    3850 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 5800 4000 5800
+	3650 6800 4000 6800
 $Comp
 L power:+3V3 #PWR018
 U 1 1 5B919423
-P 4000 5800
-F 0 "#PWR018" H 4000 5650 50  0001 C CNN
-F 1 "+3V3" H 4015 5973 50  0000 C CNN
-F 2 "" H 4000 5800 50  0001 C CNN
-F 3 "" H 4000 5800 50  0001 C CNN
-	1    4000 5800
+P 4000 6800
+F 0 "#PWR018" H 4000 6650 50  0001 C CNN
+F 1 "+3V3" H 4015 6973 50  0000 C CNN
+F 2 "" H 4000 6800 50  0001 C CNN
+F 3 "" H 4000 6800 50  0001 C CNN
+	1    4000 6800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3250 5900 3150 5900
-Wire Wire Line
-	3250 6000 3150 6000
-Text HLabel 3150 6000 0    50   Input ~ 0
+	3450 6800 3450 6900
+Text HLabel 3450 6350 1    50   Input ~ 0
 D-
-Text HLabel 3150 5900 0    50   Input ~ 0
+Text HLabel 3450 6900 3    50   Input ~ 0
 D+
-Wire Wire Line
-	3250 6100 3150 6100
-Text HLabel 3150 6100 0    50   Input ~ 0
+Text HLabel 3550 6800 3    50   Input ~ 0
 VBUS
 Wire Wire Line
-	3250 5800 3250 5850
+	3750 6350 3750 6400
+Connection ~ 3750 6400
 Wire Wire Line
-	3250 5850 3750 5850
-Wire Wire Line
-	3750 5850 3750 5900
-Connection ~ 3750 5900
-Wire Wire Line
-	3750 5900 3850 5900
+	3750 6400 3850 6400
 Text GLabel 6250 4650 2    50   Input ~ 0
 MUX26
 Text GLabel 6250 4850 2    50   Input ~ 0
@@ -705,8 +689,6 @@ NoConn ~ 6000 4250
 NoConn ~ 6000 4350
 NoConn ~ 6000 4450
 NoConn ~ 6000 4950
-NoConn ~ 6000 5050
-NoConn ~ 6000 5150
 NoConn ~ 6000 5250
 NoConn ~ 6000 5350
 NoConn ~ 6000 5850
@@ -735,8 +717,6 @@ $EndComp
 Connection ~ 5600 2500
 Wire Wire Line
 	5600 2500 5650 2500
-NoConn ~ 3250 6200
-NoConn ~ 3250 6300
 Text GLabel 6350 5950 2    50   Input ~ 0
 MUXA1
 Wire Wire Line
@@ -745,4 +725,34 @@ Text GLabel 6350 6050 2    50   Input ~ 0
 RS232INV
 Wire Wire Line
 	6350 6050 6000 6050
+Text GLabel 6000 5050 2    50   Input ~ 0
+TX_CONT
+Text GLabel 6000 5150 2    50   Input ~ 0
+CTS_CONT
+Wire Wire Line
+	3350 6300 3350 6400
+Wire Wire Line
+	3350 6300 4800 6300
+Wire Wire Line
+	3300 6200 3300 6800
+Wire Wire Line
+	3300 6800 3350 6800
+Wire Wire Line
+	3300 6200 4800 6200
+Wire Wire Line
+	3250 6100 3250 6400
+Wire Wire Line
+	3250 6100 4800 6100
+Wire Wire Line
+	3450 6350 3450 6400
+NoConn ~ 3200 6400
+NoConn ~ 3150 6400
+NoConn ~ 3150 6800
+NoConn ~ 3550 6400
+Wire Wire Line
+	2750 6800 2750 6000
+Wire Wire Line
+	2750 6000 4800 6000
+Wire Wire Line
+	2750 6800 3250 6800
 $EndSCHEMATC
