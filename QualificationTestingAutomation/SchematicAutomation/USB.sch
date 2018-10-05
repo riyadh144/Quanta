@@ -14,22 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L TUSB2046B:TUSB2046B IC1
-U 1 1 5BE52A95
-P 5350 4250
-F 0 "IC1" H 5350 5316 50  0000 C CNN
-F 1 "TUSB2046B" H 5350 5225 50  0000 C CNN
-F 2 "digikey-footprints:LQFP-32_7x7mm" H 5350 4250 50  0001 L BNN
-F 3 "None" H 5350 4250 50  0001 L BNN
-F 4 "" H 5350 4250 50  0001 L BNN "Field4"
-F 5 "Texas Instruments" H 5350 4250 50  0001 L BNN "Field5"
-F 6 "3.04 USD" H 5350 4250 50  0001 L BNN "Field6"
-F 7 "TUSB2046B" H 5350 4250 50  0001 L BNN "Field7"
-F 8 "Unavailable" H 5350 4250 50  0001 L BNN "Field8"
-	1    5350 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6350 4050 6450 4050
 $Comp
@@ -57,9 +41,7 @@ F 3 "" H 4000 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 4050 4300 4050
-Wire Wire Line
-	4350 3650 4250 3650
+	4000 4050 4200 4050
 Wire Wire Line
 	4000 3650 4000 3600
 $Comp
@@ -76,54 +58,27 @@ $EndComp
 $Comp
 L Device:Crystal Y5
 U 1 1 5BE6CFF6
-P 6850 3650
-F 0 "Y5" H 6850 3918 50  0000 C CNN
-F 1 "6MHz" H 6850 3827 50  0000 C CNN
-F 2 "crystals:HC49UP" H 6850 3650 50  0001 C CNN
-F 3 "https://abracon.com/Resonators/abls.pdf" H 6850 3650 50  0001 C CNN
-F 4 " 535-10208-1-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
-	1    6850 3650
-	1    0    0    -1  
+P 8900 3650
+F 0 "Y5" H 8900 3918 50  0000 C CNN
+F 1 "6MHz" H 8900 3827 50  0000 C CNN
+F 2 "crystals:HC49UP" H 8900 3650 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abls.pdf" H 8900 3650 50  0001 C CNN
+F 4 " 535-10208-1-ND " H 2050 0   50  0001 C CNN "Digi-Key_PN"
+	1    8900 3650
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7000 3650 7100 3650
-Wire Wire Line
-	7100 3650 7100 3750
 $Comp
 L passive:CAP C48
 U 1 1 5BE6E91E
-P 6650 3750
-F 0 "C48" H 6950 3800 60  0000 R CNB
-F 1 "20pF" H 6600 3850 45  0000 R CNN
-F 2 "smt:C-0603" H 6685 3595 40  0001 L CNN
-F 3 "" H 6650 3850 60  0001 C CNN
-F 4 "-" H 6690 3915 45  0001 L CNN "Part"
-F 5 "Passive" H 6880 4040 50  0001 C CNN "Family"
-	1    6650 3750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6350 3650 6650 3650
-Connection ~ 6650 3650
-Wire Wire Line
-	6650 3650 6700 3650
-Wire Wire Line
-	7000 3750 6350 3750
-Wire Wire Line
-	7100 3750 7000 3750
-Connection ~ 7000 3750
-$Comp
-L passive:CAP C49
-U 1 1 5BE6E68D
-P 7000 3850
-F 0 "C49" H 7108 3892 60  0000 L CNB
-F 1 "20pF" H 7108 3797 45  0000 L CNN
-F 2 "smt:C-0603" H 7035 3695 40  0001 L CNN
-F 3 "" H 7000 3950 60  0001 C CNN
-F 4 "-" H 7040 4015 45  0001 L CNN "Part"
-F 5 "Passive" H 7230 4140 50  0001 C CNN "Family"
-	1    7000 3850
-	1    0    0    -1  
+P 9150 3250
+F 0 "C48" H 9450 3300 60  0000 R CNB
+F 1 "20pF" H 9100 3350 45  0000 R CNN
+F 2 "smt:C-0603" H 9185 3095 40  0001 L CNN
+F 3 "" H 9150 3350 60  0001 C CNN
+F 4 "-" H 9190 3415 45  0001 L CNN "Part"
+F 5 "Passive" H 9380 3540 50  0001 C CNN "Family"
+	1    9150 3250
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0298
@@ -137,34 +92,22 @@ F 3 "" H 6800 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 3850 6650 3950
-Wire Wire Line
-	6650 3950 6800 3950
-Connection ~ 6800 3950
-Wire Wire Line
-	6800 3950 7000 3950
-Wire Wire Line
-	4350 3750 4250 3750
-Wire Wire Line
-	4250 3750 4250 3650
-Connection ~ 4250 3650
-Wire Wire Line
-	4250 3650 4000 3650
-Text HLabel 4350 4450 0    50   Input ~ 0
+	9250 3250 9350 3250
+Text HLabel 3950 4450 0    50   Input ~ 0
 DM1
-Text HLabel 4350 4550 0    50   Input ~ 0
+Text HLabel 3950 4550 0    50   Input ~ 0
 DP1
-Text HLabel 4350 4850 0    50   Input ~ 0
+Text HLabel 3950 4850 0    50   Input ~ 0
 DM2
-Text HLabel 4350 4950 0    50   Input ~ 0
+Text HLabel 3950 4950 0    50   Input ~ 0
 DP2
-Text HLabel 6350 4650 2    50   Input ~ 0
+Text HLabel 7450 4650 2    50   Input ~ 0
 DP3
-Text HLabel 6350 4750 2    50   Input ~ 0
+Text HLabel 7450 4750 2    50   Input ~ 0
 DM3
-Text HLabel 6350 4250 2    50   Input ~ 0
+Text HLabel 7450 4250 2    50   Input ~ 0
 DP4
-Text HLabel 6350 4350 2    50   Input ~ 0
+Text HLabel 7450 4350 2    50   Input ~ 0
 DM4
 Text Label 4350 3450 2    50   ~ 0
 D0+
@@ -199,7 +142,6 @@ F 3 "" H 6500 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6350 3950 6400 3950
-Connection ~ 6650 3950
 $Comp
 L dk_USB-DVI-HDMI-Connectors:12401610E4_2A J16
 U 1 1 5BE712EA
@@ -220,9 +162,9 @@ F 12 "Active" H 2650 5600 60  0001 L CNN "Status"
 	1    2450 4400
 	1    0    0    -1  
 $EndComp
-Text Label 2950 4400 0    50   ~ 0
+Text Label 3400 4400 0    50   ~ 0
 D0-
-Text Label 2950 4300 0    50   ~ 0
+Text Label 3450 4200 0    50   ~ 0
 D0+
 Text Label 1950 4400 2    50   ~ 0
 D0+
@@ -326,8 +268,6 @@ NoConn ~ 6350 4850
 NoConn ~ 6350 4950
 NoConn ~ 6350 4550
 NoConn ~ 6350 4450
-NoConn ~ 6350 4150
-NoConn ~ 4350 3950
 NoConn ~ 4350 3850
 NoConn ~ 4350 4750
 NoConn ~ 1950 4800
@@ -356,5 +296,438 @@ Wire Wire Line
 	6400 3850 6400 3950
 Connection ~ 6400 3950
 Wire Wire Line
-	6400 3950 6650 3950
+	7400 4150 7400 4050
+$Comp
+L power:+3V3 #PWR012
+U 1 1 5BA4B7AA
+P 7400 4050
+F 0 "#PWR012" H 7400 3900 50  0001 C CNN
+F 1 "+3V3" H 7415 4223 50  0000 C CNN
+F 2 "" H 7400 4050 50  0001 C CNN
+F 3 "" H 7400 4050 50  0001 C CNN
+	1    7400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TUSB2046B:TUSB2046B IC1
+U 1 1 5BE52A95
+P 5350 4250
+F 0 "IC1" H 5350 5316 50  0000 C CNN
+F 1 "TUSB2046B" H 5350 5225 50  0000 C CNN
+F 2 "digikey-footprints:LQFP-32_7x7mm" H 5350 4250 50  0001 L BNN
+F 3 "None" H 5350 4250 50  0001 L BNN
+F 4 "" H 5350 4250 50  0001 L BNN "Field4"
+F 5 "Texas Instruments" H 5350 4250 50  0001 L BNN "Field5"
+F 6 "3.04 USD" H 5350 4250 50  0001 L BNN "Field6"
+F 7 "TUSB2046B" H 5350 4250 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 5350 4250 50  0001 L BNN "Field8"
+	1    5350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4150 7400 4150
+$Comp
+L passive:RESISTOR R83
+U 1 1 5BA4FC43
+P 8900 4050
+F 0 "R83" H 8900 4232 60  0000 C CNB
+F 1 "RESISTOR" H 8900 4141 40  0000 C CNN
+F 2 "" H 8900 3910 40  0001 C CNN
+F 3 "" H 8900 4150 60  0000 C CNN
+F 4 "-" H 8900 4210 45  0001 C CNN "Part"
+F 5 "Passive" H 9130 4340 50  0001 C CNN "Family"
+	1    8900 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 3950 6800 3950
+$Comp
+L passive:CAP C49
+U 1 1 5BE6E68D
+P 9400 3950
+F 0 "C49" H 9508 3992 60  0000 L CNB
+F 1 "20pF" H 9508 3897 45  0000 L CNN
+F 2 "smt:C-0603" H 9435 3795 40  0001 L CNN
+F 3 "" H 9400 4050 60  0001 C CNN
+F 4 "-" H 9440 4115 45  0001 L CNN "Part"
+F 5 "Passive" H 9630 4240 50  0001 C CNN "Family"
+	1    9400 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 3250 8900 3450
+Wire Wire Line
+	8550 3650 8550 3450
+Wire Wire Line
+	8550 3450 8900 3450
+Wire Wire Line
+	6350 3650 8550 3650
+Connection ~ 8900 3450
+Wire Wire Line
+	8900 3450 8900 3500
+Wire Wire Line
+	7850 3750 6350 3750
+Wire Wire Line
+	8900 3250 9050 3250
+$Comp
+L power:GND #PWR013
+U 1 1 5BA5BF25
+P 9350 3250
+F 0 "#PWR013" H 9350 3000 50  0001 C CNN
+F 1 "GND" V 9355 3122 50  0000 R CNN
+F 2 "" H 9350 3250 50  0001 C CNN
+F 3 "" H 9350 3250 50  0001 C CNN
+	1    9350 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5BA5BFE0
+P 9500 3950
+F 0 "#PWR014" H 9500 3700 50  0001 C CNN
+F 1 "GND" V 9505 3822 50  0000 R CNN
+F 2 "" H 9500 3950 50  0001 C CNN
+F 3 "" H 9500 3950 50  0001 C CNN
+	1    9500 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 4150 8900 4250
+Wire Wire Line
+	9300 3950 8900 3950
+Wire Wire Line
+	8900 3800 8900 3950
+Connection ~ 8900 3950
+Wire Wire Line
+	8900 4250 7850 4250
+Wire Wire Line
+	7850 3750 7850 4250
+$Comp
+L passive:RESISTOR R80
+U 1 1 5BA6424A
+P 7250 4350
+F 0 "R80" H 7400 4300 60  0000 C CNB
+F 1 "22" H 7100 4200 40  0000 C CNN
+F 2 "" H 7250 4210 40  0001 C CNN
+F 3 "" H 7250 4450 60  0000 C CNN
+F 4 "-" H 7250 4510 45  0001 C CNN "Part"
+F 5 "Passive" H 7480 4640 50  0001 C CNN "Family"
+	1    7250 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive:RESISTOR R81
+U 1 1 5BA65253
+P 7250 4650
+F 0 "R81" H 7400 4550 60  0000 C CNB
+F 1 "22" H 7100 4550 40  0000 C CNN
+F 2 "" H 7250 4510 40  0001 C CNN
+F 3 "" H 7250 4750 60  0000 C CNN
+F 4 "-" H 7250 4810 45  0001 C CNN "Part"
+F 5 "Passive" H 7480 4940 50  0001 C CNN "Family"
+	1    7250 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive:RESISTOR R82
+U 1 1 5BA65A1B
+P 7250 4750
+F 0 "R82" H 7400 4700 60  0000 C CNB
+F 1 "22" H 7100 4700 40  0000 C CNN
+F 2 "" H 7250 4610 40  0001 C CNN
+F 3 "" H 7250 4850 60  0000 C CNN
+F 4 "-" H 7250 4910 45  0001 C CNN "Part"
+F 5 "Passive" H 7480 5040 50  0001 C CNN "Family"
+	1    7250 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive:RESISTOR R78
+U 1 1 5BA66C2F
+P 7250 4250
+F 0 "R78" H 7400 4200 60  0000 C CNB
+F 1 "22" H 7100 4300 40  0000 C CNN
+F 2 "" H 7250 4110 40  0001 C CNN
+F 3 "" H 7250 4350 60  0000 C CNN
+F 4 "-" H 7250 4410 45  0001 C CNN "Part"
+F 5 "Passive" H 7480 4540 50  0001 C CNN "Family"
+	1    7250 4250
+	-1   0    0    1   
+$EndComp
+Text HLabel 7350 5200 0    50   Input ~ 0
+DP3
+Text HLabel 7350 5100 0    50   Input ~ 0
+DM3
+Text HLabel 7350 5600 0    50   Input ~ 0
+DP4
+Text HLabel 7350 5500 0    50   Input ~ 0
+DM4
+$Comp
+L passive:RESISTOR R76
+U 1 1 5BA676BB
+P 4150 4850
+F 0 "R76" H 4300 4800 60  0000 C CNB
+F 1 "22" H 4000 4700 40  0000 C CNN
+F 2 "" H 4150 4710 40  0001 C CNN
+F 3 "" H 4150 4950 60  0000 C CNN
+F 4 "-" H 4150 5010 45  0001 C CNN "Part"
+F 5 "Passive" H 4380 5140 50  0001 C CNN "Family"
+	1    4150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:RESISTOR R74
+U 1 1 5BA676C4
+P 4150 4550
+F 0 "R74" H 4300 4450 60  0000 C CNB
+F 1 "22" H 4000 4450 40  0000 C CNN
+F 2 "" H 4150 4410 40  0001 C CNN
+F 3 "" H 4150 4650 60  0000 C CNN
+F 4 "-" H 4150 4710 45  0001 C CNN "Part"
+F 5 "Passive" H 4380 4840 50  0001 C CNN "Family"
+	1    4150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:RESISTOR R73
+U 1 1 5BA676CD
+P 4150 4450
+F 0 "R73" H 4300 4400 60  0000 C CNB
+F 1 "22" H 4000 4400 40  0000 C CNN
+F 2 "" H 4150 4310 40  0001 C CNN
+F 3 "" H 4150 4550 60  0000 C CNN
+F 4 "-" H 4150 4610 45  0001 C CNN "Part"
+F 5 "Passive" H 4380 4740 50  0001 C CNN "Family"
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L passive:RESISTOR R77
+U 1 1 5BA676D6
+P 4150 4950
+F 0 "R77" H 4300 4900 60  0000 C CNB
+F 1 "22" H 4000 5000 40  0000 C CNN
+F 2 "" H 4150 4810 40  0001 C CNN
+F 3 "" H 4150 5050 60  0000 C CNN
+F 4 "-" H 4150 5110 45  0001 C CNN "Part"
+F 5 "Passive" H 4380 5240 50  0001 C CNN "Family"
+	1    4150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4450 4350 4450
+Wire Wire Line
+	4250 4550 4350 4550
+Wire Wire Line
+	4350 4850 4250 4850
+Wire Wire Line
+	4050 4850 3950 4850
+Wire Wire Line
+	3950 4950 4050 4950
+Wire Wire Line
+	4250 4950 4350 4950
+Wire Wire Line
+	3950 4550 4050 4550
+Wire Wire Line
+	3950 4450 4050 4450
+Wire Wire Line
+	7350 4250 7450 4250
+Wire Wire Line
+	7450 4350 7350 4350
+Wire Wire Line
+	7450 4650 7350 4650
+Wire Wire Line
+	7350 4750 7450 4750
+Text Notes 3250 3300 0    50   ~ 0
+Maybe add a ferite beed to VCC
+Wire Wire Line
+	4000 3650 4350 3650
+Wire Wire Line
+	3750 3750 4350 3750
+$Comp
+L passive:RESISTOR R87
+U 1 1 5BA7D591
+P 3750 3650
+F 0 "R87" V 3712 3703 60  0000 L CNB
+F 1 "15K" V 3803 3703 40  0000 L CNN
+F 2 "" H 3750 3510 40  0001 C CNN
+F 3 "" H 3750 3750 60  0000 C CNN
+F 4 "-" H 3750 3810 45  0001 C CNN "Part"
+F 5 "Passive" H 3980 3940 50  0001 C CNN "Family"
+	1    3750 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3550 3950 3550
+Wire Wire Line
+	3950 3550 3950 3650
+Wire Wire Line
+	3950 3650 4000 3650
+Connection ~ 4000 3650
+Wire Wire Line
+	3750 3750 3750 3800
+Connection ~ 3750 3750
+$Comp
+L passive:CAP C54
+U 1 1 5BA7FC2C
+P 3750 3900
+F 0 "C54" H 3858 3942 60  0000 L CNB
+F 1 "1uF" H 3858 3847 45  0000 L CNN
+F 2 "" H 3785 3745 40  0001 L CNN
+F 3 "" H 3750 4000 60  0001 C CNN
+F 4 "-" H 3790 4065 45  0001 L CNN "Part"
+F 5 "Passive" H 3980 4190 50  0001 C CNN "Family"
+	1    3750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4000 4000 4000
+Wire Wire Line
+	4000 4000 4000 4050
+Connection ~ 4000 4050
+Wire Wire Line
+	6350 4250 6550 4250
+Wire Wire Line
+	6350 4350 7150 4350
+Wire Wire Line
+	6350 4650 7150 4650
+Wire Wire Line
+	6350 4750 7150 4750
+Wire Wire Line
+	6550 4250 6550 4300
+Connection ~ 6550 4250
+Wire Wire Line
+	6550 4250 7150 4250
+$Comp
+L passive:RESISTOR R89
+U 1 1 5BAA37B5
+P 6550 4400
+F 0 "R89" V 6450 4250 60  0000 L CNB
+F 1 "RESISTOR" V 6550 4150 40  0000 L CNN
+F 2 "" H 6550 4260 40  0001 C CNN
+F 3 "" H 6550 4500 60  0000 C CNN
+F 4 "-" H 6550 4560 45  0001 C CNN "Part"
+F 5 "Passive" H 6780 4690 50  0001 C CNN "Family"
+	1    6550 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 3450 4350 3300
+Wire Wire Line
+	4350 3300 3750 3300
+$Comp
+L passive:RESISTOR R86
+U 1 1 5BAA6CA9
+P 3750 3400
+F 0 "R86" V 3712 3453 60  0000 L CNB
+F 1 "1.5K" V 3803 3453 40  0000 L CNN
+F 2 "" H 3750 3260 40  0001 C CNN
+F 3 "" H 3750 3500 60  0000 C CNN
+F 4 "-" H 3750 3560 45  0001 C CNN "Part"
+F 5 "Passive" H 3980 3690 50  0001 C CNN "Family"
+	1    3750 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3500 3750 3550
+Connection ~ 3750 3550
+Wire Wire Line
+	4200 3950 4200 4050
+Connection ~ 4200 4050
+Wire Wire Line
+	4200 4050 4300 4050
+Wire Wire Line
+	4350 3950 4200 3950
+$Comp
+L power:GND #PWR0284
+U 1 1 5BB0103E
+P 6550 4500
+F 0 "#PWR0284" H 6550 4250 50  0001 C CNN
+F 1 "GND" H 6555 4327 50  0000 C CNN
+F 2 "" H 6550 4500 50  0001 C CNN
+F 3 "" H 6550 4500 50  0001 C CNN
+	1    6550 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4350 4200 4350
+Wire Wire Line
+	4200 4350 4200 4750
+Wire Wire Line
+	4200 4750 4350 4750
+Wire Wire Line
+	6350 4450 6450 4450
+Wire Wire Line
+	6450 4450 6450 4850
+Wire Wire Line
+	6450 4850 6350 4850
+Wire Wire Line
+	6450 4850 6450 5150
+Wire Wire Line
+	6450 5150 5300 5150
+Wire Wire Line
+	4200 5150 4200 4750
+Connection ~ 6450 4850
+Connection ~ 4200 4750
+$Comp
+L passive:RESISTOR R88
+U 1 1 5BB088CA
+P 5300 5250
+F 0 "R88" V 5262 5303 60  0000 L CNB
+F 1 "RESISTOR" V 5353 5303 40  0000 L CNN
+F 2 "" H 5300 5110 40  0001 C CNN
+F 3 "" H 5300 5350 60  0000 C CNN
+F 4 "-" H 5300 5410 45  0001 C CNN "Part"
+F 5 "Passive" H 5530 5540 50  0001 C CNN "Family"
+	1    5300 5250
+	0    1    1    0   
+$EndComp
+Connection ~ 5300 5150
+Wire Wire Line
+	5300 5150 4200 5150
+$Comp
+L power:+3V3 #PWR0285
+U 1 1 5BB0ABF5
+P 5300 5350
+F 0 "#PWR0285" H 5300 5200 50  0001 C CNN
+F 1 "+3V3" H 5315 5523 50  0000 C CNN
+F 2 "" H 5300 5350 50  0001 C CNN
+F 3 "" H 5300 5350 50  0001 C CNN
+	1    5300 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L passive:RESISTOR R85
+U 1 1 5BB0B530
+P 3350 4200
+F 0 "R85" H 3500 4150 60  0000 C CNB
+F 1 "22" H 3200 4150 40  0000 C CNN
+F 2 "" H 3350 4060 40  0001 C CNN
+F 3 "" H 3350 4300 60  0000 C CNN
+F 4 "-" H 3350 4360 45  0001 C CNN "Part"
+F 5 "Passive" H 3580 4490 50  0001 C CNN "Family"
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4200 3100 4200
+Wire Wire Line
+	3100 4200 3100 4300
+Wire Wire Line
+	3100 4300 2950 4300
+$Comp
+L passive:RESISTOR R84
+U 1 1 5BB0F8BD
+P 3300 4400
+F 0 "R84" H 3450 4350 60  0000 C CNB
+F 1 "22" H 3150 4350 40  0000 C CNN
+F 2 "" H 3300 4260 40  0001 C CNN
+F 3 "" H 3300 4500 60  0000 C CNN
+F 4 "-" H 3300 4560 45  0001 C CNN "Part"
+F 5 "Passive" H 3530 4690 50  0001 C CNN "Family"
+	1    3300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4400 2950 4400
 $EndSCHEMATC

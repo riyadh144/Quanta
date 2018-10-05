@@ -672,7 +672,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4850 4800 4850
 Wire Wire Line
-	2100 5500 3800 5500
+	2100 5500 2250 5500
 $Comp
 L power:+12V #PWR0312
 U 1 1 5BCCF6C1
@@ -755,4 +755,56 @@ Wire Wire Line
 	2750 6000 4800 6000
 Wire Wire Line
 	2750 6800 3250 6800
+$Comp
+L dk_Tactile-Switches:1825910-6 S4
+U 1 1 5BA88744
+P 1450 4850
+F 0 "S4" H 1450 5197 60  0000 C CNN
+F 1 "1825910-6" H 1450 5091 60  0000 C CNN
+F 2 "digikey-footprints:Switch_Tactile_THT_6x6mm" H 1650 5050 60  0001 L CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1650 5150 60  0001 L CNN
+F 4 "450-1650-ND" H 1650 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 1650 5350 60  0001 L CNN "MPN"
+F 6 "Switches" H 1650 5450 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 1650 5550 60  0001 L CNN "Family"
+F 8 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 1650 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 1650 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 1650 5850 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 1650 5950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 6050 60  0001 L CNN "Status"
+	1    1450 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5500 2250 5150
+Wire Wire Line
+	2250 5150 1650 5150
+Wire Wire Line
+	1650 5150 1650 4950
+Connection ~ 2250 5500
+Wire Wire Line
+	2250 5500 3800 5500
+Connection ~ 1650 4950
+Wire Wire Line
+	1650 4950 1650 4750
+Wire Wire Line
+	1250 4950 1250 4900
+Wire Wire Line
+	1250 4900 1000 4900
+Wire Wire Line
+	1000 4900 1000 5100
+Connection ~ 1250 4900
+Wire Wire Line
+	1250 4900 1250 4750
+$Comp
+L power:GND #PWR0283
+U 1 1 5BA9B235
+P 1000 5100
+F 0 "#PWR0283" H 1000 4850 50  0001 C CNN
+F 1 "GND" H 1005 4927 50  0000 C CNN
+F 2 "" H 1000 5100 50  0001 C CNN
+F 3 "" H 1000 5100 50  0001 C CNN
+	1    1000 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
