@@ -399,4 +399,6 @@ Wire Wire Line
 Connection ~ 5450 7250
 Wire Wire Line
 	5450 7250 5450 7150
+Text Notes 3150 6700 0    50   ~ 0
+OBD JUST CONNECTIONS
 $EndSCHEMATC
