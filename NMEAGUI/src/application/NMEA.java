@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class NMEA {
 
-    private double time;
+    private String time;
     private double latitude;
     private double longitude;
     private double speed;
@@ -18,7 +18,7 @@ public class NMEA {
 
 
     private ArrayList<SatData> satData= new ArrayList<SatData> ();
-    public NMEA(double time, double latitude, double longitude, double speed, int numSatsUsed, double pDOP, double hDOP,
+    public NMEA(String time, double latitude, double longitude, double speed, int numSatsUsed, double pDOP, double hDOP,
             double vDOP, int gLNum, int gPSNum, ArrayList<SatData> satData,int gPSQI, double altitude) {
         super();
         this.time = time;
@@ -42,10 +42,10 @@ public class NMEA {
     public void setGPSQI(int gPSQI) {
         GPSQI = gPSQI;
     }
-    public double getTime() {
+    public String getTime() {
         return time;
     }
-    public void setTime(double time) {
+    public void setTime(String time) {
         this.time = time;
     }
     public double getLatitude() {

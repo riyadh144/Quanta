@@ -272,68 +272,6 @@ F 3 "~" H 2700 3100 50  0001 C CNN
 	1    2700 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 2950 2300 2950
-Connection ~ 2300 2950
-Wire Wire Line
-	2300 2950 2700 2950
-Connection ~ 2700 2950
-Wire Wire Line
-	2700 2950 3150 2950
-Connection ~ 3150 2950
-Wire Wire Line
-	3150 2950 3650 2950
-Connection ~ 3650 2950
-Wire Wire Line
-	3650 2950 4100 2950
-Connection ~ 4100 2950
-Wire Wire Line
-	4100 2950 4600 2950
-Connection ~ 4600 2950
-Wire Wire Line
-	4600 2950 5150 2950
-Wire Wire Line
-	5150 2950 5600 2950
-Connection ~ 5600 2950
-Wire Wire Line
-	5600 2950 6100 2950
-Connection ~ 6100 2950
-Wire Wire Line
-	6100 2950 6550 2950
-Connection ~ 6550 2950
-Wire Wire Line
-	6550 2950 7050 2950
-Wire Wire Line
-	1800 3250 2300 3250
-Connection ~ 2300 3250
-Wire Wire Line
-	2300 3250 2700 3250
-Connection ~ 2700 3250
-Wire Wire Line
-	2700 3250 3150 3250
-Connection ~ 3150 3250
-Wire Wire Line
-	3150 3250 3650 3250
-Connection ~ 3650 3250
-Wire Wire Line
-	3650 3250 4100 3250
-Connection ~ 4100 3250
-Wire Wire Line
-	4100 3250 4600 3250
-Connection ~ 4600 3250
-Wire Wire Line
-	4600 3250 5150 3250
-Wire Wire Line
-	5150 3250 5600 3250
-Connection ~ 5600 3250
-Wire Wire Line
-	5600 3250 6100 3250
-Connection ~ 6100 3250
-Wire Wire Line
-	6100 3250 6550 3250
-Connection ~ 6550 3250
-Wire Wire Line
-	6550 3250 7050 3250
 $Comp
 L Device:C C29
 U 1 1 5BE2A662
@@ -412,57 +350,11 @@ F 3 "~" H 5700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 2350 6200 2350
-Connection ~ 6200 2350
-Wire Wire Line
-	6200 2350 6750 2350
-Connection ~ 6750 2350
-Wire Wire Line
-	6750 2350 7200 2350
-Connection ~ 7200 2350
-Wire Wire Line
-	7200 2350 7700 2350
-Connection ~ 7700 2350
-Wire Wire Line
-	7700 2350 8150 2350
-Connection ~ 8150 2350
-Wire Wire Line
-	8150 2350 8650 2350
-Connection ~ 8650 2350
-Wire Wire Line
-	8650 2350 9000 2350
-Wire Wire Line
-	5700 2650 6200 2650
-Connection ~ 6200 2650
-Wire Wire Line
-	6200 2650 6750 2650
-Connection ~ 6750 2650
-Wire Wire Line
-	6750 2650 7200 2650
-Connection ~ 7200 2650
-Wire Wire Line
-	7200 2650 7700 2650
-Connection ~ 7700 2650
-Wire Wire Line
-	7700 2650 8150 2650
-Connection ~ 8150 2650
-Wire Wire Line
-	8150 2650 8650 2650
-Connection ~ 8650 2650
-Wire Wire Line
-	8650 2650 9000 2650
-Wire Wire Line
 	9000 2350 9000 2300
 Connection ~ 9000 2350
 Wire Wire Line
 	9000 2650 9000 2700
 Connection ~ 9000 2650
-Connection ~ 1800 2950
-Wire Wire Line
-	1800 3250 1350 3250
-Connection ~ 1800 3250
-Connection ~ 5150 3250
-Connection ~ 5150 2950
 Text GLabel 2550 6050 3    50   Input ~ 0
 1_Vin
 Text GLabel 3800 6050 3    50   Input ~ 0
@@ -653,8 +545,6 @@ Wire Wire Line
 	3500 5450 3500 5350
 Connection ~ 3500 5350
 Wire Wire Line
-	3500 5350 4150 5350
-Wire Wire Line
 	2250 5450 2250 5350
 Wire Wire Line
 	750  5350 1500 5350
@@ -695,7 +585,6 @@ Wire Wire Line
 	3250 5850 3250 6050
 Wire Wire Line
 	3250 6050 3500 6050
-Connection ~ 3500 6050
 $Comp
 L dk_Diodes-Zener-Single:1N5231BTR Z3
 U 1 1 5BCF46C9
@@ -752,7 +641,6 @@ Wire Wire Line
 	5600 5900 5600 6050
 Wire Wire Line
 	5600 6050 5900 6050
-Connection ~ 5900 6050
 Wire Wire Line
 	5600 5500 5600 5350
 Connection ~ 5600 5350
@@ -787,7 +675,6 @@ Wire Wire Line
 	6850 5950 6850 6100
 Wire Wire Line
 	6850 6100 7100 6100
-Connection ~ 7100 6100
 $Comp
 L power:+5V #PWR033
 U 1 1 5BD1814C
@@ -799,9 +686,6 @@ F 3 "" H 4150 5350 50  0001 C CNN
 	1    4150 5350
 	1    0    0    -1  
 $EndComp
-Connection ~ 4150 5350
-Wire Wire Line
-	4150 5350 4400 5350
 Wire Wire Line
 	2450 5450 2450 5250
 Wire Wire Line
@@ -1363,8 +1247,6 @@ Wire Wire Line
 	11700 5250 11700 5150
 Connection ~ 11700 5150
 Wire Wire Line
-	11700 5150 12350 5150
-Wire Wire Line
 	10450 5250 10450 5150
 Wire Wire Line
 	8950 5150 9700 5150
@@ -1405,7 +1287,6 @@ Wire Wire Line
 	11450 5650 11450 5850
 Wire Wire Line
 	11450 5850 11700 5850
-Connection ~ 11700 5850
 $Comp
 L dk_Diodes-Zener-Single:1N5231BTR Z8
 U 1 1 5BC8A3F4
@@ -1462,7 +1343,6 @@ Wire Wire Line
 	13800 5700 13800 5850
 Wire Wire Line
 	13800 5850 14100 5850
-Connection ~ 14100 5850
 Wire Wire Line
 	13800 5300 13800 5150
 Connection ~ 13800 5150
@@ -1497,7 +1377,6 @@ Wire Wire Line
 	15050 5750 15050 5900
 Wire Wire Line
 	15050 5900 15300 5900
-Connection ~ 15300 5900
 $Comp
 L power:+5V #PWR054
 U 1 1 5BC8A42E
@@ -1509,9 +1388,6 @@ F 3 "" H 12350 5150 50  0001 C CNN
 	1    12350 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 12350 5150
-Wire Wire Line
-	12350 5150 12600 5150
 Wire Wire Line
 	10650 5250 10650 5050
 Wire Wire Line
@@ -1615,9 +1491,6 @@ Text GLabel 14400 5850 3    50   Input ~ 0
 4_GarminPWR
 Text GLabel 15600 5900 3    50   Input ~ 0
 5_GarminPWR
-Wire Wire Line
-	7050 2950 7550 2950
-Connection ~ 7050 2950
 $Comp
 L passive:CAP C44
 U 1 1 5BE6006D
@@ -1633,9 +1506,6 @@ F 5 "Passive" H 7780 3340 50  0001 C CNN "Family"
 $EndComp
 Wire Wire Line
 	7550 3150 7550 3250
-Wire Wire Line
-	7550 3250 7050 3250
-Connection ~ 7050 3250
 Wire Wire Line
 	16200 5200 16200 5250
 $Comp
@@ -1841,8 +1711,6 @@ F 3 "" H 2800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 1950 4450 1950
-Wire Wire Line
 	4500 1950 4500 2050
 Connection ~ 4100 1950
 $Comp
@@ -1948,8 +1816,6 @@ F 3 "" H 1500 2600 50  0001 C CNN
 	1    1500 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 2950 1800 2950
 Wire Wire Line
 	1550 1950 850  1950
 $Comp
@@ -2217,7 +2083,18 @@ F 3 "" H 4450 1950 50  0001 C CNN
 	1    4450 1950
 	1    0    0    -1  
 $EndComp
-Connection ~ 4450 1950
 Wire Wire Line
-	4450 1950 4500 1950
+	3500 5350 4400 5350
+Wire Wire Line
+	11700 5150 12600 5150
+Wire Wire Line
+	4100 1950 4500 1950
+Wire Wire Line
+	5700 2350 9000 2350
+Wire Wire Line
+	5700 2650 9000 2650
+Wire Wire Line
+	1300 2950 7550 2950
+Wire Wire Line
+	1350 3250 7550 3250
 $EndSCHEMATC

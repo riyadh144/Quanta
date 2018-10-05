@@ -102,16 +102,6 @@ F 5 "Passive" H 6880 4040 50  0001 C CNN "Family"
 	1    6650 3750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6350 3650 6650 3650
-Connection ~ 6650 3650
-Wire Wire Line
-	6650 3650 6700 3650
-Wire Wire Line
-	7000 3750 6350 3750
-Wire Wire Line
-	7100 3750 7000 3750
-Connection ~ 7000 3750
 $Comp
 L passive:CAP C49
 U 1 1 5BE6E68D
@@ -138,11 +128,6 @@ F 3 "" H 6800 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6650 3850 6650 3950
-Wire Wire Line
-	6650 3950 6800 3950
-Connection ~ 6800 3950
-Wire Wire Line
-	6800 3950 7000 3950
 Wire Wire Line
 	4350 3750 4250 3750
 Wire Wire Line
@@ -289,7 +274,6 @@ Wire Wire Line
 	3150 4100 3150 4600
 Wire Wire Line
 	3150 4600 2950 4600
-Connection ~ 3150 4100
 $Comp
 L power:+5V #PWR0305
 U 1 1 5BE7291A
@@ -305,7 +289,6 @@ Wire Wire Line
 	1950 4100 1750 4100
 Wire Wire Line
 	1750 4100 1750 4600
-Connection ~ 1750 4100
 Wire Wire Line
 	1950 4600 1750 4600
 $Comp
@@ -357,4 +340,10 @@ Wire Wire Line
 Connection ~ 6400 3950
 Wire Wire Line
 	6400 3950 6650 3950
+Wire Wire Line
+	6350 3650 6700 3650
+Wire Wire Line
+	6350 3750 7100 3750
+Wire Wire Line
+	6650 3950 7000 3950
 $EndSCHEMATC
