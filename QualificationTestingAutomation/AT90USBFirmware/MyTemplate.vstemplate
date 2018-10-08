@@ -1,0 +1,245 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>QualTestSCPI</Name>
+    <Description>AT90USB FW</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>QualTestSCPI</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="QualTestSCPI.cproj" File="QualTestSCPI.cproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <Folder Name="libscpi" TargetFolderName="libscpi">
+        <Folder Name="inc" TargetFolderName="inc">
+          <Folder Name="scpi" TargetFolderName="scpi">
+            <ProjectItem ReplaceParameters="true" TargetFileName="cc.h">cc.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="config.h">config.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="constants.h">constants.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="error.h">error.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="expression.h">expression.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="ieee488.h">ieee488.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="minimal.h">minimal.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="parser.h">parser.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="scpi.h">scpi.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="types.h">types.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="units.h">units.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="utils.h">utils.h</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="src" TargetFolderName="src">
+          <ProjectItem ReplaceParameters="true" TargetFileName="error.c">error.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="expression.c">expression.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="fifo.c">fifo.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="fifo_private.h">fifo_private.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ieee488.c">ieee488.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="lexer.c">lexer.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="lexer_private.h">lexer_private.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="minimal.c">minimal.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="parser.c">parser.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="parser_private.h">parser_private.h</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="scpi.g">scpi.g</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="units.c">units.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="utils.c">utils.c</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="utils_private.h">utils_private.h</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="src" TargetFolderName="src">
+        <Folder Name="ASF" TargetFolderName="ASF">
+          <Folder Name="common" TargetFolderName="common">
+            <Folder Name="boards" TargetFolderName="boards">
+              <Folder Name="user_board" TargetFolderName="user_board">
+                <ProjectItem ReplaceParameters="true" TargetFileName="init.c">init.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="user_board.h">user_board.h</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="board.h">board.h</ProjectItem>
+            </Folder>
+            <Folder Name="utils" TargetFolderName="utils">
+              <Folder Name="interrupt" TargetFolderName="interrupt">
+                <ProjectItem ReplaceParameters="true" TargetFileName="interrupt_avr8.h">interrupt_avr8.h</ProjectItem>
+              </Folder>
+              <Folder Name="make" TargetFolderName="make">
+                <ProjectItem ReplaceParameters="false" TargetFileName="Makefile.avr.in">Makefile.avr.in</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="interrupt.h">interrupt.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="parts.h">parts.h</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="mega" TargetFolderName="mega">
+            <Folder Name="utils" TargetFolderName="utils">
+              <Folder Name="assembler" TargetFolderName="assembler">
+                <ProjectItem ReplaceParameters="true" TargetFileName="gas.h">gas.h</ProjectItem>
+              </Folder>
+              <Folder Name="preprocessor" TargetFolderName="preprocessor">
+                <ProjectItem ReplaceParameters="true" TargetFileName="mrepeat.h">mrepeat.h</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="preprocessor.h">preprocessor.h</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="stringz.h">stringz.h</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="tpaste.h">tpaste.h</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="assembler.h">assembler.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="compiler.h">compiler.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="progmem.h">progmem.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="status_codes.h">status_codes.h</ProjectItem>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="config" TargetFolderName="config">
+          <ProjectItem ReplaceParameters="true" TargetFileName="conf_board.h">conf_board.h</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="LUFAConfig.h">LUFAConfig.h</ProjectItem>
+        </Folder>
+        <Folder Name="LUFA" TargetFolderName="LUFA">
+          <Folder Name="LUFA" TargetFolderName="LUFA">
+            <Folder Name="Common" TargetFolderName="Common">
+              <ProjectItem ReplaceParameters="true" TargetFileName="Architectures.h">Architectures.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="ArchitectureSpecific.h">ArchitectureSpecific.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="Attributes.h">Attributes.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="BoardTypes.h">BoardTypes.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="Common.h">Common.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="CompilerSpecific.h">CompilerSpecific.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="Endianness.h">Endianness.h</ProjectItem>
+            </Folder>
+            <Folder Name="Drivers" TargetFolderName="Drivers">
+              <Folder Name="Board" TargetFolderName="Board">
+                <Folder Name="AVR8" TargetFolderName="AVR8">
+                  <ProjectItem ReplaceParameters="true" TargetFileName="LEDs.h">LEDs.h</ProjectItem>
+                </Folder>
+                <ProjectItem ReplaceParameters="true" TargetFileName="LEDs.h">LEDs.h</ProjectItem>
+              </Folder>
+              <Folder Name="USB" TargetFolderName="USB">
+                <Folder Name="Class" TargetFolderName="Class">
+                  <Folder Name="Common" TargetFolderName="Common">
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AndroidAccessoryClassCommon.h">AndroidAccessoryClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AudioClassCommon.h">AudioClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="CDCClassCommon.h">CDCClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDClassCommon.h">HIDClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDParser.c">HIDParser.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDParser.h">HIDParser.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDReportData.h">HIDReportData.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MassStorageClassCommon.h">MassStorageClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MIDIClassCommon.h">MIDIClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PrinterClassCommon.h">PrinterClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="RNDISClassCommon.h">RNDISClassCommon.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="StillImageClassCommon.h">StillImageClassCommon.h</ProjectItem>
+                  </Folder>
+                  <Folder Name="Device" TargetFolderName="Device">
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AudioClassDevice.c">AudioClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AudioClassDevice.h">AudioClassDevice.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="CDCClassDevice.c">CDCClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="CDCClassDevice.h">CDCClassDevice.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDClassDevice.c">HIDClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDClassDevice.h">HIDClassDevice.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MassStorageClassDevice.c">MassStorageClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MassStorageClassDevice.h">MassStorageClassDevice.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MIDIClassDevice.c">MIDIClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MIDIClassDevice.h">MIDIClassDevice.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PrinterClassDevice.c">PrinterClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PrinterClassDevice.h">PrinterClassDevice.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="RNDISClassDevice.c">RNDISClassDevice.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="RNDISClassDevice.h">RNDISClassDevice.h</ProjectItem>
+                  </Folder>
+                  <Folder Name="Host" TargetFolderName="Host">
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AndroidAccessoryClassHost.c">AndroidAccessoryClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AndroidAccessoryClassHost.h">AndroidAccessoryClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AudioClassHost.c">AudioClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="AudioClassHost.h">AudioClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="CDCClassHost.c">CDCClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="CDCClassHost.h">CDCClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDClassHost.c">HIDClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="HIDClassHost.h">HIDClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MassStorageClassHost.c">MassStorageClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MassStorageClassHost.h">MassStorageClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MIDIClassHost.c">MIDIClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="MIDIClassHost.h">MIDIClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PrinterClassHost.c">PrinterClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PrinterClassHost.h">PrinterClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="RNDISClassHost.c">RNDISClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="RNDISClassHost.h">RNDISClassHost.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="StillImageClassHost.c">StillImageClassHost.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="StillImageClassHost.h">StillImageClassHost.h</ProjectItem>
+                  </Folder>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="AndroidAccessoryClass.h">AndroidAccessoryClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="AudioClass.h">AudioClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="CDCClass.h">CDCClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="HIDClass.h">HIDClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="MassStorageClass.h">MassStorageClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="MIDIClass.h">MIDIClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="PrinterClass.h">PrinterClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="RNDISClass.h">RNDISClass.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="StillImageClass.h">StillImageClass.h</ProjectItem>
+                </Folder>
+                <Folder Name="Core" TargetFolderName="Core">
+                  <Folder Name="AVR8" TargetFolderName="AVR8">
+                    <Folder Name="Template" TargetFolderName="Template">
+                      <ProjectItem ReplaceParameters="true" TargetFileName="Template_Endpoint_Control_R.c">Template_Endpoint_Control_R.c</ProjectItem>
+                      <ProjectItem ReplaceParameters="true" TargetFileName="Template_Endpoint_Control_W.c">Template_Endpoint_Control_W.c</ProjectItem>
+                      <ProjectItem ReplaceParameters="true" TargetFileName="Template_Endpoint_RW.c">Template_Endpoint_RW.c</ProjectItem>
+                      <ProjectItem ReplaceParameters="true" TargetFileName="Template_Pipe_RW.c">Template_Pipe_RW.c</ProjectItem>
+                    </Folder>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Device_AVR8.c">Device_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Device_AVR8.h">Device_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Endpoint_AVR8.c">Endpoint_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Endpoint_AVR8.h">Endpoint_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="EndpointStream_AVR8.c">EndpointStream_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="EndpointStream_AVR8.h">EndpointStream_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Host_AVR8.c">Host_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Host_AVR8.h">Host_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="OTG_AVR8.h">OTG_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Pipe_AVR8.c">Pipe_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="Pipe_AVR8.h">Pipe_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PipeStream_AVR8.c">PipeStream_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="PipeStream_AVR8.h">PipeStream_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="USBController_AVR8.c">USBController_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="USBController_AVR8.h">USBController_AVR8.h</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="USBInterrupt_AVR8.c">USBInterrupt_AVR8.c</ProjectItem>
+                    <ProjectItem ReplaceParameters="true" TargetFileName="USBInterrupt_AVR8.h">USBInterrupt_AVR8.h</ProjectItem>
+                  </Folder>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="ConfigDescriptors.c">ConfigDescriptors.c</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="ConfigDescriptors.h">ConfigDescriptors.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="Device.h">Device.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="DeviceStandardReq.c">DeviceStandardReq.c</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="DeviceStandardReq.h">DeviceStandardReq.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="Endpoint.h">Endpoint.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="EndpointStream.h">EndpointStream.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="Events.c">Events.c</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="Events.h">Events.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="Host.h">Host.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="HostStandardReq.c">HostStandardReq.c</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="HostStandardReq.h">HostStandardReq.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="OTG.h">OTG.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="Pipe.h">Pipe.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="PipeStream.h">PipeStream.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="StdDescriptors.h">StdDescriptors.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="StdRequestType.h">StdRequestType.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="USBController.h">USBController.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="USBInterrupt.h">USBInterrupt.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="USBMode.h">USBMode.h</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="USBTask.c">USBTask.c</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="USBTask.h">USBTask.h</ProjectItem>
+                </Folder>
+                <ProjectItem ReplaceParameters="true" TargetFileName="USB.h">USB.h</ProjectItem>
+              </Folder>
+            </Folder>
+            <Folder Name="Platform" TargetFolderName="Platform">
+              <ProjectItem ReplaceParameters="true" TargetFileName="Platform.h">Platform.h</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Version.h">Version.h</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="asf.h">asf.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Descriptors.c">Descriptors.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Descriptors.h">Descriptors.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.c">main.c</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Makefile">Makefile</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="scpi-def.cpp">scpi-def.cpp</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="scpi-def.h">scpi-def.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TestAndMeasurment.h">TestAndMeasurment.h</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
