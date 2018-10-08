@@ -1867,4 +1867,6 @@ Wire Wire Line
 NoConn ~ 1650 3600
 Text GLabel 1650 2800 0    50   Input ~ 0
 3_CTS
+Text Notes 1350 1200 0    50   ~ 0
+RX TX mixup was solved by changing RX_3V3 and TX_3V3 on the XOR side \nSame goes for CTS and RTS
 $EndSCHEMATC

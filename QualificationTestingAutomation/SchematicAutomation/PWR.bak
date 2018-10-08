@@ -45,7 +45,7 @@ F 5 "https://www.cui.com/product/resource/digikeypdf/pj-037a.pdf" H 0   0   50  
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 1100 1600 1100
+	1250 1100 1550 1100
 $Comp
 L power:+12V #PWR?
 U 1 1 5BE1D805
@@ -939,7 +939,7 @@ F 3 "" H 6300 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 750  6950 750 
+	6300 750  6800 750 
 $Comp
 L dk_Toggle-Switches:ATE1D-2M3-10-Z S2
 U 1 1 5B95C8CB
@@ -965,7 +965,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1800 7300 1800
 Wire Wire Line
-	6250 1350 6900 1350
+	6250 1350 6650 1350
 Wire Wire Line
 	7800 1600 7800 1700
 Wire Wire Line
@@ -2020,7 +2020,7 @@ $EndComp
 Wire Wire Line
 	3150 4100 3950 4100
 Wire Wire Line
-	4250 3850 4550 3850
+	4250 3850 4300 3850
 Connection ~ 4250 3850
 Wire Wire Line
 	4550 3850 4550 3950
@@ -2234,4 +2234,60 @@ Text Notes 1350 1250 0    50   ~ 0
 THE HOLE SIZES NEED TO BE CHANGED THE FOOTPRINT IS BAD
 Wire Wire Line
 	8550 950  9000 950 
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5BC6592E
+P 1550 1100
+F 0 "#FLG0109" H 1550 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 1274 50  0000 C CNN
+F 2 "" H 1550 1100 50  0001 C CNN
+F 3 "~" H 1550 1100 50  0001 C CNN
+	1    1550 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 1100
+Wire Wire Line
+	1550 1100 1600 1100
+$Comp
+L power:PWR_FLAG #FLG0110
+U 1 1 5BC65EE9
+P 6800 750
+F 0 "#FLG0110" H 6800 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 6800 924 50  0000 C CNN
+F 2 "" H 6800 750 50  0001 C CNN
+F 3 "~" H 6800 750 50  0001 C CNN
+	1    6800 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 750 
+Wire Wire Line
+	6800 750  6950 750 
+$Comp
+L power:PWR_FLAG #FLG0111
+U 1 1 5BC65F97
+P 6650 1350
+F 0 "#FLG0111" H 6650 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6650 1524 50  0000 C CNN
+F 2 "" H 6650 1350 50  0001 C CNN
+F 3 "~" H 6650 1350 50  0001 C CNN
+	1    6650 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 1350
+Wire Wire Line
+	6650 1350 6900 1350
+$Comp
+L power:PWR_FLAG #FLG0112
+U 1 1 5BC66942
+P 4300 3850
+F 0 "#FLG0112" H 4300 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 4300 4024 50  0000 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3850
+Wire Wire Line
+	4300 3850 4550 3850
 $EndSCHEMATC
