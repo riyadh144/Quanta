@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP dk_Interface-Drivers-Receivers-Transceivers:CD4070B
+D CD4070B
+K XOR GATE
+$ENDCMP
+#
+#End Doc Library

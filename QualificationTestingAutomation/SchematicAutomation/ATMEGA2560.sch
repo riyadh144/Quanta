@@ -375,8 +375,6 @@ Text Label 4250 6100 0    50   ~ 0
 TMS
 Text Label 4250 6000 0    50   ~ 0
 TCK
-Wire Wire Line
-	3650 6400 3750 6400
 $Comp
 L power:GND #PWR016
 U 1 1 5B9183F6
@@ -409,11 +407,6 @@ Text HLabel 3450 6900 3    50   Input ~ 0
 D+
 Text HLabel 3550 6800 3    50   Input ~ 0
 VBUS
-Wire Wire Line
-	3750 6350 3750 6400
-Connection ~ 3750 6400
-Wire Wire Line
-	3750 6400 3850 6400
 Text GLabel 6250 4650 2    50   Input ~ 0
 MUX26
 Text GLabel 6250 4850 2    50   Input ~ 0
@@ -9138,14 +9131,16 @@ Connection ~ 3850 5150
 Wire Wire Line
 	3850 5150 3850 5250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0283
 U 1 1 5BCB7C6E
 P 3600 5150
-F 0 "#PWR?" H 3600 4900 50  0001 C CNN
+F 0 "#PWR0283" H 3600 4900 50  0001 C CNN
 F 1 "GND" H 3605 4977 50  0000 C CNN
 F 2 "" H 3600 5150 50  0001 C CNN
 F 3 "" H 3600 5150 50  0001 C CNN
 	1    3600 5150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3650 6400 3850 6400
 $EndSCHEMATC

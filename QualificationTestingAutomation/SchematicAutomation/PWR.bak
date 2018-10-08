@@ -993,7 +993,7 @@ F 3 "" H 6250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Management:LM2776 U6
+L NegativeRail:LM2776 U6
 U 1 1 5B9767C0
 P 9700 1050
 F 0 "U6" H 9700 1265 50  0000 C CNN
@@ -1706,14 +1706,14 @@ Connection ~ 10450 5950
 Wire Wire Line
 	10450 5950 10450 5850
 $Comp
-L dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators:TPS563210 U4
+L SchematicAutomation-cache:TPS563210 U4
 U 1 1 5B983547
-P 2250 1800
-F 0 "U4" H 2250 1915 50  0000 C CNN
-F 1 "TPS563210" H 2250 1824 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" H 2250 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps563210.pdf" H 2250 1800 50  0001 C CNN
-	1    2250 1800
+P 2300 1750
+F 0 "U4" H 2300 1865 50  0000 C CNN
+F 1 "TPS563210" H 2300 1774 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" H 2300 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps563210.pdf" H 2300 1750 50  0001 C CNN
+	1    2300 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1951,14 +1951,14 @@ Wire Wire Line
 Wire Wire Line
 	1550 1950 850  1950
 $Comp
-L dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators:TPS563210 U5
+L SchematicAutomation-cache:TPS563210 U5
 U 1 1 5BB6AF17
-P 2700 3700
-F 0 "U5" H 2700 3815 50  0000 C CNN
-F 1 "TPS563210" H 2700 3724 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" H 2700 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps563210.pdf" H 2700 3700 50  0001 C CNN
-	1    2700 3700
+P 2750 3650
+F 0 "U5" H 2750 3765 50  0000 C CNN
+F 1 "TPS563210" H 2750 3674 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-8_Handsoldering" H 2750 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps563210.pdf" H 2750 3650 50  0001 C CNN
+	1    2750 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

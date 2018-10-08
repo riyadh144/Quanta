@@ -55,23 +55,23 @@ Text GLabel 6050 4300 0    50   Input ~ 0
 $Comp
 L dk_Interface-Controllers:FT4232HL-REEL U?
 U 1 1 5BB9E827
-P 8350 4000
+P 8250 4350
 AR Path="/5B9C8983/5BB9E827" Ref="U?"  Part="1" 
 AR Path="/5BB9E3C7/5BB9E827" Ref="U18"  Part="1" 
-F 0 "U18" H 9091 4303 60  0000 L CNN
-F 1 "FT4232HL-REEL" H 9091 4197 60  0000 L CNN
-F 2 "digikey-footprints:LQFP-64_10x10mm" V 8550 4200 60  0001 L CNN
-F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 8550 4300 60  0001 L CNN
-F 4 "768-1026-1-ND" H 8550 4400 60  0001 L CNN "Digi-Key_PN"
-F 5 "FT4232HL-REEL" H 8550 4500 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 8550 4600 60  0001 L CNN "Category"
-F 7 "Interface - Controllers" H 8550 4700 60  0001 L CNN "Family"
-F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 8550 4800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 8550 4900 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 8550 5000 60  0001 L CNN "Description"
-F 11 "FTDI, Future Technology Devices International Ltd" H 8550 5100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8550 5200 60  0001 L CNN "Status"
-	1    8350 4000
+F 0 "U18" H 8991 4653 60  0000 L CNN
+F 1 "FT4232HL-REEL" H 8991 4547 60  0000 L CNN
+F 2 "digikey-footprints:LQFP-64_10x10mm" V 8450 4550 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 8450 4650 60  0001 L CNN
+F 4 "768-1026-1-ND" H 8450 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT4232HL-REEL" H 8450 4850 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 8450 4950 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 8450 5050 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 8450 5150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 8450 5250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 8450 5350 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 8450 5450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8450 5550 60  0001 L CNN "Status"
+	1    8250 4350
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -516,23 +516,23 @@ Wire Wire Line
 $Comp
 L dk_Interface-Controllers:FT4232HL-REEL U?
 U 1 1 5BBB2685
-P 4000 4000
+P 3900 4350
 AR Path="/5B9C8983/5BBB2685" Ref="U?"  Part="1" 
 AR Path="/5BB9E3C7/5BBB2685" Ref="U14"  Part="1" 
-F 0 "U14" H 4741 4303 60  0000 L CNN
-F 1 "FT4232HL-REEL" H 4741 4197 60  0000 L CNN
-F 2 "digikey-footprints:LQFP-64_10x10mm" V 4200 4200 60  0001 L CNN
-F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4200 4300 60  0001 L CNN
-F 4 "768-1026-1-ND" H 4200 4400 60  0001 L CNN "Digi-Key_PN"
-F 5 "FT4232HL-REEL" H 4200 4500 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4200 4600 60  0001 L CNN "Category"
-F 7 "Interface - Controllers" H 4200 4700 60  0001 L CNN "Family"
-F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4200 4800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 4200 4900 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 4200 5000 60  0001 L CNN "Description"
-F 11 "FTDI, Future Technology Devices International Ltd" H 4200 5100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4200 5200 60  0001 L CNN "Status"
-	1    4000 4000
+F 0 "U14" H 4641 4653 60  0000 L CNN
+F 1 "FT4232HL-REEL" H 4641 4547 60  0000 L CNN
+F 2 "digikey-footprints:LQFP-64_10x10mm" V 4100 4550 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4100 4650 60  0001 L CNN
+F 4 "768-1026-1-ND" H 4100 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT4232HL-REEL" H 4100 4850 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4100 4950 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 4100 5050 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4100 5150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 4100 5250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 4100 5350 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 4100 5450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4100 5550 60  0001 L CNN "Status"
+	1    3900 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1075,23 +1075,23 @@ $EndSheet
 $Comp
 L dk_Interface-Controllers:FT4232HL-REEL U?
 U 1 1 5BD547A2
-P 12800 3950
+P 12700 4300
 AR Path="/5B9C8983/5BD547A2" Ref="U?"  Part="1" 
 AR Path="/5BB9E3C7/5BD547A2" Ref="U15"  Part="1" 
-F 0 "U15" H 13541 4253 60  0000 L CNN
-F 1 "FT4232HL-REEL" H 13541 4147 60  0000 L CNN
-F 2 "digikey-footprints:LQFP-64_10x10mm" V 13000 4150 60  0001 L CNN
-F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 13000 4250 60  0001 L CNN
-F 4 "768-1026-1-ND" H 13000 4350 60  0001 L CNN "Digi-Key_PN"
-F 5 "FT4232HL-REEL" H 13000 4450 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 13000 4550 60  0001 L CNN "Category"
-F 7 "Interface - Controllers" H 13000 4650 60  0001 L CNN "Family"
-F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 13000 4750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 13000 4850 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 13000 4950 60  0001 L CNN "Description"
-F 11 "FTDI, Future Technology Devices International Ltd" H 13000 5050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 13000 5150 60  0001 L CNN "Status"
-	1    12800 3950
+F 0 "U15" H 13441 4603 60  0000 L CNN
+F 1 "FT4232HL-REEL" H 13441 4497 60  0000 L CNN
+F 2 "digikey-footprints:LQFP-64_10x10mm" V 12900 4500 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 12900 4600 60  0001 L CNN
+F 4 "768-1026-1-ND" H 12900 4700 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT4232HL-REEL" H 12900 4800 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12900 4900 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 12900 5000 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 12900 5100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT4232HL-REEL/768-1026-1-ND/1986059" H 12900 5200 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB HS QUAD UART/SYNC 64-LQFP" H 12900 5300 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 12900 5400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12900 5500 60  0001 L CNN "Status"
+	1    12700 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
