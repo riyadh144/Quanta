@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SchematicAutomation-cache)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/SchematicAutomation-cache.lib")(options "")(descr ""))
+  (lib (name SchematicAutomation-rescue)(type Legacy)(uri ${KIPRJMOD}/SchematicAutomation-rescue.lib)(options "")(descr ""))
+  (lib (name TheMatrix-rescue)(type Legacy)(uri ${KIPRJMOD}/TheMatrix-rescue.lib)(options "")(descr ""))
+)

@@ -9,7 +9,7 @@
 #ifndef SCPI-DEF_H_
 #define SCPI-DEF_H_
 
-#include <inc/scpi/scpi.h>
+#include <scpi/scpi.h>
 #define SCPI_INPUT_BUFFER_LENGTH 256
 #define SCPI_ERROR_QUEUE_SIZE 17
 #define SCPI_IDN1 "XIRGO TECH"

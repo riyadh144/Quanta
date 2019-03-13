@@ -46,36 +46,48 @@
 #include <string.h>
 #include "scpi/scpi.h"
 #include "scpi-def.h"
-char bf[15];
+char bf[80];
+int32_t device;
 
-void turnON(int DEVICE){
+void turnON(int32_t DEVICE){
 	PORTB|= (1<<DEVICE);
 
 
 }
-void turnOFF(int DEVICE){
-	PORTB&= !(0<<DEVICE);
+void turnOFF(int32_t DEVICE){
+	PORTB&= !(1<<DEVICE);
 
 }
-	
 
+void switchToMUXport(int32_t Device, int32_t PORT){
+	PORTA=(1<<(((Device)*10+PORT)>>3));
+	PORTD= (((Device)*10+PORT)%8)|(PORTD&0b11111000);
+	
+}	
+static scpi_result_t IDN(scpi_t * context)
+	{
+				strcpy(bf,"XIRGO TECH QUAL INSTR");
+
+	}
 static scpi_result_t DEV_POW(scpi_t * context){
-	int32_t device;
+
 	scpi_bool_t cond;
 
 	/* read first parameter if present */
 	
 	if (!SCPI_ParamInt(context, &device, FALSE)) {
-		
+		strcpy(bf,"Please Enter The Device Number");
+
 		return SCPI_RES_ERR;
 	}
 
 	/* read second paraeter if present */
 	if (!SCPI_ParamBool(context, &cond, FALSE)) {
-		
+		strcpy(bf,"Please Enter The Device State");
+
 		return SCPI_RES_ERR;
 	}
-	strcpy(bf,device);
+		itoa(device,bf,10);
 
 
 //If device condition is on
@@ -85,15 +97,57 @@ static scpi_result_t DEV_POW(scpi_t * context){
 		}else{
 		turnOFF(device);
 	}
-	free(device);
 	return SCPI_RES_OK;
 }
+//Select INPUT PORT for the device
+static scpi_result_t DEV_SEL(scpi_t * context){
+		
+		if (!SCPI_ParamInt(context, &device, FALSE)) {
+			strcpy(bf,"Please Enter The Device Number");
 
+			return SCPI_RES_ERR;
+		}
+		
+		itoa(device,bf,10);
+
+		return SCPI_RES_ERR;
+
+}
+static scpi_result_t DEV_IN_POR_SEL(scpi_t * context){
+	int32_t port;
+		if (!SCPI_ParamInt(context, &port, FALSE)) {
+				strcpy(bf,"Please Enter The Port Number");
+
+				return SCPI_RES_ERR;
+		}
+		int i=0;
+		sprintf(bf,"hello %n",i);
+
+		switchToMUXport(device,  port);
+
+}
+static scpi_result_t DEV_OUT_POR_SEL(scpi_t * context){
+	int32_t port;
+	if (!SCPI_ParamInt(context, &port, FALSE)) {
+		strcpy(bf,"Please Enter The Port Number");
+
+		return SCPI_RES_ERR;
+	}
+PORTC=(1<<device%2)|(PORTC&0b11111000);
+PORTD=(((device%2)<<2+port))|(PORTD&0b11111000);
+		sprintf(bf,"hello %n",PORTD);
+
+}
 const scpi_command_t scpi_commands[] = {
 
 
 		/*Qual TEST*/
+	{"*IDN?", IDN,0},
 	{"DEVice:POWer", DEV_POW,0},
+	{"DEVice:SEL", DEV_SEL,0},
+	{"DEVice:IN:PORt:SEL", DEV_IN_POR_SEL,0},
+	{"DEVice:OUT:PORt:SEL", DEV_OUT_POR_SEL,0},
+
     SCPI_CMD_LIST_END
 };
 

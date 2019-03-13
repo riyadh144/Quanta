@@ -36,7 +36,7 @@
 #include <scpi-def.h>
 #include <scpi-def.cpp>
 
-#include <inc/scpi/scpi.h>
+#include <scpi/scpi.h>
 TMC_Capabilities_t Capabilities =
 {
 	.Status     = TMC_STATUS_SUCCESS,
@@ -82,7 +82,7 @@ int main (void)
 {
 	/* Insert system clock initialization code here (sysclk_init()). */
 	SetupHardware();
-
+	
 	LEDs_SetAllLEDs(LEDMASK_USB_NOTREADY);
 	GlobalInterruptEnable();
 
@@ -104,8 +104,10 @@ void SetupHardware(void)
 	board_init();
 	LEDs_Init();
 	USB_Init();
+	DDRA=0XFF;
 	DDRB = 0xFF;
-
+	DDRD=0XFF;
+	PORTD=0xFF;
 }
 /** Event handler for the USB_Connect event. This indicates that the device is enumerating via the status LEDs and
  *  starts the library USB task to begin the enumeration and USB management process.
@@ -345,13 +347,14 @@ void ProcessSentMessage(uint8_t* const Data, const uint8_t Length)
 uint8_t GetNextMessage(uint8_t* const Data)
 {
 	//Initialize SCPI Library
-	SCPI_Init(&scpi_context,
-	scpi_commands,
-	&scpi_interface,
-	scpi_units_def,
-	SCPI_IDN1, SCPI_IDN2, SCPI_IDN3, SCPI_IDN4,
-	scpi_input_buffer, SCPI_INPUT_BUFFER_LENGTH,
-	scpi_error_queue_data, SCPI_ERROR_QUEUE_SIZE);
+SCPI_Init(&scpi_context,
+scpi_commands,
+&scpi_interface,
+scpi_units_def,
+SCPI_IDN1, SCPI_IDN2, SCPI_IDN3, SCPI_IDN4,
+scpi_input_buffer, SCPI_INPUT_BUFFER_LENGTH,
+scpi_error_queue_data, SCPI_ERROR_QUEUE_SIZE);
+
 //Call SCPI Library	
 	SCPI_Input(&scpi_context, Data, strlen(Data));
 //READ returned buffer from the Executed Function
