@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name SchematicAutomation)(type KiCad)(uri C:/Users/Quantos/Quanta/QualificationTestingAutomation/SchematicAutomation)(options "")(descr ""))
+  (lib (name Connector)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/Connector")(options "")(descr ""))
 )

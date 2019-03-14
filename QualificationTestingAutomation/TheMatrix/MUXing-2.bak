@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SchematicAutomation-cache
+LIBS:TheMatrix-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -47,7 +47,7 @@ Wire Wire Line
 Text GLabel 3500 2700 0    50   Input ~ 0
 2_ADC0
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U8
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U8
 U 1 1 5BCA20CC
 P 2100 1700
 F 0 "U8" H 2125 1815 50  0000 C CNN
@@ -115,7 +115,7 @@ Wire Wire Line
 Text GLabel 1150 5950 0    50   Input ~ 0
 4_ADC0
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U10
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U10
 U 1 1 5BCA3C5E
 P 4100 1650
 F 0 "U10" H 4125 1765 50  0000 C CNN
@@ -143,7 +143,7 @@ Wire Wire Line
 Text GLabel 5600 2900 0    50   Input ~ 0
 3_ADC0
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U12
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U12
 U 1 1 5BCA4461
 P 6200 1650
 F 0 "U12" H 6225 1765 50  0000 C CNN
@@ -171,7 +171,7 @@ Wire Wire Line
 Text GLabel 4750 5250 0    50   Input ~ 0
 5_ADC0
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U7
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U7
 U 1 1 5BCA6F26
 P 1750 4500
 F 0 "U7" H 1775 4615 50  0000 C CNN
@@ -215,7 +215,7 @@ Wire Wire Line
 Text GLabel 1150 5350 0    50   Input ~ 0
 3_IN0
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U9
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U9
 U 1 1 5BCBA4E8
 P 3550 4450
 F 0 "U9" H 3575 4565 50  0000 C CNN
@@ -243,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 5250 4750 5250
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U11
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U11
 U 1 1 5BCBFB53
 P 5350 4400
 F 0 "U11" H 5375 4515 50  0000 C CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 5250 6450 5250
 $Comp
-L SchematicAutomation-rescue:MAX14752-MAX14756EUET U13
+L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U13
 U 1 1 5BCDDCC7
 P 7050 4400
 F 0 "U13" H 7075 4515 50  0000 C CNN
@@ -583,7 +583,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 4750 3950 4750
 $Comp
-L SchematicAutomation-rescue:DG408LE-ANALOGSWITCHES U2
+L TheMatrix-rescue:DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue U2
 U 1 1 5BA76687
 P 11100 1800
 F 0 "U2" H 11100 2165 50  0000 C CNN
@@ -652,7 +652,7 @@ Wire Wire Line
 Text GLabel 10800 2000 0    50   Input ~ 0
 MUX24
 $Comp
-L SchematicAutomation-rescue:DG408LE-ANALOGSWITCHES U1
+L TheMatrix-rescue:DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue U1
 U 1 1 5BB6FE9D
 P 9650 3900
 F 0 "U1" H 9650 4250 50  0000 C CNN
@@ -725,7 +725,7 @@ $EndComp
 Text GLabel 9350 4100 0    50   Input ~ 0
 MUX26
 $Comp
-L SchematicAutomation-rescue:DG408LE-ANALOGSWITCHES U16
+L TheMatrix-rescue:DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue U16
 U 1 1 5BB7C29C
 P 11600 3900
 F 0 "U16" H 11600 4250 50  0000 C CNN
@@ -798,7 +798,7 @@ $EndComp
 Text GLabel 11300 4100 0    50   Input ~ 0
 MUX25
 $Comp
-L SchematicAutomation-rescue:DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output U?
+L TheMatrix-rescue:DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue U?
 U 1 1 5BB8E36F
 P 12300 1450
 AR Path="/5B9C8983/5BB8E36F" Ref="U?"  Part="1" 
@@ -890,7 +890,7 @@ F 3 "" H 15200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CD74HC4067SM96-dk_Interface-Analog-Switches-Multiplexers-Demultiplexers U?
+L TheMatrix-rescue:CD74HC4067SM96-dk_Interface-Analog-Switches-Multiplexers-Demultiplexers-SchematicAutomation-rescue U?
 U 1 1 5BB8E3AD
 P 15200 2250
 AR Path="/5B9C8983/5BB8E3AD" Ref="U?"  Part="1" 
@@ -970,7 +970,7 @@ AR Path="/5BA2CD36/5BD017D0" Ref="J?"  Part="1"
 AR Path="/5BCA1CB6/5BD017D0" Ref="J17"  Part="1" 
 F 0 "J17" H 9980 5792 50  0000 L CNN
 F 1 "Banana Jack" H 9980 5701 50  0000 L CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 9900 5800 50  0001 C CNN
+F 2 "Connector:Banana_Jack_2Pin_Standard_Spacing" H 9900 5800 50  0001 C CNN
 F 3 "~" H 9900 5800 50  0001 C CNN
 F 4 "Multimeter" H 9900 5800 50  0001 C CNN "Field4"
 F 5 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H 0   0   50  0001 C CNN "Description"
@@ -1067,26 +1067,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 2900 5600 2900
 Wire Wire Line
-	3450 1100 5300 1100
-Wire Wire Line
 	1300 4000 3100 4000
 Wire Wire Line
 	3100 4000 4900 4000
-Wire Wire Line
-	4900 4000 6550 4000
-$Comp
-L power:VDC #PWR?
-U 1 1 5C8C561D
-P 7500 4000
-AR Path="/5BA2CD36/5C8C561D" Ref="#PWR?"  Part="1" 
-AR Path="/5BCA1CB6/5C8C561D" Ref="#PWR0306"  Part="1" 
-F 0 "#PWR0306" H 7500 3900 50  0001 C CNN
-F 1 "VDC" H 7500 4275 50  0000 C CNN
-F 2 "" H 7500 4000 50  0001 C CNN
-F 3 "" H 7500 4000 50  0001 C CNN
-	1    7500 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VAA #PWR0327
 U 1 1 5C8D563A
@@ -1096,24 +1079,6 @@ F 1 "VAA" H 7567 4873 50  0000 C CNN
 F 2 "" H 7550 4700 50  0001 C CNN
 F 3 "" H 7550 4700 50  0001 C CNN
 	1    7550 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 7500 4000
-Wire Wire Line
-	7500 4000 7550 4000
-Wire Wire Line
-	6550 4000 7500 4000
-$Comp
-L power:VDC #PWR?
-U 1 1 5C905A13
-P 5300 1100
-AR Path="/5BA2CD36/5C905A13" Ref="#PWR?"  Part="1" 
-AR Path="/5BCA1CB6/5C905A13" Ref="#PWR0331"  Part="1" 
-F 0 "#PWR0331" H 5300 1000 50  0001 C CNN
-F 1 "VDC" H 5300 1375 50  0000 C CNN
-F 2 "" H 5300 1100 50  0001 C CNN
-F 3 "" H 5300 1100 50  0001 C CNN
-	1    5300 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1184,11 +1149,8 @@ F 3 "" H 2250 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 1100 3450 1100
-Connection ~ 5300 1100
-Wire Wire Line
-	5300 1100 5700 1100
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R182
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R182
 U 1 1 5CC22702
 P 10100 1550
 F 0 "R182" V 10062 1603 60  0000 L CNB
@@ -1215,7 +1177,7 @@ F 3 "" H 10100 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R181
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R181
 U 1 1 5CC52DDD
 P 9650 1550
 F 0 "R181" V 9612 1603 60  0000 L CNB
@@ -1319,4 +1281,42 @@ F 3 "" H 13400 5000 50  0001 C CNN
 	1    13400 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:HT #PWR?
+U 1 1 5D5AF49D
+P 4950 1100
+AR Path="/5BA2CD36/5D5AF49D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5D5AF49D" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 4950 1220 50  0001 C CNN
+F 1 "HT" H 4970 1243 50  0000 C CNN
+F 2 "" H 4950 1100 50  0001 C CNN
+F 3 "" H 4950 1100 50  0001 C CNN
+	1    4950 1100
+	1    0    0    1   
+$EndComp
+$Comp
+L power:HT #PWR?
+U 1 1 5D5C0E10
+P 6200 4000
+AR Path="/5BA2CD36/5D5C0E10" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5D5C0E10" Ref="#PWR0331"  Part="1" 
+F 0 "#PWR0331" H 6200 4120 50  0001 C CNN
+F 1 "HT" H 6220 4143 50  0000 C CNN
+F 2 "" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4000 7550 4000
+Wire Wire Line
+	3450 1100 4950 1100
+Connection ~ 4950 1100
+Wire Wire Line
+	4950 1100 5700 1100
+Wire Wire Line
+	4900 4000 6200 4000
+Connection ~ 6200 4000
+Wire Wire Line
+	6200 4000 6550 4000
 $EndSCHEMATC

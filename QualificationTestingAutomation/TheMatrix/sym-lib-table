@@ -2,4 +2,6 @@
   (lib (name SchematicAutomation-cache)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/SchematicAutomation-cache.lib")(options "")(descr ""))
   (lib (name SchematicAutomation-rescue)(type Legacy)(uri ${KIPRJMOD}/SchematicAutomation-rescue.lib)(options "")(descr ""))
   (lib (name TheMatrix-rescue)(type Legacy)(uri ${KIPRJMOD}/TheMatrix-rescue.lib)(options "")(descr ""))
+  (lib (name BoostCoverters)(type Legacy)(uri "C:/Users/Quantos/Quanta/QualificationTestingAutomation/TheMatrix/Library Schematic/Libraries/Symbols/Boost/BoostCoverters.lib")(options "")(descr ""))
+  (lib (name BoostConverters)(type Legacy)(uri "C:/Users/Quantos/Quanta/QualificationTestingAutomation/TheMatrix/Library Schematic/Libraries/Symbols/Boost/BoostConverters.lib")(options "")(descr ""))
 )

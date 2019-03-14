@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SchematicAutomation-cache
+LIBS:TheMatrix-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -21,7 +21,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2650 4300 2650
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R3
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R3
 U 1 1 5B9099FD
 P 4300 2800
 F 0 "R3" V 4262 2853 60  0000 L CNB
@@ -66,7 +66,7 @@ Wire Wire Line
 	4000 2650 3650 2650
 Connection ~ 4000 2650
 $Comp
-L SchematicAutomation-rescue:CAP-passive C1
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C1
 U 1 1 5B90A22B
 P 3550 2650
 F 0 "C1" V 3305 2650 60  0000 C CNB
@@ -79,7 +79,7 @@ F 5 "Passive" H 3780 2940 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C2
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C2
 U 1 1 5B90A296
 P 3550 3000
 F 0 "C2" V 3400 3000 60  0000 C CNB
@@ -134,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 2550 5500 2500
 $Comp
-L SchematicAutomation-rescue:INDUCTOR-passive L1
+L TheMatrix-rescue:INDUCTOR-passive-SchematicAutomation-rescue L1
 U 1 1 5B90B0D2
 P 5500 2350
 F 0 "L1" V 5250 2350 60  0000 L CNB
@@ -152,7 +152,7 @@ Connection ~ 5500 2500
 Wire Wire Line
 	5500 2500 5500 2450
 $Comp
-L SchematicAutomation-rescue:CAP-passive C5
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C5
 U 1 1 5B90B3BB
 P 5750 2500
 F 0 "C5" V 5505 2500 60  0000 C CNB
@@ -211,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 4150 4550 4200
 $Comp
-L SchematicAutomation-rescue:CAP-passive C4
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C4
 U 1 1 5B90EA5A
 P 4550 4300
 F 0 "C4" H 4658 4342 60  0000 L CNB
@@ -241,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3450 4350 3550
 $Comp
-L SchematicAutomation-rescue:CAP-passive C3
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C3
 U 1 1 5B90F817
 P 4350 3650
 F 0 "C3" H 4150 3700 60  0000 L CNB
@@ -269,7 +269,7 @@ $EndComp
 Text HLabel 4800 3950 0    50   Input ~ 0
 D-
 $Comp
-L SchematicAutomation-rescue:1825910-6-dk_Tactile-Switches S1
+L TheMatrix-rescue:1825910-6-dk_Tactile-Switches-SchematicAutomation-rescue S1
 U 1 1 5B910BEC
 P 4600 2250
 F 0 "S1" H 4600 2597 60  0000 C CNN
@@ -318,7 +318,7 @@ F 3 "" H 3950 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R4
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R4
 U 1 1 5B9120A4
 P 5000 2250
 F 0 "R4" H 5000 2432 60  0000 C CNB
@@ -421,7 +421,7 @@ F 3 "" H 2450 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R175
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R175
 U 1 1 5BCB2862
 P 2750 4550
 F 0 "R175" H 2750 4732 60  0000 C CNB
@@ -442,7 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4550 2900 4650
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R176
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R176
 U 1 1 5BCB8761
 P 2900 4750
 F 0 "R176" V 2862 4803 60  0000 L CNB
@@ -473,7 +473,7 @@ Wire Wire Line
 	3750 4650 4800 4650
 Connection ~ 2900 4550
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R173
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R173
 U 1 1 5BCBAC86
 P 2500 5050
 F 0 "R173" H 2500 5232 60  0000 C CNB
@@ -490,7 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 5050 2650 5150
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R174
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R174
 U 1 1 5BCBAC93
 P 2650 5250
 F 0 "R174" V 2612 5303 60  0000 L CNB
@@ -532,7 +532,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 5050 3700 5050
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R171
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R171
 U 1 1 5BCC2D33
 P 1950 5500
 F 0 "R171" H 1950 5682 60  0000 C CNB
@@ -551,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 5500 2100 5600
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R172
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R172
 U 1 1 5BCC2D40
 P 2100 5700
 F 0 "R172" V 2062 5753 60  0000 L CNB
@@ -617,7 +617,7 @@ TX_CONT
 Text GLabel 6250 5350 2    50   Input ~ 0
 CTS_CONT
 $Comp
-L SchematicAutomation-rescue:1825910-6-dk_Tactile-Switches S4
+L TheMatrix-rescue:1825910-6-dk_Tactile-Switches-SchematicAutomation-rescue S4
 U 1 1 5BA88744
 P 4050 5150
 F 0 "S4" H 4050 5497 60  0000 C CNN
@@ -9093,7 +9093,7 @@ TCK
 Text Label 1200 6950 2    50   ~ 0
 TCK
 $Comp
-L SchematicAutomation-rescue:TC2050-JTAG J12
+L TheMatrix-rescue:TC2050-JTAG-SchematicAutomation-rescue J12
 U 1 1 5CAD5754
 P 1700 6550
 F 0 "J12" H 1700 6715 50  0000 C CNN
@@ -9227,7 +9227,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 5300 9950 5300
 $Comp
-L SchematicAutomation-rescue:AT90USB1287-AU-MCU_Microchip_AVR U3
+L TheMatrix-rescue:AT90USB1287-AU-MCU_Microchip_AVR-SchematicAutomation-rescue U3
 U 1 1 5B909071
 P 5400 4550
 F 0 "U3" H 5400 2464 50  0000 C CNN

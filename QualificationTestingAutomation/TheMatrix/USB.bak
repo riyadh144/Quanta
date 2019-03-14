@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SchematicAutomation-cache
+LIBS:TheMatrix-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -66,7 +66,7 @@ F 4 " 535-10208-1-ND " H 2050 0   50  0001 C CNN "Digi-Key_PN"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C48
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C48
 U 1 1 5BE6E91E
 P 9150 3250
 F 0 "C48" H 9450 3300 60  0000 R CNB
@@ -166,7 +166,7 @@ F 3 "" H 7400 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:TUSB2046B-TUSB2046B IC1
+L TheMatrix-rescue:TUSB2046B-TUSB2046B-SchematicAutomation-rescue IC1
 U 1 1 5BE52A95
 P 5350 4250
 F 0 "IC1" H 5350 5316 50  0000 C CNN
@@ -181,7 +181,7 @@ F 7 "Unavailable" H 5350 4250 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R83
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R83
 U 1 1 5BA4FC43
 P 8900 4050
 F 0 "R83" H 8900 4232 60  0000 C CNB
@@ -196,7 +196,7 @@ $EndComp
 Wire Wire Line
 	6400 3950 6800 3950
 $Comp
-L SchematicAutomation-rescue:CAP-passive C49
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C49
 U 1 1 5BE6E68D
 P 9400 3950
 F 0 "C49" H 9508 3992 60  0000 L CNB
@@ -257,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3750 7850 4250
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R80
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R80
 U 1 1 5BA6424A
 P 6900 4350
 F 0 "R80" H 7050 4300 60  0000 C CNB
@@ -270,7 +270,7 @@ F 5 "Passive" H 7130 4640 50  0001 C CNN "Family"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R81
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R81
 U 1 1 5BA65253
 P 6900 4650
 F 0 "R81" H 7050 4550 60  0000 C CNB
@@ -283,7 +283,7 @@ F 5 "Passive" H 7130 4940 50  0001 C CNN "Family"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R82
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R82
 U 1 1 5BA65A1B
 P 6900 4750
 F 0 "R82" H 7050 4700 60  0000 C CNB
@@ -296,7 +296,7 @@ F 5 "Passive" H 7130 5040 50  0001 C CNN "Family"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R78
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R78
 U 1 1 5BA66C2F
 P 6900 4250
 F 0 "R78" H 7050 4200 60  0000 C CNB
@@ -309,7 +309,7 @@ F 5 "Passive" H 7130 4540 50  0001 C CNN "Family"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R76
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R76
 U 1 1 5BA676BB
 P 3900 4850
 F 0 "R76" H 4050 4800 60  0000 C CNB
@@ -322,7 +322,7 @@ F 5 "Passive" H 4130 5140 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R74
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R74
 U 1 1 5BA676C4
 P 3900 4550
 F 0 "R74" H 4050 4450 60  0000 C CNB
@@ -335,7 +335,7 @@ F 5 "Passive" H 4130 4840 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R73
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R73
 U 1 1 5BA676CD
 P 3900 4450
 F 0 "R73" H 4050 4400 60  0000 C CNB
@@ -348,7 +348,7 @@ F 5 "Passive" H 4130 4740 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R77
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R77
 U 1 1 5BA676D6
 P 3900 4950
 F 0 "R77" H 4050 4900 60  0000 C CNB
@@ -373,7 +373,7 @@ Maybe add a ferite beed to VCC
 Wire Wire Line
 	3750 3750 4350 3750
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R87
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R87
 U 1 1 5BA7D591
 P 3750 3650
 F 0 "R87" V 3700 3450 60  0000 L CNB
@@ -393,7 +393,7 @@ Wire Wire Line
 	3750 3750 3750 3800
 Connection ~ 3750 3750
 $Comp
-L SchematicAutomation-rescue:CAP-passive C54
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C54
 U 1 1 5BA7FC2C
 P 3750 3900
 F 0 "C54" H 3858 3942 60  0000 L CNB
@@ -417,7 +417,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3300 3750 3300
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R86
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R86
 U 1 1 5BAA6CA9
 P 3750 3400
 F 0 "R86" V 3712 3453 60  0000 L CNB
@@ -460,7 +460,7 @@ Wire Wire Line
 Connection ~ 6450 4850
 Connection ~ 4200 4750
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R88
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R88
 U 1 1 5BB088CA
 P 5300 5250
 F 0 "R88" V 5262 5303 60  0000 L CNB
@@ -511,7 +511,7 @@ DM2
 Text HLabel 9150 5300 2    50   Input ~ 0
 DP2
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R151
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R151
 U 1 1 5BC525CF
 P 8450 4500
 F 0 "R151" V 8412 4553 60  0000 L CNB
@@ -524,7 +524,7 @@ F 5 "Passive" H 8680 4790 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R155
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R155
 U 1 1 5BC52722
 P 8750 4600
 F 0 "R155" V 8712 4653 60  0000 L CNB
@@ -537,7 +537,7 @@ F 5 "Passive" H 8980 4890 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R152
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R152
 U 1 1 5BC549F1
 P 8450 4900
 F 0 "R152" V 8412 4953 60  0000 L CNB
@@ -550,7 +550,7 @@ F 5 "Passive" H 8680 5190 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R156
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R156
 U 1 1 5BC56CD8
 P 8750 5000
 F 0 "R156" V 8712 5053 60  0000 L CNB
@@ -563,7 +563,7 @@ F 5 "Passive" H 8980 5290 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R153
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R153
 U 1 1 5BC58FC5
 P 8450 5400
 F 0 "R153" V 8412 5453 60  0000 L CNB
@@ -576,7 +576,7 @@ F 5 "Passive" H 8680 5690 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R157
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R157
 U 1 1 5BC5B2AE
 P 8750 5500
 F 0 "R157" V 8712 5553 60  0000 L CNB
@@ -589,7 +589,7 @@ F 5 "Passive" H 8980 5790 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R154
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R154
 U 1 1 5BC5D5A9
 P 8450 5800
 F 0 "R154" V 8412 5853 60  0000 L CNB
@@ -602,7 +602,7 @@ F 5 "Passive" H 8680 6090 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R158
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R158
 U 1 1 5BC5F894
 P 8750 5900
 F 0 "R158" V 8712 5953 60  0000 L CNB
@@ -738,7 +738,7 @@ F 3 "" H 1450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:UJ2-MIBH-4-SMT-TR-dk_USB-DVI-HDMI-Connectors J16
+L TheMatrix-rescue:UJ2-MIBH-4-SMT-TR-dk_USB-DVI-HDMI-Connectors-SchematicAutomation-rescue J16
 U 1 1 5CB1D707
 P 1550 3950
 F 0 "J16" H 1613 4695 60  0000 C CNN
@@ -780,7 +780,7 @@ Wire Wire Line
 	1850 4600 1850 4150
 Connection ~ 1450 4600
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R84
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R84
 U 1 1 5CB3EF8C
 P 2150 3850
 F 0 "R84" H 2150 3950 60  0000 C CNB
@@ -793,7 +793,7 @@ F 5 "Passive" H 2380 4140 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R85
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R85
 U 1 1 5CB41BB7
 P 2150 3950
 F 0 "R85" H 2150 3900 60  0000 C CNB

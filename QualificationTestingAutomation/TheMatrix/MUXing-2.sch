@@ -970,7 +970,7 @@ AR Path="/5BA2CD36/5BD017D0" Ref="J?"  Part="1"
 AR Path="/5BCA1CB6/5BD017D0" Ref="J17"  Part="1" 
 F 0 "J17" H 9980 5792 50  0000 L CNN
 F 1 "Banana Jack" H 9980 5701 50  0000 L CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 9900 5800 50  0001 C CNN
+F 2 "Connector:Banana_Jack_2Pin_Standard_Spacing" H 9900 5800 50  0001 C CNN
 F 3 "~" H 9900 5800 50  0001 C CNN
 F 4 "Multimeter" H 9900 5800 50  0001 C CNN "Field4"
 F 5 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H 0   0   50  0001 C CNN "Description"
@@ -1067,26 +1067,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 2900 5600 2900
 Wire Wire Line
-	3450 1100 5300 1100
-Wire Wire Line
 	1300 4000 3100 4000
 Wire Wire Line
 	3100 4000 4900 4000
-Wire Wire Line
-	4900 4000 6550 4000
-$Comp
-L power:VDC #PWR?
-U 1 1 5C8C561D
-P 7500 4000
-AR Path="/5BA2CD36/5C8C561D" Ref="#PWR?"  Part="1" 
-AR Path="/5BCA1CB6/5C8C561D" Ref="#PWR0306"  Part="1" 
-F 0 "#PWR0306" H 7500 3900 50  0001 C CNN
-F 1 "VDC" H 7500 4275 50  0000 C CNN
-F 2 "" H 7500 4000 50  0001 C CNN
-F 3 "" H 7500 4000 50  0001 C CNN
-	1    7500 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VAA #PWR0327
 U 1 1 5C8D563A
@@ -1096,24 +1079,6 @@ F 1 "VAA" H 7567 4873 50  0000 C CNN
 F 2 "" H 7550 4700 50  0001 C CNN
 F 3 "" H 7550 4700 50  0001 C CNN
 	1    7550 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 7500 4000
-Wire Wire Line
-	7500 4000 7550 4000
-Wire Wire Line
-	6550 4000 7500 4000
-$Comp
-L power:VDC #PWR?
-U 1 1 5C905A13
-P 5300 1100
-AR Path="/5BA2CD36/5C905A13" Ref="#PWR?"  Part="1" 
-AR Path="/5BCA1CB6/5C905A13" Ref="#PWR0331"  Part="1" 
-F 0 "#PWR0331" H 5300 1000 50  0001 C CNN
-F 1 "VDC" H 5300 1375 50  0000 C CNN
-F 2 "" H 5300 1100 50  0001 C CNN
-F 3 "" H 5300 1100 50  0001 C CNN
-	1    5300 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1184,9 +1149,6 @@ F 3 "" H 2250 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 1100 3450 1100
-Connection ~ 5300 1100
-Wire Wire Line
-	5300 1100 5700 1100
 $Comp
 L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R182
 U 1 1 5CC22702
@@ -1319,4 +1281,42 @@ F 3 "" H 13400 5000 50  0001 C CNN
 	1    13400 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:HT #PWR?
+U 1 1 5D5AF49D
+P 4950 1100
+AR Path="/5BA2CD36/5D5AF49D" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5D5AF49D" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 4950 1220 50  0001 C CNN
+F 1 "HT" H 4970 1243 50  0000 C CNN
+F 2 "" H 4950 1100 50  0001 C CNN
+F 3 "" H 4950 1100 50  0001 C CNN
+	1    4950 1100
+	1    0    0    1   
+$EndComp
+$Comp
+L power:HT #PWR?
+U 1 1 5D5C0E10
+P 6200 4000
+AR Path="/5BA2CD36/5D5C0E10" Ref="#PWR?"  Part="1" 
+AR Path="/5BCA1CB6/5D5C0E10" Ref="#PWR0331"  Part="1" 
+F 0 "#PWR0331" H 6200 4120 50  0001 C CNN
+F 1 "HT" H 6220 4143 50  0000 C CNN
+F 2 "" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4000 7550 4000
+Wire Wire Line
+	3450 1100 4950 1100
+Connection ~ 4950 1100
+Wire Wire Line
+	4950 1100 5700 1100
+Wire Wire Line
+	4900 4000 6200 4000
+Connection ~ 6200 4000
+Wire Wire Line
+	6200 4000 6550 4000
 $EndSCHEMATC

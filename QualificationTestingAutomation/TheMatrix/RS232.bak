@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SchematicAutomation-cache
+LIBS:TheMatrix-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -53,7 +53,7 @@ Text GLabel 6050 4200 0    50   Input ~ 0
 Text GLabel 6050 4300 0    50   Input ~ 0
 5_TX
 $Comp
-L SchematicAutomation-rescue:FT4232HL-REEL-dk_Interface-Controllers U?
+L TheMatrix-rescue:FT4232HL-REEL-dk_Interface-Controllers-SchematicAutomation-rescue U?
 U 1 1 5BB9E827
 P 8250 4350
 AR Path="/5B9C8983/5BB9E827" Ref="U?"  Part="1" 
@@ -203,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 1500 10150 1600
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BB9E8A6
 P 10150 1700
 AR Path="/5B9C8983/5BB9E8A6" Ref="C?"  Part="1" 
@@ -263,7 +263,7 @@ $EndComp
 Wire Wire Line
 	10400 1000 10400 1100
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BB9E8CE
 P 10400 1200
 AR Path="/5B9C8983/5BB9E8CE" Ref="C?"  Part="1" 
@@ -397,7 +397,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 1900 7250 1900
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R?
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
 U 1 1 5BB9E91E
 P 7150 1900
 AR Path="/5B9C8983/5BB9E91E" Ref="R?"  Part="1" 
@@ -434,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 2300 7450 2300
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R?
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
 U 1 1 5BB9E932
 P 7350 2300
 AR Path="/5B9C8983/5BB9E932" Ref="R?"  Part="1" 
@@ -484,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 6100 8750 6100
 $Comp
-L SchematicAutomation-rescue:FT4232HL-REEL-dk_Interface-Controllers U?
+L TheMatrix-rescue:FT4232HL-REEL-dk_Interface-Controllers-SchematicAutomation-rescue U?
 U 1 1 5BBB2685
 P 3900 4350
 AR Path="/5B9C8983/5BBB2685" Ref="U?"  Part="1" 
@@ -616,7 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1500 5800 1600
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BBB26FA
 P 5800 1700
 AR Path="/5B9C8983/5BBB26FA" Ref="C?"  Part="1" 
@@ -676,7 +676,7 @@ $EndComp
 Wire Wire Line
 	6050 1000 6050 1100
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BBB2722
 P 6050 1200
 AR Path="/5B9C8983/5BBB2722" Ref="C?"  Part="1" 
@@ -812,7 +812,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1900 2900 1900
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R?
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
 U 1 1 5BBB2772
 P 2800 1900
 AR Path="/5B9C8983/5BBB2772" Ref="R?"  Part="1" 
@@ -849,7 +849,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2300 3100 2300
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R?
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
 U 1 1 5BBB2786
 P 3000 2300
 AR Path="/5B9C8983/5BBB2786" Ref="R?"  Part="1" 
@@ -1013,7 +1013,7 @@ F8 "RTS_3V3" I R 11650 2750 50
 F9 "CTS_3V3" I R 11650 2850 50 
 $EndSheet
 $Comp
-L SchematicAutomation-rescue:FT4232HL-REEL-dk_Interface-Controllers U?
+L TheMatrix-rescue:FT4232HL-REEL-dk_Interface-Controllers-SchematicAutomation-rescue U?
 U 1 1 5BD547A2
 P 12700 4300
 AR Path="/5B9C8983/5BD547A2" Ref="U?"  Part="1" 
@@ -1113,7 +1113,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 1450 14600 1550
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BD547EF
 P 14600 1650
 AR Path="/5B9C8983/5BD547EF" Ref="C?"  Part="1" 
@@ -1174,7 +1174,7 @@ $EndComp
 Wire Wire Line
 	14850 950  14850 1050
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BD54817
 P 14850 1150
 AR Path="/5B9C8983/5BD54817" Ref="C?"  Part="1" 
@@ -1310,7 +1310,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 1850 11700 1850
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R?
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
 U 1 1 5BD54867
 P 11600 1850
 AR Path="/5B9C8983/5BD54867" Ref="R?"  Part="1" 
@@ -1347,7 +1347,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 2250 11900 2250
 $Comp
-L SchematicAutomation-rescue:RESISTOR-passive R?
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
 U 1 1 5BD5487B
 P 11800 2250
 AR Path="/5B9C8983/5BD5487B" Ref="R?"  Part="1" 
@@ -1457,7 +1457,7 @@ Connection ~ 13600 2050
 Wire Wire Line
 	13600 2050 13600 1200
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BEDEFE7
 P 13800 2300
 AR Path="/5B9C8983/5BEDEFE7" Ref="C?"  Part="1" 
@@ -1487,7 +1487,7 @@ $EndComp
 Wire Wire Line
 	9400 2100 9400 2250
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BF1E597
 P 9400 2350
 AR Path="/5B9C8983/5BF1E597" Ref="C?"  Part="1" 
@@ -1522,7 +1522,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2100 5050 2250
 $Comp
-L SchematicAutomation-rescue:CAP-passive C?
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
 U 1 1 5BF5DE94
 P 5050 2350
 AR Path="/5B9C8983/5BF5DE94" Ref="C?"  Part="1" 
@@ -1780,7 +1780,7 @@ Text GLabel 1650 2800 0    50   Input ~ 0
 Text Notes 1350 1200 0    50   ~ 0
 RX TX mixup was solved by changing RX_3V3 and TX_3V3 on the XOR side \nSame goes for CTS and RTS
 $Comp
-L SchematicAutomation-rescue:CAP-passive C32
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C32
 U 1 1 5C868896
 P 5600 1200
 F 0 "C32" H 5708 1242 60  0000 L CNB
@@ -1793,7 +1793,7 @@ F 5 "Passive" H 5830 1490 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C40
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C40
 U 1 1 5C868A25
 P 14400 1150
 F 0 "C40" H 14508 1192 60  0000 L CNB
@@ -1806,7 +1806,7 @@ F 5 "Passive" H 14630 1440 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C35
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C35
 U 1 1 5C87AFFE
 P 13950 1650
 F 0 "C35" H 14058 1692 60  0000 L CNB
@@ -1819,7 +1819,7 @@ F 5 "Passive" H 14180 1940 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C34
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C34
 U 1 1 5C88D6B2
 P 9950 1200
 F 0 "C34" H 10058 1242 60  0000 L CNB
@@ -1832,7 +1832,7 @@ F 5 "Passive" H 10180 1490 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C33
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C33
 U 1 1 5C89FC77
 P 9500 1700
 F 0 "C33" H 9608 1742 60  0000 L CNB
@@ -1845,7 +1845,7 @@ F 5 "Passive" H 9730 1990 50  0001 C CNN "Family"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SchematicAutomation-rescue:CAP-passive C41
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C41
 U 1 1 5C8C50E7
 P 5150 1700
 F 0 "C41" H 5258 1742 60  0000 L CNB
