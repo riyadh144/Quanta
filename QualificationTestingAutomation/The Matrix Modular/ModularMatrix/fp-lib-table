@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name Symbols)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols")(options "")(descr ""))
+  (lib (name Libraries)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/Libraries")(options "")(descr ""))
+  (lib (name Connector)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/Connector.pretty")(options "")(descr ""))
+  (lib (name Diodes)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/Diodes.pretty")(options "")(descr ""))
+  (lib (name .pretty)(type KiCad)(uri C:/Users/Quantos/Quanta/QualificationTestingAutomation/TheMatrix/.pretty)(options "")(descr ""))
+  (lib (name LOGO)(type KiCad)(uri C:/Users/Quantos/Quanta/QualificationTestingAutomation/TheMatrix/LOGO.pretty)(options "")(descr ""))
+)

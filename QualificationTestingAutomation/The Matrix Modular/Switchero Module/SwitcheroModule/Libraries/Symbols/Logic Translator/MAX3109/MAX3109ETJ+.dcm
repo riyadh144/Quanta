@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX3109ETJ+
+D Maxim MAX3109ETJ+ Interface RS232, RS485 24MBps, 1.71  3.6 V, 32-Pin, TQFN
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX3109.pdf
+$ENDCMP
+#
+#End Doc Library

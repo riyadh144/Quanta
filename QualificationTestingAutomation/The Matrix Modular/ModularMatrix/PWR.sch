@@ -1,0 +1,1738 @@
+EESchema Schematic File Version 4
+LIBS:ModularMatrix-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5BE1D7FC
+P 950 1200
+AR Path="/5B9C8971/5BE1D7FC" Ref="J?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D7FC" Ref="J?"  Part="1" 
+AR Path="/5D94288A/5BE1D7FC" Ref="J3"  Part="1" 
+F 0 "J3" H 1005 1517 50  0000 C CNN
+F 1 "Barrel_Jack_MountingPin" H 1005 1426 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 1000 1160 50  0001 C CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-037a.pdf" H 1000 1160 50  0001 C CNN
+F 4 " CP-037A-ND " H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 5 "https://www.cui.com/product/resource/digikeypdf/pj-037a.pdf" H 0   0   50  0001 C CNN "DK_Datasheet_Link"
+	1    950  1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1100 1550 1100
+$Comp
+L power:+12V #PWR?
+U 1 1 5BE1D805
+P 1600 800
+AR Path="/5B9C8971/5BE1D805" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D805" Ref="#PWR?"  Part="1" 
+AR Path="/5D94288A/5BE1D805" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 1600 650 50  0001 C CNN
+F 1 "+12V" H 1615 973 50  0000 C CNN
+F 2 "" H 1600 800 50  0001 C CNN
+F 3 "" H 1600 800 50  0001 C CNN
+	1    1600 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1300 1500 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5BE1D80D
+P 1500 1400
+AR Path="/5B9C8971/5BE1D80D" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D80D" Ref="#PWR?"  Part="1" 
+AR Path="/5D94288A/5BE1D80D" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 1500 1150 50  0001 C CNN
+F 1 "GND" H 1505 1227 50  0000 C CNN
+F 2 "" H 1500 1400 50  0001 C CNN
+F 3 "" H 1500 1400 50  0001 C CNN
+	1    1500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2550 8250 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5BE1D815
+P 8250 2600
+AR Path="/5B9C8971/5BE1D815" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5BE1D815" Ref="#PWR?"  Part="1" 
+AR Path="/5D94288A/5BE1D815" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 8250 2350 50  0001 C CNN
+F 1 "GND" H 8255 2427 50  0000 C CNN
+F 2 "" H 8250 2600 50  0001 C CNN
+F 3 "" H 8250 2600 50  0001 C CNN
+	1    8250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 5BE2A669
+P 7700 2500
+F 0 "C35" H 7815 2546 50  0000 L CNN
+F 1 ".1uF" H 7815 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7738 2350 50  0001 C CNN
+F 3 "~" H 7700 2500 50  0001 C CNN
+	1    7700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 5BE2A677
+P 7200 2500
+F 0 "C32" H 7315 2546 50  0000 L CNN
+F 1 ".1uF" H 7315 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7238 2350 50  0001 C CNN
+F 3 "~" H 7200 2500 50  0001 C CNN
+	1    7200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:LM2776-NegativeRail-SchematicAutomation-rescue U6
+U 1 1 5B9767C0
+P 9700 1050
+F 0 "U6" H 9700 1265 50  0000 C CNN
+F 1 "LM2776" H 9700 1174 50  0000 C CNN
+F 2 "digikey-footprints:SOT-23-6" H 9550 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2776.pdf" H 9550 1150 50  0001 C CNN
+F 4 "296-43957-1-ND " H 9700 1050 50  0001 C CNN "PN"
+	1    9700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1250 10400 1250
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C48
+U 1 1 5B982AEC
+P 10500 1250
+F 0 "C48" V 10550 1400 60  0000 C CNB
+F 1 "1uF" V 10650 1400 45  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10535 1095 40  0001 L CNN
+F 3 "" H 10500 1350 60  0001 C CNN
+F 4 "-" H 10540 1415 45  0001 L CNN "Part"
+F 5 "Passive" H 10730 1540 50  0001 C CNN "Family"
+	1    10500 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 1250 10700 1250
+Wire Wire Line
+	10700 1250 10700 1100
+Wire Wire Line
+	10700 1100 10100 1100
+$Comp
+L power:+3V3 #PWR0111
+U 1 1 5B98F60D
+P 8200 1400
+F 0 "#PWR0111" H 8200 1250 50  0001 C CNN
+F 1 "+3V3" H 8215 1573 50  0000 C CNN
+F 2 "" H 8200 1400 50  0001 C CNN
+F 3 "" H 8200 1400 50  0001 C CNN
+	1    8200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5B995E19
+P 8800 1250
+F 0 "#PWR0112" H 8800 1000 50  0001 C CNN
+F 1 "GND" H 8805 1077 50  0000 C CNN
+F 2 "" H 8800 1250 50  0001 C CNN
+F 3 "" H 8800 1250 50  0001 C CNN
+	1    8800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1250 9000 1250
+Wire Wire Line
+	9250 950  9000 950 
+Wire Wire Line
+	9300 1100 9250 1100
+Wire Wire Line
+	9250 1100 9250 950 
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C43
+U 1 1 5B9C3F0C
+P 9000 1100
+F 0 "C43" H 8750 1200 60  0000 L CNB
+F 1 "2.2uF" H 8750 1050 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9035 945 40  0001 L CNN
+F 3 "" H 9000 1200 60  0001 C CNN
+F 4 "-" H 9040 1265 45  0001 L CNN "Part"
+F 5 "Passive" H 9230 1390 50  0001 C CNN "Family"
+	1    9000 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 950  9000 1000
+Connection ~ 9000 950 
+Wire Wire Line
+	9000 1200 9000 1250
+Connection ~ 9000 1250
+Wire Wire Line
+	9000 1250 9300 1250
+Wire Wire Line
+	8450 1400 8450 1550
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C39
+U 1 1 5B9E73B7
+P 8450 1650
+F 0 "C39" H 8558 1692 60  0000 L CNB
+F 1 "2.2uF" H 8558 1597 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8485 1495 40  0001 L CNN
+F 3 "" H 8450 1750 60  0001 C CNN
+F 4 "-" H 8490 1815 45  0001 L CNN "Part"
+F 5 "Passive" H 8680 1940 50  0001 C CNN "Family"
+	1    8450 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1750 8450 1850
+$Comp
+L power:GND #PWR0113
+U 1 1 5B9EE949
+P 8450 1850
+F 0 "#PWR0113" H 8450 1600 50  0001 C CNN
+F 1 "GND" H 8455 1677 50  0000 C CNN
+F 2 "" H 8450 1850 50  0001 C CNN
+F 3 "" H 8450 1850 50  0001 C CNN
+	1    8450 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1400 10250 1400
+$Comp
+L power:+3V3 #PWR0114
+U 1 1 5B9F61FA
+P 10250 1400
+F 0 "#PWR0114" H 10250 1250 50  0001 C CNN
+F 1 "+3V3" H 10350 1500 50  0000 C CNN
+F 2 "" H 10250 1400 50  0001 C CNN
+F 3 "" H 10250 1400 50  0001 C CNN
+	1    10250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1300 1500 1400
+Wire Wire Line
+	1600 800  1600 1100
+$Comp
+L power:+3V3 #PWR0115
+U 1 1 5B9FEC34
+P 2400 2900
+F 0 "#PWR0115" H 2400 2750 50  0001 C CNN
+F 1 "+3V3" H 2415 3073 50  0000 C CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5BA063A9
+P 2350 3300
+F 0 "#PWR0116" H 2350 3050 50  0001 C CNN
+F 1 "GND" H 2355 3127 50  0000 C CNN
+F 2 "" H 2350 3300 50  0001 C CNN
+F 3 "" H 2350 3300 50  0001 C CNN
+	1    2350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3300 2350 3250
+$Comp
+L power:-3V3 #PWR0117
+U 1 1 5BB79549
+P 8550 950
+F 0 "#PWR0117" H 8550 1050 50  0001 C CNN
+F 1 "-3V3" H 8565 1123 50  0000 C CNN
+F 2 "" H 8550 950 50  0001 C CNN
+F 3 "" H 8550 950 50  0001 C CNN
+	1    8550 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C9
+U 1 1 5BE6006D
+P 2600 3050
+F 0 "C9" H 2708 3092 60  0000 L CNB
+F 1 "4.7uF" H 2708 2997 45  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2635 2895 40  0001 L CNN
+F 3 "" H 2600 3150 60  0001 C CNN
+F 4 "-" H 2640 3215 45  0001 L CNN "Part"
+F 5 "Passive" H 2830 3340 50  0001 C CNN "Family"
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3150 2600 3250
+Wire Wire Line
+	8250 2350 8250 2450
+$Comp
+L power:GND #PWR0118
+U 1 1 5C9196D3
+P 950 1500
+F 0 "#PWR0118" H 950 1250 50  0001 C CNN
+F 1 "GND" H 955 1327 50  0000 C CNN
+F 2 "" H 950 1500 50  0001 C CNN
+F 3 "" H 950 1500 50  0001 C CNN
+	1    950  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:TPS563210-SchematicAutomation-cache U1
+U 1 1 5B983547
+P 2300 1750
+F 0 "U1" H 2300 1865 50  0000 C CNN
+F 1 "TPS563210" H 2300 1774 50  0000 C CNN
+F 2 ".pretty:SOT-23-8_Handsoldering" H 2300 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps563210.pdf" H 2300 1750 50  0001 C CNN
+	1    2300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1950 3000 1950
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C12
+U 1 1 5B9BC3CF
+P 3100 1950
+F 0 "C12" V 2855 1950 60  0000 C CNB
+F 1 "100nF" V 2950 1950 45  0000 C CNN
+F 2 ".pretty:C_0402_1005Metric" H 3135 1795 40  0001 L CNN
+F 3 "" H 3100 2050 60  0001 C CNN
+F 4 "-" H 3140 2115 45  0001 L CNN "Part"
+F 5 "Passive" H 3330 2240 50  0001 C CNN "Family"
+	1    3100 1950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2700 2100 3300 2100
+Wire Wire Line
+	3300 2100 3300 1950
+Wire Wire Line
+	3300 1950 3200 1950
+Wire Wire Line
+	3300 1950 3450 1950
+Connection ~ 3300 1950
+$Comp
+L TheMatrix-rescue:INDUCTOR-passive-SchematicAutomation-rescue L4
+U 1 1 5B9D92E9
+P 3550 1950
+F 0 "L4" H 3550 2137 60  0000 C CNB
+F 1 "3.3uH" H 3550 2046 40  0000 C CNN
+F 2 "digikey-footprints:0805" H 3550 1820 40  0001 C CNN
+F 3 "" H 3550 2050 60  0000 C CNN
+F 4 "-" H 3550 2115 45  0001 C CNN "PART"
+F 5 "Passive" H 3780 2240 50  0001 C CNN "Family"
+	1    3550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1950 3800 1950
+Wire Wire Line
+	3800 1950 3800 2200
+Wire Wire Line
+	3800 2200 3700 2200
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R3
+U 1 1 5B9E868E
+P 3600 2200
+F 0 "R3" H 3600 2382 60  0000 C CNB
+F 1 "100K" H 3600 2291 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 2060 40  0001 C CNN
+F 3 "" H 3600 2300 60  0000 C CNN
+F 4 "-" H 3600 2360 45  0001 C CNN "Part"
+F 5 "Passive" H 3830 2490 50  0001 C CNN "Family"
+	1    3600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2200 3500 2200
+Wire Wire Line
+	3800 1950 4100 1950
+Connection ~ 3800 1950
+Wire Wire Line
+	4100 1950 4100 2050
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R7
+U 1 1 5BA540CB
+P 4100 2150
+F 0 "R7" V 4062 2203 60  0000 L CNB
+F 1 "56.2K" V 4153 2203 40  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4100 2010 40  0001 C CNN
+F 3 "" H 4100 2250 60  0000 C CNN
+F 4 "-" H 4100 2310 45  0001 C CNN "Part"
+F 5 "Passive" H 4330 2440 50  0001 C CNN "Family"
+	1    4100 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R8
+U 1 1 5BA54216
+P 4100 2450
+F 0 "R8" V 4062 2503 60  0000 L CNB
+F 1 "10K" V 4153 2503 40  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4100 2310 40  0001 C CNN
+F 3 "" H 4100 2550 60  0000 C CNN
+F 4 "-" H 4100 2610 45  0001 C CNN "Part"
+F 5 "Passive" H 4330 2740 50  0001 C CNN "Family"
+	1    4100 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5BA63DE7
+P 4100 2550
+F 0 "#PWR0119" H 4100 2300 50  0001 C CNN
+F 1 "GND" H 4105 2377 50  0000 C CNN
+F 2 "" H 4100 2550 50  0001 C CNN
+F 3 "" H 4100 2550 50  0001 C CNN
+	1    4100 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2300 4100 2300
+Wire Wire Line
+	4100 2250 4100 2300
+Connection ~ 4100 2300
+Wire Wire Line
+	4100 2300 4100 2350
+Wire Wire Line
+	2700 2450 2800 2450
+Wire Wire Line
+	2800 2450 2800 2500
+$Comp
+L power:GND #PWR0120
+U 1 1 5BA83FFE
+P 2800 2500
+F 0 "#PWR0120" H 2800 2250 50  0001 C CNN
+F 1 "GND" H 2805 2327 50  0000 C CNN
+F 2 "" H 2800 2500 50  0001 C CNN
+F 3 "" H 2800 2500 50  0001 C CNN
+	1    2800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1950 4450 1950
+Wire Wire Line
+	4500 1950 4500 2050
+Connection ~ 4100 1950
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C17
+U 1 1 5BA94946
+P 4700 2150
+F 0 "C17" H 4592 2108 60  0000 R CNB
+F 1 "47uF" H 4592 2203 45  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4735 1995 40  0001 L CNN
+F 3 "" H 4700 2250 60  0001 C CNN
+F 4 "-" H 4740 2315 45  0001 L CNN "Part"
+F 5 "Passive" H 4930 2440 50  0001 C CNN "Family"
+	1    4700 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2250 4500 2550
+$Comp
+L power:GND #PWR0121
+U 1 1 5BAA57CE
+P 4500 2550
+F 0 "#PWR0121" H 4500 2300 50  0001 C CNN
+F 1 "GND" H 4505 2377 50  0000 C CNN
+F 2 "" H 4500 2550 50  0001 C CNN
+F 3 "" H 4500 2550 50  0001 C CNN
+	1    4500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1950 1550 1950
+$Comp
+L power:+12V #PWR0122
+U 1 1 5BAC75C2
+P 750 1950
+F 0 "#PWR0122" H 750 1800 50  0001 C CNN
+F 1 "+12V" H 765 2123 50  0000 C CNN
+F 2 "" H 750 1950 50  0001 C CNN
+F 3 "" H 750 1950 50  0001 C CNN
+	1    750  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C3
+U 1 1 5BAC7793
+P 850 2250
+F 0 "C3" H 742 2208 60  0000 R CNB
+F 1 "22uF" H 742 2303 45  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 885 2095 40  0001 L CNN
+F 3 "" H 850 2350 60  0001 C CNN
+F 4 "-" H 890 2415 45  0001 L CNN "Part"
+F 5 "Passive" H 1080 2540 50  0001 C CNN "Family"
+	1    850  2250
+	-1   0    0    1   
+$EndComp
+Connection ~ 850  1950
+Wire Wire Line
+	850  1950 750  1950
+Wire Wire Line
+	850  2150 850  1950
+Wire Wire Line
+	850  2350 850  2450
+$Comp
+L power:GND #PWR0123
+U 1 1 5BAEA400
+P 850 2450
+F 0 "#PWR0123" H 850 2200 50  0001 C CNN
+F 1 "GND" H 855 2277 50  0000 C CNN
+F 2 "" H 850 2450 50  0001 C CNN
+F 3 "" H 850 2450 50  0001 C CNN
+	1    850  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2150 1550 2150
+Wire Wire Line
+	1550 2150 1550 1950
+Connection ~ 1550 1950
+Wire Wire Line
+	1800 2350 1500 2350
+Wire Wire Line
+	1500 2350 1500 2400
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C6
+U 1 1 5BB0E6F5
+P 1500 2500
+F 0 "C6" H 1608 2542 60  0000 L CNB
+F 1 "8.2nF" H 1608 2447 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1535 2345 40  0001 L CNN
+F 3 "" H 1500 2600 60  0001 C CNN
+F 4 "-" H 1540 2665 45  0001 L CNN "Part"
+F 5 "Passive" H 1730 2790 50  0001 C CNN "Family"
+	1    1500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5BB0E893
+P 1500 2600
+F 0 "#PWR0124" H 1500 2350 50  0001 C CNN
+F 1 "GND" H 1505 2427 50  0000 C CNN
+F 2 "" H 1500 2600 50  0001 C CNN
+F 3 "" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1950 850  1950
+$Comp
+L TheMatrix-rescue:TPS563210-SchematicAutomation-cache U3
+U 1 1 5BB6AF17
+P 2750 3650
+F 0 "U3" H 2750 3765 50  0000 C CNN
+F 1 "TPS563210" H 2750 3674 50  0000 C CNN
+F 2 ".pretty:SOT-23-8_Handsoldering" H 2750 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps563210.pdf" H 2750 3650 50  0001 C CNN
+	1    2750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3850 3450 3850
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C14
+U 1 1 5BB6AF21
+P 3550 3850
+F 0 "C14" V 3305 3850 60  0000 C CNB
+F 1 "100nF" V 3400 3850 45  0000 C CNN
+F 2 ".pretty:C_0402_1005Metric" H 3585 3695 40  0001 L CNN
+F 3 "" H 3550 3950 60  0001 C CNN
+F 4 "-" H 3590 4015 45  0001 L CNN "Part"
+F 5 "Passive" H 3780 4140 50  0001 C CNN "Family"
+	1    3550 3850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3150 4000 3750 4000
+Wire Wire Line
+	3750 4000 3750 3850
+Wire Wire Line
+	3750 3850 3650 3850
+Wire Wire Line
+	3750 3850 3900 3850
+Connection ~ 3750 3850
+$Comp
+L TheMatrix-rescue:INDUCTOR-passive-SchematicAutomation-rescue L5
+U 1 1 5BB6AF2F
+P 4000 3850
+F 0 "L5" H 4000 4037 60  0000 C CNB
+F 1 "3.3uH" H 4000 3946 40  0000 C CNN
+F 2 "digikey-footprints:0805" H 4000 3720 40  0001 C CNN
+F 3 "" H 4000 3950 60  0000 C CNN
+F 4 "-" H 4000 4015 45  0001 C CNN "PART"
+F 5 "Passive" H 4230 4140 50  0001 C CNN "Family"
+	1    4000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3850 4250 3850
+Wire Wire Line
+	4250 3850 4250 4100
+Wire Wire Line
+	4250 4100 4150 4100
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R6
+U 1 1 5BB6AF3B
+P 4050 4100
+F 0 "R6" H 4050 4282 60  0000 C CNB
+F 1 "100K" H 4050 4191 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4050 3960 40  0001 C CNN
+F 3 "" H 4050 4200 60  0000 C CNN
+F 4 "-" H 4050 4260 45  0001 C CNN "Part"
+F 5 "Passive" H 4280 4390 50  0001 C CNN "Family"
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4100 3950 4100
+Wire Wire Line
+	4250 3850 4300 3850
+Connection ~ 4250 3850
+Wire Wire Line
+	4550 3850 4550 3950
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R9
+U 1 1 5BB6AF48
+P 4550 4050
+F 0 "R9" V 4512 4103 60  0000 L CNB
+F 1 "33.2K" V 4603 4103 40  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4550 3910 40  0001 C CNN
+F 3 "" H 4550 4150 60  0000 C CNN
+F 4 "-" H 4550 4210 45  0001 C CNN "Part"
+F 5 "Passive" H 4780 4340 50  0001 C CNN "Family"
+	1    4550 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R10
+U 1 1 5BB6AF51
+P 4550 4350
+F 0 "R10" V 4512 4403 60  0000 L CNB
+F 1 "10K" V 4603 4403 40  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4550 4210 40  0001 C CNN
+F 3 "" H 4550 4450 60  0000 C CNN
+F 4 "-" H 4550 4510 45  0001 C CNN "Part"
+F 5 "Passive" H 4780 4640 50  0001 C CNN "Family"
+	1    4550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5BB6AF58
+P 4550 4450
+F 0 "#PWR0125" H 4550 4200 50  0001 C CNN
+F 1 "GND" H 4555 4277 50  0000 C CNN
+F 2 "" H 4550 4450 50  0001 C CNN
+F 3 "" H 4550 4450 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4200 4550 4200
+Wire Wire Line
+	4550 4150 4550 4200
+Connection ~ 4550 4200
+Wire Wire Line
+	4550 4200 4550 4250
+Wire Wire Line
+	3150 4350 3250 4350
+Wire Wire Line
+	3250 4350 3250 4400
+$Comp
+L power:GND #PWR0126
+U 1 1 5BB6AF64
+P 3250 4400
+F 0 "#PWR0126" H 3250 4150 50  0001 C CNN
+F 1 "GND" H 3255 4227 50  0000 C CNN
+F 2 "" H 3250 4400 50  0001 C CNN
+F 3 "" H 3250 4400 50  0001 C CNN
+	1    3250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3850 4950 3850
+Wire Wire Line
+	4950 3850 4950 3950
+Connection ~ 4550 3850
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C20
+U 1 1 5BB6AF6F
+P 4950 4050
+F 0 "C20" H 4842 4008 60  0000 R CNB
+F 1 "47uF" H 4842 4103 45  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4985 3895 40  0001 L CNN
+F 3 "" H 4950 4150 60  0001 C CNN
+F 4 "-" H 4990 4215 45  0001 L CNN "Part"
+F 5 "Passive" H 5180 4340 50  0001 C CNN "Family"
+	1    4950 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 4150 4950 4350
+$Comp
+L power:GND #PWR0127
+U 1 1 5BB6AF77
+P 4950 4450
+F 0 "#PWR0127" H 4950 4200 50  0001 C CNN
+F 1 "GND" H 4955 4277 50  0000 C CNN
+F 2 "" H 4950 4450 50  0001 C CNN
+F 3 "" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3850 2000 3850
+$Comp
+L power:+12V #PWR0128
+U 1 1 5BB6AF7E
+P 1200 3850
+F 0 "#PWR0128" H 1200 3700 50  0001 C CNN
+F 1 "+12V" H 1215 4023 50  0000 C CNN
+F 2 "" H 1200 3850 50  0001 C CNN
+F 3 "" H 1200 3850 50  0001 C CNN
+	1    1200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C5
+U 1 1 5BB6AF86
+P 1300 4150
+F 0 "C5" H 1192 4108 60  0000 R CNB
+F 1 "22uF" H 1192 4203 45  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1335 3995 40  0001 L CNN
+F 3 "" H 1300 4250 60  0001 C CNN
+F 4 "-" H 1340 4315 45  0001 L CNN "Part"
+F 5 "Passive" H 1530 4440 50  0001 C CNN "Family"
+	1    1300 4150
+	-1   0    0    1   
+$EndComp
+Connection ~ 1300 3850
+Wire Wire Line
+	1300 3850 1200 3850
+Wire Wire Line
+	1300 4050 1300 3850
+Wire Wire Line
+	1300 4250 1300 4350
+$Comp
+L power:GND #PWR0129
+U 1 1 5BB6AF91
+P 1300 4350
+F 0 "#PWR0129" H 1300 4100 50  0001 C CNN
+F 1 "GND" H 1305 4177 50  0000 C CNN
+F 2 "" H 1300 4350 50  0001 C CNN
+F 3 "" H 1300 4350 50  0001 C CNN
+	1    1300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4050 2000 4050
+Wire Wire Line
+	2000 4050 2000 3850
+Connection ~ 2000 3850
+Wire Wire Line
+	2250 4250 1950 4250
+Wire Wire Line
+	1950 4250 1950 4300
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C8
+U 1 1 5BB6AF9E
+P 1950 4400
+F 0 "C8" H 2058 4442 60  0000 L CNB
+F 1 "8.2nF" H 2058 4347 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1985 4245 40  0001 L CNN
+F 3 "" H 1950 4500 60  0001 C CNN
+F 4 "-" H 1990 4565 45  0001 L CNN "Part"
+F 5 "Passive" H 2180 4690 50  0001 C CNN "Family"
+	1    1950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 5BB6AFA5
+P 1950 4500
+F 0 "#PWR0130" H 1950 4250 50  0001 C CNN
+F 1 "GND" H 1955 4327 50  0000 C CNN
+F 2 "" H 1950 4500 50  0001 C CNN
+F 3 "" H 1950 4500 50  0001 C CNN
+	1    1950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0131
+U 1 1 5BB6AFAB
+P 4550 3850
+F 0 "#PWR0131" H 4550 3700 50  0001 C CNN
+F 1 "+3V3" H 4565 4023 50  0000 C CNN
+F 2 "" H 4550 3850 50  0001 C CNN
+F 3 "" H 4550 3850 50  0001 C CNN
+	1    4550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3850 1300 3850
+$Comp
+L power:+5V #PWR0132
+U 1 1 5BB97C2C
+P 4450 1950
+F 0 "#PWR0132" H 4450 1800 50  0001 C CNN
+F 1 "+5V" H 4465 2123 50  0000 C CNN
+F 2 "" H 4450 1950 50  0001 C CNN
+F 3 "" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 1950
+Wire Wire Line
+	4450 1950 4500 1950
+Text Notes 2850 1650 0    50   ~ 0
+5V SWITCHING SUPPLY
+Text Notes 4900 3700 0    50   ~ 0
+3V3 SWITCHING SUPPLY
+Text Notes 8550 850  0    50   ~ 0
+-3V3 SWITCHING SUPPLY
+Text Notes 2450 3350 0    50   ~ 0
+RECHECK THE NUMBER OF DECOUPLING CAPS
+Text Notes 5100 2050 0    50   ~ 0
+Find a better way to do the 3Way switching
+Text Notes 1850 1000 0    50   ~ 0
+THE HOLE SIZES NEED TO BE CHANGED THE FOOTPRINT IS BAD
+Wire Wire Line
+	8550 950  9000 950 
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BC6592E
+P 1550 1100
+F 0 "#FLG0103" H 1550 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 1350 50  0000 C CNN
+F 2 "" H 1550 1100 50  0001 C CNN
+F 3 "~" H 1550 1100 50  0001 C CNN
+	1    1550 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 1100
+Wire Wire Line
+	1550 1100 1600 1100
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5BC66942
+P 4300 3850
+F 0 "#FLG0104" H 4300 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 4300 4024 50  0000 C CNN
+F 2 "" H 4300 3850 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3850
+Wire Wire Line
+	4300 3850 4550 3850
+$Comp
+L TheMatrix-rescue:LM2776-NegativeRail-SchematicAutomation-rescue U5
+U 1 1 5C857378
+P 9550 4950
+F 0 "U5" H 9550 5165 50  0000 C CNN
+F 1 "LM2776" H 9550 5074 50  0000 C CNN
+F 2 "digikey-footprints:SOT-23-6" H 9400 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2776.pdf" H 9400 5050 50  0001 C CNN
+F 4 "296-43957-1-ND " H 9550 4950 50  0001 C CNN "PN"
+	1    9550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5150 10250 5150
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C47
+U 1 1 5C857382
+P 10350 5150
+F 0 "C47" V 10400 5300 60  0000 C CNB
+F 1 "1uF" V 10500 5300 45  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10385 4995 40  0001 L CNN
+F 3 "" H 10350 5250 60  0001 C CNN
+F 4 "-" H 10390 5315 45  0001 L CNN "Part"
+F 5 "Passive" H 10580 5440 50  0001 C CNN "Family"
+	1    10350 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 5150 10550 5150
+Wire Wire Line
+	10550 5150 10550 5000
+Wire Wire Line
+	10550 5000 9950 5000
+$Comp
+L power:GND #PWR0133
+U 1 1 5C857392
+P 8650 5150
+F 0 "#PWR0133" H 8650 4900 50  0001 C CNN
+F 1 "GND" H 8655 4977 50  0000 C CNN
+F 2 "" H 8650 5150 50  0001 C CNN
+F 3 "" H 8650 5150 50  0001 C CNN
+	1    8650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5300 8300 5300
+Wire Wire Line
+	8650 5150 8850 5150
+Wire Wire Line
+	9100 4850 8850 4850
+Wire Wire Line
+	9150 5000 9100 5000
+Wire Wire Line
+	9100 5000 9100 4850
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C42
+U 1 1 5C85739F
+P 8850 5000
+F 0 "C42" H 8600 5100 60  0000 L CNB
+F 1 "2.2uF" H 8600 4950 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8885 4845 40  0001 L CNN
+F 3 "" H 8850 5100 60  0001 C CNN
+F 4 "-" H 8890 5165 45  0001 L CNN "Part"
+F 5 "Passive" H 9080 5290 50  0001 C CNN "Family"
+	1    8850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4850 8850 4900
+Connection ~ 8850 4850
+Wire Wire Line
+	8850 5100 8850 5150
+Connection ~ 8850 5150
+Wire Wire Line
+	8850 5150 9150 5150
+Wire Wire Line
+	8300 5300 8300 5450
+Connection ~ 8300 5300
+Wire Wire Line
+	8300 5300 9150 5300
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C38
+U 1 1 5C8573B0
+P 8300 5550
+F 0 "C38" H 8408 5592 60  0000 L CNB
+F 1 "2.2uF" H 8408 5497 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8335 5395 40  0001 L CNN
+F 3 "" H 8300 5650 60  0001 C CNN
+F 4 "-" H 8340 5715 45  0001 L CNN "Part"
+F 5 "Passive" H 8530 5840 50  0001 C CNN "Family"
+	1    8300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5650 8300 5750
+Text Notes 8200 4650 0    50   ~ 0
+-5V SWITCHING SUPPLY
+Wire Wire Line
+	8400 4850 8850 4850
+$Comp
+L power:+5V #PWR0134
+U 1 1 5C87016E
+P 8150 5300
+F 0 "#PWR0134" H 8150 5150 50  0001 C CNN
+F 1 "+5V" H 8165 5473 50  0000 C CNN
+F 2 "" H 8150 5300 50  0001 C CNN
+F 3 "" H 8150 5300 50  0001 C CNN
+	1    8150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0135
+U 1 1 5C888680
+P 10250 5250
+F 0 "#PWR0135" H 10250 5100 50  0001 C CNN
+F 1 "+5V" H 10265 5423 50  0000 C CNN
+F 2 "" H 10250 5250 50  0001 C CNN
+F 3 "" H 10250 5250 50  0001 C CNN
+	1    10250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 5300 10250 5250
+Wire Wire Line
+	9950 5300 10250 5300
+$Comp
+L power:GND #PWR0136
+U 1 1 5C8B98BC
+P 8300 5750
+F 0 "#PWR0136" H 8300 5500 50  0001 C CNN
+F 1 "GND" H 8305 5577 50  0000 C CNN
+F 2 "" H 8300 5750 50  0001 C CNN
+F 3 "" H 8300 5750 50  0001 C CNN
+	1    8300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR0137
+U 1 1 5C8EAE51
+P 8400 4850
+F 0 "#PWR0137" H 8400 4950 50  0001 C CNN
+F 1 "-5V" H 8415 5023 50  0000 C CNN
+F 2 "" H 8400 4850 50  0001 C CNN
+F 3 "" H 8400 4850 50  0001 C CNN
+	1    8400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5C9FEE95
+P 3550 3100
+F 0 "C13" H 3665 3146 50  0000 L CNN
+F 1 ".1uF" H 3665 3055 50  0000 L CNN
+F 2 ".pretty:C_0603_HandSoldering" H 3588 2950 50  0001 C CNN
+F 3 "~" H 3550 3100 50  0001 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5C9FEE9C
+P 3050 3100
+F 0 "C11" H 3165 3146 50  0000 L CNN
+F 1 ".1uF" H 3165 3055 50  0000 L CNN
+F 2 ".pretty:C_0603_HandSoldering" H 3088 2950 50  0001 C CNN
+F 3 "~" H 3050 3100 50  0001 C CNN
+	1    3050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2950 3050 2950
+Connection ~ 3050 2950
+Wire Wire Line
+	3050 2950 3550 2950
+Wire Wire Line
+	2600 3250 3050 3250
+Connection ~ 3050 3250
+Wire Wire Line
+	3050 3250 3550 3250
+$Comp
+L Device:C C25
+U 1 1 5CA4FF7F
+P 5900 3100
+F 0 "C25" H 6015 3146 50  0000 L CNN
+F 1 ".1uF" H 6015 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5938 2950 50  0001 C CNN
+F 3 "~" H 5900 3100 50  0001 C CNN
+	1    5900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 6400 2950
+Wire Wire Line
+	6400 3250 5900 3250
+$Comp
+L Device:C C28
+U 1 1 5C9150A8
+P 6400 3100
+F 0 "C28" H 6515 3146 50  0000 L CNN
+F 1 ".01uF" H 6515 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 2950 50  0001 C CNN
+F 3 "~" H 6400 3100 50  0001 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 5C9311D6
+P 6850 3100
+F 0 "C30" H 6965 3146 50  0000 L CNN
+F 1 ".001uF" H 6965 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6888 2950 50  0001 C CNN
+F 3 "~" H 6850 3100 50  0001 C CNN
+	1    6850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 5C94D4F6
+P 7300 3100
+F 0 "C33" H 7415 3146 50  0000 L CNN
+F 1 "10pf" H 7415 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7338 2950 50  0001 C CNN
+F 3 "~" H 7300 3100 50  0001 C CNN
+	1    7300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5C96961E
+P 7700 3100
+F 0 "C36" H 7815 3146 50  0000 L CNN
+F 1 "100pf" H 7815 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7738 2950 50  0001 C CNN
+F 3 "~" H 7700 3100 50  0001 C CNN
+	1    7700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2950 6850 2950
+Connection ~ 6400 2950
+Connection ~ 6850 2950
+Wire Wire Line
+	6850 2950 7300 2950
+Connection ~ 7300 2950
+Wire Wire Line
+	7300 2950 7700 2950
+Wire Wire Line
+	6400 3250 6850 3250
+Connection ~ 6400 3250
+Connection ~ 6850 3250
+Wire Wire Line
+	6850 3250 7300 3250
+Connection ~ 7300 3250
+Wire Wire Line
+	7300 3250 7700 3250
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C31
+U 1 1 5C9BF26C
+P 7050 4000
+F 0 "C31" H 7158 4042 60  0000 L CNB
+F 1 "4.7uF" H 7158 3947 45  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7085 3845 40  0001 L CNN
+F 3 "" H 7050 4100 60  0001 C CNN
+F 4 "-" H 7090 4165 45  0001 L CNN "Part"
+F 5 "Passive" H 7280 4290 50  0001 C CNN "Family"
+	1    7050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4100 7050 4200
+$Comp
+L Device:C C34
+U 1 1 5C9BF27C
+P 7500 4050
+F 0 "C34" H 7615 4096 50  0000 L CNN
+F 1 ".1uF" H 7615 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7538 3900 50  0001 C CNN
+F 3 "~" H 7500 4050 50  0001 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3900 7500 3900
+Wire Wire Line
+	7050 4200 7500 4200
+$Comp
+L Device:C C44
+U 1 1 5C9BF2B9
+P 7900 4050
+F 0 "C44" H 8015 4096 50  0000 L CNN
+F 1 ".01uF" H 8015 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7938 3900 50  0001 C CNN
+F 3 "~" H 7900 4050 50  0001 C CNN
+	1    7900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C45
+U 1 1 5C9BF2C0
+P 8350 4050
+F 0 "C45" H 8465 4096 50  0000 L CNN
+F 1 ".001uF" H 8465 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8388 3900 50  0001 C CNN
+F 3 "~" H 8350 4050 50  0001 C CNN
+	1    8350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 5C9BF2C7
+P 8800 4050
+F 0 "C46" H 8915 4096 50  0000 L CNN
+F 1 "10pf" H 8915 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8838 3900 50  0001 C CNN
+F 3 "~" H 8800 4050 50  0001 C CNN
+	1    8800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C49
+U 1 1 5C9BF2CE
+P 9200 4050
+F 0 "C49" H 9315 4096 50  0000 L CNN
+F 1 "100pf" H 9315 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 3900 50  0001 C CNN
+F 3 "~" H 9200 4050 50  0001 C CNN
+	1    9200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3900 8350 3900
+Connection ~ 8350 3900
+Wire Wire Line
+	8350 3900 8800 3900
+Connection ~ 8800 3900
+Wire Wire Line
+	8800 3900 9200 3900
+Wire Wire Line
+	7900 4200 8350 4200
+Connection ~ 8350 4200
+Wire Wire Line
+	8350 4200 8800 4200
+Connection ~ 8800 4200
+Wire Wire Line
+	8800 4200 9200 4200
+$Comp
+L power:+5V #PWR0138
+U 1 1 5C9E0FB7
+P 7050 3900
+F 0 "#PWR0138" H 7050 3750 50  0001 C CNN
+F 1 "+5V" H 7065 4073 50  0000 C CNN
+F 2 "" H 7050 3900 50  0001 C CNN
+F 3 "" H 7050 3900 50  0001 C CNN
+	1    7050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5CA02C95
+P 7050 4200
+F 0 "#PWR0139" H 7050 3950 50  0001 C CNN
+F 1 "GND" H 7055 4027 50  0000 C CNN
+F 2 "" H 7050 4200 50  0001 C CNN
+F 3 "" H 7050 4200 50  0001 C CNN
+	1    7050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2450 8100 2450
+Wire Wire Line
+	8100 2450 8100 2350
+Wire Wire Line
+	8250 2550 8100 2550
+Wire Wire Line
+	8100 2550 8100 2650
+Wire Wire Line
+	7200 2350 7700 2350
+Wire Wire Line
+	7200 2650 7700 2650
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+U 1 1 5CD444A0
+P 1800 1200
+AR Path="/5BA2CD36/5CD444A0" Ref="C?"  Part="1" 
+AR Path="/5BCA1CB6/5CD444A0" Ref="C?"  Part="1" 
+AR Path="/5D94288A/5CD444A0" Ref="C7"  Part="1" 
+F 0 "C7" H 1692 1158 60  0000 R CNB
+F 1 "100uF" H 1692 1253 45  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1835 1045 40  0001 L CNN
+F 3 "" H 1800 1300 60  0001 C CNN
+F 4 "-" H 1840 1365 45  0001 L CNN "Part"
+F 5 "Passive" H 2030 1490 50  0001 C CNN "Family"
+	1    1800 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 1100 1600 1100
+Connection ~ 1600 1100
+Wire Wire Line
+	1800 1300 1500 1300
+Connection ~ 1500 1300
+$Comp
+L Regulator_Linear:TLV70018_SOT23-5 U4
+U 1 1 5C9A2259
+P 5600 4050
+F 0 "U4" H 5600 4392 50  0000 C CNN
+F 1 "TLV70018_SOT23-5" H 5600 4301 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5600 4375 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 5600 4100 50  0001 C CNN
+	1    5600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3950 5050 3850
+Wire Wire Line
+	5050 3850 4950 3850
+Connection ~ 4950 3850
+Wire Wire Line
+	5300 4050 5300 3950
+Connection ~ 5300 3950
+$Comp
+L power:+1V8 #PWR0140
+U 1 1 5CA22EAF
+P 6050 3950
+F 0 "#PWR0140" H 6050 3800 50  0001 C CNN
+F 1 "+1V8" H 6065 4123 50  0000 C CNN
+F 2 "" H 6050 3950 50  0001 C CNN
+F 3 "" H 6050 3950 50  0001 C CNN
+	1    6050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3950 6000 3950
+Wire Wire Line
+	5050 3950 5300 3950
+Connection ~ 4950 4350
+Wire Wire Line
+	4950 4350 4950 4450
+$Comp
+L Device:C C26
+U 1 1 5CA6575C
+P 6000 4100
+F 0 "C26" H 6115 4146 50  0000 L CNN
+F 1 "1uF" H 6115 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6038 3950 50  0001 C CNN
+F 3 "~" H 6000 4100 50  0001 C CNN
+	1    6000 4100
+	1    0    0    1   
+$EndComp
+Connection ~ 6000 3950
+Wire Wire Line
+	6000 3950 5900 3950
+Wire Wire Line
+	6000 4250 6000 4350
+Connection ~ 5600 4350
+Wire Wire Line
+	5600 4350 6000 4350
+$Comp
+L Device:C C22
+U 1 1 5CAC9DAD
+P 5300 4200
+F 0 "C22" H 5415 4246 50  0000 L CNN
+F 1 "1uF" H 5415 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5338 4050 50  0001 C CNN
+F 3 "~" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4350 5300 4350
+Connection ~ 5300 4350
+Wire Wire Line
+	5300 4350 5600 4350
+$Comp
+L BoostConverters:LT8361 U2
+U 1 1 5CBE4AA0
+P 2600 5850
+F 0 "U2" H 2600 6450 50  0000 R CNN
+F 1 "LT8361" H 2650 6350 50  0000 R CNN
+F 2 "Package_SO:MSOP-12-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm" H 2500 6350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/lt8361.pdf" H 2500 6350 50  0001 C CNN
+F 4 "LT8361IMSE#PBF" H 2600 5850 50  0001 C CNN "MPN"
+F 5 "Linear Technology" H 2600 5850 50  0001 C CNN "MFN"
+	1    2600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5700 1450 5700
+Wire Wire Line
+	1450 5700 1450 5400
+Wire Wire Line
+	1450 5200 2150 5200
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+U 1 1 5CC74BDD
+P 1000 5500
+AR Path="/5BA2CD36/5CC74BDD" Ref="C?"  Part="1" 
+AR Path="/5BCA1CB6/5CC74BDD" Ref="C?"  Part="1" 
+AR Path="/5D94288A/5CC74BDD" Ref="C4"  Part="1" 
+F 0 "C4" H 892 5458 60  0000 R CNB
+F 1 "47uF" H 892 5553 45  0000 R CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 1035 5345 40  0001 L CNN
+F 3 "" H 1000 5600 60  0001 C CNN
+F 4 "-" H 1040 5665 45  0001 L CNN "Part"
+F 5 "Passive" H 1230 5790 50  0001 C CNN "Family"
+	1    1000 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5400 800  5400
+Wire Wire Line
+	2150 5200 2150 5400
+Wire Wire Line
+	1000 5400 1450 5400
+Connection ~ 1000 5400
+Connection ~ 1450 5400
+Wire Wire Line
+	1450 5400 1450 5200
+$Comp
+L power:+12V #PWR?
+U 1 1 5CCE14BE
+P 800 5300
+AR Path="/5B9C8971/5CCE14BE" Ref="#PWR?"  Part="1" 
+AR Path="/5BA2CD36/5CCE14BE" Ref="#PWR?"  Part="1" 
+AR Path="/5D94288A/5CCE14BE" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 800 5150 50  0001 C CNN
+F 1 "+12V" H 815 5473 50  0000 C CNN
+F 2 "" H 800 5300 50  0001 C CNN
+F 3 "" H 800 5300 50  0001 C CNN
+	1    800  5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5300 800  5400
+Wire Wire Line
+	1000 5600 1000 5700
+$Comp
+L power:GND #PWR0142
+U 1 1 5CD4EDD4
+P 1000 5700
+F 0 "#PWR0142" H 1000 5450 50  0001 C CNN
+F 1 "GND" H 1005 5527 50  0000 C CNN
+F 2 "" H 1000 5700 50  0001 C CNN
+F 3 "" H 1000 5700 50  0001 C CNN
+	1    1000 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5200 2850 5400
+Wire Wire Line
+	3000 5400 3000 5200
+Wire Wire Line
+	3000 5200 2850 5200
+Connection ~ 2850 5200
+$Comp
+L Device:D_Schottky D1
+U 1 1 5CDE3F64
+P 3250 5200
+F 0 "D1" H 3250 4984 50  0000 C CNN
+F 1 "D_Schottky" H 3250 5075 50  0000 C CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 3250 5200 50  0001 C CNN
+F 3 "~" H 3250 5200 50  0001 C CNN
+F 4 "DFLS2100" H 3250 5200 50  0001 C CNN "MPN"
+F 5 "https://www.diodes.com/assets/Datasheets/ds31475.pdf" H 3250 5200 50  0001 C CNN "MFN"
+	1    3250 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 5200 3100 5200
+Connection ~ 3000 5200
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R4
+U 1 1 5CE0A961
+P 3800 5350
+F 0 "R4" H 3800 5532 60  0000 C CNB
+F 1 "1M" H 3800 5441 40  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3800 5210 40  0001 C CNN
+F 3 "" H 3800 5450 60  0000 C CNN
+F 4 "-" H 3800 5510 45  0001 C CNN "Part"
+F 5 "Passive" H 4030 5640 50  0001 C CNN "Family"
+	1    3800 5350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3800 5250 3800 5200
+Wire Wire Line
+	3800 5200 3400 5200
+Wire Wire Line
+	3800 5450 3800 5650
+Wire Wire Line
+	3800 5650 3450 5650
+$Comp
+L Device:C C16
+U 1 1 5CFAB0E9
+P 4250 5350
+F 0 "C16" H 4365 5396 50  0000 L CNN
+F 1 "1.5uF" H 4365 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4288 5200 50  0001 C CNN
+F 3 "http://static6.arrow.com/aropdfconversion/b77a4877268b862ca226eeeb4dc5d95c2735e4e4/485280582423123ce-ntsntf-e-160401.pdf" H 4250 5350 50  0001 C CNN
+F 4 "KTS101B155M43N0T00" H 4250 5350 50  0001 C CNN "MFPN"
+	1    4250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5200 3800 5200
+Connection ~ 3800 5200
+$Comp
+L power:GND #PWR0143
+U 1 1 5CFF84CE
+P 4250 5550
+F 0 "#PWR0143" H 4250 5300 50  0001 C CNN
+F 1 "GND" H 4255 5377 50  0000 C CNN
+F 2 "" H 4250 5550 50  0001 C CNN
+F 3 "" H 4250 5550 50  0001 C CNN
+	1    4250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5D06C6E3
+P 4750 5350
+F 0 "C19" H 4865 5396 50  0000 L CNN
+F 1 "1.5uF" H 4865 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4788 5200 50  0001 C CNN
+F 3 "http://static6.arrow.com/aropdfconversion/b77a4877268b862ca226eeeb4dc5d95c2735e4e4/485280582423123ce-ntsntf-e-160401.pdf" H 4750 5350 50  0001 C CNN
+F 4 "KTS101B155M43N0T00" H 4750 5350 50  0001 C CNN "MFPN"
+	1    4750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5550 4750 5550
+Wire Wire Line
+	4750 5550 4750 5500
+Wire Wire Line
+	4250 5500 4250 5550
+Connection ~ 4250 5550
+Connection ~ 4250 5200
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R5
+U 1 1 5D1578F9
+P 3800 5800
+F 0 "R5" H 3800 5982 60  0000 C CNB
+F 1 "25.5K" H 3800 5891 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3800 5660 40  0001 C CNN
+F 3 "" H 3800 5900 60  0000 C CNN
+F 4 "-" H 3800 5960 45  0001 C CNN "Part"
+F 5 "Passive" H 4030 6090 50  0001 C CNN "Family"
+	1    3800 5800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3800 5700 3800 5650
+Connection ~ 3800 5650
+Wire Wire Line
+	3450 5800 3650 5800
+$Comp
+L Device:C C15
+U 1 1 5D1D00CE
+P 3550 6150
+F 0 "C15" H 3665 6196 50  0000 L CNN
+F 1 "1uF" H 3665 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 6000 50  0001 C CNN
+F 3 "~" H 3550 6150 50  0001 C CNN
+	1    3550 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5950 3550 5950
+Wire Wire Line
+	3550 5950 3550 6000
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R2
+U 1 1 5D273079
+P 2950 6400
+F 0 "R2" H 2950 6582 60  0000 C CNB
+F 1 "25.5K" H 2950 6491 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2950 6260 40  0001 C CNN
+F 3 "" H 2950 6500 60  0000 C CNN
+F 4 "-" H 2950 6560 45  0001 C CNN "Part"
+F 5 "Passive" H 3180 6690 50  0001 C CNN "Family"
+	1    2950 6400
+	0    1    -1   0   
+$EndComp
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R1
+U 1 1 5D29C2ED
+P 2400 6400
+F 0 "R1" H 2400 6300 60  0000 C CNB
+F 1 "25.5K" H 2400 6200 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2400 6260 40  0001 C CNN
+F 3 "" H 2400 6500 60  0000 C CNN
+F 4 "-" H 2400 6560 45  0001 C CNN "Part"
+F 5 "Passive" H 2630 6690 50  0001 C CNN "Family"
+	1    2400 6400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5D2C6585
+P 2600 6450
+F 0 "C10" H 2715 6496 50  0000 L CNN
+F 1 "1uF" H 2715 6405 50  0000 L CNN
+F 2 ".pretty:C_0402_1005Metric" H 2638 6300 50  0001 C CNN
+F 3 "~" H 2600 6450 50  0001 C CNN
+	1    2600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6250 2400 6300
+Wire Wire Line
+	2600 6250 2600 6300
+Wire Wire Line
+	2950 6250 2950 6300
+Wire Wire Line
+	1700 5900 1300 5900
+Wire Wire Line
+	1300 5900 1300 6850
+Wire Wire Line
+	2950 6500 2950 6850
+Connection ~ 2950 6850
+Wire Wire Line
+	2650 6600 2600 6600
+Wire Wire Line
+	2600 6600 2600 6850
+Connection ~ 2600 6600
+Connection ~ 2600 6850
+Wire Wire Line
+	2600 6850 2800 6850
+Wire Wire Line
+	2800 6250 2800 6850
+Connection ~ 2800 6850
+Wire Wire Line
+	2800 6850 2950 6850
+Wire Wire Line
+	2400 6500 2400 6850
+Wire Wire Line
+	1300 6850 2400 6850
+Connection ~ 2400 6850
+Wire Wire Line
+	2400 6850 2600 6850
+Connection ~ 3550 6850
+Wire Wire Line
+	3550 6850 3650 6850
+Wire Wire Line
+	3800 6850 3650 6850
+Connection ~ 3650 6850
+Wire Wire Line
+	3800 5900 3800 6850
+Wire Wire Line
+	3550 6300 3550 6850
+Wire Wire Line
+	3650 5800 3650 6850
+$Comp
+L power:GND #PWR0144
+U 1 1 5D4A0399
+P 3200 6850
+F 0 "#PWR0144" H 3200 6600 50  0001 C CNN
+F 1 "GND" H 3205 6677 50  0000 C CNN
+F 2 "" H 3200 6850 50  0001 C CNN
+F 3 "" H 3200 6850 50  0001 C CNN
+	1    3200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L3
+U 1 1 5D554D19
+P 2350 5200
+F 0 "L3" V 2172 5200 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 2263 5200 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering" H 2350 5200 50  0001 C CNN
+F 3 "https://katalog.we-online.com/pbs/datasheet/74477006.pdf" H 2350 5200 50  0001 C CNN
+F 4 " WE-PD 1280 74477006" V 2350 5200 50  0001 C CNN "MPN"
+F 5 "WE Wurth ElektroniK" V 2350 5200 50  0001 C CNN "MFN"
+	1    2350 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 5200 2150 5200
+Connection ~ 2150 5200
+Wire Wire Line
+	2500 5200 2850 5200
+Wire Wire Line
+	2950 6850 3200 6850
+Connection ~ 3200 6850
+Wire Wire Line
+	3200 6850 3550 6850
+$Comp
+L power:HT #PWR0145
+U 1 1 5D6550BA
+P 5500 5150
+F 0 "#PWR0145" H 5500 5270 50  0001 C CNN
+F 1 "HT" H 5520 5293 50  0000 C CNN
+F 2 "" H 5500 5150 50  0001 C CNN
+F 3 "" H 5500 5150 50  0001 C CNN
+	1    5500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R11
+U 1 1 5D6AEFED
+P 5200 5200
+F 0 "R11" H 5200 5382 60  0000 C CNB
+F 1 "25.5K" H 5200 5291 40  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 5200 5060 40  0001 C CNN
+F 3 "" H 5200 5300 60  0000 C CNN
+F 4 "-" H 5200 5360 45  0001 C CNN "Part"
+F 5 "Passive" H 5430 5490 50  0001 C CNN "Family"
+	1    5200 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5200 4750 5200
+Connection ~ 4750 5200
+Wire Wire Line
+	5300 5200 5500 5200
+Wire Wire Line
+	5500 5200 5500 5150
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R12
+U 1 1 5D7912F8
+P 6150 5200
+F 0 "R12" H 6150 5382 60  0000 C CNB
+F 1 "25.5K" H 6150 5291 40  0000 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric" H 6150 5060 40  0001 C CNN
+F 3 "" H 6150 5300 60  0000 C CNN
+F 4 "-" H 6150 5360 45  0001 C CNN "Part"
+F 5 "Passive" H 6380 5490 50  0001 C CNN "Family"
+	1    6150 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5200 6450 5200
+Wire Wire Line
+	5500 5200 6050 5200
+Connection ~ 5500 5200
+Wire Wire Line
+	4250 5200 4750 5200
+$Comp
+L power:HT #PWR0146
+U 1 1 5D871F4F
+P 8250 2350
+F 0 "#PWR0146" H 8250 2470 50  0001 C CNN
+F 1 "HT" H 8270 2493 50  0000 C CNN
+F 2 "" H 8250 2350 50  0001 C CNN
+F 3 "" H 8250 2350 50  0001 C CNN
+	1    8250 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 3900
+Connection ~ 7050 4200
+Wire Wire Line
+	8200 1400 8450 1400
+Connection ~ 8450 1400
+Wire Wire Line
+	8450 1400 9300 1400
+Wire Wire Line
+	2600 2950 2400 2950
+Wire Wire Line
+	2400 2950 2400 2900
+Connection ~ 2600 2950
+Wire Wire Line
+	2600 3250 2350 3250
+Connection ~ 2600 3250
+Wire Wire Line
+	8100 2350 7700 2350
+Connection ~ 7700 2350
+Wire Wire Line
+	7700 2650 8100 2650
+Connection ~ 7700 2650
+Wire Wire Line
+	5900 2950 3550 2950
+Connection ~ 5900 2950
+Connection ~ 3550 2950
+Wire Wire Line
+	3550 3250 5900 3250
+Connection ~ 3550 3250
+Connection ~ 5900 3250
+Wire Wire Line
+	7900 3900 7500 3900
+Connection ~ 7900 3900
+Connection ~ 7500 3900
+Wire Wire Line
+	7500 4200 7900 4200
+Connection ~ 7500 4200
+Connection ~ 7900 4200
+Wire Wire Line
+	4500 2050 4700 2050
+Wire Wire Line
+	4700 2250 4500 2250
+$EndSCHEMATC

@@ -1,0 +1,329 @@
+EESchema Schematic File Version 4
+LIBS:SwitcheroModule-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 9850 5200 2    50   Input ~ 0
+1_REL
+$Comp
+L Relay_SolidState:TLP3546 U10
+U 1 1 5CB2B64A
+P 8550 3150
+F 0 "U10" H 8550 3475 50  0000 C CNN
+F 1 "TLP3546" H 8550 3384 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 8550 2850 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546" H 8550 3150 50  0001 C CNN
+	1    8550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay_SolidState:TLP3546 U11
+U 1 1 5CB2B6A1
+P 9650 3100
+F 0 "U11" H 9650 3425 50  0000 C CNN
+F 1 "TLP3546" H 9650 3334 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 9650 2800 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546" H 9650 3100 50  0001 C CNN
+	1    9650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDC #PWR0103
+U 1 1 5CB2BAB5
+P 8950 3000
+F 0 "#PWR0103" H 8950 2900 50  0001 C CNN
+F 1 "VDC" H 8950 3275 50  0000 C CNN
+F 2 "" H 8950 3000 50  0001 C CNN
+F 3 "" H 8950 3000 50  0001 C CNN
+	1    8950 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 10200 3250 3    50   Input ~ 0
+1_GarminPWR
+Wire Wire Line
+	8950 3000 8950 3050
+Wire Wire Line
+	8950 3050 8850 3050
+Wire Wire Line
+	9000 3250 8850 3250
+$Comp
+L power:VD #PWR?
+U 1 1 5CB2D806
+P 10100 2950
+AR Path="/5C90F517/5CB2D806" Ref="#PWR?"  Part="1" 
+AR Path="/5C8DF48C/5CB2D806" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 10100 2800 50  0001 C CNN
+F 1 "VD" H 10117 3123 50  0000 C CNN
+F 2 "" H 10100 2950 50  0001 C CNN
+F 3 "" H 10100 2950 50  0001 C CNN
+	1    10100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2950 10100 3000
+Wire Wire Line
+	10100 3000 9950 3000
+Wire Wire Line
+	10200 3300 10200 3200
+Wire Wire Line
+	10200 3200 9950 3200
+Text GLabel 9000 3250 3    50   Input ~ 0
+1_Vin
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CB300C6
+P 9650 4900
+AR Path="/5B9C8983/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CB300C6" Ref="R?"  Part="1" 
+AR Path="/5C8DF48C/5CB300C6" Ref="R6"  Part="1" 
+F 0 "R6" H 9650 5082 60  0000 C CNB
+F 1 "8K" H 9650 4991 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9650 4760 40  0001 C CNN
+F 3 "" H 9650 5000 60  0000 C CNN
+F 4 "-" H 9650 5060 45  0001 C CNN "Part"
+F 5 "Passive" H 9880 5190 50  0001 C CNN "Family"
+	1    9650 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CB300CD
+P 9850 4900
+AR Path="/5C90F514/5CB300CD" Ref="#PWR?"  Part="1" 
+AR Path="/5C8DF48C/5CB300CD" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 9850 4750 50  0001 C CNN
+F 1 "+3V3" H 9865 5073 50  0000 C CNN
+F 2 "" H 9850 4900 50  0001 C CNN
+F 3 "" H 9850 4900 50  0001 C CNN
+	1    9850 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 4900 9850 4900
+Wire Wire Line
+	9850 5200 9450 5200
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CB300E1
+P 8500 5500
+AR Path="/5B9C8983/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CB300E1" Ref="R?"  Part="1" 
+AR Path="/5C8DF48C/5CB300E1" Ref="R5"  Part="1" 
+F 0 "R5" H 8500 5682 60  0000 C CNB
+F 1 "8K" H 8500 5591 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8500 5360 40  0001 C CNN
+F 3 "" H 8500 5600 60  0000 C CNN
+F 4 "-" H 8500 5660 45  0001 C CNN "Part"
+F 5 "Passive" H 8730 5790 50  0001 C CNN "Family"
+	1    8500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CB300E8
+P 8250 5600
+AR Path="/5C90F514/5CB300E8" Ref="#PWR?"  Part="1" 
+AR Path="/5C8DF48C/5CB300E8" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 8250 5450 50  0001 C CNN
+F 1 "+3V3" H 8265 5773 50  0000 C CNN
+F 2 "" H 8250 5600 50  0001 C CNN
+F 3 "" H 8250 5600 50  0001 C CNN
+	1    8250 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 5500 8250 5500
+Wire Wire Line
+	8250 5500 8250 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5CB300F1
+P 9450 5500
+AR Path="/5C90F514/5CB300F1" Ref="#PWR?"  Part="1" 
+AR Path="/5C8DF48C/5CB300F1" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 9450 5250 50  0001 C CNN
+F 1 "GND" H 9455 5327 50  0000 C CNN
+F 2 "" H 9450 5500 50  0001 C CNN
+F 3 "" H 9450 5500 50  0001 C CNN
+	1    9450 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5CB33E67
+P 7950 3350
+F 0 "#PWR0116" H 7950 3100 50  0001 C CNN
+F 1 "GND" H 7955 3177 50  0000 C CNN
+F 2 "" H 7950 3350 50  0001 C CNN
+F 3 "" H 7950 3350 50  0001 C CNN
+	1    7950 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3250 7950 3250
+Wire Wire Line
+	7950 3250 7950 3350
+$Comp
+L power:GND #PWR0117
+U 1 1 5CB35377
+P 9300 3300
+F 0 "#PWR0117" H 9300 3050 50  0001 C CNN
+F 1 "GND" H 9305 3127 50  0000 C CNN
+F 2 "" H 9300 3300 50  0001 C CNN
+F 3 "" H 9300 3300 50  0001 C CNN
+	1    9300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3200 9300 3300
+Wire Wire Line
+	9350 3200 9300 3200
+$Comp
+L power:GND #PWR0118
+U 1 1 5CB3980B
+P 8500 4800
+F 0 "#PWR0118" H 8500 4550 50  0001 C CNN
+F 1 "GND" H 8505 4627 50  0000 C CNN
+F 2 "" H 8500 4800 50  0001 C CNN
+F 3 "" H 8500 4800 50  0001 C CNN
+	1    8500 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 4900 8500 4800
+Wire Wire Line
+	8500 4900 8850 4900
+$Comp
+L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+U 1 1 5CB300A0
+P 9150 5300
+AR Path="/5B9C8983/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5CB300A0" Ref="Q?"  Part="1" 
+AR Path="/5C8DF48C/5CB300A0" Ref="Q1"  Part="1" 
+F 0 "Q1" H 9150 5787 60  0000 C CNN
+F 1 "2N7002DW" H 9150 5681 60  0000 C CNN
+F 2 "digikey-footprints:SOT-363" H 9350 5500 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" H 9350 5600 60  0001 L CNN
+F 4 "2N7002DWCT-ND" H 9350 5700 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7002DW" H 9350 5800 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9350 5900 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Arrays" H 9350 6000 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" H 9350 6100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7002DW/2N7002DWCT-ND/1785790" H 9350 6200 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET 2N-CH 60V 0.115A SC70-6" H 9350 6300 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9350 6400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9350 6500 60  0001 L CNN "Status"
+	1    9150 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 4900 9450 4900
+Wire Wire Line
+	8850 5500 8700 5500
+Text GLabel 8100 5200 0    50   Input ~ 0
+2_REL
+Wire Wire Line
+	8100 5200 8850 5200
+Wire Wire Line
+	8700 5500 8700 5600
+Connection ~ 8700 5500
+Wire Wire Line
+	8700 5500 8600 5500
+Text Label 8700 5600 3    50   ~ 0
+1_RELH
+Text Label 8250 3050 1    50   ~ 0
+1_RELH
+Text Label 9550 4750 1    50   ~ 0
+2_RELH
+Wire Wire Line
+	9550 4750 9550 4900
+Connection ~ 9550 4900
+Text Label 9350 3000 1    50   ~ 0
+2_RELH
+$EndSCHEMATC

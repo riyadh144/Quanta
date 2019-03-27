@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name TheMatrix-cache)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/TheMatrix-cache.lib")(options "")(descr ""))
+  (lib (name TUSB2046B)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/USB/TUSB2046B/TUSB2046B.lib")(options "")(descr ""))
+  (lib (name NegativeRail)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/Negative rail generator/NegativeRail.lib")(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/Negative rail generator/New_Library.lib")(options "")(descr ""))
+  (lib (name ModularMatrix-cache)(type Legacy)(uri ${KIPRJMOD}/ModularMatrix-cache.lib)(options "")(descr ""))
+  (lib (name TheMatrix-rescue)(type Legacy)(uri ${KIPRJMOD}/TheMatrix-rescue.lib)(options "")(descr ""))
+  (lib (name BoostConverters)(type Legacy)(uri "${KIPRJMOD}/Library Schematic/Libraries/Symbols/Boost/BoostConverters.lib")(options "")(descr ""))
+)

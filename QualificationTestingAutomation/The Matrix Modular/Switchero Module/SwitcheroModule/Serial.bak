@@ -1,0 +1,861 @@
+EESchema Schematic File Version 4
+LIBS:SwitcheroModule-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 9250 3800 2    50   Input ~ 0
+1_RTS
+Text GLabel 9250 3900 2    50   Input ~ 0
+1_RX
+Text GLabel 9400 4350 2    50   Input ~ 0
+1_TX
+Text GLabel 9400 4450 2    50   Input ~ 0
+1_CTS
+Text GLabel 9400 4250 2    50   Input ~ 0
+1_GarminTX
+Text GLabel 9250 4000 2    50   Input ~ 0
+1_GarminRX
+Text Notes 5900 2500 0    50   ~ 0
+ADD LEDS!!!!
+$Comp
+L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+U 1 1 5CB40D46
+P 3700 2600
+AR Path="/5C8DF48C/5CB40D46" Ref="S?"  Part="1" 
+AR Path="/5C90F514/5CB40D46" Ref="S2"  Part="1" 
+F 0 "S2" H 3700 2880 50  0000 C CNN
+F 1 "ATE1D-2M3-10-Z" H 3700 2789 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 3900 2800 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 3900 2900 60  0001 L CNN
+F 4 "563-1157-ND" H 3900 3000 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATE1D-2M3-10-Z" H 3900 3100 60  0001 L CNN "MPN"
+F 6 "Switches" H 3900 3200 60  0001 L CNN "Category"
+F 7 "Toggle Switches" H 3900 3300 60  0001 L CNN "Family"
+F 8 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 3900 3400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nidec-copal-electronics/ATE1D-2M3-10-Z/563-1157-ND/1792018" H 3900 3500 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TOGGLE SPDT 50MA 48V" H 3900 3600 60  0001 L CNN "Description"
+F 11 "Nidec Copal Electronics" H 3900 3700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3900 3800 60  0001 L CNN "Status"
+	1    3700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2250 3500 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5CB40D4E
+P 4100 2500
+AR Path="/5C8DF48C/5CB40D4E" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40D4E" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 4100 2350 50  0001 C CNN
+F 1 "+5V" H 4115 2673 50  0000 C CNN
+F 2 "" H 4100 2500 50  0001 C CNN
+F 3 "" H 4100 2500 50  0001 C CNN
+	1    4100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CB40D54
+P 4650 2550
+AR Path="/5C8DF48C/5CB40D54" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40D54" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 4650 2400 50  0001 C CNN
+F 1 "+3V3" H 4665 2723 50  0000 C CNN
+F 2 "" H 4650 2550 50  0001 C CNN
+F 3 "" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2700 3900 2700
+Wire Wire Line
+	3900 2500 4100 2500
+$Comp
+L power:+VSW #PWR?
+U 1 1 5CB40D5C
+P 2850 2250
+AR Path="/5C8DF48C/5CB40D5C" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40D5C" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 2850 2100 50  0001 C CNN
+F 1 "+VSW" H 2865 2423 50  0000 C CNN
+F 2 "" H 2850 2250 50  0001 C CNN
+F 3 "" H 2850 2250 50  0001 C CNN
+	1    2850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2250 3350 2250
+Wire Wire Line
+	3450 2850 3450 3200
+Wire Wire Line
+	4750 3600 4550 3600
+Wire Wire Line
+	2800 2850 3200 2850
+Wire Wire Line
+	4350 3100 4350 3200
+Wire Wire Line
+	3850 3100 4350 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5CB40D68
+P 4350 3200
+AR Path="/5C8DF48C/5CB40D68" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40D68" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 4350 2950 50  0001 C CNN
+F 1 "GND" H 4355 3027 50  0000 C CNN
+F 2 "" H 4350 3200 50  0001 C CNN
+F 3 "" H 4350 3200 50  0001 C CNN
+	1    4350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-VSW #PWR?
+U 1 1 5CB40D6E
+P 2800 2850
+AR Path="/5C8DF48C/5CB40D6E" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40D6E" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 2800 2950 50  0001 C CNN
+F 1 "-VSW" H 2815 3023 50  0000 C CNN
+F 2 "" H 2800 2850 50  0001 C CNN
+F 3 "" H 2800 2850 50  0001 C CNN
+	1    2800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-3V3 #PWR?
+U 1 1 5CB40D74
+P 4750 3600
+AR Path="/5C8DF48C/5CB40D74" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40D74" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 4750 3700 50  0001 C CNN
+F 1 "-3V3" H 4765 3773 50  0000 C CNN
+F 2 "" H 4750 3600 50  0001 C CNN
+F 3 "" H 4750 3600 50  0001 C CNN
+	1    4750 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CB40D7A
+P 3350 2250
+AR Path="/5C8DF48C/5CB40D7A" Ref="#FLG?"  Part="1" 
+AR Path="/5C90F514/5CB40D7A" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 3350 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3350 2424 50  0000 C CNN
+F 2 "" H 3350 2250 50  0001 C CNN
+F 3 "~" H 3350 2250 50  0001 C CNN
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 2250
+Wire Wire Line
+	3350 2250 3500 2250
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CB40D82
+P 3200 2850
+AR Path="/5C8DF48C/5CB40D82" Ref="#FLG?"  Part="1" 
+AR Path="/5C90F514/5CB40D82" Ref="#FLG0102"  Part="1" 
+F 0 "#FLG0102" H 3200 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 3024 50  0000 C CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "~" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2850
+Wire Wire Line
+	3200 2850 3450 2850
+$Comp
+L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+U 1 1 5CB40D93
+P 3650 3200
+AR Path="/5C8DF48C/5CB40D93" Ref="S?"  Part="1" 
+AR Path="/5C90F514/5CB40D93" Ref="S1"  Part="1" 
+F 0 "S1" H 3650 3480 50  0000 C CNN
+F 1 "ATE1D-2M3-10-Z" H 3650 3389 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 3850 3400 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 3850 3500 60  0001 L CNN
+F 4 "563-1157-ND" H 3850 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATE1D-2M3-10-Z" H 3850 3700 60  0001 L CNN "MPN"
+F 6 "Switches" H 3850 3800 60  0001 L CNN "Category"
+F 7 "Toggle Switches" H 3850 3900 60  0001 L CNN "Family"
+F 8 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 3850 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nidec-copal-electronics/ATE1D-2M3-10-Z/563-1157-ND/1792018" H 3850 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TOGGLE SPDT 50MA 48V" H 3850 4200 60  0001 L CNN "Description"
+F 11 "Nidec Copal Electronics" H 3850 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3850 4400 60  0001 L CNN "Status"
+	1    3650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+U 1 1 5CB40DA3
+P 4350 3700
+AR Path="/5C8DF48C/5CB40DA3" Ref="S?"  Part="1" 
+AR Path="/5C90F514/5CB40DA3" Ref="S4"  Part="1" 
+F 0 "S4" H 4350 3980 50  0000 C CNN
+F 1 "ATE1D-2M3-10-Z" H 4350 3889 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 4550 3900 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 4550 4000 60  0001 L CNN
+F 4 "563-1157-ND" H 4550 4100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATE1D-2M3-10-Z" H 4550 4200 60  0001 L CNN "MPN"
+F 6 "Switches" H 4550 4300 60  0001 L CNN "Category"
+F 7 "Toggle Switches" H 4550 4400 60  0001 L CNN "Family"
+F 8 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 4550 4500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nidec-copal-electronics/ATE1D-2M3-10-Z/563-1157-ND/1792018" H 4550 4600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TOGGLE SPDT 50MA 48V" H 4550 4700 60  0001 L CNN "Description"
+F 11 "Nidec Copal Electronics" H 4550 4800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4550 4900 60  0001 L CNN "Status"
+	1    4350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3700 3850 3700
+Wire Wire Line
+	3850 3700 3850 3300
+Wire Wire Line
+	4600 3800 4550 3800
+$Comp
+L power:-5V #PWR?
+U 1 1 5CB40DAD
+P 4600 3800
+AR Path="/5C8DF48C/5CB40DAD" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40DAD" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 4600 3900 50  0001 C CNN
+F 1 "-5V" H 4615 3973 50  0000 C CNN
+F 2 "" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+U 1 1 5CB40DBC
+P 4300 2700
+AR Path="/5C8DF48C/5CB40DBC" Ref="S?"  Part="1" 
+AR Path="/5C90F514/5CB40DBC" Ref="S3"  Part="1" 
+F 0 "S3" H 4300 2980 50  0000 C CNN
+F 1 "ATE1D-2M3-10-Z" H 4300 2889 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 4500 2900 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 4500 3000 60  0001 L CNN
+F 4 "563-1157-ND" H 4500 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATE1D-2M3-10-Z" H 4500 3200 60  0001 L CNN "MPN"
+F 6 "Switches" H 4500 3300 60  0001 L CNN "Category"
+F 7 "Toggle Switches" H 4500 3400 60  0001 L CNN "Family"
+F 8 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" H 4500 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nidec-copal-electronics/ATE1D-2M3-10-Z/563-1157-ND/1792018" H 4500 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TOGGLE SPDT 50MA 48V" H 4500 3700 60  0001 L CNN "Description"
+F 11 "Nidec Copal Electronics" H 4500 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4500 3900 60  0001 L CNN "Status"
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5CB40DC3
+P 4650 2800
+AR Path="/5C8DF48C/5CB40DC3" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB40DC3" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4650 2650 50  0001 C CNN
+F 1 "+1V8" H 4665 2973 50  0000 C CNN
+F 2 "" H 4650 2800 50  0001 C CNN
+F 3 "" H 4650 2800 50  0001 C CNN
+	1    4650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2800 4500 2800
+Wire Wire Line
+	4650 2550 4650 2600
+Wire Wire Line
+	4650 2600 4500 2600
+$Comp
+L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+U 1 1 5CA046D4
+P 2500 4500
+AR Path="/5B9C8983/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CA046D4" Ref="Q?"  Part="1" 
+AR Path="/5C90F514/5CA046D4" Ref="Q2"  Part="1" 
+F 0 "Q2" H 2500 4987 60  0000 C CNN
+F 1 "2N7002DW" H 2500 4881 60  0000 C CNN
+F 2 "digikey-footprints:SOT-363" H 2700 4700 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" H 2700 4800 60  0001 L CNN
+F 4 "2N7002DWCT-ND" H 2700 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7002DW" H 2700 5000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2700 5100 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Arrays" H 2700 5200 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" H 2700 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7002DW/2N7002DWCT-ND/1785790" H 2700 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET 2N-CH 60V 0.115A SC70-6" H 2700 5500 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 2700 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2700 5700 60  0001 L CNN "Status"
+	1    2500 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 4600 2    50   Input ~ 0
+RS232INV
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CA046DE
+P 3100 4600
+AR Path="/5B9C8983/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CA046DE" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CA046DE" Ref="R9"  Part="1" 
+F 0 "R9" H 3100 4782 60  0000 C CNB
+F 1 "100K" H 3100 4691 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3100 4460 40  0001 C CNN
+F 3 "" H 3100 4700 60  0000 C CNN
+F 4 "-" H 3100 4760 45  0001 C CNN "Part"
+F 5 "Passive" H 3330 4890 50  0001 C CNN "Family"
+	1    3100 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4600 3200 4600
+Wire Wire Line
+	3000 4600 2950 4600
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CA046E9
+P 2950 4700
+AR Path="/5B9C8983/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CA046E9" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CA046E9" Ref="R8"  Part="1" 
+F 0 "R8" H 2950 4882 60  0000 C CNB
+F 1 "100K" H 2950 4791 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2950 4560 40  0001 C CNN
+F 3 "" H 2950 4800 60  0000 C CNN
+F 4 "-" H 2950 4860 45  0001 C CNN "Part"
+F 5 "Passive" H 3180 4990 50  0001 C CNN "Family"
+	1    2950 4700
+	0    1    1    0   
+$EndComp
+Connection ~ 2950 4600
+Wire Wire Line
+	2950 4600 2800 4600
+$Comp
+L power:-3V3 #PWR0119
+U 1 1 5CA046F2
+P 2950 4900
+F 0 "#PWR0119" H 2950 5000 50  0001 C CNN
+F 1 "-3V3" H 2965 5073 50  0000 C CNN
+F 2 "" H 2950 4900 50  0001 C CNN
+F 3 "" H 2950 4900 50  0001 C CNN
+	1    2950 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CA046FA
+P 2000 4900
+AR Path="/5B9C8983/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CA046FA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CA046FA" Ref="R7"  Part="1" 
+F 0 "R7" H 2000 5082 60  0000 C CNB
+F 1 "100K" H 2000 4991 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2000 4760 40  0001 C CNN
+F 3 "" H 2000 5000 60  0000 C CNN
+F 4 "-" H 2000 5060 45  0001 C CNN "Part"
+F 5 "Passive" H 2230 5190 50  0001 C CNN "Family"
+	1    2000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 5CA04701
+P 1800 4900
+F 0 "#PWR0120" H 1800 4750 50  0001 C CNN
+F 1 "+3V3" H 1815 5073 50  0000 C CNN
+F 2 "" H 1800 4900 50  0001 C CNN
+F 3 "" H 1800 4900 50  0001 C CNN
+	1    1800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4900 1800 4900
+Wire Wire Line
+	2800 4900 2950 4900
+Wire Wire Line
+	2950 4900 2950 4800
+Connection ~ 2950 4900
+Wire Wire Line
+	2200 4900 2150 4900
+Text GLabel 2150 5000 3    50   Input ~ 0
+RS232INVDif
+Wire Wire Line
+	2150 5000 2150 4900
+Connection ~ 2150 4900
+Wire Wire Line
+	2150 4900 2100 4900
+$Sheet
+S 8050 4200 1350 450 
+U 5CA214F0
+F0 "RX" 50
+F1 "RX.sch" 50
+F2 "TX_3v3_1" I L 8050 4250 50 
+F3 "TX_3v3_2" I L 8050 4350 50 
+F4 "TX_3v3_4" I L 8050 4550 50 
+F5 "TX_3v3_3" I L 8050 4450 50 
+F6 "TX_1" I R 9400 4250 50 
+F7 "TX_2" I R 9400 4350 50 
+F8 "TX_3" I R 9400 4450 50 
+F9 "TX_4" I R 9400 4550 50 
+$EndSheet
+$Sheet
+S 8050 3650 1200 450 
+U 5C94ECF2
+F0 "sheet5C94ECE6" 50
+F1 "UART.sch" 50
+F2 "RX_2" I R 9250 3800 50 
+F3 "RX_3V3_2" I L 8050 3800 50 
+F4 "RX_3V3_3" I L 8050 3900 50 
+F5 "RX_3" I R 9250 3900 50 
+F6 "RX_1" I R 9250 3700 50 
+F7 "RX_3V3_1" I L 8050 3700 50 
+F8 "RX_4" I R 9250 4000 50 
+F9 "RX_3V3_4" I L 8050 4000 50 
+$EndSheet
+Wire Wire Line
+	7500 4250 8050 4250
+Wire Wire Line
+	7500 4350 8050 4350
+$Comp
+L MAX3109ETJ+:MAX3109ETJ+ IC1
+U 1 1 5CA5D4E1
+P 6100 3650
+F 0 "IC1" H 7541 3446 50  0000 L CNN
+F 1 "MAX3109ETJ+" H 7541 3355 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias" H 7350 4450 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3109.pdf" H 7350 4350 50  0001 L CNN
+F 4 "Maxim MAX3109ETJ+ Interface RS232, RS485 24MBps, 1.71  3.6 V, 32-Pin, TQFN" H 7350 4250 50  0001 L CNN "Description"
+F 5 "0.8" H 7350 4150 50  0001 L CNN "Height"
+F 6 "Maxim Integrated" H 7350 4050 50  0001 L CNN "Manufacturer_Name"
+F 7 "MAX3109ETJ+" H 7350 3950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "700-MAX3109ETJ+" H 7350 3850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX3109ETJ%2B" H 7350 3750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "7992849P" H 7350 3650 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7992849P" H 7350 3550 50  0001 L CNN "RS Price/Stock"
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4000 7900 4000
+Wire Wire Line
+	7900 4000 7900 4150
+Wire Wire Line
+	7900 4150 7500 4150
+Wire Wire Line
+	7750 3900 7750 4050
+Wire Wire Line
+	7750 4050 7500 4050
+Wire Wire Line
+	7750 3900 8050 3900
+Wire Wire Line
+	8050 3800 7700 3800
+Wire Wire Line
+	7700 3800 7700 3850
+Wire Wire Line
+	7700 3850 7500 3850
+Wire Wire Line
+	8050 4450 7600 4450
+Wire Wire Line
+	7600 4450 7600 5150
+Wire Wire Line
+	7600 5150 7100 5150
+Text GLabel 6100 4150 0    50   Input ~ 0
+MOSI1
+Text GLabel 6100 3850 0    50   Input ~ 0
+SCLK1
+Text GLabel 6100 3750 0    50   Input ~ 0
+MISO1
+$Comp
+L power:GND #PWR0121
+U 1 1 5CAE8112
+P 6800 2550
+F 0 "#PWR0121" H 6800 2300 50  0001 C CNN
+F 1 "GND" H 6805 2377 50  0000 C CNN
+F 2 "" H 6800 2550 50  0001 C CNN
+F 3 "" H 6800 2550 50  0001 C CNN
+	1    6800 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0122
+U 1 1 5CAEA1FA
+P 5700 4350
+F 0 "#PWR0122" H 5700 4200 50  0001 C CNN
+F 1 "+3V3" H 5715 4523 50  0000 C CNN
+F 2 "" H 5700 4350 50  0001 C CNN
+F 3 "" H 5700 4350 50  0001 C CNN
+	1    5700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4350 5700 4350
+$Comp
+L power:GND #PWR0123
+U 1 1 5CAF8A80
+P 6500 5150
+F 0 "#PWR0123" H 6500 4900 50  0001 C CNN
+F 1 "GND" H 6505 4977 50  0000 C CNN
+F 2 "" H 6500 5150 50  0001 C CNN
+F 3 "" H 6500 5150 50  0001 C CNN
+	1    6500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0124
+U 1 1 5CAFAB8A
+P 6700 2500
+F 0 "#PWR0124" H 6700 2350 50  0001 C CNN
+F 1 "+3V3" H 6715 2673 50  0000 C CNN
+F 2 "" H 6700 2500 50  0001 C CNN
+F 3 "" H 6700 2500 50  0001 C CNN
+	1    6700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2500 6700 2550
+Wire Wire Line
+	6700 2550 6500 2550
+Wire Wire Line
+	6500 2550 6500 2650
+Connection ~ 6700 2550
+Wire Wire Line
+	6700 2550 6700 2650
+Wire Wire Line
+	6800 2550 6800 2650
+$Comp
+L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+U 1 1 5CB0095F
+P 6400 2550
+AR Path="/5C90FCC3/5CB0095F" Ref="C?"  Part="1" 
+AR Path="/5C90F514/5CB0095F" Ref="C1"  Part="1" 
+F 0 "C1" H 6508 2592 60  0000 L CNB
+F 1 ".1uF" H 6508 2497 45  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6435 2395 40  0001 L CNN
+F 3 "" H 6400 2650 60  0001 C CNN
+F 4 "-" H 6440 2715 45  0001 L CNN "Part"
+F 5 "Passive" H 6630 2840 50  0001 C CNN "Family"
+	1    6400 2550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6500 2550
+$Comp
+L power:GND #PWR0125
+U 1 1 5CB025C9
+P 6200 2650
+F 0 "#PWR0125" H 6200 2400 50  0001 C CNN
+F 1 "GND" H 6205 2477 50  0000 C CNN
+F 2 "" H 6200 2650 50  0001 C CNN
+F 3 "" H 6200 2650 50  0001 C CNN
+	1    6200 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2650 6250 2650
+Wire Wire Line
+	6300 2550 6250 2550
+Wire Wire Line
+	6250 2550 6250 2650
+Connection ~ 6250 2650
+Wire Wire Line
+	6250 2650 6200 2650
+$Comp
+L power:+3V3 #PWR0126
+U 1 1 5CB03BF7
+P 5950 5150
+F 0 "#PWR0126" H 5950 5000 50  0001 C CNN
+F 1 "+3V3" H 5965 5323 50  0000 C CNN
+F 2 "" H 5950 5150 50  0001 C CNN
+F 3 "" H 5950 5150 50  0001 C CNN
+	1    5950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CB06957
+P 6300 5150
+AR Path="/5B9C8983/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CB06957" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CB06957" Ref="R12"  Part="1" 
+F 0 "R12" H 6300 5332 60  0000 C CNB
+F 1 "100K" H 6300 5241 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6300 5010 40  0001 C CNN
+F 3 "" H 6300 5250 60  0000 C CNN
+F 4 "-" H 6300 5310 45  0001 C CNN "Part"
+F 5 "Passive" H 6530 5440 50  0001 C CNN "Family"
+	1    6300 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6200 5150 5950 5150
+Text Notes 4000 4450 0    50   ~ 0
+Check the chip select if high or low
+Text GLabel 1800 4600 0    50   Input ~ 0
+SS
+Wire Wire Line
+	1800 4600 2200 4600
+Text GLabel 2950 4300 1    50   Input ~ 0
+SSINV
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CB11DAA
+P 3150 4300
+AR Path="/5B9C8983/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CB11DAA" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CB11DAA" Ref="R10"  Part="1" 
+F 0 "R10" H 3150 4482 60  0000 C CNB
+F 1 "100K" H 3150 4391 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3150 4160 40  0001 C CNN
+F 3 "" H 3150 4400 60  0000 C CNN
+F 4 "-" H 3150 4460 45  0001 C CNN "Part"
+F 5 "Passive" H 3380 4590 50  0001 C CNN "Family"
+	1    3150 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 5CB139EF
+P 3400 4200
+F 0 "#PWR0127" H 3400 4050 50  0001 C CNN
+F 1 "+3V3" H 3415 4373 50  0000 C CNN
+F 2 "" H 3400 4200 50  0001 C CNN
+F 3 "" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4300 3400 4300
+Wire Wire Line
+	3400 4300 3400 4200
+Wire Wire Line
+	2800 4300 3050 4300
+Text GLabel 6100 4050 0    50   Input ~ 0
+SSINV
+$Comp
+L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+U 1 1 5CB232AB
+P 5650 3650
+AR Path="/5B9C8983/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CB232AB" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CB232AB" Ref="R11"  Part="1" 
+F 0 "R11" H 5650 3832 60  0000 C CNB
+F 1 "10K" H 5650 3741 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5650 3510 40  0001 C CNN
+F 3 "" H 5650 3750 60  0000 C CNN
+F 4 "-" H 5650 3810 45  0001 C CNN "Part"
+F 5 "Passive" H 5880 3940 50  0001 C CNN "Family"
+	1    5650 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3650 5750 3650
+$Comp
+L power:+3V3 #PWR0136
+U 1 1 5CB2504B
+P 5450 3550
+F 0 "#PWR0136" H 5450 3400 50  0001 C CNN
+F 1 "+3V3" H 5465 3723 50  0000 C CNN
+F 2 "" H 5450 3550 50  0001 C CNN
+F 3 "" H 5450 3550 50  0001 C CNN
+	1    5450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3650 5450 3650
+Wire Wire Line
+	5450 3650 5450 3550
+$Comp
+L power:GND #PWR0137
+U 1 1 5CB28DCC
+P 2200 4300
+F 0 "#PWR0137" H 2200 4050 50  0001 C CNN
+F 1 "GND" H 2205 4127 50  0000 C CNN
+F 2 "" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

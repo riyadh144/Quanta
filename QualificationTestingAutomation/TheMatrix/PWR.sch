@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:TheMatrix-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -17,16 +16,16 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5BE1D7EC
-P 9500 2450
+P 9900 2450
 AR Path="/5BE1D7EC" Ref="J?"  Part="1" 
 AR Path="/5B9C8971/5BE1D7EC" Ref="J?"  Part="1" 
 AR Path="/5BA2CD36/5BE1D7EC" Ref="J15"  Part="1" 
-F 0 "J15" H 9580 2442 50  0000 L CNN
-F 1 "Banana Jack" H 9580 2351 50  0000 L CNN
-F 2 "Connector:Banana_Jack_2Pin_Standard_Spacing" H 9500 2450 50  0001 C CNN
-F 3 "~" H 9500 2450 50  0001 C CNN
-F 4 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H -950 150 50  0001 C CNN "Description"
-	1    9500 2450
+F 0 "J15" H 9980 2442 50  0000 L CNN
+F 1 "Banana Jack" H 9980 2351 50  0000 L CNN
+F 2 "Connector:Banana_Jack_2Pin_Standard_Spacing" H 9900 2450 50  0001 C CNN
+F 3 "~" H 9900 2450 50  0001 C CNN
+F 4 "The hole has a diameter of about 5.2mm (fits standard 4mm banana plugs), the cap on the front has an outside diameter of about 11.6mm and length of 15.2mm. Diameter of the screw is 3.8mm. The mounting key is about 4 x 5.4mm." H -550 150 50  0001 C CNN "Description"
+	1    9900 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -75,7 +74,7 @@ F 3 "" H 1500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 2550 9150 2550
+	9700 2550 9550 2550
 Wire Wire Line
 	9150 2550 9150 2600
 $Comp
@@ -1521,7 +1520,7 @@ F 3 "" H 950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 2450 9300 2450
+	9550 2450 9700 2450
 $Comp
 L power:-3V3 #PWR0330
 U 1 1 5CA4B2A0
@@ -2727,12 +2726,10 @@ Wire Wire Line
 	9150 2450 9000 2450
 Wire Wire Line
 	9000 2450 9000 2350
-Connection ~ 9150 2450
 Wire Wire Line
 	9150 2550 9000 2550
 Wire Wire Line
 	9000 2550 9000 2650
-Connection ~ 9150 2550
 Wire Wire Line
 	8150 2350 9000 2350
 Wire Wire Line
@@ -3291,14 +3288,30 @@ Connection ~ 10250 7950
 Wire Wire Line
 	9000 7950 9500 7950
 $Comp
-L power:HT #PWR?
+L power:HT #PWR0328
 U 1 1 5D871F4F
 P 9150 2350
-F 0 "#PWR?" H 9150 2470 50  0001 C CNN
+F 0 "#PWR0328" H 9150 2470 50  0001 C CNN
 F 1 "HT" H 9170 2493 50  0000 C CNN
 F 2 "" H 9150 2350 50  0001 C CNN
 F 3 "" H 9150 2350 50  0001 C CNN
 	1    9150 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:VDC #PWR0348
+U 1 1 5D8CFECA
+P 9550 2450
+F 0 "#PWR0348" H 9550 2350 50  0001 C CNN
+F 1 "VDC" H 9550 2725 50  0000 C CNN
+F 2 "" H 9550 2450 50  0001 C CNN
+F 3 "" H 9550 2450 50  0001 C CNN
+	1    9550 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2550 9550 2600
+Wire Wire Line
+	9550 2600 9150 2600
+Connection ~ 9150 2600
 $EndSCHEMATC
