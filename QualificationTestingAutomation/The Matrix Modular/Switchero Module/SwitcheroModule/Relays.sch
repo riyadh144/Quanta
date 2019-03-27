@@ -81,7 +81,7 @@ Wire Wire Line
 Text GLabel 9000 3250 3    50   Input ~ 0
 1_Vin
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB300C6
 P 9650 4900
 AR Path="/5B9C8983/5CB300C6" Ref="R?"  Part="1" 
@@ -139,7 +139,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5200 9450 5200
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB300E1
 P 8500 5500
 AR Path="/5B9C8983/5CB300E1" Ref="R?"  Part="1" 
@@ -197,19 +197,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 5500 8250 5600
 $Comp
-L power:GND #PWR?
-U 1 1 5CB300F1
-P 9450 5500
-AR Path="/5C90F514/5CB300F1" Ref="#PWR?"  Part="1" 
-AR Path="/5C8DF48C/5CB300F1" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 9450 5250 50  0001 C CNN
-F 1 "GND" H 9455 5327 50  0000 C CNN
-F 2 "" H 9450 5500 50  0001 C CNN
-F 3 "" H 9450 5500 50  0001 C CNN
-	1    9450 5500
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0116
 U 1 1 5CB33E67
 P 7950 3350
@@ -239,23 +226,12 @@ Wire Wire Line
 	9300 3200 9300 3300
 Wire Wire Line
 	9350 3200 9300 3200
-$Comp
-L power:GND #PWR0118
-U 1 1 5CB3980B
-P 8500 4800
-F 0 "#PWR0118" H 8500 4550 50  0001 C CNN
-F 1 "GND" H 8505 4627 50  0000 C CNN
-F 2 "" H 8500 4800 50  0001 C CNN
-F 3 "" H 8500 4800 50  0001 C CNN
-	1    8500 4800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8500 4900 8500 4800
 Wire Wire Line
 	8500 4900 8850 4900
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5CB300A0
 P 9150 5300
 AR Path="/5B9C8983/5CB300A0" Ref="Q?"  Part="1" 
@@ -286,6 +262,7 @@ AR Path="/5C90F514/5C94BFB1/5CB300A0" Ref="Q?"  Part="1"
 AR Path="/5C90F514/5C94ECF2/5CB300A0" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5CB300A0" Ref="Q?"  Part="1" 
 AR Path="/5C8DF48C/5CB300A0" Ref="Q1"  Part="1" 
+AR Path="/5CB300A0" Ref="Q1"  Part="1" 
 F 0 "Q1" H 9150 5787 60  0000 C CNN
 F 1 "2N7002DW" H 9150 5681 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 9350 5500 60  0001 L CNN
@@ -304,26 +281,29 @@ F 12 "Active" H 9350 6500 60  0001 L CNN "Status"
 $EndComp
 Wire Wire Line
 	9550 4900 9450 4900
-Wire Wire Line
-	8850 5500 8700 5500
 Text GLabel 8100 5200 0    50   Input ~ 0
 2_REL
 Wire Wire Line
 	8100 5200 8850 5200
 Wire Wire Line
-	8700 5500 8700 5600
-Connection ~ 8700 5500
-Wire Wire Line
-	8700 5500 8600 5500
-Text Label 8700 5600 3    50   ~ 0
+	9600 5500 9600 5600
+Text Label 9600 5600 3    50   ~ 0
 1_RELH
 Text Label 8250 3050 1    50   ~ 0
 1_RELH
-Text Label 9550 4750 1    50   ~ 0
+Text Label 8250 4550 1    50   ~ 0
 2_RELH
 Wire Wire Line
 	9550 4750 9550 4900
 Connection ~ 9550 4900
 Text Label 9350 3000 1    50   ~ 0
 2_RELH
+Wire Wire Line
+	8600 5500 8850 5500
+Wire Wire Line
+	9600 5500 9450 5500
+Wire Wire Line
+	8500 4800 8250 4800
+Wire Wire Line
+	8250 4800 8250 4550
 $EndSCHEMATC

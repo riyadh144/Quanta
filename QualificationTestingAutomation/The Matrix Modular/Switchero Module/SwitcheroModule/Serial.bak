@@ -29,7 +29,7 @@ Text GLabel 9250 4000 2    50   Input ~ 0
 Text Notes 5900 2500 0    50   ~ 0
 ADD LEDS!!!!
 $Comp
-L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+L SwitcheroModule-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue S?
 U 1 1 5CB40D46
 P 3700 2600
 AR Path="/5C8DF48C/5CB40D46" Ref="S?"  Part="1" 
@@ -179,7 +179,7 @@ Connection ~ 3200 2850
 Wire Wire Line
 	3200 2850 3450 2850
 $Comp
-L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+L SwitcheroModule-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue S?
 U 1 1 5CB40D93
 P 3650 3200
 AR Path="/5C8DF48C/5CB40D93" Ref="S?"  Part="1" 
@@ -201,7 +201,7 @@ F 12 "Active" H 3850 4400 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+L SwitcheroModule-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue S?
 U 1 1 5CB40DA3
 P 4350 3700
 AR Path="/5C8DF48C/5CB40DA3" Ref="S?"  Part="1" 
@@ -242,7 +242,7 @@ F 3 "" H 4600 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S?
+L SwitcheroModule-rescue:ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue S?
 U 1 1 5CB40DBC
 P 4300 2700
 AR Path="/5C8DF48C/5CB40DBC" Ref="S?"  Part="1" 
@@ -283,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2600 4500 2600
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5CA046D4
 P 2500 4500
 AR Path="/5B9C8983/5CA046D4" Ref="Q?"  Part="1" 
@@ -313,6 +313,7 @@ AR Path="/5C90F514/5BBDE28D/5CA046D4" Ref="Q?"  Part="1"
 AR Path="/5C90F514/5C94BFB1/5CA046D4" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94ECF2/5CA046D4" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5CA046D4" Ref="Q2"  Part="1" 
+AR Path="/5CA046D4" Ref="Q2"  Part="1" 
 F 0 "Q2" H 2500 4987 60  0000 C CNN
 F 1 "2N7002DW" H 2500 4881 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 2700 4700 60  0001 L CNN
@@ -332,7 +333,7 @@ $EndComp
 Text GLabel 3300 4600 2    50   Input ~ 0
 RS232INV
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA046DE
 P 3100 4600
 AR Path="/5B9C8983/5CA046DE" Ref="R?"  Part="1" 
@@ -376,7 +377,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 4600 2950 4600
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA046E9
 P 2950 4700
 AR Path="/5B9C8983/5CA046E9" Ref="R?"  Part="1" 
@@ -430,7 +431,7 @@ F 3 "" H 2950 4900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA046FA
 P 2000 4900
 AR Path="/5B9C8983/5CA046FA" Ref="R?"  Part="1" 
@@ -635,7 +636,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 2550 6800 2650
 $Comp
-L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+L SwitcheroModule-rescue:CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue C?
 U 1 1 5CB0095F
 P 6400 2550
 AR Path="/5C90FCC3/5CB0095F" Ref="C?"  Part="1" 
@@ -682,7 +683,7 @@ F 3 "" H 5950 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB06957
 P 6300 5150
 AR Path="/5B9C8983/5CB06957" Ref="R?"  Part="1" 
@@ -732,7 +733,7 @@ Wire Wire Line
 Text GLabel 2950 4300 1    50   Input ~ 0
 SSINV
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB11DAA
 P 3150 4300
 AR Path="/5B9C8983/5CB11DAA" Ref="R?"  Part="1" 
@@ -791,7 +792,7 @@ Wire Wire Line
 Text GLabel 6100 4050 0    50   Input ~ 0
 SSINV
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB232AB
 P 5650 3650
 AR Path="/5B9C8983/5CB232AB" Ref="R?"  Part="1" 

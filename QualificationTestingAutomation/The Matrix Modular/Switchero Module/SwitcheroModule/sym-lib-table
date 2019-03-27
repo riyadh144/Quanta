@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name TheMatrix-rescue)(type Legacy)(uri C:/Users/Quantos/Quanta/QualificationTestingAutomation/TheMatrix/TheMatrix-rescue.lib)(options "")(descr ""))
   (lib (name TUSB2046B)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/USB/TUSB2046B/TUSB2046B.lib)(options "")(descr ""))
   (lib (name NegativeRail)(type Legacy)(uri "${KIPRJMOD}/Libraries/Symbols/Negative rail generator/NegativeRail.lib")(options "")(descr ""))
   (lib (name New_Library)(type Legacy)(uri "${KIPRJMOD}/Libraries/Symbols/Negative rail generator/New_Library.lib")(options "")(descr ""))
@@ -150,7 +149,8 @@
   (lib (name dk_TVS-Diodes)(type Legacy)(uri ${KIPRJMOD}/Libraries/digikey-lib/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri ${KIPRJMOD}/Libraries/digikey-lib/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/Libraries/digikey-lib/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
-  (lib (name BoostConverters)(type Legacy)(uri "C:/Users/Quantos/Quanta/QualificationTestingAutomation/TheMatrix/Library Schematic/Libraries/Symbols/Boost/BoostConverters.lib")(options "")(descr ""))
   (lib (name 74xx)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/LOGIC/74xx.lib)(options "")(descr ""))
   (lib (name MAX3109ETJ+)(type Legacy)(uri "${KIPRJMOD}/Libraries/Symbols/Logic Translator/MAX3109/MAX3109ETJ+.lib")(options "")(descr ""))
+  (lib (name BoostConverters)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/Boost/BoostConverters.lib)(options "")(descr ""))
+  (lib (name SwitcheroModule-rescue)(type Legacy)(uri ${KIPRJMOD}/SwitcheroModule-rescue.lib)(options "")(descr ""))
 )

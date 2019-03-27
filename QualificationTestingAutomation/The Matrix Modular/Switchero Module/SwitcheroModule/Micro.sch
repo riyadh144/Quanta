@@ -26,7 +26,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/msp430g2755.pdf" H 5000 4200 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:TC2050-JTAG-SchematicAutomation-rescue U1
+L SwitcheroModule-rescue:TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue U1
 U 1 1 5CB44B9C
 P 1850 4100
 F 0 "U1" H 1850 4265 50  0000 C CNN
@@ -78,7 +78,7 @@ MISO0
 Text GLabel 9350 2850 2    50   Input ~ 0
 S3
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB45035
 P 7000 2850
 AR Path="/5C90FCC3/5CB45035" Ref="R?"  Part="1" 
@@ -93,7 +93,7 @@ F 5 "Passive" H 7230 3140 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB450E2
 P 6850 2700
 AR Path="/5C90FCC3/5CB450E2" Ref="R?"  Part="1" 
@@ -108,7 +108,7 @@ F 5 "Passive" H 7080 2990 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB450FF
 P 6750 2600
 AR Path="/5C90FCC3/5CB450FF" Ref="R?"  Part="1" 
@@ -123,7 +123,7 @@ F 5 "Passive" H 6980 2890 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB45139
 P 6600 2500
 AR Path="/5C90FCC3/5CB45139" Ref="R?"  Part="1" 

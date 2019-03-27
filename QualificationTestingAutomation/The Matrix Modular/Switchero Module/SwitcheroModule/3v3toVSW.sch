@@ -17,7 +17,7 @@ $EndDescr
 Text HLabel 5250 3450 2    50   Input ~ 0
 Tx_3V3
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5CA21D7D
 P 3300 3350
 AR Path="/5B9C8983/5CA21D7D" Ref="Q?"  Part="1" 
@@ -50,6 +50,7 @@ AR Path="/5C90F514/5CA214F0/5CA21CAB/5CA21D7D" Ref="Q3"  Part="1"
 AR Path="/5C90F514/5CA214F0/5CA23CF6/5CA21D7D" Ref="Q4"  Part="1" 
 AR Path="/5C90F514/5CA214F0/5CA2401F/5CA21D7D" Ref="Q5"  Part="1" 
 AR Path="/5C90F514/5CA214F0/5CA2417E/5CA21D7D" Ref="Q7"  Part="1" 
+AR Path="/5CA21D7D" Ref="Q7"  Part="1" 
 F 0 "Q7" H 3300 3837 60  0000 C CNN
 F 1 "2N7002DW" H 3300 3731 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 3500 3550 60  0001 L CNN
@@ -69,7 +70,7 @@ $EndComp
 Wire Wire Line
 	3600 3150 3800 3150
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA21D87
 P 4050 3150
 AR Path="/5B9C8983/5CA21D87" Ref="R?"  Part="1" 
@@ -121,7 +122,7 @@ Wire Wire Line
 	2700 3750 2350 3750
 Connection ~ 2700 3750
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA21D95
 P 2250 3750
 AR Path="/5B9C8983/5CA21D95" Ref="R?"  Part="1" 
@@ -213,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3700 2000 3750
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA21DAB
 P 4450 3300
 AR Path="/5B9C8983/5CA21DAB" Ref="R?"  Part="1" 
@@ -260,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 3450 4450 3450
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA21DB6
 P 4450 3600
 AR Path="/5BB9E3C7/5BC04BAF/5CA21DB6" Ref="R?"  Part="1" 
@@ -296,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 3700 4450 3750
 $Comp
-L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+L SwitcheroModule-rescue:CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue C?
 U 1 1 5CA21DC3
 P 4750 3450
 AR Path="/5C90F514/5CA21DC3" Ref="C?"  Part="1" 

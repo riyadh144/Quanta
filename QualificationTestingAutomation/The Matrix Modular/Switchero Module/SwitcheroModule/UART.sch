@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5C46C762
 P 3450 4500
 AR Path="/5B9C8983/5C46C762" Ref="Q?"  Part="1" 
@@ -44,6 +44,7 @@ AR Path="/5C90F514/5BB9E85A/5C46C762" Ref="Q?"  Part="1"
 AR Path="/5C90F514/5BBDE28D/5C46C762" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94BFB1/5C46C762" Ref="Q2"  Part="1" 
 AR Path="/5C90F514/5C94ECF2/5C46C762" Ref="Q6"  Part="1" 
+AR Path="/5C46C762" Ref="Q6"  Part="1" 
 F 0 "Q6" H 3450 4987 60  0000 C CNN
 F 1 "2N7002DW" H 3450 4881 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 3650 4700 60  0001 L CNN
@@ -61,7 +62,7 @@ F 12 "Active" H 3650 5700 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5C46C76E
 P 4200 4300
 AR Path="/5B9C8983/5C46C76E" Ref="R?"  Part="1" 
@@ -113,7 +114,7 @@ Wire Wire Line
 	2850 4900 2500 4900
 Connection ~ 2850 4900
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5C46C789
 P 2400 4900
 AR Path="/5B9C8983/5C46C789" Ref="R?"  Part="1" 
@@ -310,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 4300 3150 4300
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5BC141FA
 P 9350 4400
 AR Path="/5B9C8983/5BC141FA" Ref="Q?"  Part="1" 
@@ -339,6 +340,7 @@ AR Path="/5C90F514/5BB9E85A/5BC141FA" Ref="Q?"  Part="1"
 AR Path="/5C90F514/5BBDE28D/5BC141FA" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94BFB1/5BC141FA" Ref="Q5"  Part="1" 
 AR Path="/5C90F514/5C94ECF2/5BC141FA" Ref="Q9"  Part="1" 
+AR Path="/5BC141FA" Ref="Q9"  Part="1" 
 F 0 "Q9" H 9350 4887 60  0000 C CNN
 F 1 "2N7002DW" H 9350 4781 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 9550 4600 60  0001 L CNN
@@ -358,7 +360,7 @@ $EndComp
 Wire Wire Line
 	9050 4200 8850 4200
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5BC14205
 P 8600 4200
 AR Path="/5B9C8983/5BC14205" Ref="R?"  Part="1" 
@@ -408,7 +410,7 @@ Wire Wire Line
 	9950 4800 10300 4800
 Connection ~ 9950 4800
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5BC14215
 P 10400 4800
 AR Path="/5B9C8983/5BC14215" Ref="R?"  Part="1" 
@@ -784,7 +786,7 @@ Connection ~ 5400 4600
 Wire Wire Line
 	5400 4600 5350 4600
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5BBE173B
 P 4450 4450
 AR Path="/5BB9E3C7/5BC04BAF/5BBE173B" Ref="R?"  Part="1" 
@@ -822,7 +824,7 @@ Connection ~ 7700 4500
 Wire Wire Line
 	7700 4500 7950 4500
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5BBEA4F3
 P 8450 5150
 AR Path="/5BB9E3C7/5BC04BAF/5BBEA4F3" Ref="R?"  Part="1" 
@@ -857,7 +859,7 @@ THESE SHORTS are to bypass the switch
 Text Notes 7100 2550 0    50   ~ 0
 BIAS RESISTORS
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5BC0A9BF
 P 4250 4750
 AR Path="/5BB9E3C7/5BC04BAF/5BC0A9BF" Ref="R?"  Part="1" 
@@ -898,7 +900,7 @@ SHOULD WE ADD BIASING RESISTORS JUST IN CASE
 Text Notes 5750 5550 0    50   ~ 0
 WE SHOULD ADD MORE DECOUPLING CAPS
 $Comp
-L TheMatrix-rescue:CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue U?
+L SwitcheroModule-rescue:CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue U?
 U 1 1 5C46C7B8
 P 6200 2400
 AR Path="/5B9C8983/5C46C7B8" Ref="U?"  Part="1" 
@@ -938,7 +940,7 @@ F 5 " SN74LVC86ADR " H 6200 2400 50  0001 C CNN "Preferable Alternative"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CACEC46
 P 4450 4600
 AR Path="/5BB9E3C7/5BC04BAF/5CACEC46" Ref="R?"  Part="1" 
@@ -968,7 +970,7 @@ Wire Wire Line
 	4350 4600 4100 4600
 Connection ~ 4100 4600
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CAD91E6
 P 8650 4500
 AR Path="/5BB9E3C7/5BC04BAF/5CAD91E6" Ref="R?"  Part="1" 
@@ -996,7 +998,7 @@ Wire Wire Line
 	8750 4500 8800 4500
 Connection ~ 8800 4500
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5CA361A5
 P 2750 3150
 AR Path="/5B9C8983/5CA361A5" Ref="Q?"  Part="1" 
@@ -1025,6 +1027,7 @@ AR Path="/5C90F514/5BB9E85A/5CA361A5" Ref="Q?"  Part="1"
 AR Path="/5C90F514/5BBDE28D/5CA361A5" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94BFB1/5CA361A5" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94ECF2/5CA361A5" Ref="Q8"  Part="1" 
+AR Path="/5CA361A5" Ref="Q8"  Part="1" 
 F 0 "Q8" H 2750 3637 60  0000 C CNN
 F 1 "2N7002DW" H 2750 3531 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 2950 3350 60  0001 L CNN
@@ -1042,7 +1045,7 @@ F 12 "Active" H 2950 4350 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA361AE
 P 3500 2950
 AR Path="/5B9C8983/5CA361AE" Ref="R?"  Part="1" 
@@ -1094,7 +1097,7 @@ Wire Wire Line
 	2150 3550 1800 3550
 Connection ~ 2150 3550
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA361BE
 P 1700 3550
 AR Path="/5B9C8983/5CA361BE" Ref="R?"  Part="1" 
@@ -1297,7 +1300,7 @@ Connection ~ 4700 3250
 Wire Wire Line
 	4700 3250 4650 3250
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA361F6
 P 3750 3100
 AR Path="/5BB9E3C7/5BC04BAF/5CA361F6" Ref="R?"  Part="1" 
@@ -1326,7 +1329,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 3100 3400 3250
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA36201
 P 3550 3400
 AR Path="/5BB9E3C7/5BC04BAF/5CA36201" Ref="R?"  Part="1" 
@@ -1365,7 +1368,7 @@ Wire Wire Line
 Text Notes 4300 2350 0    50   ~ 0
 SHOULD WE ADD BIASING RESISTORS JUST IN CASE
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA36212
 P 3750 3250
 AR Path="/5BB9E3C7/5BC04BAF/5CA36212" Ref="R?"  Part="1" 
@@ -1405,7 +1408,7 @@ RX_3V3_1
 Text GLabel 5900 2850 0    50   Input ~ 0
 RS232INV
 $Comp
-L TheMatrix-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q?
+L SwitcheroModule-rescue:2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q?
 U 1 1 5CA446D5
 P 10650 3050
 AR Path="/5B9C8983/5CA446D5" Ref="Q?"  Part="1" 
@@ -1434,6 +1437,7 @@ AR Path="/5C90F514/5BB9E85A/5CA446D5" Ref="Q?"  Part="1"
 AR Path="/5C90F514/5BBDE28D/5CA446D5" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94BFB1/5CA446D5" Ref="Q?"  Part="1" 
 AR Path="/5C90F514/5C94ECF2/5CA446D5" Ref="Q10"  Part="1" 
+AR Path="/5CA446D5" Ref="Q10"  Part="1" 
 F 0 "Q10" H 10650 3537 60  0000 C CNN
 F 1 "2N7002DW" H 10650 3431 60  0000 C CNN
 F 2 "digikey-footprints:SOT-363" H 10850 3250 60  0001 L CNN
@@ -1453,7 +1457,7 @@ $EndComp
 Wire Wire Line
 	10350 2850 10150 2850
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA446DF
 P 9900 2850
 AR Path="/5B9C8983/5CA446DF" Ref="R?"  Part="1" 
@@ -1503,7 +1507,7 @@ Wire Wire Line
 	11250 3450 11600 3450
 Connection ~ 11250 3450
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA446EE
 P 11700 3450
 AR Path="/5B9C8983/5CA446EE" Ref="R?"  Part="1" 
@@ -1705,7 +1709,7 @@ Connection ~ 9000 3150
 Wire Wire Line
 	9000 3150 9250 3150
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA44728
 P 9750 3800
 AR Path="/5BB9E3C7/5BC04BAF/5CA44728" Ref="R?"  Part="1" 
@@ -1738,7 +1742,7 @@ Wire Wire Line
 Text Notes 8950 3950 0    50   ~ 0
 THESE SHORTS are to bypass the switch
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CA44735
 P 9950 3150
 AR Path="/5BB9E3C7/5BC04BAF/5CA44735" Ref="R?"  Part="1" 
@@ -1776,7 +1780,7 @@ RS232INV
 Wire Wire Line
 	8450 2400 10150 2400
 $Comp
-L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+L SwitcheroModule-rescue:CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue C?
 U 1 1 5CAEB908
 P 7200 2700
 AR Path="/5C90F514/5CAEB908" Ref="C?"  Part="1" 

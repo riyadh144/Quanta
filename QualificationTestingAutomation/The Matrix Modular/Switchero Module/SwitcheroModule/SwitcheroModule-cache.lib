@@ -530,11 +530,11 @@ X ~ 8 300 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue
+# SwitcheroModule-rescue_2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue Q 0 0 Y Y 1 F N
+DEF SwitcheroModule-rescue_2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q 0 0 Y Y 1 F N
 F0 "Q" -200 400 60 H V C CNN
-F1 "TheMatrix-rescue_2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue" -200 -600 60 H V L CNN
+F1 "SwitcheroModule-rescue_2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue" -200 -600 60 H V L CNN
 F2 "digikey-footprints:SOT-363" 200 200 60 H I L CNN
 F3 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" 200 300 60 H I L CNN
 F4 "2N7002DWCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -583,11 +583,11 @@ X D2 6 300 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue
+# SwitcheroModule-rescue_ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue S 0 0 Y N 1 F N
+DEF SwitcheroModule-rescue_ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue S 0 0 Y N 1 F N
 F0 "S" -130 115 50 H V C CNN
-F1 "TheMatrix-rescue_ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue" 5 -210 50 H V C CNN
+F1 "SwitcheroModule-rescue_ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue" 5 -210 50 H V C CNN
 F2 "digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z" 200 200 50 H I L CNN
 F3 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" 200 300 60 H I L CNN
 F4 "563-1157-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -610,11 +610,11 @@ X ~ 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_CAP-passive-SchematicAutomation-rescue
+# SwitcheroModule-rescue_CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_CAP-passive-SchematicAutomation-rescue C 0 40 N N 1 F N
+DEF SwitcheroModule-rescue_CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue C 0 40 N N 1 F N
 F0 "C" 30 90 60 H V L CNB
-F1 "TheMatrix-rescue_CAP-passive-SchematicAutomation-rescue" 30 -90 45 H V L CNN
+F1 "SwitcheroModule-rescue_CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue" 30 -90 45 H V L CNN
 F2 "" 35 -155 40 H I L CNN
 F3 "" 0 100 60 H I C CNN
 F4 "-" 40 165 45 H I L CNN "Part"
@@ -627,11 +627,11 @@ X 2 2 0 100 75 D 40 45 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue
+# SwitcheroModule-rescue_CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue U 0 40 Y Y 1 F N
+DEF SwitcheroModule-rescue_CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "TheMatrix-rescue_CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue" 0 -50 50 H V C CNN
+F1 "SwitcheroModule-rescue_CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -653,11 +653,11 @@ X F 9 300 -1000 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue
+# SwitcheroModule-rescue_DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue U 0 40 Y Y 1 F N
+DEF SwitcheroModule-rescue_DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "TheMatrix-rescue_DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue" 0 50 50 H V C CNN
+F1 "SwitcheroModule-rescue_DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue" 0 50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -681,11 +681,11 @@ X S8 9 300 -1200 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue
+# SwitcheroModule-rescue_DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue U 0 40 Y Y 1 F N
+DEF SwitcheroModule-rescue_DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
 F0 "U" -250 250 60 H V C CNN
-F1 "TheMatrix-rescue_DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue" 100 -300 60 H V L CNN
+F1 "SwitcheroModule-rescue_DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue" 100 -300 60 H V L CNN
 F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
 F3 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" 200 300 60 H I L CNN
 F4 "DS18B20+-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -705,11 +705,11 @@ X VDD 3 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_MAX14752-MAX14756EUET-SchematicAutomation-rescue
+# SwitcheroModule-rescue_MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_MAX14752-MAX14756EUET-SchematicAutomation-rescue U 0 40 Y Y 1 F N
+DEF SwitcheroModule-rescue_MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 100 50 H V C CNN
-F1 "TheMatrix-rescue_MAX14752-MAX14756EUET-SchematicAutomation-rescue" 50 0 50 H V C CNN
+F1 "SwitcheroModule-rescue_MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue" 50 0 50 H V C CNN
 F2 "" 50 100 50 H I C CNN
 F3 "" 50 100 50 H I C CNN
 DRAW
@@ -734,11 +734,11 @@ X IN7 9 -350 -1550 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_RESISTOR-passive-SchematicAutomation-rescue
+# SwitcheroModule-rescue_RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_RESISTOR-passive-SchematicAutomation-rescue R 0 40 N N 1 F N
+DEF SwitcheroModule-rescue_RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R 0 40 N N 1 F N
 F0 "R" 0 85 60 H V C CNB
-F1 "TheMatrix-rescue_RESISTOR-passive-SchematicAutomation-rescue" 0 -75 40 H V C CNN
+F1 "SwitcheroModule-rescue_RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue" 0 -75 40 H V C CNN
 F2 "" 0 -140 40 H I C CNN
 F3 "" 0 100 60 H V C CNN
 F4 "-" 0 160 45 H I C CNN "Part"
@@ -757,11 +757,11 @@ X 2 2 100 0 22 L 40 45 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TheMatrix-rescue_TC2050-JTAG-SchematicAutomation-rescue
+# SwitcheroModule-rescue_TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue
 #
-DEF TheMatrix-rescue_TC2050-JTAG-SchematicAutomation-rescue U 0 40 Y Y 1 F N
+DEF SwitcheroModule-rescue_TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
-F1 "TheMatrix-rescue_TC2050-JTAG-SchematicAutomation-rescue" 0 100 50 H V C CNN
+F1 "SwitcheroModule-rescue_TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

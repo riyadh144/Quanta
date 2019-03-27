@@ -966,7 +966,7 @@ D8 BB 49 92 24 59 3C 63 79 F9 49 FF BC 7F D9 B9 F3 79 44 A3 F3 94 3E B4 23 FA DD
 EndData
 $EndBitmap
 $Comp
-L TheMatrix-rescue:CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue U?
+L SwitcheroModule-rescue:CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue U?
 U 1 1 5CA21608
 P 6050 1050
 AR Path="/5B9C8983/5CA21608" Ref="U?"  Part="1" 
@@ -1149,7 +1149,7 @@ TX_3v3_3
 Wire Wire Line
 	2800 1400 2650 1400
 $Comp
-L TheMatrix-rescue:CAP-passive-SchematicAutomation-rescue C?
+L SwitcheroModule-rescue:CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue C?
 U 1 1 5CAEB1E7
 P 7050 1300
 AR Path="/5C90F514/5CAEB1E7" Ref="C?"  Part="1" 

@@ -23,7 +23,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2950 1500 2950
 $Comp
-L TheMatrix-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue U6
+L SwitcheroModule-rescue:MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue U6
 U 1 1 5BCA20CC
 P 2100 1700
 F 0 "U6" H 2125 1815 50  0000 C CNN
@@ -99,7 +99,7 @@ Connection ~ 1650 3600
 Wire Wire Line
 	1750 3450 1650 3450
 $Comp
-L TheMatrix-rescue:DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue U7
+L SwitcheroModule-rescue:DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue U7
 U 1 1 5BB6FE9D
 P 4900 1850
 F 0 "U7" H 4900 2200 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 2750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue U?
+L SwitcheroModule-rescue:DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue U?
 U 1 1 5C907D05
 P 6750 2250
 AR Path="/5B9C8983/5C907D05" Ref="U?"  Part="1" 
@@ -222,7 +222,7 @@ F 12 "Active" H 6950 3450 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 $Comp
-L TheMatrix-rescue:DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue U?
+L SwitcheroModule-rescue:DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue U?
 U 1 1 5C90956C
 P 6750 3250
 AR Path="/5B9C8983/5C90956C" Ref="U?"  Part="1" 
@@ -311,4 +311,21 @@ Wire Wire Line
 	6750 1800 6400 1800
 Wire Wire Line
 	6400 1800 6400 1900
+$Comp
+L power:GND #PWR0115
+U 1 1 5CA1AD45
+P 6350 2950
+F 0 "#PWR0115" H 6350 2700 50  0001 C CNN
+F 1 "GND" H 6355 2777 50  0000 C CNN
+F 2 "" H 6350 2950 50  0001 C CNN
+F 3 "" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2850 6350 2950
+Wire Wire Line
+	6750 2950 6750 2850
+Wire Wire Line
+	6750 2850 6350 2850
 $EndSCHEMATC

@@ -1,0 +1,255 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF 2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue Q 0 0 Y Y 1 F N
+F0 "Q" -200 400 60 H V C CNN
+F1 "2N7002DW-dk_Transistors-FETs-MOSFETs-Arrays-SchematicAutomation-rescue-TheMatrix-rescue" -200 -600 60 H V L CNN
+F2 "digikey-footprints:SOT-363" 200 200 60 H I L CNN
+F3 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" 200 300 60 H I L CNN
+F4 "2N7002DWCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2N7002DW" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Arrays" 200 700 60 H I L CNN "Family"
+F8 "https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/2N7002DW/2N7002DWCT-ND/1785790" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET 2N-CH 60V 0.115A SC70-6" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 300 200 -500 0 1 0 f
+P 2 0 1 0 -100 -400 -200 -400 N
+P 2 0 1 0 -100 -200 100 -200 N
+P 2 0 1 0 -100 200 -200 200 N
+P 2 0 1 0 -50 -450 -50 -350 N
+P 2 0 1 0 -50 -225 -100 -225 N
+P 2 0 1 0 -50 25 -100 25 N
+P 2 0 1 0 -25 25 25 25 N
+P 2 0 1 0 25 -225 -25 -225 N
+P 2 0 1 0 50 -225 100 -225 N
+P 2 0 1 0 50 25 100 25 N
+P 2 0 1 0 50 250 50 150 N
+P 2 0 1 0 100 -400 200 -400 N
+P 2 0 1 0 100 0 -100 0 N
+P 2 0 1 0 100 200 200 200 N
+P 3 0 1 0 -50 0 -50 -100 -200 -100 N
+P 3 0 1 0 50 -200 50 -100 200 -100 N
+P 4 0 1 0 -75 100 -100 100 -100 200 -50 200 N
+P 4 0 1 0 -50 250 -50 150 50 200 -50 250 F
+P 4 0 1 0 -25 75 0 25 25 75 -25 75 F
+P 4 0 1 0 0 -275 0 -300 75 -300 75 -225 N
+P 4 0 1 0 0 75 0 100 -75 100 -75 25 N
+P 4 0 1 0 25 -275 0 -225 -25 -275 25 -275 F
+P 4 0 1 0 50 -450 50 -350 -50 -400 50 -450 F
+P 4 0 1 0 75 -300 100 -300 100 -400 50 -400 N
+P 5 0 1 0 -75 -225 -75 -300 -100 -300 -100 -400 -50 -400 N
+P 5 0 1 0 75 25 75 100 100 100 100 200 50 200 N
+X S2 1 -300 200 100 R 50 50 1 1 I
+X G2 2 -300 -100 100 R 50 50 1 1 I
+X D1 3 -300 -400 100 R 50 50 1 1 O
+X S1 4 300 -400 100 L 50 50 1 1 I
+X G1 5 300 -100 100 L 50 50 1 1 I
+X D2 6 300 200 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue S 0 0 Y N 1 F N
+F0 "S" -130 115 50 H V C CNN
+F1 "ATE1D-2M3-10-Z-dk_Toggle-Switches-SchematicAutomation-rescue-TheMatrix-rescue" 5 -210 50 H V C CNN
+F2 "digikey-footprints:Switch_Toggle_ATE1D-2M3-10-Z" 200 200 50 H I L CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" 200 300 60 H I L CNN
+F4 "563-1157-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ATE1D-2M3-10-Z" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Toggle Switches" 200 700 60 H I L CNN "Family"
+F8 "https://www.nidec-copal-electronics.com/e/catalog/switch/ate.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/nidec-copal-electronics/ATE1D-2M3-10-Z/563-1157-ND/1792018" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TOGGLE SPDT 50MA 48V" 200 1000 60 H I L CNN "Description"
+F11 "Nidec Copal Electronics" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -85 0 16 0 1 0 F
+C 85 -100 15 0 1 0 F
+C 85 100 15 0 1 0 F
+P 2 0 1 0 105 90 -70 0 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X Com 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue C 0 40 N N 1 F N
+F0 "C" 30 90 60 H V L CNB
+F1 "CAP-passive-SchematicAutomation-rescue-TheMatrix-rescue" 30 -90 45 H V L CNN
+F2 "" 35 -155 40 H I L CNN
+F3 "" 0 100 60 H I C CNN
+F4 "-" 40 165 45 H I L CNN "Part"
+F5 "Passive" 230 290 50 H I C CNN "Family"
+DRAW
+P 2 0 1 15 -75 -25 75 -25 N
+P 2 0 1 15 -75 25 75 25 N
+X 1 1 0 -100 75 U 40 45 1 1 P
+X 2 2 0 100 75 D 40 45 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "CD4070B-4XXXSeriesLOGIC-SchematicAutomation-rescue-TheMatrix-rescue" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -100 300 -1400 1 1 0 N
+X A 1 -300 -350 100 R 50 50 1 1 I
+X E^F 10 300 -900 100 L 50 50 1 1 O
+X G^H 11 300 -550 100 L 50 50 1 1 O
+X G 12 300 -450 100 L 50 50 1 1 I
+X H 13 300 -350 100 L 50 50 1 1 I
+X VCC 14 300 -200 100 L 50 50 1 1 W
+X B 2 -300 -450 100 R 50 50 1 1 I
+X A^B 3 -300 -550 100 R 50 50 1 1 O
+X C^D 4 -300 -900 100 R 50 50 1 1 O
+X C 5 -300 -1000 100 R 50 50 1 1 I
+X D 6 -300 -1100 100 R 50 50 1 1 I
+X VSS 7 -300 -1250 100 R 50 50 1 1 W
+X E 8 300 -1100 100 L 50 50 1 1 I
+X F 9 300 -1000 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "DG408LE-ANALOGSWITCHES-SchematicAutomation-rescue-TheMatrix-rescue" 0 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -100 300 -1250 1 1 0 N
+X A0 1 300 -450 100 L 50 50 1 1 I
+X S7 10 300 -1100 100 L 50 50 1 1 B
+X S6 11 300 -1000 100 L 50 50 1 1 B
+X S5 12 300 -900 100 L 50 50 1 1 B
+X V+ 13 300 -200 100 L 50 50 1 1 W
+X GND 14 -300 -350 100 R 50 50 1 1 W
+X A2 15 300 -650 100 L 50 50 1 1 I
+X A1 16 300 -550 100 L 50 50 1 1 I
+X EN 2 -300 -200 100 R 50 50 1 1 I
+X V- 3 -300 -450 100 R 50 50 1 1 W
+X S1 4 -300 -800 100 R 50 50 1 1 B
+X S2 5 -300 -900 100 R 50 50 1 1 B
+X S3 6 -300 -1000 100 R 50 50 1 1 B
+X S4 7 -300 -1100 100 R 50 50 1 1 B
+X D 8 -300 -1200 100 R 50 50 1 1 P
+X S8 9 300 -1200 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
+F0 "U" -250 250 60 H V C CNN
+F1 "DS18B20_-dk_Temperature-Sensors-Analog-and-Digital-Output-SchematicAutomation-rescue-TheMatrix-rescue" 100 -300 60 H V L CNN
+F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" 200 300 60 H I L CNN
+F4 "DS18B20+-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "DS18B20+" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Temperature Sensors - Analog and Digital Output" 200 700 60 H I L CNN "Family"
+F8 "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/maxim-integrated/DS18B20-/DS18B20--ND/956983" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR TEMPERATURE 1-WIRE TO92-3" 200 1000 60 H I L CNN "Description"
+F11 "Maxim Integrated" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 200 100 -200 0 1 0 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X DQ 2 -300 0 100 R 50 50 1 1 B
+X VDD 3 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
+F0 "U" 50 100 50 H V C CNN
+F1 "MAX14752-MAX14756EUET-SchematicAutomation-rescue-TheMatrix-rescue" 50 0 50 H V C CNN
+F2 "" 50 100 50 H I C CNN
+F3 "" 50 100 50 H I C CNN
+DRAW
+S -350 -2150 400 -50 0 1 0 N
+S 400 -50 400 -150 0 1 0 N
+X S0 1 -350 -450 100 R 50 50 1 1 I
+X IN6 10 -350 -1450 100 R 50 50 1 1 B
+X IN5 11 -350 -1350 100 R 50 50 1 1 B
+X IN4 12 -350 -1250 100 R 50 50 1 1 B
+X VDD 13 -350 -150 100 R 50 50 1 1 W
+X GND 14 -350 -1900 100 R 50 50 1 1 W
+X S2 15 -350 -650 100 R 50 50 1 1 I
+X S1 16 -350 -550 100 R 50 50 1 1 I
+X EN 2 -350 -300 100 R 50 50 1 1 I
+X VSS 3 -350 -1750 100 R 50 50 1 1 W
+X IN0 4 -350 -850 100 R 50 50 1 1 B
+X IN1 5 -350 -950 100 R 50 50 1 1 B
+X IN2 6 -350 -1050 100 R 50 50 1 1 B
+X IN3 7 -350 -1150 100 R 50 50 1 1 B
+X OUT 8 400 -300 100 L 50 50 1 1 B
+X IN7 9 -350 -1550 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R 0 40 N N 1 F N
+F0 "R" 0 85 60 H V C CNB
+F1 "RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue" 0 -75 40 H V C CNN
+F2 "" 0 -140 40 H I C CNN
+F3 "" 0 100 60 H V C CNN
+F4 "-" 0 160 45 H I C CNN "Part"
+F5 "Passive" 230 290 50 H I C CNN "Family"
+$FPLIST
+ R-0603
+ R-0805
+ R-1206
+ R-1210
+$ENDFPLIST
+DRAW
+P 4 0 1 0 -13 25 -39 -25 -65 25 -78 0 N
+P 5 0 1 0 -13 25 13 -25 39 25 65 -25 78 0 N
+X 1 1 -100 0 22 R 40 45 1 1 P
+X 2 2 100 0 22 L 40 45 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue
+#
+DEF TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -500 -600 500 0 0 1 0 N
+S 500 0 500 0 0 1 0 N
+S 500 0 500 0 0 1 0 N
+X VCC 1 -500 -100 100 R 50 50 1 1 w
+X RESET 10 500 -500 100 L 50 50 1 1 O
+X TMS 2 -500 -200 100 R 50 50 1 1 I
+X GND 3 -500 -300 100 R 50 50 1 1 I
+X TCK 4 -500 -400 100 R 50 50 1 1 I
+X GND/+5V* 5 -500 -500 100 R 50 50 1 1 I
+X TDO 6 500 -100 100 L 50 50 1 1 I
+X NA 7 500 -200 100 L 50 50 1 1 N
+X TDI 8 500 -300 100 L 50 50 1 1 I
+X NA 9 500 -400 100 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+#End Library

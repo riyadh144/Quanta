@@ -62,7 +62,7 @@
   (lib (name usb3_micro_ab)(type KiCad)(uri ${KIPRJMOD}/Libraries/digikey-lib/library-kicad/usb3_micro_ab.pretty)(options "")(descr ""))
   (lib (name xilinx)(type KiCad)(uri ${KIPRJMOD}/Libraries/digikey-lib/library-kicad/xilinx.pretty)(options "")(descr ""))
   (lib (name zif)(type KiCad)(uri ${KIPRJMOD}/Libraries/digikey-lib/library-kicad/zif.pretty)(options "")(descr ""))
-  (lib (name TheMatrix)(type KiCad)(uri "C:/Users/Quantos/Quanta/QualificationTestingAutomation/The Matrix Modular/ModularMatrix/TheMatrix.kicad_mod")(options "")(descr ""))
+  (lib (name TheMatrix)(type KiCad)(uri "C:/Users/Quantos/Quanta/QualificationTestingAutomation/The Matrix Modular/ModularMatrix/TheMatrix.kicad_mod")(options "")(descr "")(disabled))
   (lib (name Connector)(type KiCad)(uri ${KIPRJMOD}/Libraries/Symbols/Connector)(options "")(descr ""))
   (lib (name .pretty)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/.pretty")(options "")(descr ""))
 )
