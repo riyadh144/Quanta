@@ -995,20 +995,9 @@ Wire Wire Line
 Wire Wire Line
 	2750 4300 2750 4400
 Wire Wire Line
-	2750 4400 2650 4400
-Wire Wire Line
 	2500 4400 2500 4350
 Wire Wire Line
 	5900 4400 5900 4500
-Wire Wire Line
-	2650 4400 2650 4500
-Wire Wire Line
-	2650 4500 2750 4500
-Connection ~ 2650 4400
-Wire Wire Line
-	2650 4400 2500 4400
-Wire Wire Line
-	5900 4600 5900 4500
 Connection ~ 5900 4500
 $Comp
 L power:GND #PWR0197
@@ -1124,4 +1113,12 @@ F 3 "~" H 2950 3600 50  0001 C CNN
 	1    2950 3600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2500 4400 2750 4400
+Wire Wire Line
+	2750 4500 3250 4500
+Connection ~ 3250 4500
+Wire Wire Line
+	5900 4600 6400 4600
+Connection ~ 6400 4600
 $EndSCHEMATC

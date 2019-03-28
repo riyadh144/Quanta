@@ -334,44 +334,6 @@ F 3 "~" H 4500 4650 50  0001 C CNN
 	1    4500 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L TheMatrix-rescue:TC2050-JTAG-SchematicAutomation-rescue U7
-U 1 1 5C8E1E87
-P 2650 4000
-F 0 "U7" H 2650 4165 50  0000 C CNN
-F 1 "TC2050-JTAG-SchematicAutomation-rescue" H 2650 4074 50  0000 C CNN
-F 2 "" H 2650 4000 50  0001 C CNN
-F 3 "" H 2650 4000 50  0001 C CNN
-	1    2650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 5C8E1FB5
-P 1750 4000
-F 0 "#PWR0103" H 1750 3850 50  0001 C CNN
-F 1 "+3V3" H 1765 4173 50  0000 C CNN
-F 2 "" H 1750 4000 50  0001 C CNN
-F 3 "" H 1750 4000 50  0001 C CNN
-	1    1750 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 4100 1750 4100
-Wire Wire Line
-	1750 4100 1750 4000
-Text GLabel 1900 4200 0    50   Input ~ 0
-TMS
-Text GLabel 1900 4400 0    50   Input ~ 0
-TCK
-Text GLabel 3150 4100 2    50   Input ~ 0
-TDO
-Text GLabel 3150 4300 2    50   Input ~ 0
-TDI
-Wire Wire Line
-	2150 4200 1900 4200
-Wire Wire Line
-	2150 4400 1900 4400
 Text GLabel 1500 4900 2    50   Input ~ 0
 TDO
 Text GLabel 1500 5100 2    50   Input ~ 0

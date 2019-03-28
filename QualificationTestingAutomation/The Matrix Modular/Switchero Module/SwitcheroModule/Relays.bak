@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SwitcheroModule-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,66 +19,51 @@ Text GLabel 9850 5200 2    50   Input ~ 0
 $Comp
 L Relay_SolidState:TLP3546 U10
 U 1 1 5CB2B64A
-P 8550 3150
-F 0 "U10" H 8550 3475 50  0000 C CNN
-F 1 "TLP3546" H 8550 3384 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-6_W7.62mm" H 8550 2850 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546" H 8550 3150 50  0001 C CNN
-	1    8550 3150
+P 5950 2350
+F 0 "U10" H 5950 2675 50  0000 C CNN
+F 1 "TLP3546" H 5950 2584 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 5950 2050 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546" H 5950 2350 50  0001 C CNN
+	1    5950 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Relay_SolidState:TLP3546 U11
 U 1 1 5CB2B6A1
-P 9650 3100
-F 0 "U11" H 9650 3425 50  0000 C CNN
-F 1 "TLP3546" H 9650 3334 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-6_W7.62mm" H 9650 2800 50  0001 C CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546" H 9650 3100 50  0001 C CNN
-	1    9650 3100
+P 8700 1800
+F 0 "U11" H 8700 2125 50  0000 C CNN
+F 1 "TLP3546" H 8700 2034 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 8700 1500 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546" H 8700 1800 50  0001 C CNN
+	1    8700 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDC #PWR0103
-U 1 1 5CB2BAB5
-P 8950 3000
-F 0 "#PWR0103" H 8950 2900 50  0001 C CNN
-F 1 "VDC" H 8950 3275 50  0000 C CNN
-F 2 "" H 8950 3000 50  0001 C CNN
-F 3 "" H 8950 3000 50  0001 C CNN
-	1    8950 3000
-	1    0    0    -1  
-$EndComp
-Text GLabel 10200 3250 3    50   Input ~ 0
+Text GLabel 9900 2700 3    50   Input ~ 0
 1_GarminPWR
 Wire Wire Line
-	8950 3000 8950 3050
+	6350 2200 6350 2250
 Wire Wire Line
-	8950 3050 8850 3050
-Wire Wire Line
-	9000 3250 8850 3250
+	6350 2250 6250 2250
 $Comp
 L power:VD #PWR?
 U 1 1 5CB2D806
-P 10100 2950
+P 9150 1650
 AR Path="/5C90F517/5CB2D806" Ref="#PWR?"  Part="1" 
 AR Path="/5C8DF48C/5CB2D806" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 10100 2800 50  0001 C CNN
-F 1 "VD" H 10117 3123 50  0000 C CNN
-F 2 "" H 10100 2950 50  0001 C CNN
-F 3 "" H 10100 2950 50  0001 C CNN
-	1    10100 2950
+F 0 "#PWR0104" H 9150 1500 50  0001 C CNN
+F 1 "VD" H 9167 1823 50  0000 C CNN
+F 2 "" H 9150 1650 50  0001 C CNN
+F 3 "" H 9150 1650 50  0001 C CNN
+	1    9150 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 2950 10100 3000
+	9150 1650 9150 1700
 Wire Wire Line
-	10100 3000 9950 3000
+	9150 1700 9000 1700
 Wire Wire Line
-	10200 3300 10200 3200
-Wire Wire Line
-	10200 3200 9950 3200
-Text GLabel 9000 3250 3    50   Input ~ 0
+	9250 1900 9000 1900
+Text GLabel 6800 3150 3    50   Input ~ 0
 1_Vin
 $Comp
 L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
@@ -199,33 +184,33 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0116
 U 1 1 5CB33E67
-P 7950 3350
-F 0 "#PWR0116" H 7950 3100 50  0001 C CNN
-F 1 "GND" H 7955 3177 50  0000 C CNN
-F 2 "" H 7950 3350 50  0001 C CNN
-F 3 "" H 7950 3350 50  0001 C CNN
-	1    7950 3350
+P 5350 2550
+F 0 "#PWR0116" H 5350 2300 50  0001 C CNN
+F 1 "GND" H 5355 2377 50  0000 C CNN
+F 2 "" H 5350 2550 50  0001 C CNN
+F 3 "" H 5350 2550 50  0001 C CNN
+	1    5350 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 3250 7950 3250
+	5650 2450 5350 2450
 Wire Wire Line
-	7950 3250 7950 3350
+	5350 2450 5350 2550
 $Comp
 L power:GND #PWR0117
 U 1 1 5CB35377
-P 9300 3300
-F 0 "#PWR0117" H 9300 3050 50  0001 C CNN
-F 1 "GND" H 9305 3127 50  0000 C CNN
-F 2 "" H 9300 3300 50  0001 C CNN
-F 3 "" H 9300 3300 50  0001 C CNN
-	1    9300 3300
+P 8350 2000
+F 0 "#PWR0117" H 8350 1750 50  0001 C CNN
+F 1 "GND" H 8355 1827 50  0000 C CNN
+F 2 "" H 8350 2000 50  0001 C CNN
+F 3 "" H 8350 2000 50  0001 C CNN
+	1    8350 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 3200 9300 3300
+	8350 1900 8350 2000
 Wire Wire Line
-	9350 3200 9300 3200
+	8400 1900 8350 1900
 Wire Wire Line
 	8500 4900 8500 4800
 Wire Wire Line
@@ -289,14 +274,11 @@ Wire Wire Line
 	9600 5500 9600 5600
 Text Label 9600 5600 3    50   ~ 0
 1_RELH
-Text Label 8250 3050 1    50   ~ 0
+Text Label 5650 2250 1    50   ~ 0
 1_RELH
 Text Label 8250 4550 1    50   ~ 0
 2_RELH
-Wire Wire Line
-	9550 4750 9550 4900
-Connection ~ 9550 4900
-Text Label 9350 3000 1    50   ~ 0
+Text Label 8400 1700 1    50   ~ 0
 2_RELH
 Wire Wire Line
 	8600 5500 8850 5500
@@ -306,4 +288,314 @@ Wire Wire Line
 	8500 4800 8250 4800
 Wire Wire Line
 	8250 4800 8250 4550
+$Comp
+L Amplifier_Current:INA181 U?
+U 1 1 5C9F45B0
+P 7350 2700
+F 0 "U?" H 7694 2746 50  0000 L CNN
+F 1 "INA181" H 7694 2655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7400 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 7500 2850 50  0001 C CNN
+	1    7350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3150 6800 3100
+Wire Wire Line
+	6800 3100 6550 3100
+$Comp
+L power:VDC #PWR0103
+U 1 1 5CB2BAB5
+P 6350 2200
+F 0 "#PWR0103" H 6350 2100 50  0001 C CNN
+F 1 "VDC" H 6350 2475 50  0000 C CNN
+F 2 "" H 6350 2200 50  0001 C CNN
+F 3 "" H 6350 2200 50  0001 C CNN
+	1    6350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5C9FB38A
+P 6550 2700
+AR Path="/5B9C8983/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C9FB38A" Ref="R?"  Part="1" 
+AR Path="/5C8DF48C/5C9FB38A" Ref="R?"  Part="1" 
+F 0 "R?" H 6550 2882 60  0000 C CNB
+F 1 ".05" H 6550 2791 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6550 2560 40  0001 C CNN
+F 3 "" H 6550 2800 60  0000 C CNN
+F 4 "-" H 6550 2860 45  0001 C CNN "Part"
+F 5 "Passive" H 6780 2990 50  0001 C CNN "Family"
+	1    6550 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 2600 6550 2550
+Wire Wire Line
+	6250 2450 6550 2450
+Wire Wire Line
+	7050 2550 7050 2600
+Wire Wire Line
+	6550 2550 7050 2550
+Connection ~ 6550 2550
+Wire Wire Line
+	6550 2550 6550 2450
+Wire Wire Line
+	7050 2800 6550 2800
+Connection ~ 6550 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5C9FEA7D
+P 7250 3000
+F 0 "#PWR?" H 7250 2750 50  0001 C CNN
+F 1 "GND" H 7255 2827 50  0000 C CNN
+F 2 "" H 7250 3000 50  0001 C CNN
+F 3 "" H 7250 3000 50  0001 C CNN
+	1    7250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2800 6550 3100
+Text GLabel 7450 3000 3    50   Input ~ 0
+1.25V
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA34E49
+P 7250 2400
+F 0 "#PWR?" H 7250 2250 50  0001 C CNN
+F 1 "+5V" H 7265 2573 50  0000 C CNN
+F 2 "" H 7250 2400 50  0001 C CNN
+F 3 "" H 7250 2400 50  0001 C CNN
+	1    7250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Current:INA181 U?
+U 1 1 5CA395FC
+P 10450 2300
+F 0 "U?" H 10794 2346 50  0000 L CNN
+F 1 "INA181" H 10794 2255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10500 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina181.pdf" H 10600 2450 50  0001 C CNN
+	1    10450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5CA39606
+P 9650 2300
+AR Path="/5B9C8983/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C46C371/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C56517E/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C583B72/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C59813F/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5B69C1/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5B9C8983/5C5D00DA/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E832/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E83C/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E846/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E850/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BB9E85A/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBCF777/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BBDE28D/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC04BAF/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC0E5A0/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC17F91/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BC2196C/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD54793/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BD548A9/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC515F/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5BB9E3C7/5BDC5169/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BB9E85A/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5BBDE28D/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94BFB1/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5C94ECF2/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5C90F514/5CA39606" Ref="R?"  Part="1" 
+AR Path="/5C8DF48C/5CA39606" Ref="R?"  Part="1" 
+F 0 "R?" H 9650 2482 60  0000 C CNB
+F 1 ".05" H 9650 2391 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9650 2160 40  0001 C CNN
+F 3 "" H 9650 2400 60  0000 C CNN
+F 4 "-" H 9650 2460 45  0001 C CNN "Part"
+F 5 "Passive" H 9880 2590 50  0001 C CNN "Family"
+	1    9650 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 2200 9650 2150
+Wire Wire Line
+	10150 2150 10150 2200
+Wire Wire Line
+	9650 2150 10150 2150
+Connection ~ 9650 2150
+Wire Wire Line
+	9650 2150 9650 2050
+Wire Wire Line
+	10150 2400 9650 2400
+Connection ~ 9650 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5CA39614
+P 10350 2600
+F 0 "#PWR?" H 10350 2350 50  0001 C CNN
+F 1 "GND" H 10355 2427 50  0000 C CNN
+F 2 "" H 10350 2600 50  0001 C CNN
+F 3 "" H 10350 2600 50  0001 C CNN
+	1    10350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2400 9650 2700
+Text GLabel 10550 2600 3    50   Input ~ 0
+1.25V
+$Comp
+L power:+5V #PWR?
+U 1 1 5CA3961C
+P 10350 2000
+F 0 "#PWR?" H 10350 1850 50  0001 C CNN
+F 1 "+5V" H 10365 2173 50  0000 C CNN
+F 2 "" H 10350 2000 50  0001 C CNN
+F 3 "" H 10350 2000 50  0001 C CNN
+	1    10350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1900 9250 2050
+Wire Wire Line
+	9250 2050 9650 2050
+Text GLabel 7650 2700 2    50   Input ~ 0
+A2
+Text GLabel 10750 2300 2    50   Input ~ 0
+A3
+Text GLabel 5950 3250 0    50   Input ~ 0
+A5
+Text GLabel 9100 2700 0    50   Input ~ 0
+A4
+Wire Wire Line
+	6100 3200 5950 3200
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5CA490DA
+P 5950 3550
+AR Path="/5C90FCC3/5CA490DA" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5CA490DA" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5CA490DA" Ref="R?"  Part="1" 
+F 0 "R?" H 6100 3500 60  0000 C CNB
+F 1 "40K" H 5950 3450 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5950 3410 40  0001 C CNN
+F 3 "" H 5950 3650 60  0000 C CNN
+F 4 "-" H 5950 3710 45  0001 C CNN "Part"
+F 5 "Passive" H 6180 3840 50  0001 C CNN "Family"
+	1    5950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5CA490E2
+P 6200 3200
+AR Path="/5C90FCC3/5CA490E2" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5CA490E2" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5CA490E2" Ref="R?"  Part="1" 
+F 0 "R?" H 6350 3150 60  0000 C CNB
+F 1 "1meg" H 6200 3100 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6200 3060 40  0001 C CNN
+F 3 "" H 6200 3300 60  0000 C CNN
+F 4 "-" H 6200 3360 45  0001 C CNN "Part"
+F 5 "Passive" H 6430 3490 50  0001 C CNN "Family"
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA490ED
+P 5950 3650
+F 0 "#PWR?" H 5950 3400 50  0001 C CNN
+F 1 "GND" H 5955 3477 50  0000 C CNN
+F 2 "" H 5950 3650 50  0001 C CNN
+F 3 "" H 5950 3650 50  0001 C CNN
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3200 6550 3200
+Wire Wire Line
+	6550 3200 6550 3100
+Connection ~ 6550 3100
+Wire Wire Line
+	5950 3200 5950 3450
+Wire Wire Line
+	9250 2700 9100 2700
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5CA50492
+P 9100 3050
+AR Path="/5C90FCC3/5CA50492" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5CA50492" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5CA50492" Ref="R?"  Part="1" 
+F 0 "R?" H 9250 3000 60  0000 C CNB
+F 1 "40K" H 9100 2950 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9100 2910 40  0001 C CNN
+F 3 "" H 9100 3150 60  0000 C CNN
+F 4 "-" H 9100 3210 45  0001 C CNN "Part"
+F 5 "Passive" H 9330 3340 50  0001 C CNN "Family"
+	1    9100 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5CA5049A
+P 9350 2700
+AR Path="/5C90FCC3/5CA5049A" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5CA5049A" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5CA5049A" Ref="R?"  Part="1" 
+F 0 "R?" H 9500 2650 60  0000 C CNB
+F 1 "1meg" H 9350 2600 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9350 2560 40  0001 C CNN
+F 3 "" H 9350 2800 60  0000 C CNN
+F 4 "-" H 9350 2860 45  0001 C CNN "Part"
+F 5 "Passive" H 9580 2990 50  0001 C CNN "Family"
+	1    9350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA504A0
+P 9100 3150
+F 0 "#PWR?" H 9100 2900 50  0001 C CNN
+F 1 "GND" H 9105 2977 50  0000 C CNN
+F 2 "" H 9100 3150 50  0001 C CNN
+F 3 "" H 9100 3150 50  0001 C CNN
+	1    9100 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2700 9100 2950
+Wire Wire Line
+	9450 2700 9900 2700
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SwitcheroModule-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,7 +92,7 @@ MUX1
 Wire Wire Line
 	1500 2000 1750 2000
 Wire Wire Line
-	2500 2000 2750 2000
+	2500 2000 2650 2000
 Wire Wire Line
 	1750 3600 1650 3600
 Connection ~ 1650 3600
@@ -186,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3050 4600 3050
 Wire Wire Line
-	4350 3400 4350 3050
+	4350 3400 4350 3200
 $Comp
 L power:VAA #PWR0111
 U 1 1 5C925B9B
@@ -328,4 +328,124 @@ Wire Wire Line
 	6750 2950 6750 2850
 Wire Wire Line
 	6750 2850 6350 2850
+Text GLabel 3300 2350 2    50   Input ~ 0
+A0
+Text GLabel 5000 3350 2    50   Input ~ 0
+A1
+Wire Wire Line
+	2800 2200 2650 2200
+Wire Wire Line
+	2650 2200 2650 2000
+Connection ~ 2650 2000
+Wire Wire Line
+	2650 2000 2750 2000
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5C9E4A38
+P 4800 3550
+AR Path="/5C90FCC3/5C9E4A38" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5C9E4A38" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5C9E4A38" Ref="R?"  Part="1" 
+F 0 "R?" H 4950 3500 60  0000 C CNB
+F 1 "23.8K" H 4800 3450 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4800 3410 40  0001 C CNN
+F 3 "" H 4800 3650 60  0000 C CNN
+F 4 "-" H 4800 3710 45  0001 C CNN "Part"
+F 5 "Passive" H 5030 3840 50  0001 C CNN "Family"
+	1    4800 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5C9E694F
+P 4600 3200
+AR Path="/5C90FCC3/5C9E694F" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5C9E694F" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5C9E694F" Ref="R?"  Part="1" 
+F 0 "R?" H 4750 3150 60  0000 C CNB
+F 1 "100k" H 4600 3100 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4600 3060 40  0001 C CNN
+F 3 "" H 4600 3300 60  0000 C CNN
+F 4 "-" H 4600 3360 45  0001 C CNN "Part"
+F 5 "Passive" H 4830 3490 50  0001 C CNN "Family"
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3200 4350 3200
+Connection ~ 4350 3200
+Wire Wire Line
+	4350 3200 4350 3050
+Wire Wire Line
+	4700 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3350
+Wire Wire Line
+	5000 3350 4800 3350
+Connection ~ 4800 3350
+Wire Wire Line
+	4800 3350 4800 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5C9EBCCC
+P 4800 3650
+F 0 "#PWR?" H 4800 3400 50  0001 C CNN
+F 1 "GND" H 4805 3477 50  0000 C CNN
+F 2 "" H 4800 3650 50  0001 C CNN
+F 3 "" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5C9ED8CB
+P 3100 2550
+AR Path="/5C90FCC3/5C9ED8CB" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5C9ED8CB" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5C9ED8CB" Ref="R?"  Part="1" 
+F 0 "R?" H 3250 2500 60  0000 C CNB
+F 1 "40K" H 3100 2450 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3100 2410 40  0001 C CNN
+F 3 "" H 3100 2650 60  0000 C CNN
+F 4 "-" H 3100 2710 45  0001 C CNN "Part"
+F 5 "Passive" H 3330 2840 50  0001 C CNN "Family"
+	1    3100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
+U 1 1 5C9ED8D3
+P 2900 2200
+AR Path="/5C90FCC3/5C9ED8D3" Ref="R?"  Part="1" 
+AR Path="/5C8DF46C/5C9ED8D3" Ref="R?"  Part="1" 
+AR Path="/5C8DF47A/5C9ED8D3" Ref="R?"  Part="1" 
+F 0 "R?" H 3050 2150 60  0000 C CNB
+F 1 "1meg" H 2900 2100 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2900 2060 40  0001 C CNN
+F 3 "" H 2900 2300 60  0000 C CNN
+F 4 "-" H 2900 2360 45  0001 C CNN "Part"
+F 5 "Passive" H 3130 2490 50  0001 C CNN "Family"
+	1    2900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2200 3100 2200
+Wire Wire Line
+	3100 2200 3100 2350
+Wire Wire Line
+	3300 2350 3100 2350
+Connection ~ 3100 2350
+Wire Wire Line
+	3100 2350 3100 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5C9ED8DE
+P 3100 2650
+F 0 "#PWR?" H 3100 2400 50  0001 C CNN
+F 1 "GND" H 3105 2477 50  0000 C CNN
+F 2 "" H 3100 2650 50  0001 C CNN
+F 3 "" H 3100 2650 50  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

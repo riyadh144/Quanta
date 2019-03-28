@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SwitcheroModule-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -226,8 +226,6 @@ Text GLabel 6250 5050 2    50   Input ~ 0
 1_REL
 Text GLabel 6250 4950 2    50   Input ~ 0
 2_REL
-Text GLabel 6250 4850 2    50   Input ~ 0
-3_REL
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5CB6C5B6
@@ -515,9 +513,9 @@ Text GLabel 10650 2700 2    50   Input ~ 0
 SS
 Text Notes 4250 5800 0    50   ~ 0
 Check the chip select if high or low
-Wire Wire Line
-	5100 5300 5050 5300
 Connection ~ 5050 5300
 Wire Wire Line
 	5050 5300 4800 5300
+Text GLabel 6250 4850 2    50   Input ~ 0
+A5
 $EndSCHEMATC

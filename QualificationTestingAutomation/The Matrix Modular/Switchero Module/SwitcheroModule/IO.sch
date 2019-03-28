@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SwitcheroModule-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -157,19 +157,6 @@ F 3 "" H 2450 2100 50  0001 C CNN
 	1    2450 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0182
-U 1 1 5DFE914C
-P 1800 2200
-F 0 "#PWR0182" H 1800 1950 50  0001 C CNN
-F 1 "GND" H 1805 2027 50  0000 C CNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "" H 1800 2200 50  0001 C CNN
-	1    1800 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 2200 1350 2200
 Wire Wire Line
 	3500 2400 3500 2450
 Wire Wire Line
@@ -311,8 +298,6 @@ Wire Wire Line
 	2400 4200 2750 4200
 Wire Wire Line
 	2750 3900 2400 3900
-Wire Wire Line
-	3050 2400 3050 2550
 Wire Wire Line
 	3250 2300 3400 2300
 Wire Wire Line
@@ -888,14 +873,12 @@ U 1 1 5E2507EB
 P 6100 3700
 F 0 "J6" H 6150 5417 50  0000 C CNN
 F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 6150 5326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Horizontal" H 6100 3700 50  0001 C CNN
+F 2 "Connector:PinHeader_2x32_P2.00mm_VerticalOpp" H 6100 3700 50  0001 C CNN
 F 3 "~" H 6100 3700 50  0001 C CNN
 	1    6100 3700
 	1    0    0    -1  
 $EndComp
 Connection ~ 6400 3100
-Wire Wire Line
-	3250 3400 3250 3500
 Connection ~ 3550 3850
 Wire Wire Line
 	3550 3850 3550 3900
@@ -980,7 +963,6 @@ Connection ~ 3250 4800
 Connection ~ 3250 4200
 Connection ~ 3250 3900
 Connection ~ 3250 3700
-Connection ~ 3250 3500
 Connection ~ 2750 2200
 Wire Wire Line
 	3300 3000 3250 3000
@@ -993,7 +975,7 @@ U 1 1 5E399767
 P 2950 3600
 F 0 "J1" H 3000 5317 50  0000 C CNN
 F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 3000 5226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Horizontal" H 2950 3600 50  0001 C CNN
+F 2 "Connector:PinHeader_2x32_P2.00mm_VerticalOpp" H 2950 3600 50  0001 C CNN
 F 3 "~" H 2950 3600 50  0001 C CNN
 	1    2950 3600
 	1    0    0    -1  
@@ -1017,10 +999,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 3000 5750 2900
 Wire Wire Line
-	5900 4600 5600 4600
-Wire Wire Line
-	5600 4600 5600 4500
-Wire Wire Line
 	5600 4400 5900 4400
 Wire Wire Line
 	5900 4500 5600 4500
@@ -1040,4 +1018,63 @@ F 3 "" H 5350 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 4500 5600 4500
+Connection ~ 3250 4500
+Wire Wire Line
+	3250 4500 2750 4500
+Wire Wire Line
+	5900 4600 6400 4600
+Connection ~ 6400 4600
+Wire Wire Line
+	2750 4400 2750 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5C9ED4D8
+P 2500 4350
+F 0 "#PWR?" H 2500 4100 50  0001 C CNN
+F 1 "GND" H 2505 4177 50  0000 C CNN
+F 2 "" H 2500 4350 50  0001 C CNN
+F 3 "" H 2500 4350 50  0001 C CNN
+	1    2500 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4350 2750 4350
+Connection ~ 2750 4350
+Wire Wire Line
+	2750 4350 2750 4300
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5CA019EC
+P 6950 3450
+F 0 "#PWR?" H 6950 3300 50  0001 C CNN
+F 1 "+2V5" H 6965 3623 50  0000 C CNN
+F 2 "" H 6950 3450 50  0001 C CNN
+F 3 "" H 6950 3450 50  0001 C CNN
+	1    6950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3500 6400 3500
+Wire Wire Line
+	6400 3450 6400 3500
+Connection ~ 6400 3500
+Wire Wire Line
+	6950 3500 6950 3450
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5CA2505E
+P 3800 3350
+F 0 "#PWR?" H 3800 3200 50  0001 C CNN
+F 1 "+2V5" H 3815 3523 50  0000 C CNN
+F 2 "" H 3800 3350 50  0001 C CNN
+F 3 "" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3400 3250 3400
+Wire Wire Line
+	3800 3400 3800 3350
+Text GLabel 2750 3300 0    50   Input ~ 0
+1.25V
 $EndSCHEMATC

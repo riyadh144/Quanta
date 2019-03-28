@@ -995,20 +995,9 @@ Wire Wire Line
 Wire Wire Line
 	2750 4300 2750 4400
 Wire Wire Line
-	2750 4400 2650 4400
-Wire Wire Line
 	2500 4400 2500 4350
 Wire Wire Line
 	5900 4400 5900 4500
-Wire Wire Line
-	2650 4400 2650 4500
-Wire Wire Line
-	2650 4500 2750 4500
-Connection ~ 2650 4400
-Wire Wire Line
-	2650 4400 2500 4400
-Wire Wire Line
-	5900 4600 5900 4500
 Connection ~ 5900 4500
 $Comp
 L power:GND #PWR0197
@@ -1082,7 +1071,7 @@ U 1 1 5E2507EB
 P 6100 3700
 F 0 "J5" H 6150 5417 50  0000 C CNN
 F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 6150 5326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Horizontal" H 6100 3700 50  0001 C CNN
+F 2 "Connector:PinHeader_2x32_P2.00mm_Vertical_Clockwise" H 6100 3700 50  0001 C CNN
 F 3 "~" H 6100 3700 50  0001 C CNN
 	1    6100 3700
 	1    0    0    -1  
@@ -1119,9 +1108,17 @@ U 1 1 5E399767
 P 2950 3600
 F 0 "J1" H 3000 5317 50  0000 C CNN
 F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 3000 5226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Horizontal" H 2950 3600 50  0001 C CNN
+F 2 "Connector:PinHeader_2x32_P2.00mm_Vertical_Clockwise" H 2950 3600 50  0001 C CNN
 F 3 "~" H 2950 3600 50  0001 C CNN
 	1    2950 3600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2500 4400 2750 4400
+Wire Wire Line
+	2750 4500 3250 4500
+Connection ~ 3250 4500
+Wire Wire Line
+	5900 4600 6400 4600
+Connection ~ 6400 4600
 $EndSCHEMATC
