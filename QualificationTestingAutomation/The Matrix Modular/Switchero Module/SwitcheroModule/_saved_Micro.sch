@@ -311,7 +311,7 @@ Text GLabel 6250 4450 2    50   Input ~ 0
 A1
 Text GLabel 6250 4550 2    50   Input ~ 0
 A2
-Text Label 3700 5050 2    50   ~ 0
+Text Label 6250 4850 0    50   ~ 0
 \HOLD
 Wire Wire Line
 	3700 3350 3500 3350
@@ -512,13 +512,13 @@ Check the chip select if high or low
 Connection ~ 5050 5300
 Wire Wire Line
 	5050 5300 4800 5300
-Text GLabel 6250 4850 2    50   Input ~ 0
+Text GLabel 3700 5050 0    50   Input ~ 0
 A5
 $Comp
-L power:+2V5 #PWR?
+L power:+2V5 #PWR0182
 U 1 1 5CA7FFF6
 P 6250 4750
-F 0 "#PWR?" H 6250 4600 50  0001 C CNN
+F 0 "#PWR0182" H 6250 4600 50  0001 C CNN
 F 1 "+2V5" V 6265 4878 50  0000 L CNN
 F 2 "" H 6250 4750 50  0001 C CNN
 F 3 "" H 6250 4750 50  0001 C CNN
@@ -526,10 +526,10 @@ F 3 "" H 6250 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0216
 U 1 1 5CA8286A
 P 6250 4650
-F 0 "#PWR?" H 6250 4400 50  0001 C CNN
+F 0 "#PWR0216" H 6250 4400 50  0001 C CNN
 F 1 "GND" H 6255 4477 50  0000 C CNN
 F 2 "" H 6250 4650 50  0001 C CNN
 F 3 "" H 6250 4650 50  0001 C CNN

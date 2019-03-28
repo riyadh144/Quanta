@@ -157,19 +157,6 @@ F 3 "" H 2450 2100 50  0001 C CNN
 	1    2450 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0182
-U 1 1 5DFE914C
-P 1800 2200
-F 0 "#PWR0182" H 1800 1950 50  0001 C CNN
-F 1 "GND" H 1805 2027 50  0000 C CNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "" H 1800 2200 50  0001 C CNN
-	1    1800 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 2200 1350 2200
 Wire Wire Line
 	3500 2400 3500 2450
 Wire Wire Line
@@ -1012,8 +999,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 3000 5750 2900
 Wire Wire Line
-	5600 4600 5600 4500
-Wire Wire Line
 	5600 4400 5900 4400
 Wire Wire Line
 	5900 4500 5600 4500
@@ -1071,9 +1056,6 @@ $EndComp
 Wire Wire Line
 	6950 3500 6400 3500
 Wire Wire Line
-	6400 3450 6400 3500
-Connection ~ 6400 3500
-Wire Wire Line
 	6950 3500 6950 3450
 $Comp
 L power:+2V5 #PWR?
@@ -1091,5 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3400 3800 3350
 Text GLabel 2750 3300 0    50   Input ~ 0
+1.25V
+Text GLabel 5900 3400 0    50   Input ~ 0
 1.25V
 $EndSCHEMATC

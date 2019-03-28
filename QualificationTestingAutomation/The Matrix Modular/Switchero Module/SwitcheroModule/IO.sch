@@ -1056,9 +1056,6 @@ $EndComp
 Wire Wire Line
 	6950 3500 6400 3500
 Wire Wire Line
-	6400 3450 6400 3500
-Connection ~ 6400 3500
-Wire Wire Line
 	6950 3500 6950 3450
 $Comp
 L power:+2V5 #PWR?
@@ -1076,5 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3400 3800 3350
 Text GLabel 2750 3300 0    50   Input ~ 0
+1.25V
+Text GLabel 5900 3400 0    50   Input ~ 0
 1.25V
 $EndSCHEMATC

@@ -261,22 +261,6 @@ F 3 "" H 5400 1900 50  0001 C CNN
 	1    5400 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 4350 2    50   Input ~ 0
-2_OUT3
-Text GLabel 4900 4050 2    50   Input ~ 0
-2_OUT0
-Text GLabel 4900 4150 2    50   Input ~ 0
-2_OUT1
-Text GLabel 4900 4250 2    50   Input ~ 0
-2_OUT2
-Text GLabel 4900 4550 2    50   Input ~ 0
-1_OUT3
-Text GLabel 4900 4850 2    50   Input ~ 0
-1_OUT0
-Text GLabel 4900 4750 2    50   Input ~ 0
-1_OUT1
-Text GLabel 4900 4650 2    50   Input ~ 0
-1_OUT2
 Text GLabel 7100 3250 2    50   Input ~ 0
 1_OWB_SEC
 Text GLabel 7100 2250 2    50   Input ~ 0

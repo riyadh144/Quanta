@@ -222,9 +222,9 @@ Text GLabel 6250 3600 2    50   Input ~ 0
 MUXE
 Text GLabel 6250 3800 2    50   Input ~ 0
 MUX1
-Text GLabel 6250 5050 2    50   Input ~ 0
+Text GLabel 3700 4100 0    50   Input ~ 0
 1_REL
-Text GLabel 6250 4950 2    50   Input ~ 0
+Text GLabel 3700 4200 0    50   Input ~ 0
 2_REL
 $Comp
 L power:+3V3 #PWR0105
@@ -311,11 +311,7 @@ Text GLabel 6250 4450 2    50   Input ~ 0
 A1
 Text GLabel 6250 4550 2    50   Input ~ 0
 A2
-Text GLabel 6250 4650 2    50   Input ~ 0
-A3
-Text GLabel 6250 4750 2    50   Input ~ 0
-A4
-Text Label 3700 5050 2    50   ~ 0
+Text Label 6250 4850 0    50   ~ 0
 \HOLD
 Wire Wire Line
 	3700 3350 3500 3350
@@ -472,7 +468,7 @@ Wire Wire Line
 	10200 2600 10500 2600
 Wire Wire Line
 	10500 2700 10650 2700
-Text GLabel 3700 3900 0    50   Input ~ 0
+Text GLabel 6250 5050 2    50   Input ~ 0
 RS232INV
 Wire Wire Line
 	6600 2950 6750 2950
@@ -505,7 +501,7 @@ Wire Wire Line
 	6750 2950 6850 2950
 Wire Wire Line
 	6600 2950 6600 2600
-Text Label 3700 4000 2    50   ~ 0
+Text Label 6250 4950 0    50   ~ 0
 CSB
 Text GLabel 3700 4950 0    50   Input ~ 0
 SS
@@ -516,6 +512,32 @@ Check the chip select if high or low
 Connection ~ 5050 5300
 Wire Wire Line
 	5050 5300 4800 5300
-Text GLabel 6250 4850 2    50   Input ~ 0
+Text GLabel 3700 5050 0    50   Input ~ 0
 A5
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5CA7FFF6
+P 6250 4750
+F 0 "#PWR?" H 6250 4600 50  0001 C CNN
+F 1 "+2V5" V 6265 4878 50  0000 L CNN
+F 2 "" H 6250 4750 50  0001 C CNN
+F 3 "" H 6250 4750 50  0001 C CNN
+	1    6250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA8286A
+P 6250 4650
+F 0 "#PWR?" H 6250 4400 50  0001 C CNN
+F 1 "GND" H 6255 4477 50  0000 C CNN
+F 2 "" H 6250 4650 50  0001 C CNN
+F 3 "" H 6250 4650 50  0001 C CNN
+	1    6250 4650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3700 3900 0    50   Input ~ 0
+A4
+Text GLabel 3700 4000 0    50   Input ~ 0
+A3
 $EndSCHEMATC
