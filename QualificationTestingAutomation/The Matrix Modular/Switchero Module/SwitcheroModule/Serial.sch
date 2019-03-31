@@ -327,6 +327,10 @@ F 9 "/product-detail/en/on-semiconductor/2N7002DW/2N7002DWCT-ND/1785790" H 2700 
 F 10 "MOSFET 2N-CH 60V 0.115A SC70-6" H 2700 5500 60  0001 L CNN "Description"
 F 11 "ON Semiconductor" H 2700 5600 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2700 5700 60  0001 L CNN "Status"
+F 13 "M" H 2500 4500 50  0001 C CNN "Spice_Primitive"
+F 14 "2N7002DW" H 2500 4500 50  0001 C CNN "Spice_Model"
+F 15 "Y" H 2500 4500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 16 "2n7002dw.lib" H 2500 4500 50  0001 C CNN "Spice_Lib_File"
 	1    2500 4500
 	1    0    0    -1  
 $EndComp
@@ -729,7 +733,7 @@ Check the chip select if high or low
 Text GLabel 1800 4600 0    50   Input ~ 0
 SS
 Wire Wire Line
-	1800 4600 2200 4600
+	1800 4600 2000 4600
 Text GLabel 2950 4300 1    50   Input ~ 0
 SSINV
 $Comp
@@ -780,6 +784,9 @@ F 0 "#PWR0127" H 3400 4050 50  0001 C CNN
 F 1 "+3V3" H 3415 4373 50  0000 C CNN
 F 2 "" H 3400 4200 50  0001 C CNN
 F 3 "" H 3400 4200 50  0001 C CNN
+F 4 "V" H 3400 4200 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 3.3" H 3400 4200 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3400 4200 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    3400 4200
 	1    0    0    -1  
 $EndComp
@@ -859,4 +866,35 @@ F 3 "" H 2200 4300 50  0001 C CNN
 	1    2200 4300
 	1    0    0    -1  
 $EndComp
+$Comp
+L pspice:0 #GND0101
+U 1 1 5CB0FA23
+P 2550 3450
+F 0 "#GND0101" H 2550 3350 50  0001 C CNN
+F 1 "0" H 2550 3539 50  0000 C CNN
+F 2 "" H 2550 3450 50  0001 C CNN
+F 3 "~" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB10324
+P 2800 3450
+AR Path="/5C8DF48C/5CB10324" Ref="#PWR?"  Part="1" 
+AR Path="/5C90F514/5CB10324" Ref="#PWR0232"  Part="1" 
+F 0 "#PWR0232" H 2800 3200 50  0001 C CNN
+F 1 "GND" H 2805 3277 50  0000 C CNN
+F 2 "" H 2800 3450 50  0001 C CNN
+F 3 "" H 2800 3450 50  0001 C CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3450 2550 3450
+Wire Wire Line
+	2000 4350 2000 4600
+Connection ~ 2000 4600
+Wire Wire Line
+	2000 4600 2200 4600
 $EndSCHEMATC

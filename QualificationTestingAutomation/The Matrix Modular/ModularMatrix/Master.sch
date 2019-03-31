@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ModularMatrix-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -304,48 +304,42 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E7B1ABE
-P 4500 3900
-F 0 "H3" H 4600 3946 50  0000 L CNN
-F 1 "MountingHole" H 4600 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 4500 3900 50  0001 C CNN
-F 3 "~" H 4500 3900 50  0001 C CNN
-	1    4500 3900
+P 3250 4500
+F 0 "H3" H 3350 4546 50  0000 L CNN
+F 1 "MountingHole" H 3350 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 3250 4500 50  0001 C CNN
+F 3 "~" H 3250 4500 50  0001 C CNN
+	1    3250 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E7B23E4
-P 4450 4250
-F 0 "H1" H 4550 4296 50  0000 L CNN
-F 1 "MountingHole" H 4550 4205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 4450 4250 50  0001 C CNN
-F 3 "~" H 4450 4250 50  0001 C CNN
-	1    4450 4250
+P 3250 3550
+F 0 "H1" H 3350 3596 50  0000 L CNN
+F 1 "MountingHole" H 3350 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 3250 3550 50  0001 C CNN
+F 3 "~" H 3250 3550 50  0001 C CNN
+	1    3250 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E7B2D0B
-P 4500 4650
-F 0 "H4" H 4600 4696 50  0000 L CNN
-F 1 "MountingHole" H 4600 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 4500 4650 50  0001 C CNN
-F 3 "~" H 4500 4650 50  0001 C CNN
-	1    4500 4650
+P 4550 4550
+F 0 "H4" H 4650 4596 50  0000 L CNN
+F 1 "MountingHole" H 4650 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 4550 4550 50  0001 C CNN
+F 3 "~" H 4550 4550 50  0001 C CNN
+	1    4550 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 4900 2    50   Input ~ 0
-TDO
-Text GLabel 1500 5100 2    50   Input ~ 0
-TDI
-Text GLabel 1500 5450 2    50   Input ~ 0
-TMS
-Text GLabel 1500 5250 2    50   Input ~ 0
-TCK
 Text GLabel 5950 3900 0    50   Input ~ 0
 MOSI1
-Text GLabel 5950 3800 0    50   Input ~ 0
-SCLK1
 Text GLabel 5950 4000 0    50   Input ~ 0
+SCLK1
+Text GLabel 5950 3800 0    50   Input ~ 0
 MISO1
+Text Notes 4700 3300 0    50   ~ 0
+Check MISO MOSI
 $EndSCHEMATC
