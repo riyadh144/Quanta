@@ -203,40 +203,40 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5C9BCC1D
-P 9100 3900
+P 9150 3750
 AR Path="/5D942532/5C9BCC1D" Ref="H?"  Part="1" 
 AR Path="/5D968A33/5C9BCC1D" Ref="H6"  Part="1" 
-F 0 "H6" H 9200 3946 50  0000 L CNN
-F 1 "MountingHole" H 9200 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 9100 3900 50  0001 C CNN
-F 3 "~" H 9100 3900 50  0001 C CNN
-	1    9100 3900
+F 0 "H6" H 9250 3796 50  0000 L CNN
+F 1 "MountingHole" H 9250 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 9150 3750 50  0001 C CNN
+F 3 "~" H 9150 3750 50  0001 C CNN
+	1    9150 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5C9BCC1E
-P 8300 3500
+P 9400 4150
 AR Path="/5D942532/5C9BCC1E" Ref="H?"  Part="1" 
 AR Path="/5D968A33/5C9BCC1E" Ref="H7"  Part="1" 
-F 0 "H7" H 8400 3546 50  0000 L CNN
-F 1 "MountingHole" H 8400 3455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 8300 3500 50  0001 C CNN
-F 3 "~" H 8300 3500 50  0001 C CNN
-	1    8300 3500
+F 0 "H7" H 9500 4196 50  0000 L CNN
+F 1 "MountingHole" H 9500 4105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 9400 4150 50  0001 C CNN
+F 3 "~" H 9400 4150 50  0001 C CNN
+	1    9400 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5C9BCC1F
-P 8300 3900
+P 9750 4450
 AR Path="/5D942532/5C9BCC1F" Ref="H?"  Part="1" 
 AR Path="/5D968A33/5C9BCC1F" Ref="H8"  Part="1" 
-F 0 "H8" H 8400 3946 50  0000 L CNN
-F 1 "MountingHole" H 8400 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 8300 3900 50  0001 C CNN
-F 3 "~" H 8300 3900 50  0001 C CNN
-	1    8300 3900
+F 0 "H8" H 9850 4496 50  0000 L CNN
+F 1 "MountingHole" H 9850 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 9750 4450 50  0001 C CNN
+F 3 "~" H 9750 4450 50  0001 C CNN
+	1    9750 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -256,17 +256,30 @@ $EndComp
 $Comp
 L power:+1V8 #PWR?
 U 1 1 5DFE913D
-P 2500 2100
+P 2450 2200
 AR Path="/5D94288A/5DFE913D" Ref="#PWR?"  Part="1" 
 AR Path="/5D968A33/5DFE913D" Ref="#PWR0169"  Part="1" 
 AR Path="/5C90F517/5DFE913D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0169" H 2500 1950 50  0001 C CNN
-F 1 "+1V8" H 2515 2273 50  0000 C CNN
-F 2 "" H 2500 2100 50  0001 C CNN
-F 3 "" H 2500 2100 50  0001 C CNN
-	1    2500 2100
+F 0 "#PWR0169" H 2450 2050 50  0001 C CNN
+F 1 "+1V8" H 2465 2373 50  0000 C CNN
+F 2 "" H 2450 2200 50  0001 C CNN
+F 3 "" H 2450 2200 50  0001 C CNN
+	1    2450 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 5DFE914C
+P 1800 2200
+F 0 "#PWR0170" H 1800 1950 50  0001 C CNN
+F 1 "GND" H 1805 2027 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "" H 1800 2200 50  0001 C CNN
+	1    1800 2200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 2200 1350 2200
 Wire Wire Line
 	3500 2400 3500 2450
 Wire Wire Line
@@ -278,7 +291,8 @@ Wire Wire Line
 Wire Wire Line
 	2450 2200 2450 2100
 Wire Wire Line
-	2450 2100 2500 2100
+	2450 2100 2750 2100
+Connection ~ 2450 2200
 $Comp
 L power:GND #PWR0171
 U 1 1 5DFE9161
@@ -295,15 +309,15 @@ Wire Wire Line
 $Comp
 L power:-3V3 #PWR?
 U 1 1 5DFE9176
-P 2300 3450
+P 2450 3500
 AR Path="/5D94288A/5DFE9176" Ref="#PWR?"  Part="1" 
 AR Path="/5D968A33/5DFE9176" Ref="#PWR0172"  Part="1" 
 AR Path="/5C90F517/5DFE9176" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0172" H 2300 3550 50  0001 C CNN
-F 1 "-3V3" H 2315 3623 50  0000 C CNN
-F 2 "" H 2300 3450 50  0001 C CNN
-F 3 "" H 2300 3450 50  0001 C CNN
-	1    2300 3450
+F 0 "#PWR0172" H 2450 3600 50  0001 C CNN
+F 1 "-3V3" H 2465 3673 50  0000 C CNN
+F 2 "" H 2450 3500 50  0001 C CNN
+F 3 "" H 2450 3500 50  0001 C CNN
+	1    2450 3500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -388,19 +402,19 @@ F 1 "VD" H 3617 4373 50  0000 C CNN
 F 2 "" H 3600 4200 50  0001 C CNN
 F 3 "" H 3600 4200 50  0001 C CNN
 	1    3600 4200
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 Connection ~ 3600 4200
 $Comp
 L power:VAA #PWR0178
 U 1 1 5DFE91C4
-P 2300 4100
-F 0 "#PWR0178" H 2300 3950 50  0001 C CNN
-F 1 "VAA" H 2250 4250 50  0000 L CNN
-F 2 "" H 2300 4100 50  0001 C CNN
-F 3 "" H 2300 4100 50  0001 C CNN
-	1    2300 4100
-	1    0    0    -1  
+P 2400 4200
+F 0 "#PWR0178" H 2400 4050 50  0001 C CNN
+F 1 "VAA" V 2418 4327 50  0000 L CNN
+F 2 "" H 2400 4200 50  0001 C CNN
+F 3 "" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3600 4300 3600 4200
@@ -409,6 +423,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 3900 2400 3900
 Wire Wire Line
+	3050 2400 3050 2550
+Wire Wire Line
+	3050 2550 2950 2550
+Wire Wire Line
 	3250 2300 3400 2300
 Wire Wire Line
 	3250 4400 3300 4400
@@ -416,9 +434,10 @@ Wire Wire Line
 	3600 4400 3600 4300
 Connection ~ 3600 4300
 Wire Wire Line
-	2450 3500 2450 3450
+	2450 3500 2450 3400
 Wire Wire Line
 	2450 3400 2750 3400
+Connection ~ 2450 3500
 Wire Wire Line
 	3550 3900 3550 4000
 Wire Wire Line
@@ -428,6 +447,7 @@ Wire Wire Line
 	2750 4100 2400 4100
 Wire Wire Line
 	2400 4100 2400 4200
+Connection ~ 2400 4200
 Wire Wire Line
 	2400 4100 2400 4000
 Wire Wire Line
@@ -502,16 +522,16 @@ Wire Wire Line
 $Comp
 L power:+1V8 #PWR?
 U 1 1 5E25079F
-P 5650 2200
+P 5600 2200
 AR Path="/5D94288A/5E25079F" Ref="#PWR?"  Part="1" 
 AR Path="/5D968A33/5E25079F" Ref="#PWR0182"  Part="1" 
 AR Path="/5C90F517/5E25079F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0182" H 5650 2050 50  0001 C CNN
-F 1 "+1V8" H 5665 2373 50  0000 C CNN
-F 2 "" H 5650 2200 50  0001 C CNN
-F 3 "" H 5650 2200 50  0001 C CNN
-	1    5650 2200
-	1    0    0    -1  
+F 0 "#PWR0182" H 5600 2050 50  0001 C CNN
+F 1 "+1V8" H 5615 2373 50  0000 C CNN
+F 2 "" H 5600 2200 50  0001 C CNN
+F 3 "" H 5600 2200 50  0001 C CNN
+	1    5600 2200
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6650 2500 6650 2550
@@ -519,6 +539,8 @@ Wire Wire Line
 	6650 2600 6400 2600
 Wire Wire Line
 	6650 2500 6400 2500
+Wire Wire Line
+	5600 2200 5650 2200
 $Comp
 L power:GND #PWR0183
 U 1 1 5E2507B6
@@ -724,6 +746,8 @@ Wire Wire Line
 Wire Wire Line
 	2450 3500 2750 3500
 Wire Wire Line
+	3550 3700 3550 3850
+Wire Wire Line
 	3250 3600 3500 3600
 Wire Wire Line
 	3250 5200 3450 5200
@@ -860,6 +884,7 @@ Wire Wire Line
 Connection ~ 6400 3100
 Wire Wire Line
 	3250 3400 3250 3500
+Connection ~ 3550 3850
 Wire Wire Line
 	3550 3850 3550 3900
 Wire Wire Line
@@ -871,6 +896,15 @@ Wire Wire Line
 Connection ~ 3300 4400
 Wire Wire Line
 	3300 4400 3600 4400
+Wire Wire Line
+	2950 2550 2950 2600
+Wire Wire Line
+	2950 2400 2950 2550
+Connection ~ 2950 2550
+Wire Wire Line
+	2750 2550 2750 2500
+Wire Wire Line
+	2750 2550 2950 2550
 Wire Wire Line
 	3550 3000 3300 3000
 Wire Wire Line
@@ -935,10 +969,13 @@ F 1 "+3V3" H 5815 4073 50  0000 C CNN
 F 2 "" H 5800 3900 50  0001 C CNN
 F 3 "" H 5800 3900 50  0001 C CNN
 	1    5800 3900
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5850 3800 5850 3900
+Wire Wire Line
+	5800 3900 5700 3900
+Connection ~ 5800 3900
 Connection ~ 5850 3900
 Wire Wire Line
 	5850 3900 5800 3900
@@ -1033,12 +1070,13 @@ L Connector_Generic:Conn_02x32_Odd_Even J5
 U 1 1 5E2507EB
 P 6100 3700
 F 0 "J5" H 6150 5417 50  0000 C CNN
-F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 6150 5500 50  0000 C CNN
+F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 6150 5326 50  0000 C CNN
 F 2 "Connector:PinHeader_2x32_P2.00mm_Vertical_Clockwise" H 6100 3700 50  0001 C CNN
 F 3 "~" H 6100 3700 50  0001 C CNN
 	1    6100 3700
 	1    0    0    -1  
 $EndComp
+Connection ~ 2750 2500
 Connection ~ 3250 5200
 Wire Wire Line
 	3250 5100 3250 5200
@@ -1069,7 +1107,7 @@ L Connector_Generic:Conn_02x32_Odd_Even J1
 U 1 1 5E399767
 P 2950 3600
 F 0 "J1" H 3000 5317 50  0000 C CNN
-F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 3000 5400 50  0000 C CNN
+F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 3000 5226 50  0000 C CNN
 F 2 "Connector:PinHeader_2x32_P2.00mm_Vertical_Clockwise" H 2950 3600 50  0001 C CNN
 F 3 "~" H 2950 3600 50  0001 C CNN
 	1    2950 3600
@@ -1083,18 +1121,4 @@ Connection ~ 3250 4500
 Wire Wire Line
 	5900 4600 6400 4600
 Connection ~ 6400 4600
-Wire Wire Line
-	2750 2400 2650 2400
-Wire Wire Line
-	2650 2400 2650 2500
-Connection ~ 2500 2100
-Wire Wire Line
-	2500 2100 2750 2100
-Wire Wire Line
-	2450 3450 2300 3450
-Connection ~ 2450 3450
-Wire Wire Line
-	2450 3450 2450 3400
-Wire Wire Line
-	2400 4100 2300 4100
 $EndSCHEMATC

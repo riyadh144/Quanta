@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2250 1500 2250
 Text GLabel 1500 2000 0    50   Input ~ 0
-MUX1
+MSP_MUX1_EN
 Wire Wire Line
 	1500 2000 1750 2000
 Wire Wire Line
@@ -169,8 +169,6 @@ F 3 "" H 4350 2300 50  0001 C CNN
 	1    4350 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 2050 0    50   Input ~ 0
-MUX2
 Text GLabel 5450 2300 2    50   Input ~ 0
 MUXA
 Text GLabel 5450 2400 2    50   Input ~ 0
@@ -312,10 +310,8 @@ Wire Wire Line
 	6750 2950 6750 2850
 Wire Wire Line
 	6750 2850 6350 2850
-Text GLabel 3300 2350 2    50   Input ~ 0
-A0
-Text GLabel 5000 3350 2    50   Input ~ 0
-A1
+Text GLabel 3300 2350 2    50   Output ~ 0
+VADC_VAA
 Wire Wire Line
 	2800 2200 2650 2200
 Wire Wire Line
@@ -330,8 +326,8 @@ P 4800 3550
 AR Path="/5C90FCC3/5C9E4A38" Ref="R?"  Part="1" 
 AR Path="/5C8DF46C/5C9E4A38" Ref="R?"  Part="1" 
 AR Path="/5C8DF47A/5C9E4A38" Ref="R46"  Part="1" 
-F 0 "R46" H 4950 3500 60  0000 C CNB
-F 1 "23.8K" H 4800 3450 40  0000 C CNN
+F 0 "R46" V 4900 3400 60  0000 C CNN
+F 1 "23.8K" V 4800 3400 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4800 3410 40  0001 C CNN
 F 3 "" H 4800 3650 60  0000 C CNN
 F 4 "-" H 4800 3710 45  0001 C CNN "Part"
@@ -346,8 +342,8 @@ P 4600 3200
 AR Path="/5C90FCC3/5C9E694F" Ref="R?"  Part="1" 
 AR Path="/5C8DF46C/5C9E694F" Ref="R?"  Part="1" 
 AR Path="/5C8DF47A/5C9E694F" Ref="R45"  Part="1" 
-F 0 "R45" H 4750 3150 60  0000 C CNB
-F 1 "100k" H 4600 3100 40  0000 C CNN
+F 0 "R45" H 4600 3100 60  0000 C CNN
+F 1 "100k" H 4600 3150 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4600 3060 40  0001 C CNN
 F 3 "" H 4600 3300 60  0000 C CNN
 F 4 "-" H 4600 3360 45  0001 C CNN "Part"
@@ -432,4 +428,18 @@ F 3 "" H 3100 2650 50  0001 C CNN
 	1    3100 2650
 	1    0    0    -1  
 $EndComp
+Text Notes 3750 1700 0    50   ~ 0
+This could serve as an input or output
+Text Notes 4050 1950 0    50   ~ 0
+MSP
+Text GLabel 4600 2050 0    50   Input ~ 0
+MSP_MUX2
+Text GLabel 6300 3800 2    50   Input ~ 0
+MSP_MUX1_EN
+Text GLabel 5000 3350 2    50   Output ~ 0
+VADC_LO
+Text GLabel 3500 3200 2    50   Output ~ 0
+VADC_VAA
+Text GLabel 3500 3450 2    50   Output ~ 0
+VADC_LO
 $EndSCHEMATC

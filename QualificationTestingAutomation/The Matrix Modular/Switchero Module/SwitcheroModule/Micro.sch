@@ -222,10 +222,6 @@ Text GLabel 6250 3600 2    50   Input ~ 0
 MUXE
 Text GLabel 6250 3800 2    50   Input ~ 0
 MUX1
-Text GLabel 3700 4100 0    50   Input ~ 0
-1_REL
-Text GLabel 3700 4200 0    50   Input ~ 0
-2_REL
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5CB6C5B6
@@ -305,12 +301,6 @@ Text Label 3700 4550 2    50   ~ 0
 SIMOB
 Text Label 3700 4650 2    50   ~ 0
 SCKB
-Text GLabel 6250 4350 2    50   Input ~ 0
-A0
-Text GLabel 6250 4450 2    50   Input ~ 0
-A1
-Text GLabel 6250 4550 2    50   Input ~ 0
-A2
 Text Label 6250 4850 0    50   ~ 0
 \HOLD
 Wire Wire Line
@@ -512,8 +502,6 @@ Check the chip select if high or low
 Connection ~ 5050 5300
 Wire Wire Line
 	5050 5300 4800 5300
-Text GLabel 3700 5050 0    50   Input ~ 0
-A5
 $Comp
 L power:+2V5 #PWR0182
 U 1 1 5CA7FFF6
@@ -536,10 +524,6 @@ F 3 "" H 6250 4650 50  0001 C CNN
 	1    6250 4650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3700 3900 0    50   Input ~ 0
-A4
-Text GLabel 3700 4000 0    50   Input ~ 0
-A3
 $Comp
 L power:+3V3 #PWR0230
 U 1 1 5CB308E4
@@ -586,4 +570,20 @@ $EndComp
 Connection ~ 8500 3450
 Wire Wire Line
 	8500 3450 8350 3450
+Text GLabel 6250 4550 2    50   Input ~ 0
+IADC_Vin
+Text GLabel 3700 5050 0    50   Input ~ 0
+VADC_Vin
+Text GLabel 3700 4000 0    50   Input ~ 0
+VADC_Garmin
+Text GLabel 3700 3900 0    50   Input ~ 0
+IADC_Garmin
+Text GLabel 3700 4100 0    50   Output ~ 0
+MSP_REL_1
+Text GLabel 3700 4200 0    50   Output ~ 0
+MSP_REL_2
+Text GLabel 6250 4350 2    50   Output ~ 0
+VADC_VAA
+Text GLabel 6250 4450 2    50   Output ~ 0
+VADC_LO
 $EndSCHEMATC

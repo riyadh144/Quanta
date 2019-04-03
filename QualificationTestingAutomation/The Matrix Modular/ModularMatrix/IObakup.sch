@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:ModularMatrix-cache
+LIBS:IObakup-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -439,8 +439,6 @@ $EndComp
 Wire Wire Line
 	5550 4100 5900 4100
 Wire Wire Line
-	6350 4850 6350 4900
-Wire Wire Line
 	5900 3600 5900 3500
 Wire Wire Line
 	5650 2300 5650 2200
@@ -453,8 +451,6 @@ Wire Wire Line
 	6500 3600 6500 3700
 Wire Wire Line
 	6500 3700 6400 3700
-Wire Wire Line
-	6400 4900 6350 4900
 Wire Wire Line
 	6750 4500 6400 4500
 Connection ~ 6400 4900
@@ -871,8 +867,6 @@ $EndComp
 Wire Wire Line
 	2600 4150 2950 4150
 Wire Wire Line
-	3400 4900 3400 4950
-Wire Wire Line
 	2950 3650 2950 3550
 Wire Wire Line
 	2700 2350 2700 2250
@@ -886,17 +880,12 @@ Wire Wire Line
 Wire Wire Line
 	3550 3750 3450 3750
 Wire Wire Line
-	3450 4950 3400 4950
-Wire Wire Line
 	3800 4550 3450 4550
 Connection ~ 3450 4950
 Wire Wire Line
 	2950 2350 2700 2350
 Wire Wire Line
 	3450 4850 3450 4950
-Wire Wire Line
-	3450 3850 3450 3950
-Connection ~ 3450 3950
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CCF353D
@@ -942,7 +931,6 @@ Wire Wire Line
 	3650 2250 3450 2250
 Wire Wire Line
 	3650 2450 3450 2450
-Connection ~ 3450 3150
 Wire Wire Line
 	3450 3150 3450 3050
 Wire Wire Line
@@ -991,68 +979,11 @@ Wire Wire Line
 	3900 4150 3900 4100
 Wire Wire Line
 	3750 3650 3550 3650
-Wire Wire Line
-	3450 2850 3450 2950
-Connection ~ 3450 5350
-Wire Wire Line
-	3450 5350 3450 5250
-Connection ~ 3450 5250
-Wire Wire Line
-	3450 5150 3450 5250
-Connection ~ 3450 5150
-Wire Wire Line
-	3450 4950 3450 5050
-Wire Wire Line
-	3450 5050 3450 5150
-Connection ~ 3450 5050
-Connection ~ 3450 4650
 Connection ~ 3450 4550
-Connection ~ 2950 4550
-Wire Wire Line
-	3450 4450 3450 4550
-Connection ~ 3450 4450
-Wire Wire Line
-	3450 4250 3450 4350
-Wire Wire Line
-	3450 4350 3450 4450
-Connection ~ 3450 4350
-Connection ~ 3450 4150
-Wire Wire Line
-	3450 4050 3450 4150
-Wire Wire Line
-	3450 3950 3450 4050
-Connection ~ 3450 4050
-Connection ~ 2950 3650
-$Comp
-L Connector_Generic:Conn_02x32_Odd_Even J?
-U 1 1 5CCF3584
-P 3150 3750
-F 0 "J?" H 3200 5467 50  0000 C CNN
-F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 3200 5550 50  0000 C CNN
-F 2 "Connector:PinHeader_2x32_P2.00mm_Vertical_Clockwise" H 3150 3750 50  0001 C CNN
-F 3 "~" H 3150 3750 50  0001 C CNN
-	1    3150 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 2850 3450 2750
-Connection ~ 3450 2850
-Connection ~ 3450 2750
-Wire Wire Line
-	3450 2750 3450 2650
-Wire Wire Line
-	3450 2650 3450 2550
-Connection ~ 3450 2650
-Connection ~ 3450 2550
 Wire Wire Line
 	3450 2550 3850 2550
 Wire Wire Line
-	3450 4750 3450 4650
-Wire Wire Line
-	3450 4650 3450 4550
-Wire Wire Line
 	2950 3950 2950 3850
-Connection ~ 2950 3950
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CCF3596
@@ -1099,4 +1030,65 @@ Wire Wire Line
 	2450 3150 2450 3100
 Wire Wire Line
 	2450 3150 2950 3150
+Connection ~ 3450 2550
+Connection ~ 3450 5350
+Wire Wire Line
+	3450 5350 3450 5250
+Connection ~ 3450 5250
+Wire Wire Line
+	3450 5150 3450 5250
+Connection ~ 3450 5150
+Wire Wire Line
+	3450 5050 3450 5150
+Wire Wire Line
+	3450 4950 3450 5050
+Connection ~ 3450 5050
+Wire Wire Line
+	3450 4650 3450 4550
+Wire Wire Line
+	3450 4750 3450 4650
+Connection ~ 3450 4650
+Connection ~ 2950 4550
+Wire Wire Line
+	3450 4450 3450 4550
+Connection ~ 3450 4450
+Wire Wire Line
+	3450 4350 3450 4450
+Wire Wire Line
+	3450 4250 3450 4350
+Connection ~ 3450 4350
+Connection ~ 3450 4150
+Wire Wire Line
+	3450 4050 3450 4150
+Connection ~ 3450 4050
+Wire Wire Line
+	3450 3950 3450 4050
+Wire Wire Line
+	3450 3850 3450 3950
+Connection ~ 3450 3950
+Connection ~ 2950 3950
+Connection ~ 2950 3650
+Connection ~ 3450 3150
+Wire Wire Line
+	3450 2850 3450 2950
+Connection ~ 3450 2850
+Wire Wire Line
+	3450 2850 3450 2750
+Connection ~ 3450 2750
+Wire Wire Line
+	3450 2650 3450 2550
+Wire Wire Line
+	3450 2750 3450 2650
+Connection ~ 3450 2650
+$Comp
+L Connector_Generic:Conn_02x32_Odd_Even J?
+U 1 1 5CCF3584
+P 3150 3750
+F 0 "J?" H 3200 5467 50  0000 C CNN
+F 1 "Conn_02x32_Counter_Clockwise_MountingPin" H 3200 5550 50  0000 C CNN
+F 2 "Connector:PinHeader_2x32_P2.00mm_Vertical_Clockwise" H 3150 3750 50  0001 C CNN
+F 3 "~" H 3150 3750 50  0001 C CNN
+	1    3150 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -18,7 +18,7 @@ $Comp
 L Connector:Raspberry_Pi_2_3 J2
 U 1 1 5C876E55
 P 6750 4000
-F 0 "J2" H 6750 5600 50  0000 C CNN
+F 0 "J2" H 6750 4000 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 5700 5100 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD" H 6750 4000 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 6750 4000 50  0001 C CNN
@@ -340,6 +340,4 @@ Text GLabel 5950 4000 0    50   Input ~ 0
 SCLK1
 Text GLabel 5950 3800 0    50   Input ~ 0
 MISO1
-Text Notes 4700 3300 0    50   ~ 0
-Check MISO MOSI
 $EndSCHEMATC
