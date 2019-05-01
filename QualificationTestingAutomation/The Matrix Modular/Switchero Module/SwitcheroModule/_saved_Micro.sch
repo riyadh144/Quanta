@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:ReefereoModule-cache
+LIBS:SwitcheroModule-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 12
 Title ""
 Date ""
 Rev ""
@@ -26,7 +26,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/msp430g2755.pdf" H 5000 4200 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TheMatrix-rescue:TC2050-JTAG-SchematicAutomation-rescue U1
+L SwitcheroModule-rescue:TC2050-JTAG-SchematicAutomation-rescue-TheMatrix-rescue U1
 U 1 1 5CB44B9C
 P 1850 4100
 F 0 "U1" H 1850 4265 50  0000 C CNN
@@ -78,7 +78,7 @@ MISO0
 Text GLabel 9350 2850 2    50   Input ~ 0
 S3
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB45035
 P 7000 2850
 AR Path="/5C90FCC3/5CB45035" Ref="R?"  Part="1" 
@@ -93,7 +93,7 @@ F 5 "Passive" H 7230 3140 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB450E2
 P 6850 2700
 AR Path="/5C90FCC3/5CB450E2" Ref="R?"  Part="1" 
@@ -108,7 +108,7 @@ F 5 "Passive" H 7080 2990 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB450FF
 P 6750 2600
 AR Path="/5C90FCC3/5CB450FF" Ref="R?"  Part="1" 
@@ -123,7 +123,7 @@ F 5 "Passive" H 6980 2890 50  0001 C CNN "Family"
 	0    1    1    0   
 $EndComp
 $Comp
-L TheMatrix-rescue:RESISTOR-passive-SchematicAutomation-rescue R?
+L SwitcheroModule-rescue:RESISTOR-passive-SchematicAutomation-rescue-TheMatrix-rescue R?
 U 1 1 5CB45139
 P 6600 2500
 AR Path="/5C90FCC3/5CB45139" Ref="R?"  Part="1" 
@@ -206,28 +206,18 @@ Wire Wire Line
 	6850 2600 8050 2600
 Wire Wire Line
 	7000 2700 7900 2700
-Text GLabel 3700 3700 0    50   Input ~ 0
-MUXA
-Text GLabel 3700 3600 0    50   Input ~ 0
-MUXB
-Text GLabel 3700 3500 0    50   Input ~ 0
-MUXC
-Text GLabel 3700 3800 0    50   Input ~ 0
-MUX2
-Text GLabel 6250 3500 2    50   Input ~ 0
-MUXF
-Text GLabel 6250 3700 2    50   Input ~ 0
-MUXD
-Text GLabel 6250 3600 2    50   Input ~ 0
-MUXE
-Text GLabel 6250 3800 2    50   Input ~ 0
-MUX1
-Text GLabel 6250 5050 2    50   Input ~ 0
-1_REL
-Text GLabel 6250 4950 2    50   Input ~ 0
-2_REL
-Text GLabel 6250 4850 2    50   Input ~ 0
-3_REL
+Text GLabel 3700 3700 0    50   Output ~ 0
+MSP_MUXA
+Text GLabel 3700 3600 0    50   Output ~ 0
+MSP_MUXB
+Text GLabel 3700 3500 0    50   Output ~ 0
+MSP_MUXC
+Text GLabel 6250 3500 2    50   Output ~ 0
+MSP_MUXF
+Text GLabel 6250 3700 2    50   Output ~ 0
+MSP_MUXD
+Text GLabel 6250 3600 2    50   Output ~ 0
+MSP_MUXE
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5CB6C5B6
@@ -252,7 +242,7 @@ Connection ~ 5100 3100
 Wire Wire Line
 	5100 5300 5200 5300
 Wire Wire Line
-	5100 5300 4800 5300
+	5100 5300 5050 5300
 Connection ~ 5100 5300
 $Comp
 L power:GND #PWR0106
@@ -307,17 +297,7 @@ Text Label 3700 4550 2    50   ~ 0
 SIMOB
 Text Label 3700 4650 2    50   ~ 0
 SCKB
-Text GLabel 6250 4350 2    50   Input ~ 0
-A0
-Text GLabel 6250 4450 2    50   Input ~ 0
-A1
-Text GLabel 6250 4550 2    50   Input ~ 0
-A2
-Text GLabel 6250 4650 2    50   Input ~ 0
-A3
-Text GLabel 6250 4750 2    50   Input ~ 0
-A4
-Text Label 3700 5050 2    50   ~ 0
+Text Label 6250 4850 0    50   ~ 0
 \HOLD
 Wire Wire Line
 	3700 3350 3500 3350
@@ -474,9 +454,7 @@ Wire Wire Line
 	10200 2600 10500 2600
 Wire Wire Line
 	10500 2700 10650 2700
-Text Label 10650 2700 0    50   ~ 0
-SS
-Text GLabel 3700 3900 0    50   Input ~ 0
+Text GLabel 6250 5050 2    50   Input ~ 0
 RS232INV
 Wire Wire Line
 	6600 2950 6750 2950
@@ -509,10 +487,103 @@ Wire Wire Line
 	6750 2950 6850 2950
 Wire Wire Line
 	6600 2950 6600 2600
-Text Label 3700 4200 2    50   ~ 0
+Text Label 6250 4950 0    50   ~ 0
 CSB
-Text Label 3700 4950 2    50   ~ 0
+Text GLabel 3700 4950 0    50   Input ~ 0
 SS
-Text GLabel 3700 4100 0    50   Input ~ 0
-CSADE
+Text GLabel 10650 2700 2    50   Output ~ 0
+SS
+Text Notes 4250 5800 0    50   ~ 0
+Check the chip select if high or low
+Connection ~ 5050 5300
+Wire Wire Line
+	5050 5300 4800 5300
+$Comp
+L power:+2V5 #PWR0182
+U 1 1 5CA7FFF6
+P 6250 4750
+F 0 "#PWR0182" H 6250 4600 50  0001 C CNN
+F 1 "+2V5" V 6250 4850 50  0000 L CNN
+F 2 "" H 6250 4750 50  0001 C CNN
+F 3 "" H 6250 4750 50  0001 C CNN
+	1    6250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0216
+U 1 1 5CA8286A
+P 6250 4650
+F 0 "#PWR0216" H 6250 4400 50  0001 C CNN
+F 1 "GND" V 6255 4477 50  0000 C CNN
+F 2 "" H 6250 4650 50  0001 C CNN
+F 3 "" H 6250 4650 50  0001 C CNN
+	1    6250 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0230
+U 1 1 5CB308E4
+P 9500 2150
+F 0 "#PWR0230" H 9500 2000 50  0001 C CNN
+F 1 "+3V3" H 9515 2323 50  0000 C CNN
+F 2 "" H 9500 2150 50  0001 C CNN
+F 3 "" H 9500 2150 50  0001 C CNN
+	1    9500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2150 9500 2300
+Wire Wire Line
+	9500 2300 9350 2300
+Connection ~ 9500 2150
+Wire Wire Line
+	10700 2150 10700 2300
+Wire Wire Line
+	10700 2300 10500 2300
+Wire Wire Line
+	9500 2150 10700 2150
+Wire Wire Line
+	9800 3150 9500 3150
+Wire Wire Line
+	9500 3150 9500 3450
+Wire Wire Line
+	9500 3450 8500 3450
+Wire Wire Line
+	8350 3450 8350 3150
+Wire Wire Line
+	8350 3150 8650 3150
+$Comp
+L power:GND #PWR0231
+U 1 1 5CB3B256
+P 8500 3450
+F 0 "#PWR0231" H 8500 3200 50  0001 C CNN
+F 1 "GND" H 8505 3277 50  0000 C CNN
+F 2 "" H 8500 3450 50  0001 C CNN
+F 3 "" H 8500 3450 50  0001 C CNN
+	1    8500 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 3450
+Wire Wire Line
+	8500 3450 8350 3450
+Text GLabel 6250 4550 2    50   Input ~ 0
+IADC_Vin
+Text GLabel 3700 5050 0    50   Input ~ 0
+VADC_Vin
+Text GLabel 3700 4000 0    50   Input ~ 0
+VADC_Garmin
+Text GLabel 3700 3900 0    50   Input ~ 0
+IADC_Garmin
+Text GLabel 3700 4100 0    50   Output ~ 0
+MSP_REL_1
+Text GLabel 3700 4200 0    50   Output ~ 0
+MSP_REL_2
+Text GLabel 6250 4350 2    50   Output ~ 0
+VADC_VAA
+Text GLabel 6250 4450 2    50   Output ~ 0
+VADC_LO
+Text GLabel 6250 3800 2    50   Output ~ 0
+MSP_MUX1_EN
+Text GLabel 3700 3800 0    50   Output ~ 0
+MSP_MUX2_EN
 $EndSCHEMATC

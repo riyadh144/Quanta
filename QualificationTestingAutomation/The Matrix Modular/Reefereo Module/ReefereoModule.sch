@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ReefereoModule-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -21,12 +21,6 @@ F0 "Micro" 50
 F1 "Micro.sch" 50
 $EndSheet
 $Sheet
-S 4200 4350 2250 1600
-U 5C8DF48C
-F0 "Relays" 50
-F1 "Relays.sch" 50
-$EndSheet
-$Sheet
 S 1250 4400 2050 1450
 U 5C90F517
 F0 "IO" 50
@@ -37,5 +31,11 @@ S 7550 1850 2250 1500
 U 5C8FE493
 F0 "ADE7758" 50
 F1 "ADE7758.sch" 50
+$EndSheet
+$Sheet
+S 4350 4450 2450 1350
+U 5CE22938
+F0 "Sheet5CE22937" 50
+F1 "RELAY.sch" 50
 $EndSheet
 $EndSCHEMATC

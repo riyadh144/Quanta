@@ -132,29 +132,29 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5CA6BACD
-P 8100 3700
+P 10100 4450
 AR Path="/5D942532/5CA6BACD" Ref="H?"  Part="1" 
 AR Path="/5D968A33/5CA6BACD" Ref="H?"  Part="1" 
 AR Path="/5C90F517/5CA6BACD" Ref="H1"  Part="1" 
-F 0 "H1" H 8200 3746 50  0000 L CNN
-F 1 "MountingHole" H 8200 3655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 8100 3700 50  0001 C CNN
-F 3 "~" H 8100 3700 50  0001 C CNN
-	1    8100 3700
+F 0 "H1" H 10200 4496 50  0000 L CNN
+F 1 "MountingHole" H 10200 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 10100 4450 50  0001 C CNN
+F 3 "~" H 10100 4450 50  0001 C CNN
+	1    10100 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5E817FBB
-P 8150 3950
+P 10150 4700
 AR Path="/5D942532/5E817FBB" Ref="H?"  Part="1" 
 AR Path="/5D968A33/5E817FBB" Ref="H?"  Part="1" 
 AR Path="/5C90F517/5E817FBB" Ref="H2"  Part="1" 
-F 0 "H2" H 8250 3996 50  0000 L CNN
-F 1 "MountingHole" H 8250 3905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 8150 3950 50  0001 C CNN
-F 3 "~" H 8150 3950 50  0001 C CNN
-	1    8150 3950
+F 0 "H2" H 10250 4746 50  0000 L CNN
+F 1 "MountingHole" H 10250 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 10150 4700 50  0001 C CNN
+F 3 "~" H 10150 4700 50  0001 C CNN
+	1    10150 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -174,15 +174,15 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H?
 U 1 1 5E82AE9C
-P 8750 4650
+P 8400 4700
 AR Path="/5D942532/5E82AE9C" Ref="H?"  Part="1" 
 AR Path="/5D968A33/5E82AE9C" Ref="H?"  Part="1" 
 AR Path="/5C90F517/5E82AE9C" Ref="H4"  Part="1" 
-F 0 "H4" H 8850 4696 50  0000 L CNN
-F 1 "MountingHole" H 8850 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 8750 4650 50  0001 C CNN
-F 3 "~" H 8750 4650 50  0001 C CNN
-	1    8750 4650
+F 0 "H4" H 8500 4746 50  0000 L CNN
+F 1 "MountingHole" H 8500 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 8400 4700 50  0001 C CNN
+F 3 "~" H 8400 4700 50  0001 C CNN
+	1    8400 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

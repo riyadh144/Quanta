@@ -75,12 +75,6 @@ F 3 "" H 1650 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 3450 1650 3600
-Text GLabel 1500 2350 0    50   Input ~ 0
-MUXF
-Text GLabel 1500 2150 0    50   Input ~ 0
-MUXD
-Text GLabel 1500 2250 0    50   Input ~ 0
-MUXE
 Wire Wire Line
 	1500 2350 1750 2350
 Wire Wire Line
@@ -169,18 +163,6 @@ F 3 "" H 4350 2300 50  0001 C CNN
 	1    4350 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 2300 2    50   Input ~ 0
-MUXA
-Text GLabel 5450 2400 2    50   Input ~ 0
-MUXB
-Text GLabel 5450 2500 2    50   Input ~ 0
-MUXC
-Wire Wire Line
-	5450 2300 5200 2300
-Wire Wire Line
-	5200 2400 5450 2400
-Wire Wire Line
-	5200 2500 5450 2500
 Wire Wire Line
 	4350 3050 4600 3050
 Wire Wire Line
@@ -244,7 +226,7 @@ F 12 "Active" H 6950 4450 60  0001 L CNN "Status"
 $EndComp
 Text GLabel 4350 3400 0    50   Input ~ 0
 LO
-Text GLabel 1600 1100 0    50   Input ~ 0
+Text GLabel 1600 1100 1    50   Input ~ 0
 HT
 Wire Wire Line
 	5400 2050 5400 1900
@@ -430,16 +412,30 @@ F 3 "" H 3100 2650 50  0001 C CNN
 $EndComp
 Text Notes 3750 1700 0    50   ~ 0
 This could serve as an input or output
-Text Notes 4050 1950 0    50   ~ 0
+Text Notes 3950 1950 0    50   ~ 0
 MSP
-Text GLabel 4600 2050 0    50   Input ~ 0
-MSP_MUX2
-Text GLabel 6300 3800 2    50   Input ~ 0
-MSP_MUX1_EN
+Text GLabel 4500 2050 0    50   Input ~ 0
+MSP_MUX2_EN
 Text GLabel 5000 3350 2    50   Output ~ 0
 VADC_LO
-Text GLabel 3500 3200 2    50   Output ~ 0
-VADC_VAA
-Text GLabel 3500 3450 2    50   Output ~ 0
-VADC_LO
+Text GLabel 5350 2300 2    50   Input ~ 0
+MSP_MUXA
+Text GLabel 5350 2400 2    50   Input ~ 0
+MSP_MUXB
+Text GLabel 5350 2500 2    50   Input ~ 0
+MSP_MUXC
+Text GLabel 1500 2350 0    50   Input ~ 0
+MSP_MUXF
+Text GLabel 1500 2150 0    50   Input ~ 0
+MSP_MUXD
+Text GLabel 1500 2250 0    50   Input ~ 0
+MSP_MUXE
+Wire Wire Line
+	4600 2050 4500 2050
+Wire Wire Line
+	5350 2500 5200 2500
+Wire Wire Line
+	5200 2400 5350 2400
+Wire Wire Line
+	5350 2300 5200 2300
 $EndSCHEMATC

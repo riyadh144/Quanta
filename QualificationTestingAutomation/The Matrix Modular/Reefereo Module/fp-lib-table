@@ -66,4 +66,5 @@
   (lib (name Connector)(type KiCad)(uri ${KIPRJMOD}/Libraries/Symbols/Connector)(options "")(descr ""))
   (lib (name .pretty)(type KiCad)(uri "${KIPRJMOD}/Library Schematic/.pretty")(options "")(descr ""))
   (lib (name Connectors_Powerpole)(type KiCad)(uri ${KIPRJMOD}/Libraries/Symbols/Connector/Connectors_Powerpole.pretty)(options "")(descr ""))
+  (lib (name Fuse)(type KiCad)(uri ${KIPRJMOD}/Libraries/Symbols/Fuse.pretty)(options "")(descr ""))
 )

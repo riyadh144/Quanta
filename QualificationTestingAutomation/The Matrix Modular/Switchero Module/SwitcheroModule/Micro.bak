@@ -206,22 +206,18 @@ Wire Wire Line
 	6850 2600 8050 2600
 Wire Wire Line
 	7000 2700 7900 2700
-Text GLabel 3700 3700 0    50   Input ~ 0
-MUXA
-Text GLabel 3700 3600 0    50   Input ~ 0
-MUXB
-Text GLabel 3700 3500 0    50   Input ~ 0
-MUXC
-Text GLabel 3700 3800 0    50   Input ~ 0
-MUX2
-Text GLabel 6250 3500 2    50   Input ~ 0
-MUXF
-Text GLabel 6250 3700 2    50   Input ~ 0
-MUXD
-Text GLabel 6250 3600 2    50   Input ~ 0
-MUXE
-Text GLabel 6250 3800 2    50   Input ~ 0
-MUX1
+Text GLabel 3700 3700 0    50   Output ~ 0
+MSP_MUXA
+Text GLabel 3700 3600 0    50   Output ~ 0
+MSP_MUXB
+Text GLabel 3700 3500 0    50   Output ~ 0
+MSP_MUXC
+Text GLabel 6250 3500 2    50   Output ~ 0
+MSP_MUXF
+Text GLabel 6250 3700 2    50   Output ~ 0
+MSP_MUXD
+Text GLabel 6250 3600 2    50   Output ~ 0
+MSP_MUXE
 $Comp
 L power:+3V3 #PWR0105
 U 1 1 5CB6C5B6
@@ -301,10 +297,6 @@ Text Label 3700 4550 2    50   ~ 0
 SIMOB
 Text Label 3700 4650 2    50   ~ 0
 SCKB
-Text GLabel 6250 4350 2    50   Input ~ 0
-A0
-Text GLabel 6250 4450 2    50   Input ~ 0
-A1
 Text Label 6250 4850 0    50   ~ 0
 \HOLD
 Wire Wire Line
@@ -511,7 +503,7 @@ L power:+2V5 #PWR0182
 U 1 1 5CA7FFF6
 P 6250 4750
 F 0 "#PWR0182" H 6250 4600 50  0001 C CNN
-F 1 "+2V5" V 6265 4878 50  0000 L CNN
+F 1 "+2V5" V 6250 4850 50  0000 L CNN
 F 2 "" H 6250 4750 50  0001 C CNN
 F 3 "" H 6250 4750 50  0001 C CNN
 	1    6250 4750
@@ -522,7 +514,7 @@ L power:GND #PWR0216
 U 1 1 5CA8286A
 P 6250 4650
 F 0 "#PWR0216" H 6250 4400 50  0001 C CNN
-F 1 "GND" H 6255 4477 50  0000 C CNN
+F 1 "GND" V 6255 4477 50  0000 C CNN
 F 2 "" H 6250 4650 50  0001 C CNN
 F 3 "" H 6250 4650 50  0001 C CNN
 	1    6250 4650
@@ -586,4 +578,12 @@ Text GLabel 3700 4100 0    50   Output ~ 0
 MSP_REL_1
 Text GLabel 3700 4200 0    50   Output ~ 0
 MSP_REL_2
+Text GLabel 6250 4350 2    50   Output ~ 0
+VADC_VAA
+Text GLabel 6250 4450 2    50   Output ~ 0
+VADC_LO
+Text GLabel 6250 3800 2    50   Output ~ 0
+MSP_MUX1_EN
+Text GLabel 3700 3800 0    50   Output ~ 0
+MSP_MUX2_EN
 $EndSCHEMATC

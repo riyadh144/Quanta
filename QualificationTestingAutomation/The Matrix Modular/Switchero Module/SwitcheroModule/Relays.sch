@@ -613,8 +613,4 @@ Text GLabel 2150 4750 0    50   Output ~ 0
 VADC_Garmin
 Text GLabel 3900 4350 2    50   Output ~ 0
 IADC_Garmin
-Text GLabel 4950 3950 2    50   Input ~ 0
-MSP_REL_1
-Text GLabel 5450 4100 0    50   Input ~ 0
-MSP_REL_2
 $EndSCHEMATC
